@@ -1,0 +1,345 @@
+{
+ "sample": true,
+ "sido": "jeonbuk",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s83",
+   "area": "jeonju-hanok",
+   "name": "한옥마을 시장비빔밥",
+   "cat": "한식",
+   "menu": "비빔밥",
+   "price": 11000,
+   "lat": 35.814191519942504,
+   "lng": 127.1513293368517,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "share",
+   "src": {
+    "yt": 2,
+    "blog": 16,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "비빔밥 11,000원? 한옥마을 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[한옥마을 맛집] 한옥마을 시장비빔밥 비빔밥 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 시장비빔밥",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 점심 추천 한옥마을 시장비빔밥",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 시장비빔밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s84",
+   "area": "jeonju-hanok",
+   "name": "한옥마을 옛날콩나물국밥",
+   "cat": "국밥",
+   "menu": "콩나물국밥",
+   "price": 8000,
+   "lat": 35.81634746676249,
+   "lng": 127.14711977015467,
+   "place_url": null,
+   "emoji": "🍲",
+   "good": null,
+   "src": {
+    "yt": 5,
+    "blog": 11,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "콩나물국밥 8,000원? 한옥마을 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[한옥마을 맛집] 한옥마을 옛날콩나물국밥 콩나물국밥 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 옛날콩나물국밥",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 점심 추천 한옥마을 옛날콩나물국밥",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "콩나물국밥 8,000원? 한옥마을 숨은 맛집",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 옛날콩나물국밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s85",
+   "area": "jeonju-hanok",
+   "name": "한옥마을 정겨운피순대",
+   "cat": "한식",
+   "menu": "피순대",
+   "price": 10000,
+   "lat": 35.81715594681997,
+   "lng": 127.15332334212924,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 2,
+    "blog": 6,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "피순대 10,000원? 한옥마을 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[한옥마을 맛집] 한옥마을 정겨운피순대 피순대 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 정겨운피순대",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 점심 추천 한옥마을 정겨운피순대",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 정겨운피순대 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s86",
+   "area": "jeonju-hanok",
+   "name": "한옥마을 온정쌍화차",
+   "cat": "카페",
+   "menu": "한옥 카페 쌍화차",
+   "price": 6000,
+   "lat": 35.81212540424003,
+   "lng": 127.1483383289354,
+   "place_url": null,
+   "emoji": "☕",
+   "good": null,
+   "src": {
+    "yt": 5,
+    "blog": 21,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "한옥 카페 쌍화차 6,000원? 한옥마을 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[한옥마을 맛집] 한옥마을 온정쌍화차 한옥 카페 쌍화차 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 온정쌍화차",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 점심 추천 한옥마을 온정쌍화차",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "한옥 카페 쌍화차 6,000원? 한옥마을 숨은 맛집",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "한옥마을 온정쌍화차 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 2
+  }
+ ]
+}

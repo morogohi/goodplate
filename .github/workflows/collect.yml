@@ -1,0 +1,28 @@
+name: daily-collect
+on:
+  schedule:
+    - cron: "0 19 * * *"   # 매일 04:00 KST
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r collector/requirements.txt
+      - run: python collector/collect.py
+        env:
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - name: commit data
+        run: |
+          git config user.name "goodplate-bot"
+          git config user.email "goodplate-bot@users.noreply.github.com"
+          git add data/ collector/geocache.json 2>/dev/null || git add data/
+          git diff --cached --quiet || git commit -m "data: 전국 $(date -u +%F)"
+          git push

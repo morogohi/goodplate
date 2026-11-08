@@ -1,0 +1,18 @@
+name: verify-courses
+on: { workflow_dispatch: { inputs: { fix: { description: "오차 큰 좌표 자동 수정", type: boolean, default: false } } } }
+permissions: { contents: write }
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r collector/requirements.txt
+      - run: python collector/verify_courses.py ${{ inputs.fix && '--fix' || '' }}
+        env: { KAKAO_REST_KEY: "${{ secrets.KAKAO_REST_KEY }}" }
+      - run: |
+          git config user.name "goodplate-bot"; git config user.email "goodplate-bot@users.noreply.github.com"
+          git add collector/course_check.md collector/courses.json
+          git diff --cached --quiet || git commit -m "courses: 좌표 검증"
+          git push

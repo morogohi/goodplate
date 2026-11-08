@@ -1,0 +1,250 @@
+{
+ "sample": true,
+ "sido": "sejong",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s66",
+   "area": "jochiwon",
+   "name": "조치원 옛날디저트",
+   "cat": "디저트",
+   "menu": "복숭아 디저트",
+   "price": 5000,
+   "lat": 36.600191519942506,
+   "lng": 127.2993427552542,
+   "place_url": null,
+   "emoji": "🍰",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 21,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "복숭아 디저트 5,000원? 조치원 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[조치원 맛집] 조치원 옛날디저트 복숭아 디저트 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원 현지인 맛집 투어 — 조치원 옛날디저트",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "조치원 점심 추천 조치원 옛날디저트",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "복숭아 디저트 5,000원? 조치원 숨은 맛집",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "조치원 옛날디저트 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s67",
+   "area": "jochiwon",
+   "name": "조치원 정겨운순대국밥",
+   "cat": "국밥",
+   "menu": "순대국밥",
+   "price": 8000,
+   "lat": 36.60234746676249,
+   "lng": 127.29509069694922,
+   "place_url": null,
+   "emoji": "🍲",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 16,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[조치원 맛집] 조치원 정겨운순대국밥 순대국밥 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "조치원 점심 추천 조치원 정겨운순대국밥",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "조치원 정겨운순대국밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s68",
+   "area": "jochiwon",
+   "name": "조치원 온정짬뽕",
+   "cat": "중식",
+   "menu": "짬뽕",
+   "price": 8000,
+   "lat": 36.603155946819975,
+   "lng": 127.30135688813552,
+   "place_url": null,
+   "emoji": "🥟",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 11,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "짬뽕 8,000원? 조치원 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[조치원 맛집] 조치원 온정짬뽕 짬뽕 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원 현지인 맛집 투어 — 조치원 온정짬뽕",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "조치원 점심 추천 조치원 온정짬뽕",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "짬뽕 8,000원? 조치원 숨은 맛집",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "조치원 온정짬뽕 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 1
+  }
+ ]
+}

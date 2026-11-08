@@ -1,0 +1,243 @@
+{
+ "sample": true,
+ "sido": "chungnam",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s80",
+   "area": "gongju",
+   "name": "원도심 골목국밥",
+   "cat": "국밥",
+   "menu": "국밥",
+   "price": 9000,
+   "lat": 36.46219151994251,
+   "lng": 127.12034036148485,
+   "place_url": null,
+   "emoji": "🍲",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 21,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "국밥 9,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[원도심 맛집] 원도심 골목국밥 국밥 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 점심 추천 원도심 골목국밥",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 골목국밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 3
+  },
+  {
+   "id": "s81",
+   "area": "gongju",
+   "name": "원도심 시장디저트",
+   "cat": "디저트",
+   "menu": "밤 디저트",
+   "price": 4000,
+   "lat": 36.46434746676249,
+   "lng": 127.11609588344949,
+   "place_url": null,
+   "emoji": "🍰",
+   "good": "share",
+   "src": {
+    "yt": 4,
+    "blog": 16,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "밤 디저트 4,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[원도심 맛집] 원도심 시장디저트 밤 디저트 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "원도심 현지인 맛집 투어 — 원도심 시장디저트",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 점심 추천 원도심 시장디저트",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "밤 디저트 4,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 시장디저트 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s82",
+   "area": "gongju",
+   "name": "원도심 옛날칼국수",
+   "cat": "칼국수",
+   "menu": "칼국수",
+   "price": 8000,
+   "lat": 36.465155946819976,
+   "lng": 127.12235090371213,
+   "place_url": null,
+   "emoji": "🍜",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 11,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "칼국수 8,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[원도심 맛집] 원도심 옛날칼국수 칼국수 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 점심 추천 원도심 옛날칼국수",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 옛날칼국수 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 0
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "착한맛자랑 — 전국 착한 맛집과 여행코스",
+  "short_name": "착한맛자랑",
+  "description": "내 위치 기준 착한가게·맛집과 여행코스를 찾는 무료 공익 서비스",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F4F0",
+  "theme_color": "#F6F4F0",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

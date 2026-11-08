@@ -1,0 +1,324 @@
+{
+ "sample": true,
+ "sido": "incheon",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s51",
+   "area": "gaehang",
+   "name": "개항장 온정짜장면",
+   "cat": "중식",
+   "menu": "짜장면",
+   "price": 7000,
+   "lat": 37.47379151994251,
+   "lng": 126.62145829383373,
+   "place_url": null,
+   "emoji": "🥟",
+   "good": null,
+   "src": {
+    "yt": 5,
+    "blog": 21,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "짜장면 7,000원? 개항장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[개항장 맛집] 개항장 온정짜장면 짜장면 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "개항장 현지인 맛집 투어 — 개항장 온정짜장면",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 점심 추천 개항장 온정짜장면",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "짜장면 7,000원? 개항장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 온정짜장면 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s52",
+   "area": "gaehang",
+   "name": "개항장 할매쫄면",
+   "cat": "분식",
+   "menu": "쫄면",
+   "price": 7000,
+   "lat": 37.47594746676249,
+   "lng": 126.6171570300269,
+   "place_url": null,
+   "emoji": "🍙",
+   "good": "price",
+   "src": {
+    "yt": 2,
+    "blog": 16,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "쫄면 7,000원? 개항장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[개항장 맛집] 개항장 할매쫄면 쫄면 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "개항장 현지인 맛집 투어 — 개항장 할매쫄면",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 점심 추천 개항장 할매쫄면",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 할매쫄면 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s53",
+   "area": "gaehang",
+   "name": "개항장 골목닭강정",
+   "cat": "치킨",
+   "menu": "닭강정",
+   "price": 12000,
+   "lat": 37.47675594681998,
+   "lng": 126.62349573458434,
+   "place_url": null,
+   "emoji": "🍗",
+   "good": null,
+   "src": {
+    "yt": 5,
+    "blog": 11,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "닭강정 12,000원? 개항장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[개항장 맛집] 개항장 골목닭강정 닭강정 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "개항장 현지인 맛집 투어 — 개항장 골목닭강정",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 점심 추천 개항장 골목닭강정",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "닭강정 12,000원? 개항장 숨은 맛집",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 골목닭강정 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 2
+  },
+  {
+   "id": "s54",
+   "area": "gaehang",
+   "name": "개항장 시장만두",
+   "cat": "만두",
+   "menu": "만두",
+   "price": 6000,
+   "lat": 37.47172540424003,
+   "lng": 126.61840213270783,
+   "place_url": null,
+   "emoji": "🥟",
+   "good": "share",
+   "src": {
+    "yt": 2,
+    "blog": 6,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "만두 6,000원? 개항장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[개항장 맛집] 개항장 시장만두 만두 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "개항장 현지인 맛집 투어 — 개항장 시장만두",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 점심 추천 개항장 시장만두",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "개항장 시장만두 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 3
+  }
+ ]
+}

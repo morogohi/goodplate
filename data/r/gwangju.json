@@ -1,0 +1,296 @@
+{
+ "sample": true,
+ "sido": "gwangju",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s55",
+   "area": "chungjang",
+   "name": "충장로 할매떡갈비",
+   "cat": "한식",
+   "menu": "떡갈비",
+   "price": 13000,
+   "lat": 35.14669151994251,
+   "lng": 126.91931834334042,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 16,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[충장로 맛집] 충장로 할매떡갈비 떡갈비 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 점심 추천 충장로 할매떡갈비",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 할매떡갈비 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s56",
+   "area": "chungjang",
+   "name": "충장로 골목상추튀김",
+   "cat": "분식",
+   "menu": "상추튀김",
+   "price": 6000,
+   "lat": 35.14884746676249,
+   "lng": 126.91514358942912,
+   "place_url": null,
+   "emoji": "🍙",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 11,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "상추튀김 6,000원? 충장로 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[충장로 맛집] 충장로 골목상추튀김 상추튀김 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "충장로 현지인 맛집 투어 — 충장로 골목상추튀김",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 점심 추천 충장로 골목상추튀김",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "상추튀김 6,000원? 충장로 숨은 맛집",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 골목상추튀김 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 2
+  },
+  {
+   "id": "s57",
+   "area": "chungjang",
+   "name": "충장로 시장애호박찌개",
+   "cat": "찌개",
+   "menu": "애호박찌개",
+   "price": 8000,
+   "lat": 35.149655946819976,
+   "lng": 126.92129585835103,
+   "place_url": null,
+   "emoji": "🥘",
+   "good": "share",
+   "src": {
+    "yt": 0,
+    "blog": 6,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[충장로 맛집] 충장로 시장애호박찌개 애호박찌개 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 점심 추천 충장로 시장애호박찌개",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 시장애호박찌개 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 3
+  },
+  {
+   "id": "s58",
+   "area": "chungjang",
+   "name": "충장로 옛날보리밥",
+   "cat": "한식",
+   "menu": "보리밥",
+   "price": 8000,
+   "lat": 35.14462540424003,
+   "lng": 126.91635207082449,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 21,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "보리밥 8,000원? 충장로 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[충장로 맛집] 충장로 옛날보리밥 보리밥 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "충장로 현지인 맛집 투어 — 충장로 옛날보리밥",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 점심 추천 충장로 옛날보리밥",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "보리밥 8,000원? 충장로 숨은 맛집",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "충장로 옛날보리밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 4
+  }
+ ]
+}

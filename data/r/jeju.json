@@ -1,0 +1,620 @@
+{
+ "sample": true,
+ "sido": "jeju",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s99",
+   "area": "jeju-city",
+   "name": "원도심 할매고기국수",
+   "cat": "국수",
+   "menu": "고기국수",
+   "price": 9000,
+   "lat": 33.51119151994251,
+   "lng": 126.5262928902973,
+   "place_url": null,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 16,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[원도심 맛집] 원도심 할매고기국수 고기국수 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 점심 추천 원도심 할매고기국수",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 할매고기국수 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 3
+  },
+  {
+   "id": "s100",
+   "area": "jeju-city",
+   "name": "원도심 골목갈치조림",
+   "cat": "한식",
+   "menu": "갈치조림",
+   "price": 18000,
+   "lat": 33.51334746676249,
+   "lng": 126.5221987376892,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 11,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "갈치조림 18,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[원도심 맛집] 원도심 골목갈치조림 갈치조림 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "원도심 현지인 맛집 투어 — 원도심 골목갈치조림",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 점심 추천 원도심 골목갈치조림",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "갈치조림 18,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 골목갈치조림 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s101",
+   "area": "jeju-city",
+   "name": "원도심 시장몸국",
+   "cat": "한식",
+   "menu": "몸국",
+   "price": 9000,
+   "lat": 33.514155946819976,
+   "lng": 126.52823222574325,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "share",
+   "src": {
+    "yt": 0,
+    "blog": 6,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[원도심 맛집] 원도심 시장몸국 몸국 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 점심 추천 원도심 시장몸국",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 시장몸국 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s102",
+   "area": "jeju-city",
+   "name": "원도심 옛날디저트",
+   "cat": "디저트",
+   "menu": "감귤 디저트",
+   "price": 5000,
+   "lat": 33.50912540424003,
+   "lng": 126.52338388712838,
+   "place_url": null,
+   "emoji": "🍰",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 21,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "감귤 디저트 5,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[원도심 맛집] 원도심 옛날디저트 감귤 디저트 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "원도심 현지인 맛집 투어 — 원도심 옛날디저트",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 점심 추천 원도심 옛날디저트",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "감귤 디저트 5,000원? 원도심 숨은 맛집",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "원도심 옛날디저트 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s103",
+   "area": "seogwipo",
+   "name": "올레시장 골목고기국수",
+   "cat": "국수",
+   "menu": "고기국수",
+   "price": 9000,
+   "lat": 33.24819151994251,
+   "lng": 126.56528898591425,
+   "place_url": null,
+   "emoji": "🍜",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 11,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "고기국수 9,000원? 올레시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[올레시장 맛집] 올레시장 골목고기국수 고기국수 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 점심 추천 올레시장 골목고기국수",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 골목고기국수 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s104",
+   "area": "seogwipo",
+   "name": "올레시장 시장보말칼국수",
+   "cat": "칼국수",
+   "menu": "보말칼국수",
+   "price": 11000,
+   "lat": 33.25034746676249,
+   "lng": 126.56120719718578,
+   "place_url": null,
+   "emoji": "🍜",
+   "good": "share",
+   "src": {
+    "yt": 4,
+    "blog": 6,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "보말칼국수 11,000원? 올레시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[올레시장 맛집] 올레시장 시장보말칼국수 보말칼국수 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "올레시장 현지인 맛집 투어 — 올레시장 시장보말칼국수",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 점심 추천 올레시장 시장보말칼국수",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "보말칼국수 11,000원? 올레시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 시장보말칼국수 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s105",
+   "area": "seogwipo",
+   "name": "올레시장 옛날흑돼지",
+   "cat": "고기",
+   "menu": "흑돼지",
+   "price": 18000,
+   "lat": 33.25115594681998,
+   "lng": 126.56722246478563,
+   "place_url": null,
+   "emoji": "🥩",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 21,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "흑돼지 18,000원? 올레시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[올레시장 맛집] 올레시장 옛날흑돼지 흑돼지 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 점심 추천 올레시장 옛날흑돼지",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 옛날흑돼지 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s106",
+   "area": "seogwipo",
+   "name": "올레시장 정겨운오메기떡",
+   "cat": "디저트",
+   "menu": "오메기떡",
+   "price": 3000,
+   "lat": 33.24612540424003,
+   "lng": 126.56238876760717,
+   "place_url": null,
+   "emoji": "🍰",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 16,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "오메기떡 3,000원? 올레시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[올레시장 맛집] 올레시장 정겨운오메기떡 오메기떡 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "올레시장 현지인 맛집 투어 — 올레시장 정겨운오메기떡",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 점심 추천 올레시장 정겨운오메기떡",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "오메기떡 3,000원? 올레시장 숨은 맛집",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "올레시장 정겨운오메기떡 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 2
+  }
+ ]
+}

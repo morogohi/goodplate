@@ -1,0 +1,296 @@
+{
+ "sample": true,
+ "sido": "jeonnam",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s87",
+   "area": "yeosu",
+   "name": "이순신광장 옛날게장백반",
+   "cat": "한식",
+   "menu": "게장백반",
+   "price": 13000,
+   "lat": 34.73919151994251,
+   "lng": 127.73931180787487,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 11,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "게장백반 13,000원? 이순신광장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[이순신광장 맛집] 이순신광장 옛날게장백반 게장백반 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "이순신광장 현지인 맛집 투어 — 이순신광장 옛날게장백반",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 점심 추천 이순신광장 옛날게장백반",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "게장백반 13,000원? 이순신광장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 옛날게장백반 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s88",
+   "area": "yeosu",
+   "name": "이순신광장 정겨운서대회무침",
+   "cat": "한식",
+   "menu": "서대회무침",
+   "price": 15000,
+   "lat": 34.74134746676249,
+   "lng": 127.73515774960444,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 6,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[이순신광장 맛집] 이순신광장 정겨운서대회무침 서대회무침 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 점심 추천 이순신광장 정겨운서대회무침",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 정겨운서대회무침 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s89",
+   "area": "yeosu",
+   "name": "이순신광장 온정백반",
+   "cat": "한식",
+   "menu": "갓김치 백반",
+   "price": 9000,
+   "lat": 34.74215594681998,
+   "lng": 127.74127951968718,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": null,
+   "src": {
+    "yt": 3,
+    "blog": 21,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "갓김치 백반 9,000원? 이순신광장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[이순신광장 맛집] 이순신광장 온정백반 갓김치 백반 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "이순신광장 현지인 맛집 투어 — 이순신광장 온정백반",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 점심 추천 이순신광장 온정백반",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "갓김치 백반 9,000원? 이순신광장 숨은 맛집",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 온정백반 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 2
+  },
+  {
+   "id": "s90",
+   "area": "yeosu",
+   "name": "이순신광장 할매해물삼합",
+   "cat": "한식",
+   "menu": "해물삼합",
+   "price": 25000,
+   "lat": 34.73712540424003,
+   "lng": 127.7363602401564,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 16,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[이순신광장 맛집] 이순신광장 할매해물삼합 해물삼합 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 점심 추천 이순신광장 할매해물삼합",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "이순신광장 할매해물삼합 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 3
+  }
+ ]
+}

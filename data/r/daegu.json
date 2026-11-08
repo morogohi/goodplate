@@ -1,0 +1,331 @@
+{
+ "sample": true,
+ "sido": "daegu",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s47",
+   "area": "dongseongno",
+   "name": "동성로 정겨운납작만두",
+   "cat": "만두",
+   "menu": "납작만두",
+   "price": 5000,
+   "lat": 35.86849151994251,
+   "lng": 128.59433024719166,
+   "place_url": null,
+   "emoji": "🥟",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 6,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "납작만두 5,000원? 동성로 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[동성로 맛집] 동성로 정겨운납작만두 납작만두 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "동성로 현지인 맛집 투어 — 동성로 정겨운납작만두",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 점심 추천 동성로 정겨운납작만두",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "납작만두 5,000원? 동성로 숨은 맛집",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 정겨운납작만두 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s48",
+   "area": "dongseongno",
+   "name": "동성로 온정떡볶이",
+   "cat": "떡볶이",
+   "menu": "떡볶이",
+   "price": 4000,
+   "lat": 35.87064746676249,
+   "lng": 128.5901177977514,
+   "place_url": null,
+   "emoji": "🌶️",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 21,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "떡볶이 4,000원? 동성로 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[동성로 맛집] 동성로 온정떡볶이 떡볶이 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 점심 추천 동성로 온정떡볶이",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 온정떡볶이 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s49",
+   "area": "dongseongno",
+   "name": "동성로 할매찜갈비",
+   "cat": "한식",
+   "menu": "찜갈비",
+   "price": 15000,
+   "lat": 35.87145594681998,
+   "lng": 128.59632561797915,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 16,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "찜갈비 15,000원? 동성로 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[동성로 맛집] 동성로 할매찜갈비 찜갈비 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "동성로 현지인 맛집 투어 — 동성로 할매찜갈비",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 점심 추천 동성로 할매찜갈비",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "찜갈비 15,000원? 동성로 숨은 맛집",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 할매찜갈비 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s50",
+   "area": "dongseongno",
+   "name": "동성로 골목따로국밥",
+   "cat": "국밥",
+   "menu": "따로국밥",
+   "price": 9000,
+   "lat": 35.86642540424003,
+   "lng": 128.5913371910104,
+   "place_url": null,
+   "emoji": "🍲",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 11,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "따로국밥 9,000원? 동성로 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[동성로 맛집] 동성로 골목따로국밥 따로국밥 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 점심 추천 동성로 골목따로국밥",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "동성로 골목따로국밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 2
+  }
+ ]
+}

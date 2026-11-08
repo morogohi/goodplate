@@ -1,0 +1,310 @@
+{
+ "sample": true,
+ "sido": "gyeongbuk",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s91",
+   "area": "gyeongju",
+   "name": "황리단길 정겨운쌈밥",
+   "cat": "한식",
+   "menu": "쌈밥",
+   "price": 13000,
+   "lat": 35.83619151994251,
+   "lng": 129.2153297053878,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 6,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "쌈밥 13,000원? 황리단길 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[황리단길 맛집] 황리단길 정겨운쌈밥 쌈밥 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "황리단길 현지인 맛집 투어 — 황리단길 정겨운쌈밥",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 점심 추천 황리단길 정겨운쌈밥",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "쌈밥 13,000원? 황리단길 숨은 맛집",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 정겨운쌈밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s92",
+   "area": "gyeongju",
+   "name": "황리단길 온정찰보리빵",
+   "cat": "베이커리",
+   "menu": "찰보리빵",
+   "price": 1500,
+   "lat": 35.83834746676249,
+   "lng": 129.21111897165977,
+   "place_url": null,
+   "emoji": "🥐",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 21,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "찰보리빵 1,500원? 황리단길 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[황리단길 맛집] 황리단길 온정찰보리빵 찰보리빵 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 점심 추천 황리단길 온정찰보리빵",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 온정찰보리빵 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 2
+  },
+  {
+   "id": "s93",
+   "area": "gyeongju",
+   "name": "황리단길 할매한우국밥",
+   "cat": "국밥",
+   "menu": "한우국밥",
+   "price": 10000,
+   "lat": 35.83915594681998,
+   "lng": 129.2173242634695,
+   "place_url": null,
+   "emoji": "🍲",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 16,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "한우국밥 10,000원? 황리단길 숨은 맛집",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[황리단길 맛집] 황리단길 할매한우국밥 한우국밥 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "황리단길 현지인 맛집 투어 — 황리단길 할매한우국밥",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 점심 추천 황리단길 할매한우국밥",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "한우국밥 10,000원? 황리단길 숨은 맛집",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 할매한우국밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 3
+  },
+  {
+   "id": "s94",
+   "area": "gyeongju",
+   "name": "황리단길 골목쌍화차",
+   "cat": "카페",
+   "menu": "한옥 카페 쌍화차",
+   "price": 6000,
+   "lat": 35.834125404240034,
+   "lng": 129.21233786826525,
+   "place_url": null,
+   "emoji": "☕",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 11,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "한옥 카페 쌍화차 6,000원? 황리단길 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[황리단길 맛집] 황리단길 골목쌍화차 한옥 카페 쌍화차 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 점심 추천 황리단길 골목쌍화차",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "황리단길 골목쌍화차 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 4
+  }
+ ]
+}

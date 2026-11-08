@@ -1,0 +1,310 @@
+{
+ "sample": true,
+ "sido": "daejeon",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s59",
+   "area": "eunhaeng",
+   "name": "은행동 골목칼국수",
+   "cat": "칼국수",
+   "menu": "칼국수",
+   "price": 7000,
+   "lat": 36.327691519942505,
+   "lng": 127.42913804408204,
+   "place_url": null,
+   "emoji": "🍜",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 11,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "칼국수 7,000원? 은행동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[은행동 맛집] 은행동 골목칼국수 칼국수 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 점심 추천 은행동 골목칼국수",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 골목칼국수 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 2
+  },
+  {
+   "id": "s60",
+   "area": "eunhaeng",
+   "name": "은행동 시장두부두루치기",
+   "cat": "한식",
+   "menu": "두부두루치기",
+   "price": 9000,
+   "lat": 36.32984746676249,
+   "lng": 127.42490090448894,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "share",
+   "src": {
+    "yt": 4,
+    "blog": 6,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "두부두루치기 9,000원? 은행동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[은행동 맛집] 은행동 시장두부두루치기 두부두루치기 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "은행동 현지인 맛집 투어 — 은행동 시장두부두루치기",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 점심 추천 은행동 시장두부두루치기",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "두부두루치기 9,000원? 은행동 숨은 맛집",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 시장두부두루치기 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 3
+  },
+  {
+   "id": "s61",
+   "area": "eunhaeng",
+   "name": "은행동 옛날단팥빵",
+   "cat": "베이커리",
+   "menu": "단팥빵",
+   "price": 2500,
+   "lat": 36.330655946819974,
+   "lng": 127.43114511020508,
+   "place_url": null,
+   "emoji": "🥐",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 21,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "단팥빵 2,500원? 은행동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[은행동 맛집] 은행동 옛날단팥빵 단팥빵 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 점심 추천 은행동 옛날단팥빵",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 옛날단팥빵 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "혼밥",
+    "깔끔"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s62",
+   "area": "eunhaeng",
+   "name": "은행동 정겨운국밥",
+   "cat": "국밥",
+   "menu": "국밥",
+   "price": 8000,
+   "lat": 36.32562540424003,
+   "lng": 127.42612744489746,
+   "place_url": null,
+   "emoji": "🍲",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 16,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "국밥 8,000원? 은행동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[은행동 맛집] 은행동 정겨운국밥 국밥 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "은행동 현지인 맛집 투어 — 은행동 정겨운국밥",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 점심 추천 은행동 정겨운국밥",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "국밥 8,000원? 은행동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "은행동 정겨운국밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 0
+  }
+ ]
+}

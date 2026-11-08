@@ -1,0 +1,310 @@
+{
+ "sample": true,
+ "sido": "gyeonggi",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s69",
+   "area": "suwon-haenggung",
+   "name": "행궁동 정겨운통닭",
+   "cat": "치킨",
+   "menu": "통닭",
+   "price": 17000,
+   "lat": 37.28219151994251,
+   "lng": 127.01585482814293,
+   "place_url": null,
+   "emoji": "🍗",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 16,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "통닭 17,000원? 행궁동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[행궁동 맛집] 행궁동 정겨운통닭 통닭 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "행궁동 현지인 맛집 투어 — 행궁동 정겨운통닭",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 점심 추천 행궁동 정겨운통닭",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "통닭 17,000원? 행궁동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 정겨운통닭 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "분위기",
+    "데이트"
+   ],
+   "last": 0
+  },
+  {
+   "id": "s70",
+   "area": "suwon-haenggung",
+   "name": "행궁동 온정왕갈비탕",
+   "cat": "한식",
+   "menu": "왕갈비탕",
+   "price": 14000,
+   "lat": 37.28434746676249,
+   "lng": 127.01156453902364,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 11,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "왕갈비탕 14,000원? 행궁동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[행궁동 맛집] 행궁동 온정왕갈비탕 왕갈비탕 후기",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 점심 추천 행궁동 온정왕갈비탕",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 온정왕갈비탕 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 1
+  },
+  {
+   "id": "s71",
+   "area": "suwon-haenggung",
+   "name": "행궁동 할매칼국수",
+   "cat": "칼국수",
+   "menu": "칼국수",
+   "price": 8000,
+   "lat": 37.28515594681998,
+   "lng": 127.01788707035733,
+   "place_url": null,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 4,
+    "blog": 6,
+    "insta": 3
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "칼국수 8,000원? 행궁동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[행궁동 맛집] 행궁동 할매칼국수 칼국수 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "행궁동 현지인 맛집 투어 — 행궁동 할매칼국수",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 점심 추천 행궁동 할매칼국수",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "칼국수 8,000원? 행궁동 숨은 맛집",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 할매칼국수 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 2
+  },
+  {
+   "id": "s72",
+   "area": "suwon-haenggung",
+   "name": "행궁동 골목쌍화차",
+   "cat": "카페",
+   "menu": "한옥 카페 쌍화차",
+   "price": 6000,
+   "lat": 37.28012540424003,
+   "lng": 127.01280646482134,
+   "place_url": null,
+   "emoji": "☕",
+   "good": null,
+   "src": {
+    "yt": 1,
+    "blog": 21,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "한옥 카페 쌍화차 6,000원? 행궁동 숨은 맛집",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[행궁동 맛집] 행궁동 골목쌍화차 한옥 카페 쌍화차 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 점심 추천 행궁동 골목쌍화차",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "행궁동 골목쌍화차 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 3
+  }
+ ]
+}

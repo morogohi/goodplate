@@ -1,0 +1,324 @@
+{
+ "sample": true,
+ "sido": "gyeongnam",
+ "generated_at": "2026-11-08T23:24+09:00",
+ "stores": [
+  {
+   "id": "s95",
+   "area": "tongyeong",
+   "name": "중앙시장 온정충무김밥",
+   "cat": "분식",
+   "menu": "충무김밥",
+   "price": 9000,
+   "lat": 34.8451915199425,
+   "lng": 128.42631349526582,
+   "place_url": null,
+   "emoji": "🍙",
+   "good": null,
+   "src": {
+    "yt": 5,
+    "blog": 21,
+    "insta": 12
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "충무김밥 9,000원? 중앙시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-06",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[중앙시장 맛집] 중앙시장 온정충무김밥 충무김밥 후기",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 온정충무김밥",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 점심 추천 중앙시장 온정충무김밥",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "충무김밥 9,000원? 중앙시장 숨은 맛집",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 온정충무김밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "포장",
+    "가성비"
+   ],
+   "last": 2
+  },
+  {
+   "id": "s96",
+   "area": "tongyeong",
+   "name": "중앙시장 할매꿀빵",
+   "cat": "디저트",
+   "menu": "꿀빵",
+   "price": 1500,
+   "lat": 34.847347466762486,
+   "lng": 128.42215409359073,
+   "place_url": null,
+   "emoji": "🍰",
+   "good": "price",
+   "src": {
+    "yt": 2,
+    "blog": 16,
+    "insta": 6
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "꿀빵 1,500원? 중앙시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[중앙시장 맛집] 중앙시장 할매꿀빵 꿀빵 후기",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 할매꿀빵",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 점심 추천 중앙시장 할매꿀빵",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-10-30",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 할매꿀빵 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "가성비",
+    "현지인"
+   ],
+   "last": 3
+  },
+  {
+   "id": "s97",
+   "area": "tongyeong",
+   "name": "중앙시장 골목굴국밥",
+   "cat": "국밥",
+   "menu": "굴국밥",
+   "price": 10000,
+   "lat": 34.84815594681997,
+   "lng": 128.42828373816454,
+   "place_url": null,
+   "emoji": "🍲",
+   "good": null,
+   "src": {
+    "yt": 5,
+    "blog": 11,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "굴국밥 10,000원? 중앙시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[중앙시장 맛집] 중앙시장 골목굴국밥 굴국밥 후기",
+     "url": null,
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 골목굴국밥",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 점심 추천 중앙시장 골목굴국밥",
+     "url": null,
+     "date": "2026-10-31",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "굴국밥 10,000원? 중앙시장 숨은 맛집",
+     "url": null,
+     "date": "2026-10-29",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 골목굴국밥 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-10-28",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "노포",
+    "친절"
+   ],
+   "last": 4
+  },
+  {
+   "id": "s98",
+   "area": "tongyeong",
+   "name": "중앙시장 시장시락국",
+   "cat": "한식",
+   "menu": "시락국",
+   "price": 6000,
+   "lat": 34.84312540424003,
+   "lng": 128.42335813091773,
+   "place_url": null,
+   "emoji": "🍚",
+   "good": "share",
+   "src": {
+    "yt": 2,
+    "blog": 6,
+    "insta": 9
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "시락국 6,000원? 중앙시장 숨은 맛집",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "[중앙시장 맛집] 중앙시장 시장시락국 시락국 후기",
+     "url": null,
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 시장시락국",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-05",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 점심 추천 중앙시장 시장시락국",
+     "url": null,
+     "date": "2026-11-04",
+     "sponsored": false
+    },
+    {
+     "src": "insta",
+     "title": "인스타그램 게시물 (사용자 공유)",
+     "url": null,
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "blog",
+     "title": "중앙시장 시장시락국 메뉴·가격 정리",
+     "url": null,
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [
+    "양 많음",
+    "점심"
+   ],
+   "last": 0
+  }
+ ]
+}
