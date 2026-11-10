@@ -1,7 +1,7 @@
 {
  "sample": true,
  "sido": "chungbuk",
- "generated_at": "2026-11-08T23:24+09:00",
+ "generated_at": "2026-11-10T23:42+09:00",
  "stores": [
   {
    "id": "s77",
@@ -25,42 +25,42 @@
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-06",
+     "date": "2026-11-08",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[성안길 맛집] 성안길 할매짜글이 짜글이 후기",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "성안길 점심 추천 성안길 할매짜글이",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "성안길 할매짜글이 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     }
    ],
@@ -92,63 +92,63 @@
      "src": "yt",
      "title": "올갱이국 9,000원? 성안길 숨은 맛집",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[성안길 맛집] 성안길 골목올갱이국 올갱이국 후기",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "성안길 현지인 맛집 투어 — 성안길 골목올갱이국",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "성안길 점심 추천 성안길 골목올갱이국",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "올갱이국 9,000원? 성안길 숨은 맛집",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "성안길 골목올갱이국 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-29",
+     "date": "2026-10-31",
      "sponsored": false
     }
    ],
@@ -180,21 +180,21 @@
      "src": "blog",
      "title": "[성안길 맛집] 성안길 시장떡볶이 떡볶이 후기",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "성안길 점심 추천 성안길 시장떡볶이",
      "url": null,
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "성안길 시장떡볶이 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-28",
+     "date": "2026-10-30",
      "sponsored": false
     }
    ],

@@ -1,0 +1,73 @@
+# 착한맛자랑 앱 빌드·스토어 배포 (Codemagic)
+# 사전 준비는 docs/STORE.md 참고: Google Play 서비스 계정, 업로드 키스토어, App Store Connect API 키
+workflows:
+  android-release:
+    name: Android → Google Play (내부 테스트)
+    max_build_duration: 60
+    instance_type: linux_x2
+    environment:
+      android_signing:
+        - goodplate_upload_key          # Codemagic > Team settings > Code signing identities 에 올린 키스토어 이름
+      groups:
+        - google_play                   # GCLOUD_SERVICE_ACCOUNT_CREDENTIALS (서비스 계정 JSON)
+      vars:
+        PACKAGE_NAME: io.github.morogohi.goodplate
+      node: 22
+      java: 21
+    triggering:
+      events: [tag]
+      tag_patterns: [{ pattern: "v*" }]
+    scripts:
+      - name: 의존성 설치
+        script: npm ci
+      - name: 웹 번들 → 안드로이드 동기화
+        script: npm run build && npx cap sync android
+      - name: AAB 빌드 (빌드 번호 자동 증가)
+        script: |
+          LATEST=$(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks internal,production 2>/dev/null || echo 0)
+          NEXT=$((LATEST + 1))
+          cd android && ./gradlew bundleRelease -PversionCode=$NEXT -PversionName=1.0.$NEXT
+    artifacts:
+      - android/app/build/outputs/**/*.aab
+    publishing:
+      google_play:
+        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+        track: internal
+        submit_as_draft: true
+
+  ios-release:
+    name: iOS → TestFlight
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: goodplate_asc  # Codemagic > Team integrations 에 등록한 App Store Connect API 키 이름
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: io.github.morogohi.goodplate
+      vars:
+        APP_STORE_APPLE_ID: "0000000000"  # App Store Connect 에서 앱을 만든 뒤 Apple ID(숫자)로 교체
+      node: 22
+      xcode: latest
+    triggering:
+      events: [tag]
+      tag_patterns: [{ pattern: "v*" }]
+    scripts:
+      - name: 의존성 설치
+        script: npm ci
+      - name: 웹 번들 → iOS 동기화
+        script: npm run build && npx cap sync ios
+      - name: 서명 프로필 적용
+        script: xcode-project use-profiles
+      - name: 빌드 번호 자동 증가
+        script: |
+          LATEST=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID" 2>/dev/null || echo 0)
+          cd ios/App && agvtool new-version -all $((LATEST + 1)) && agvtool new-marketing-version 1.0.0
+      - name: IPA 빌드
+        script: xcode-project build-ipa --project "ios/App/App.xcodeproj" --scheme "App"
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true

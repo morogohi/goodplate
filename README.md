@@ -1,21 +1,25 @@
-# 착한맛자랑 — 전국 착한 맛집 + 여행코스 (무료·공익 모바일 웹)
+# 착한맛자랑 — 전국 착한 맛집 + 여행코스 (무료·공익 웹 + iOS·Android 앱)
+
+- 대표 페이지: https://morogohi.github.io/goodplate/
+- 서비스: https://morogohi.github.io/goodplate/app.html
+- 앱 출시: [docs/STORE.md](docs/STORE.md)
 
 전국 17개 시도 25개 지역의 맛집 언급을 매일 새벽 4시에 자동으로 모읍니다. 실제 관광지로 짠 여행코스 12개의 식사 시간에는 근처 착한가게를 자동으로 추천합니다.
 
 ```
-index.html                     모바일 웹앱 (단일 파일 · data/ 를 읽고, 없으면 내장 샘플 사용)
+index.html                     대표(홍보·안내) 페이지 — https://morogohi.github.io/goodplate/
+app.html                       서비스 웹앱 (단일 파일 · data/ 를 읽고, 없으면 내장 샘플 사용)
+privacy.html · support.html    개인정보처리방침 · 고객 지원 (스토어 등록 필수 URL)
+manifest.webmanifest · sw.js   PWA (홈 화면 추가·오프라인)
 data/index.json                시도·지역·여행코스 목록
-data/r/<시도>.json             시도별 가게·언급 데이터 (지금은 가상 샘플, "sample": true)
-collector/regions.json         수집 지역 (시도 → 세부지역 좌표·검색어) ← 지역 추가는 여기서
-collector/courses.json         여행코스 (관광지 좌표·체류시간·식사 슬롯) ← 코스 추가는 여기서
-collector/collect.py           일일 수집기 (카카오 로컬·네이버 블로그·YouTube)
-collector/test_collect.py      API 없이 돌리는 모의 테스트
-collector/make_sample.py       가상 샘플 생성
-collector/embed_sample.py      data/ 를 index.html 내장 대체 데이터로 넣기
-collector/goodprice.csv        착한가격업소 목록 (업소명,주소) — 행안부 누리집·공공데이터에서 내려받아 채움
-collector/sharing.csv          나눔가게 목록 (업소명)
-collector/insta_links.csv      사람이 확인한 인스타 링크 (업소명,url,date) — 인스타는 자동 수집 안 함
-.github/workflows/collect.yml  매일 04:00 KST 실행 → data/ 커밋
+data/r/<시도>.json             시도별 가게·언급 데이터
+collector/                     일일 수집기·지역·코스·검증 스크립트·테스트
+android/ · ios/                Capacitor 네이티브 앱 프로젝트 (app.html 을 www/ 로 묶어 탑재)
+capacitor.config.json · package.json · scripts/build-www.mjs   앱 빌드 설정
+codemagic.yaml                 iOS(TestFlight)·Android(Google Play) 자동 빌드·업로드
+docs/STORE.md                  스토어 출시 가이드·등록 문구·심사 답변
+store/                         스토어 스크린샷·그래픽 이미지
+.github/workflows/             매일 수집(daily-collect), 코스 좌표 검증(verify-courses)
 ```
 
 ## 화면

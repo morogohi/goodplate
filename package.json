@@ -1,0 +1,27 @@
+{
+  "name": "goodplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "착한맛자랑 — 전국 착한 맛집·여행코스 무료 공익 서비스 (웹 + iOS + Android)",
+  "scripts": {
+    "build": "node scripts/build-www.mjs",
+    "sync": "npm run build && npx cap sync",
+    "android": "npm run sync && npx cap open android",
+    "ios": "npm run sync && npx cap open ios",
+    "assets": "npx @capacitor/assets generate --android --ios --iconBackgroundColor '#1F6F5C' --iconBackgroundColorDark '#1F6F5C' --splashBackgroundColor '#F6F4F0' --splashBackgroundColorDark '#16181D'"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/geolocation": "^8.2.4",
+    "@capacitor/ios": "^8.6.0",
+    "@capacitor/share": "^8.0.3",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.0"
+  }
+}

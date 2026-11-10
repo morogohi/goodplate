@@ -5,8 +5,8 @@ root = Path(__file__).resolve().parent.parent
 idx = json.loads((root / "data/index.json").read_text(encoding="utf-8"))
 r = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in (root / "data/r").glob("*.json")}
 blob = json.dumps({"index": idx, "r": r}, ensure_ascii=False, separators=(",", ":"))
-h = (root / "index.html").read_text(encoding="utf-8")
+h = (root / "app.html").read_text(encoding="utf-8")
 a = h.index("const SAMPLE=") + len("const SAMPLE=")
 b = h.index(";\nconst BG=")
-(root / "index.html").write_text(h[:a] + blob + h[b:], encoding="utf-8")
+(root / "app.html").write_text(h[:a] + blob + h[b:], encoding="utf-8")
 print(f"embedded {len(blob)//1024}KB")

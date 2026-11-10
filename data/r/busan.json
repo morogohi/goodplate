@@ -1,7 +1,7 @@
 {
  "sample": true,
  "sido": "busan",
- "generated_at": "2026-11-08T23:24+09:00",
+ "generated_at": "2026-11-10T23:42+09:00",
  "stores": [
   {
    "id": "s38",
@@ -25,56 +25,56 @@
      "src": "yt",
      "title": "돼지국밥 9,000원? 남포 숨은 맛집",
      "url": null,
-     "date": "2026-11-06",
+     "date": "2026-11-08",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-06",
+     "date": "2026-11-08",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[남포 맛집] 남포 시장돼지국밥 돼지국밥 후기",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "남포 현지인 맛집 투어 — 남포 시장돼지국밥",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 점심 추천 남포 시장돼지국밥",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 시장돼지국밥 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     }
    ],
@@ -106,63 +106,63 @@
      "src": "yt",
      "title": "밀면 8,000원? 남포 숨은 맛집",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[남포 맛집] 남포 옛날밀면 밀면 후기",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "남포 현지인 맛집 투어 — 남포 옛날밀면",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 점심 추천 남포 옛날밀면",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "밀면 8,000원? 남포 숨은 맛집",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 옛날밀면 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-29",
+     "date": "2026-10-31",
      "sponsored": false
     }
    ],
@@ -194,35 +194,35 @@
      "src": "yt",
      "title": "어묵 3,000원? 남포 숨은 맛집",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[남포 맛집] 남포 정겨운어묵 어묵 후기",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "남포 현지인 맛집 투어 — 남포 정겨운어묵",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 점심 추천 남포 정겨운어묵",
      "url": null,
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 정겨운어묵 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-28",
+     "date": "2026-10-30",
      "sponsored": false
     }
    ],
@@ -254,63 +254,63 @@
      "src": "yt",
      "title": "비빔당면 5,000원? 남포 숨은 맛집",
      "url": null,
-     "date": "2026-11-08",
+     "date": "2026-11-10",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-08",
+     "date": "2026-11-10",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[남포 맛집] 남포 온정비빔당면 비빔당면 후기",
      "url": null,
-     "date": "2026-11-07",
+     "date": "2026-11-09",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "남포 현지인 맛집 투어 — 남포 온정비빔당면",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 점심 추천 남포 온정비빔당면",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "비빔당면 5,000원? 남포 숨은 맛집",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 온정비빔당면 메뉴·가격 정리",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     }
    ],
@@ -342,56 +342,56 @@
      "src": "yt",
      "title": "생선구이 11,000원? 남포 숨은 맛집",
      "url": null,
-     "date": "2026-11-07",
+     "date": "2026-11-09",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-07",
+     "date": "2026-11-09",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[남포 맛집] 남포 할매생선구이 생선구이 후기",
      "url": null,
-     "date": "2026-11-06",
+     "date": "2026-11-08",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "남포 현지인 맛집 투어 — 남포 할매생선구이",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 점심 추천 남포 할매생선구이",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "남포 할매생선구이 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "sponsored": false
     }
    ],
@@ -423,63 +423,63 @@
      "src": "yt",
      "title": "복국 12,000원? 해운대 숨은 맛집",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[해운대 맛집] 해운대 옛날복국 복국 후기",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "해운대 현지인 맛집 투어 — 해운대 옛날복국",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 점심 추천 해운대 옛날복국",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "복국 12,000원? 해운대 숨은 맛집",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-10-30",
+     "date": "2026-11-01",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 옛날복국 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-29",
+     "date": "2026-10-31",
      "sponsored": false
     }
    ],
@@ -511,42 +511,42 @@
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[해운대 맛집] 해운대 정겨운밀면 밀면 후기",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 점심 추천 해운대 정겨운밀면",
      "url": null,
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-10-29",
+     "date": "2026-10-31",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 정겨운밀면 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-28",
+     "date": "2026-10-30",
      "sponsored": false
     }
    ],
@@ -578,63 +578,63 @@
      "src": "yt",
      "title": "돼지국밥 9,500원? 해운대 숨은 맛집",
      "url": null,
-     "date": "2026-11-08",
+     "date": "2026-11-10",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-08",
+     "date": "2026-11-10",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "[해운대 맛집] 해운대 온정돼지국밥 돼지국밥 후기",
      "url": null,
-     "date": "2026-11-07",
+     "date": "2026-11-09",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "해운대 현지인 맛집 투어 — 해운대 온정돼지국밥",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-05",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 점심 추천 해운대 온정돼지국밥",
      "url": null,
-     "date": "2026-11-04",
+     "date": "2026-11-06",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "돼지국밥 9,500원? 해운대 숨은 맛집",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "insta",
      "title": "인스타그램 게시물 (사용자 공유)",
      "url": null,
-     "date": "2026-11-02",
+     "date": "2026-11-04",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 온정돼지국밥 메뉴·가격 정리",
      "url": null,
-     "date": "2026-11-01",
+     "date": "2026-11-03",
      "sponsored": false
     }
    ],
@@ -666,21 +666,21 @@
      "src": "blog",
      "title": "[해운대 맛집] 해운대 할매해물칼국수 해물칼국수 후기",
      "url": null,
-     "date": "2026-11-06",
+     "date": "2026-11-08",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 점심 추천 해운대 할매해물칼국수",
      "url": null,
-     "date": "2026-11-03",
+     "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "blog",
      "title": "해운대 할매해물칼국수 메뉴·가격 정리",
      "url": null,
-     "date": "2026-10-31",
+     "date": "2026-11-02",
      "sponsored": false
     }
    ],

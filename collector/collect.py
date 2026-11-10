@@ -335,16 +335,17 @@ def _count(sk):
 def write_outputs(keep, now, sample=False):
     (DATA / "r").mkdir(parents=True, exist_ok=True)
     stamp = now.isoformat(timespec="minutes")
-    counts = {}
+    counts, goods = {}, {}
     for sk in {AREAS[s["area"]]["sido"] for s in keep} | {a["sido"] for a in AREAS.values()}:
         rows = [s for s in keep if AREAS[s["area"]]["sido"] == sk]
         counts[sk] = len(rows)
+        goods[sk] = sum(1 for s in rows if s.get("good"))
         (DATA / "r" / f"{sk}.json").write_text(json.dumps(
             {"sample": sample, "sido": sk, "generated_at": stamp, "stores": rows},
             ensure_ascii=False, indent=1), encoding="utf-8")
     index = {
         "sample": sample, "generated_at": stamp,
-        "regions": {sk: {"name": r["name"], "count": counts[sk] if sk in counts else _count(sk),
+        "regions": {sk: {"name": r["name"], "count": counts[sk] if sk in counts else _count(sk), "good": goods.get(sk, 0),
                          "areas": {ak: {"name": a["name"], "lat": a["lat"], "lng": a["lng"]}
                                    for ak, a in r["areas"].items()}}
                     for sk, r in REGIONS.items()},

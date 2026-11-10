@@ -1,0 +1,12 @@
+{
+  "appId": "io.github.morogohi.goodplate",
+  "appName": "착한맛자랑",
+  "webDir": "www",
+  "backgroundColor": "#F6F4F0",
+  "ios": { "contentInset": "always", "scheme": "착한맛자랑" },
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 900, "backgroundColor": "#F6F4F0", "showSpinner": false },
+    "StatusBar": { "style": "LIGHT", "backgroundColor": "#F6F4F0", "overlaysWebView": false }
+  }
+}
