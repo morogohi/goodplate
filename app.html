@@ -141,6 +141,9 @@ nav button.on{color:var(--brand);font-weight:800}
 .sheet{position:fixed;left:50%;bottom:0;transform:translate(-50%,100%);width:100%;max-width:480px;max-height:90vh;overflow:auto;background:var(--bg);border-radius:26px 26px 0 0;z-index:51;transition:transform .28s cubic-bezier(.2,.8,.2,1);padding:10px 18px 32px}
 .sheet.open{transform:translate(-50%,0)}
 .grab{width:38px;height:4px;border-radius:9px;background:#D6D1C8;margin:0 auto 14px}
+.xbtn{position:absolute;top:12px;right:14px;width:36px;height:36px;border-radius:50%;background:#ECE8E1;font-size:15px;font-weight:700;color:var(--ink2);display:grid;place-items:center}
+.xbtn:focus-visible,.back:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #8FD3BC;outline-offset:2px}
+.collect.samp{background:#FFF7E6;border-color:#F3DFB5}.collect.samp .pulse{background:#D99A1E;box-shadow:0 0 0 4px #FBE9C4}
 .page{position:fixed;inset:0;left:50%;transform:translateX(-50%) translateX(100%);width:100%;max-width:480px;background:var(--bg);z-index:45;overflow:auto;transition:transform .3s cubic-bezier(.2,.8,.2,1);padding-bottom:0;scroll-padding-bottom:100px}
 .page.open{transform:translateX(-50%)}
 .pcover{height:250px;position:relative;color:#fff;padding:18px 18px 44px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
@@ -228,8 +231,8 @@ textarea{resize:vertical}
 </div>
 <nav><div class="navin" id="nav"></div></nav>
 <div class="scrim" id="scrim"></div>
-<div class="sheet" id="sheet"></div>
-<div class="page" id="page"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="상세 정보" inert aria-hidden="true"></div>
+<div class="page" id="page" role="dialog" aria-modal="true" aria-label="여행코스 상세" inert aria-hidden="true"></div>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -315,8 +318,8 @@ async function loadSido(sk){
 const LS={get(){try{return JSON.parse(localStorage.getItem('cmj_v2'))||{}}catch(e){return{}}},set(v){try{localStorage.setItem('cmj_v2',JSON.stringify(v))}catch(e){}}};
 const sv=LS.get();
 const S={tab:'home',sido:sv.sido||'seoul',area:sv.area||'jongno-jonggak',radius:sv.radius||1000,sort:'dist',goodOnly:false,q:'',
-  saved:sv.saved||{},courses:sv.courses||[],brags:sv.brags||[],memos:sv.memos||{},listTab:'want',courseScope:'here',coursePur:null,stores:[],f:sv.f||{purpose:null,budget:null,tastes:[]}};
-const persist=()=>LS.set({useGps:S.useGps,f:S.f,sido:S.sido,area:S.area,radius:S.radius,saved:S.saved,courses:S.courses,brags:S.brags,memos:S.memos});
+  saved:sv.saved||{},courses:sv.courses||[],brags:sv.brags||[],memos:sv.memos||{},listTab:'want',courseScope:'here',coursePur:null,wide:false,picks:sv.picks||{},stores:[],f:sv.f||{purpose:null,budget:null,tastes:[]}};
+const persist=()=>LS.set({picks:S.picks,useGps:S.useGps,f:S.f,sido:S.sido,area:S.area,radius:S.radius,saved:S.saved,courses:S.courses,brags:S.brags,memos:S.memos});
 
 /* ============ 유틸 ============ */
 const $=s=>document.querySelector(s);
@@ -384,7 +387,8 @@ function miniCard(s){
 function courseStats(c){
   let m=0,t=0;
   c.stops.forEach((s,i)=>{t+=s.stay||0;if(i){const d=dist(c.stops[i-1],s);m+=d;t+=moveMin(d,s.move)}});
-  return {m,t,meals:c.stops.filter(s=>s.t==='meal').length};
+  const slots=c.stops.filter(s=>s.t==='meal');
+  return {m,t,meals:slots.filter(s=>s.pref!=='cafe').length,rests:slots.filter(s=>s.pref==='cafe').length,slots:slots.length};
 }
 const moveMin=(d,mode)=>mode==='bus'?Math.round(d*1.4/330)+8:Math.max(3,Math.round(d*1.3/67));
 const fT=t=>t>=60?`${Math.floor(t/60)}시간${t%60?' '+t%60+'분':''}`:t+'분';
@@ -392,11 +396,21 @@ function courseCard(c,wide){
   const st=courseStats(c),r=IDX.regions[c.sido];
   return `<button class="ccard ${wide?'wide':''}" data-course="${c.id}">
     <div class="cover" style="background:linear-gradient(140deg,${c.tone},${c.tone}cc 60%,${c.tone}88)"><span class="tag">${r.name}</span><span class="big">${c.emoji}</span><h3>${esc(c.title)}</h3></div>
-    <div class="cbody"><p>${esc(c.sub)}</p><div class="cmeta"><span>${c.stops.length}곳</span><span>약 ${fT(st.t)}</span><span><b>착한 한 끼 ${st.meals}</b></span></div>${(c.for||[]).length?`<div class="ctags">${c.for.map(l=>`<span>${PURPOSE.find(x=>x[2]===l)?.[1]||''} ${l}</span>`).join('')}</div>`:''}</div></button>`;
+    <div class="cbody"><p>${esc(c.sub)}</p><div class="cmeta"><span>${c.stops.length}곳</span><span>약 ${fT(st.t)}</span><span><b>식사 ${st.meals}회${st.rests?` · 쉼 ${st.rests}회`:''}</b></span></div>${(c.for||[]).length?`<div class="ctags">${c.for.map(l=>`<span>${PURPOSE.find(x=>x[2]===l)?.[1]||''} ${l}</span>`).join('')}</div>`:''}</div></button>`;
 }
 function collectBar(){
   const g=new Date(IDX.generated_at);
-  return `<div class="collect"><span class="pulse"></span><div><b>${g.getMonth()+1}월 ${g.getDate()}일 새벽 자동 수집${IDX.sample?' · 샘플':''}</b><p>유튜브·블로그·지도 언급을 모아 링크만 보여줍니다</p></div></div>`;
+  if(IDX.sample)return `<div class="collect samp"><span class="pulse"></span><div><b>시범 운영 · 샘플 데이터</b><p>가게·언급·착한가게 배지는 화면 확인용 가상 데이터예요. 실제 자동 수집은 준비 중이에요.</p></div></div>`;
+  return `<div class="collect"><span class="pulse"></span><div><b>${g.getMonth()+1}월 ${g.getDate()}일 새벽 자동 수집</b><p>유튜브·블로그·지도 언급을 모아 링크만 보여줍니다</p></div></div>`;
+}
+/* 홈 맞춤 결과와 필터 시트의 숫자는 같은 함수로 센다: 기본 3km, '넓혀 보기'면 시도 전체 */
+const HOME_R=3000;
+function homeMatches(){
+  const c=area(),q=S.q.trim();
+  const all=S.stores.map(s=>({...s,d:dist(c,s)})).filter(s=>!q||(s.name+(s.menu||'')+s.cat+(s.kw||[]).join()).includes(q)).filter(s=>passF(s))
+    .sort((a,b)=>(!!b.good-!!a.good)||a.d-b.d);
+  const inR=all.filter(s=>s.d<=HOME_R);
+  return S.wide?{found:all,more:0}:{found:inR,more:all.length-inR.length};
 }
 function nearby(){
   const c=area();
@@ -417,15 +431,17 @@ function vHome(){
   const hot=near3.filter(s=>s.good).sort((a,b)=>b.buzz-a.buzz).slice(0,8);
   const myC=IDX.courses.filter(x=>x.sido===S.sido), other=IDX.courses.filter(x=>x.sido!==S.sido);
   const q=S.q.trim(),searching=!!q||fActive();
-  const found=searching?here.filter(s=>!q||(s.name+(s.menu||'')+s.cat+(s.kw||[]).join()).includes(q)).filter(s=>passF(s)).sort((a,b)=>(a.d>3000)-(b.d>3000)||(!!b.good-!!a.good)||a.d-b.d):[];
+  const {found,more}=searching?homeMatches():{found:[],more:0};
   const noPrice=S.f.budget&&here.some(s=>!s.price);
   return `<section class="hero"><div class="eyebrow"><i></i>무료 공익 서비스 · 전국 17개 시도</div>
     <h1>오늘, ${S.useGps?'내 주변':esc(c.name.split(' ').slice(-1)[0])}에서<br><em>착한 한 끼</em>와 산책 어때요</h1>
     <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" type="text" placeholder="메뉴·가게 이름 검색 (예: 국밥)" value="${esc(S.q)}" style="border:0;padding:14px 0;background:none"></label>
     <div class="ask"><h3><span>누구랑 가세요?</span><button class="fbtn" data-fopen>예산·취향${S.f.budget||S.f.tastes.length?' '+((S.f.budget?1:0)+S.f.tastes.length):''} ›</button></h3>${purRow()}</div></section>
-    ${searching?`<section class="sec"><div class="sec-h"><div><h2>${q?`‘${esc(q)}’ `:''}맞춤 결과 ${found.length}곳</h2><p>${IDX.regions[S.sido].name} 전체 · 착한가게 먼저, 가까운 순</p></div></div>
+    ${searching?`<section class="sec"><div class="sec-h"><div><h2>${q?`‘${esc(q)}’ `:''}맞춤 결과 ${found.length}곳</h2><p>${S.wide?`${IDX.regions[S.sido].name} 전체`:'3km 안'} · 착한가게 먼저, 가까운 순</p></div></div>
     ${fActive()?`<div class="pad pills" style="margin-bottom:12px">${fLabel().map(l=>`<span class="pill">${esc(l)}</span>`).join('')}<button class="clear" data-fclear>조건 지우기</button></div>`:''}
     <div class="pad list">${found.length?found.map(storeRow).join(''):'<div class="empty" style="margin:0">조건에 맞는 가게가 없어요.<br>예산이나 취향을 넓혀 보세요.</div>'}</div>
+    ${more?`<div class="pad" style="margin-top:10px"><button class="btn ghost" data-wide style="width:100%">${IDX.regions[S.sido].name} 전체로 넓혀 보기 (+${more}곳)</button></div>`:''}
+    ${S.wide?`<div class="pad" style="margin-top:10px"><button class="btn ghost" data-wide style="width:100%">3km 안만 보기</button></div>`:''}
     ${noPrice?'<p class="note pad">가격 정보가 없는 가게는 예산 조건에서 빠져요.</p>':''}
     ${S.f.purpose?(()=>{const cs=IDX.courses.filter(c=>(c.for||[]).includes(PURPOSE.find(x=>x[0]===S.f.purpose)[2]));return cs.length?`<section class="sec"><div class="sec-h"><div><h2>${PURPOSE.find(x=>x[0]===S.f.purpose)[2]}와 가기 좋은 코스</h2><p>코스 식사도 같은 조건으로 추천해요</p></div></div><div class="hscroll">${cs.map(x=>courseCard(x)).join('')}</div></section>`:''})():''}</section>`:`
     <div class="stats"><div class="stat"><b>${goodN}</b><span>3km 안 착한가게</span></div><div class="stat"><b>${newN}</b><span>최근 이틀 새 언급</span></div><div class="stat"><b>${IDX.courses.length}</b><span>전국 여행코스</span></div></div>
@@ -440,12 +456,13 @@ function vHome(){
 function purRow(){return `<div class="pur">${PURPOSE.map(([k,e,l])=>`<button class="${S.f.purpose===k?'on':''}" data-pur="${k}"><em>${e}</em>${l}</button>`).join('')}</div>`}
 function filterSheet(){
   const f=S.f,c=area();
-  const n=S.stores.filter(s=>dist(c,s)<=3000&&passF(s)).length;
+  const onMap=S.tab==='map',n=onMap?nearby().length:homeMatches().found.length;
+  const lbl=onMap?`반경 ${fD(S.radius)} 안 ${n}곳 보기`:`${S.wide?IDX.regions[S.sido].name+' 전체':'3km 안'} ${n}곳 보기`;
   openSheet(`<div class="h3">맞춤 찾기</div>
   <div class="fsec"><h4>누구랑 가세요?</h4>${purRow()}</div>
   <div class="fsec"><h4>1인 예산</h4><div class="kw">${BUDGET.map(([k,l])=>`<button class="chip ${f.budget===k?'on':''}" data-fbud="${k}">${l}</button>`).join('')}</div></div>
   <div class="fsec"><h4>뭐 드실래요? <span style="font-weight:500;color:var(--sub);font-size:12px">여러 개 선택</span></h4><div class="kw">${TASTE.map(([k])=>`<button class="chip ${f.tastes.includes(k)?'on':''}" data-ftaste="${k}">${k}</button>`).join('')}</div></div>
-  <div style="display:flex;gap:8px;margin-top:22px"><button class="btn ghost sm" data-fclear>초기화</button><button class="btn brand" data-fapply>3km 안 ${n}곳 보기</button></div>
+  <div style="display:flex;gap:8px;margin-top:22px"><button class="btn ghost sm" data-fclear>초기화</button><button class="btn brand" data-fapply>${lbl}</button></div>
   <p class="note">목적은 업종·메뉴·가격과 블로그 키워드(분위기·단체·친절·혼밥 등)로 자동 분류해요. 가격 정보가 없는 가게는 예산 조건에서 빠져요.</p>`);
 }
 function mapSvg(arr){
@@ -495,7 +512,7 @@ let draft={photo:null,storeId:null,reasons:[],text:''};
 function vBrag(){
   const c=area(),opts=S.stores.map(s=>({...s,d:dist(c,s)})).filter(s=>s.d<=2000||s.id===draft.storeId).sort((a,b)=>a.d-b.d);
   if(!draft.storeId&&opts[0])draft.storeId=opts[0].id;
-  return `<section class="hero" style="padding-bottom:14px"><div class="eyebrow"><i></i>응원 배지 ${S.brags.length}개</div><h1 style="font-size:24px">착한가게 <em>뽐내기</em></h1><p class="note" style="margin-top:6px">사진 한 장과 좋아하는 이유로 가게를 무료로 알려 주세요. 별점은 없어요.</p></section>
+  return `<section class="hero" style="padding-bottom:14px"><div class="eyebrow"><i></i>응원 배지 <span id="bragN">${S.brags.length}</span>개</div><h1 style="font-size:24px">착한가게 <em>뽐내기</em></h1><p class="note" style="margin-top:6px">사진 한 장과 좋아하는 이유로 가게를 무료로 알려 주세요. 별점은 없어요.</p></section>
   <label class="drop" for="photo">${draft.photo?`<img src="${draft.photo}" alt="올린 사진">`:'<b>📷 사진 올리기</b>정식 서비스에선 사진 위치로 가게가 자동 선택돼요'}</label><input id="photo" type="file" accept="image/*" hidden>
   <div class="pad"><div class="box"><h4>어느 가게인가요?</h4><select id="bStore">${opts.map(s=>`<option value="${s.id}" ${draft.storeId===s.id?'selected':''}>${esc(s.name)} · ${fD(s.d)}</option>`).join('')}</select></div>
   <div class="box"><h4>좋아하는 이유</h4><div class="kw" style="gap:6px">${REASONS.map(r=>`<button class="chip ${draft.reasons.includes(r)?'on':''}" data-reason="${r}">${r}</button>`).join('')}</div>
@@ -516,8 +533,15 @@ function render(){
 }
 
 /* ============ 시트·페이지 ============ */
-function openSheet(html){$('#sheet').innerHTML='<div class="grab"></div>'+html;$('#sheet').classList.add('open');$('#scrim').classList.add('open')}
-function closeSheet(){$('#sheet').classList.remove('open');$('#scrim').classList.remove('open')}
+let lastFocus=null;
+function openSheet(html){const sh=$('#sheet');const was=sh.classList.contains('open');
+  if(!was)lastFocus=document.activeElement;
+  sh.innerHTML='<div class="grab"></div><button class="xbtn" data-closesheet aria-label="닫기">✕</button>'+html;
+  sh.classList.add('open');sh.removeAttribute('inert');sh.setAttribute('aria-hidden','false');$('#scrim').classList.add('open');
+  if(!was)setTimeout(()=>sh.querySelector('.xbtn')?.focus({preventScroll:true}),30)}
+function closeSheet(){const sh=$('#sheet');if(!sh.classList.contains('open'))return;
+  sh.classList.remove('open');sh.setAttribute('inert','');sh.setAttribute('aria-hidden','true');$('#scrim').classList.remove('open');
+  try{lastFocus&&lastFocus.isConnected&&lastFocus.focus({preventScroll:true})}catch(e){}}
 let regionPick=null;
 function regionSheet(){
   const sk=regionPick||S.sido,r=IDX.regions[sk];
@@ -533,6 +557,7 @@ async function storeSheet(id,sk){
   openSheet(`<div class="dhead"><div class="ph" style="background:${s.bg||'#EDEBE6'}">${s.emoji}</div><div style="min-width:0"><h3>${esc(s.name)}</h3>
     <p class="note" style="margin-top:2px">${esc(s.cat||'')}${d!=null?` · ${esc(area().name)}에서 ${fD(d)}`:''}</p>
     <div class="mn" style="margin-top:4px">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>`:esc(s.addr||'')}</div><div class="bds">${badges(s)}</div></div></div>
+  ${IDX.sample?'<p class="note" style="background:#FFF7E6;border-radius:12px;padding:8px 12px">가상의 샘플 가게예요. 이름·가격·착한가게 배지·언급은 실제 정보가 아니에요.</p>':''}
   <div class="save3">${Object.entries(LIST).map(([k,l])=>`<button data-save="${k}" data-sid="${s.id}" data-ssido="${sk}" class="${S.saved[s.id]?.list===k?'on':''}">${l}</button>`).join('')}</div>
   ${s.kw.length?`<div class="box"><h4>사람들이 좋아하는 이유</h4><div class="kw">${s.kw.map(k=>`<span>${esc(k)}</span>`).join('')}</div></div>`:''}
   <div class="box"><h4>최근 언급 ${s.mentions.length}건</h4>${s.mentions.map(m=>`<div class="men"><span class="s" style="color:${SRC[m.src].c}">${SRC[m.src].n}</span><span class="t">${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)} ↗</a>`:esc(m.title)}${m.sponsored?' <span class="bd spon">협찬</span>':''}</span><span class="a">${ago(m.ago)}</span></div>`).join('')||'<p class="note">아직 언급이 없어요</p>'}
@@ -542,7 +567,7 @@ async function storeSheet(id,sk){
   <div style="display:flex;gap:8px;margin-top:14px"><a class="btn ghost" href="${esc(s.place_url||kmap(s.name))}" target="_blank" rel="noopener">지도에서 보기</a><button class="btn brand" data-gobrag="${s.id}" data-bsido="${sk}">이 가게 뽐내기</button></div>`);
   $('#memo').addEventListener('change',e=>{const v=e.target.value.trim();v?S.memos[s.id]=v:delete S.memos[s.id];persist();toast('메모를 저장했어요')});
 }
-const coursePick={};
+const courseCand={};  // 'courseId:슬롯번호' → 후보 가게 id 목록 (교체 순서)
 async function openCourse(id){
   const c=IDX.courses.find(x=>x.id===id),arr=await loadSido(c.sido),st=courseStats(c);
   const meals=c.stops.map((s,i)=>{if(s.t!=='meal')return null;
@@ -550,7 +575,10 @@ async function openCourse(id){
     if(s.pref==='cafe'){const cf=cand.filter(x=>/카페|디저트|베이커리/.test(x.cat));if(cf.length)cand=cf}
     if(fActive()){const fit=cand.filter(x=>passF(x));if(fit.length){cand=fit;cand.fit=true}}
     cand.sort((a,b)=>(!!b.good-!!a.good)||(b.buzz-a.buzz));return cand});
-  const key=k=>coursePick[c.id+':'+k]||0;
+  const pickOf=i=>{const cand=meals[i]||[],k=c.id+':'+i;courseCand[k]=cand.map(x=>x.id);
+    const j=cand.findIndex(x=>x.id===S.picks[k]);return j<0?0:j};
+  const picked=c.stops.map((s,i)=>s.t==='meal'&&meals[i]&&meals[i].length?meals[i][pickOf(i)]:null);
+  const goodPicked=picked.filter(p=>p&&p.good).length;
   const pts=c.stops,lats=pts.map(p=>p.lat),lngs=pts.map(p=>p.lng);
   const mnLa=Math.min(...lats),mxLa=Math.max(...lats),mnLo=Math.min(...lngs),mxLo=Math.max(...lngs);
   const W=440,H=150,pad=28,mLa=(mnLa+mxLa)/2,mLo=(mnLo+mxLo)/2,cs=Math.cos(mLa*Math.PI/180);
@@ -560,24 +588,26 @@ async function openCourse(id){
   const steps=c.stops.map((s,i)=>{
     const mv=i?`<div class="move">${svg(s.move==='bus'?'bus':'walk',15)} ${s.move==='bus'?'버스·택시':'도보'} 약 ${moveMin(dist(c.stops[i-1],s),s.move)}분 · ${fD(dist(c.stops[i-1],s))}</div>`:'';
     let body;
-    if(s.t==='meal'){const cand=meals[i]||[],p=cand[key(i)%Math.max(cand.length,1)];
-      body=`<div class="scard"><h4>🍽️ ${esc(s.name)}</h4><p>머무는 시간 ${s.stay}분 · 근처 900m 안 ${cand.length}곳 중 추천${cand.fit?' · <b style="color:var(--brand)">맞춤 조건 반영</b>':''}</p>
+    if(s.t==='meal'){const cand=meals[i]||[],p=picked[i],j=pickOf(i);
+      body=`<div class="scard"><h4>${s.pref==='cafe'?'☕':'🍽️'} ${esc(s.name)}</h4><p>머무는 시간 ${s.stay}분 · 근처 900m 안 ${cand.length}곳 중 추천${cand.fit?' · <b style="color:var(--brand)">맞춤 조건 반영</b>':''}</p>
       ${p?`<button class="pick" data-store="${p.id}" data-sido="${c.sido}"><div class="ph" style="background:${p.bg}">${p.emoji}</div><div class="si"><div class="nm">${esc(p.name)}</div><div class="mn">${p.price?`${esc(p.menu)} <b>${won(p.price)}</b>`:esc(p.cat)}</div><div class="bds">${p.good?`<span class="bd ${GOOD[p.good].cls}">${GOOD[p.good].label}</span>`:''}</div></div></button>
-      ${cand.length>1?`<div class="act"><button class="mini g" data-swap="${c.id}:${i}">↻ 다른 가게 (${key(i)%cand.length+1}/${cand.length})</button></div>`:''}`:'<p class="note">근처 등록 가게가 아직 없어요</p>'}</div>`}
+      ${cand.length>1?`<div class="act"><button class="mini g" data-swap="${c.id}:${i}">↻ 다른 가게 (${j+1}/${cand.length})</button></div>`:''}`:'<p class="note">근처 등록 가게가 아직 없어요</p>'}</div>`}
     else body=`<div class="scard"><h4>${esc(s.name)}</h4><p>${s.desc?esc(s.desc)+' · ':''}머무는 시간 ${s.stay}분</p><div class="act"><a class="mini" href="${kmap(s.name)}" target="_blank" rel="noopener">지도 ↗</a></div></div>`;
     return mv+`<div class="step"><span class="no" style="background:${s.t==='meal'?'#1F6F5C':c.tone}">${i+1}</span><span class="bar"></span>${body}</div>`;
   }).join('');
   const savedC=S.courses.includes(c.id);
   $('#page').innerHTML=`<div class="pcover" style="background:linear-gradient(150deg,${c.tone},${c.tone}d0 55%,${c.tone}90)"><button class="back" data-closepage aria-label="뒤로">${svg('back',20)}</button><span class="big">${c.emoji}</span><p style="font-weight:700">${IDX.regions[c.sido].name} 착한 여행코스</p><h2>${esc(c.title)}</h2><p>${esc(c.sub)}</p></div>
-  <div class="sumrow"><div><b>${fT(st.t)}</b><span>예상 소요</span></div><div><b>${fD(st.m)}</b><span>총 이동거리</span></div><div><b>${st.meals}끼</b><span>착한 한 끼</span></div></div>
+  <div class="sumrow"><div><b>${fT(st.t)}</b><span>예상 소요</span></div><div><b>${fD(st.m)}</b><span>총 이동거리</span></div><div><b>${goodPicked}/${st.slots}곳</b><span>추천 중 착한가게</span></div></div>
   <div class="route">${routeSvg}</div><div class="tl">${steps}</div>
   <p class="note" style="margin:6px 18px 0">관광지 좌표는 근사값이에요. 이동 시간은 직선거리로 계산한 예상치예요.</p>
   <div class="pad out" id="cout"></div>
   <div class="bottombar"><button class="btn ghost sm" data-savecourse="${c.id}">${savedC?'★ 저장됨':'☆ 저장'}</button><button class="btn brand" data-sharecourse="${c.id}">코스 공유 카드</button></div>`;
-  $('#page').dataset.course=c.id;
-  $('#page').classList.add('open');
+  const pg=$('#page'),was=pg.classList.contains('open');
+  pg.dataset.course=c.id;pg.classList.add('open');pg.removeAttribute('inert');pg.setAttribute('aria-hidden','false');
+  if(!was)setTimeout(()=>pg.querySelector('.back')?.focus({preventScroll:true}),30);
 }
-function closePage(){$('#page').classList.remove('open')}
+function closePage(){const pg=$('#page');if(!pg.classList.contains('open'))return;pg.classList.remove('open');pg.setAttribute('inert','');pg.setAttribute('aria-hidden','true')}
+addEventListener('keydown',e=>{if(e.key!=='Escape')return;if($('#sheet').classList.contains('open'))closeSheet();else if($('#page').classList.contains('open'))closePage()});
 
 /* ============ 공유 카드 ============ */
 function wrapText(x,t,X,Y,w,lh,max){let line='',n=0;for(const ch of t){if(x.measureText(line+ch).width>w){x.fillText(line,X,Y);Y+=lh;line=ch;if(++n>=max-1)break}else line+=ch}x.fillText(line,X,Y)}
@@ -614,7 +644,7 @@ function bindBrag(){
       $('#out'),`[착한맛자랑] ${s.name}${s.price?` · ${s.menu} ${won(s.price)}`:''}\n${tags}\n${draft.text.trim()}`);
     S.brags.push({name:s.name,emoji:s.emoji,reasons:[...draft.reasons],text:draft.text.trim()});
     if(!S.saved[s.id])S.saved[s.id]={list:'been',snap:snap(s)};
-    persist();toast('뽐내기 완료 · 응원 배지 +1');
+    persist();toast('뽐내기 완료 · 응원 배지 +1');const bn=$('#bragN');if(bn)bn.textContent=S.brags.length;
   });
 }
 function shareCourse(id){
@@ -634,7 +664,7 @@ const snap=s=>({name:s.name,emoji:s.emoji,cat:s.cat,menu:s.menu,price:s.price,la
 
 /* ============ 이벤트 ============ */
 document.addEventListener('click',async e=>{
-  const t=e.target.closest('[data-gps],[data-pur],[data-fopen],[data-fbud],[data-ftaste],[data-fapply],[data-fclear],[data-cpur],[data-tab],[data-good],[data-radius],[data-sort],[data-scope],[data-ltab],[data-reason],[data-pick],[data-area],[data-save],[data-gobrag],[data-course],[data-closepage],[data-swap],[data-savecourse],[data-sharecourse],[data-store]');
+  const t=e.target.closest('[data-closesheet],[data-wide],[data-gps],[data-pur],[data-fopen],[data-fbud],[data-ftaste],[data-fapply],[data-fclear],[data-cpur],[data-tab],[data-good],[data-radius],[data-sort],[data-scope],[data-ltab],[data-reason],[data-pick],[data-area],[data-save],[data-gobrag],[data-course],[data-closepage],[data-swap],[data-savecourse],[data-sharecourse],[data-store]');
   if(!t)return;const d=t.dataset;
   if(d.tab){S.tab=d.tab;closePage();closeSheet();render();scrollTo(0,0)}
   else if('good' in d){S.goodOnly=!S.goodOnly;render()}
@@ -652,9 +682,11 @@ document.addEventListener('click',async e=>{
     draft={photo:null,storeId:d.gobrag,reasons:[],text:''};closeSheet();closePage();S.tab='brag';render();scrollTo(0,0)}
   else if(d.course){closeSheet();await openCourse(d.course)}
   else if('closepage' in d)closePage();
-  else if(d.swap){coursePick[d.swap]=(coursePick[d.swap]||0)+1;const y=$('#page').scrollTop;await openCourse(d.swap.split(':')[0]);$('#page').scrollTop=y}
+  else if(d.swap){const ids=courseCand[d.swap]||[];if(ids.length){const cur=ids.indexOf(S.picks[d.swap]);S.picks[d.swap]=ids[(Math.max(cur,0)+1)%ids.length];persist()}const y=$('#page').scrollTop;await openCourse(d.swap.split(':')[0]);$('#page').scrollTop=y}
   else if(d.savecourse){const i=S.courses.indexOf(d.savecourse);i<0?S.courses.push(d.savecourse):S.courses.splice(i,1);persist();t.textContent=i<0?'★ 저장됨':'☆ 저장';toast(i<0?'코스를 저장했어요':'저장을 취소했어요')}
   else if(d.sharecourse)shareCourse(d.sharecourse);
+  else if('closesheet' in d)closeSheet();
+  else if('wide' in d){S.wide=!S.wide;render()}
   else if('gps' in d){toast('위치를 확인하는 중…');await locate(false)}
   else if(d.pur){S.f.purpose=S.f.purpose===d.pur?null:d.pur;persist();if($('#sheet').classList.contains('open'))filterSheet();render()}
   else if('fopen' in d)filterSheet();

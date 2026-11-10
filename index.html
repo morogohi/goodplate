@@ -191,7 +191,7 @@ footer a:hover{color:var(--brand)}
 </style>
 </head>
 <body>
-<div class="notice" id="notice"><b>시범 운영 중</b> · 지금 보이는 가게와 언급은 화면 확인용 샘플이에요. 실제 데이터 수집을 곧 시작합니다.</div>
+<div class="notice" id="notice"><b>시범 운영 중</b> · 가게·언급·착한가게 표시는 화면 확인용 가상 샘플이에요. 실제 자동 수집은 준비 중이에요.</div>
 <header class="nav" id="nav"><div class="wrap">
   <a class="logo" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#1F6F5C"/><path d="M9 23c0-8 5.5-13.5 14.5-13.5C22.5 18.5 17 23 9 23z" fill="#fff"/><path d="M9 23l8-8" stroke="#1F6F5C" stroke-width="1.6" stroke-linecap="round"/></svg>착한맛자랑</a>
   <nav class="links" aria-label="주요 메뉴"><a href="#how">이용 방법</a><a href="#features">기능</a><a href="#courses">여행코스</a><a href="#promise">운영 원칙</a><a href="#together">함께하기</a></nav>
@@ -223,7 +223,7 @@ footer a:hover{color:var(--brand)}
     <div class="stat g"><b data-k="good">–</b><span>착한가게·나눔가게</span></div>
     <div class="stat"><b data-k="courses">12</b><span>착한 여행코스</span></div>
   </div>
-  <p class="updated" id="updated">매일 새벽 4시 자동 업데이트</p>
+  <p class="updated" id="updated"></p>
 </div></section>
 
 <section class="blk" id="how"><div class="wrap">
@@ -242,7 +242,7 @@ footer a:hover{color:var(--brand)}
       <div class="demo"><span>👪 부모님</span><span>1만원 미만</span><span>국밥·탕</span><span>착한가게 먼저</span></div></div>
     <div class="fcard fc2 reveal"><span class="tag" style="color:var(--brand)">착한 여행코스</span><h3>관광지 사이엔 착한 한 끼</h3><p>12개 코스의 식사 시간마다 900m 안 착한가게를 우선 추천해요. 다른 가게로 바꾸고, 저장하고, 공유 카드로 나눌 수 있어요.</p>
       <div class="demo"><span style="background:#F2EFEA">예상 소요 6시간</span><span style="background:#F2EFEA">도보 경로</span><span style="background:var(--brand-soft);color:var(--brand)">착한 한 끼 3</span></div></div>
-    <div class="fcard fc3 reveal"><span class="tag" style="color:var(--warm)">매일 자동 수집</span><h3>유튜브·블로그·지도를 매일 새벽에</h3><p>새로 언급된 가게에 NEW를 달고, 원문은 복사하지 않고 링크로 보내 만든 사람에게 조회수가 돌아가게 해요.</p>
+    <div class="fcard fc3 reveal"><span class="tag" style="color:var(--warm)" id="srcTag">매일 자동 수집</span><h3>유튜브·블로그·지도를 매일 새벽에</h3><p>새로 언급된 가게에 NEW를 달고, 원문은 복사하지 않고 링크로 보내 만든 사람에게 조회수가 돌아가게 해요.</p>
       <div class="srcs"><span><i style="background:#E0352B"></i>유튜브</span><span><i style="background:#12A150"></i>블로그</span><span><i style="background:#FFCD00"></i>카카오맵</span><span><i style="background:#1F6F5C"></i>착한가격업소</span></div></div>
     <div class="fcard fc4 reveal"><span class="tag" style="color:var(--share)">뽐내기</span><h3>사진 한 장이 가게의 홍보가 돼요</h3><p>좋아하는 이유를 고르면 인스타·카톡용 공유 카드가 만들어져요. 착한가게 사장님은 비용 없이 알려져요.</p>
       <div class="demo"><span>#가성비최고</span><span>#사장님친절</span><span>#재방문각</span></div></div>
@@ -297,7 +297,7 @@ footer a:hover{color:var(--brand)}
 </main>
 
 <footer><div class="wrap">
-  <div><b>착한맛자랑</b>착한가게를 응원하는 무료 공익 웹서비스<br>전국 17개 시도 · 매일 새벽 자동 업데이트</div>
+  <div><b>착한맛자랑</b>착한가게를 응원하는 무료 공익 웹서비스<br>전국 17개 시도 · <span id="footUpd">매일 새벽 자동 업데이트</span></div>
   <div><b>데이터 출처</b>카카오 로컬 · 네이버 검색 · YouTube Data API<br>행정안전부 착한가격업소 · 나눔가게 협약 목록</div>
   <div><b>바로가기</b><a href="app.html">서비스 시작</a> · <a href="app.html#course">여행코스</a><br><a href="https://github.com/morogohi/goodplate" target="_blank" rel="noopener">GitHub</a> · <a href="https://github.com/morogohi/goodplate/issues" target="_blank" rel="noopener">제보·문의</a><br><a href="privacy.html">개인정보처리방침</a> · <a href="support.html">고객 지원</a></div>
   <p class="fine">가게 정보와 언급은 자동 수집되어 실제와 다를 수 있어요. 방문 전 영업시간과 가격을 확인해 주세요. 여행코스의 이동 시간은 직선거리로 계산한 예상치예요. © 2026 착한맛자랑</p>
@@ -314,7 +314,7 @@ function renderCourses(f){
   const list=IDX.courses.filter(c=>!f||(c.for||[]).includes(f));
   $('#cgrid').innerHTML=list.map(c=>`<a class="course" href="app.html#course-${esc(c.id)}">
     <div class="cover" style="background:linear-gradient(140deg,${c.tone},${c.tone}cc 60%,${c.tone}88)"><span class="rg">${esc(IDX.regions[c.sido].name)}</span><span class="big">${c.emoji}</span><h3>${esc(c.title)}</h3></div>
-    <div class="cbody"><p>${esc(c.sub)}</p><div class="cmeta"><span>${c.stops.length}곳</span><span>약 ${hours(c)}</span><span class="g">착한 한 끼 ${c.stops.filter(s=>s.t==='meal').length}</span>${(c.for||[]).map(l=>`<span>${PE[l]||''} ${l}</span>`).join('')}</div></div></a>`).join('');
+    <div class="cbody"><p>${esc(c.sub)}</p><div class="cmeta"><span>${c.stops.length}곳</span><span>약 ${hours(c)}</span><span class="g">식사 ${c.stops.filter(s=>s.t==='meal'&&s.pref!=='cafe').length}회</span>${(c.for||[]).map(l=>`<span>${PE[l]||''} ${l}</span>`).join('')}</div></div></a>`).join('');
 }
 const FALLBACK={sample:true,regions:{},courses:[]};
 (async()=>{
@@ -324,8 +324,13 @@ const FALLBACK={sample:true,regions:{},courses:[]};
   const v={sido:R.length,areas:R.reduce((a,r)=>a+Object.keys(r.areas).length,0),stores:R.reduce((a,r)=>a+(r.count||0),0),good:R.reduce((a,r)=>a+(r.good||0),0),courses:IDX.courses.length};
   document.querySelectorAll('[data-k]').forEach(el=>{const n=v[el.dataset.k];if(n==null)return;let i=0;const step=()=>{i=Math.min(n,i+Math.ceil(n/30));el.textContent=i.toLocaleString();if(i<n)requestAnimationFrame(step)};step()});
   const g=new Date(IDX.generated_at);
-  if(!isNaN(g))$('#updated').textContent=`${g.getMonth()+1}월 ${g.getDate()}일 새벽 업데이트 · 매일 4시 자동 수집`;
-  if(IDX.sample)$('#notice').style.display='block';
+  if(IDX.sample){
+    $('#notice').style.display='block';
+    $('#updated').textContent='지금 숫자는 화면 확인용 샘플 데이터 기준이에요 · 실제 자동 수집은 준비 중';
+    document.querySelectorAll('[data-k="stores"]+span,[data-k="good"]+span').forEach(s=>s.textContent+=' (샘플)');
+    $('#footUpd').textContent='시범 운영 중 · 실제 자동 수집 준비 중';
+    $('#srcTag').textContent='매일 자동 수집 · 준비 중';
+  }else if(!isNaN(g))$('#updated').textContent=`${g.getMonth()+1}월 ${g.getDate()}일 새벽 업데이트 · 매일 4시 자동 수집`;
   renderCourses('');
 })();
 document.getElementById('cfilter').addEventListener('click',e=>{const b=e.target.closest('button');if(!b||!IDX)return;document.querySelectorAll('#cfilter button').forEach(x=>x.classList.toggle('on',x===b));renderCourses(b.dataset.f)});
