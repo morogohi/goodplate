@@ -214,6 +214,7 @@ textarea{resize:vertical}
 .drop b{display:block;font-size:15px;color:var(--ink);margin-bottom:4px}
 .out img{width:100%;border-radius:var(--r);margin-top:12px;box-shadow:var(--sh)}
 .foot{margin:34px 18px 0;padding:18px;border-radius:var(--r);background:#EFEBE4;font-size:12.5px;color:var(--ink2);line-height:1.7}
+.foot .cr{display:block;margin-top:10px;font-size:12.5px;line-height:1.65;word-break:keep-all;overflow-wrap:anywhere}.foot .cr a{color:inherit;text-decoration:underline}
 .foot b{display:block;font-size:13.5px;margin-bottom:6px;color:var(--ink)}
 .toast{position:fixed;left:50%;bottom:104px;transform:translate(-50%,10px);background:var(--ink);color:#fff;font-size:13px;font-weight:500;padding:11px 18px;border-radius:99px;z-index:70;opacity:0;transition:all .2s;pointer-events:none;white-space:nowrap}
 .toast.show{opacity:1;transform:translate(-50%,0)}
@@ -451,7 +452,7 @@ function vHome(){
     <section class="sec"><div class="sec-h"><div><h2>전국 착한 여행코스</h2><p>지역 맛집과 걷기 좋은 길을 함께</p></div><button class="more" data-tab="course">전체 ›</button></div>
     <div class="hscroll">${other.slice(0,6).map(x=>courseCard(x)).join('')}</div></section>
     ${collectBar()}
-    <div class="foot"><b>착한맛자랑은 이렇게 운영해요</b>손님과 가게 모두 무료입니다. 광고 순위는 없습니다. 유튜브·블로그 원문은 복사하지 않고 링크로 연결해 만든 사람에게 조회수가 돌아가게 합니다. 협찬 표기가 있는 글은 따로 표시합니다. 위치는 기기에서만 계산합니다.</div>`}`;
+    <div class="foot"><b>착한맛자랑은 이렇게 운영해요</b>손님과 가게 모두 무료입니다. 광고 순위는 없습니다. 유튜브·블로그 원문은 복사하지 않고 링크로 연결해 만든 사람에게 조회수가 돌아가게 합니다. 협찬 표기가 있는 글은 따로 표시합니다. 위치는 기기에서만 계산합니다.<span class="cr">© 2026 양인석. All rights reserved. 본 사이트의 자체 제작 소스코드·디자인·콘텐츠에 대한 저작권은 양인석에게 있습니다. 사전 서면 허락 없는 복제·수정·재배포 및 별도 서비스로의 이용을 금합니다. 제3자 자료는 해당 권리자의 이용조건을 따릅니다. <a href="copyright.html">저작권 및 이용안내</a> · <a href="privacy.html">개인정보처리방침</a></span></div>`}`;
 }
 function purRow(){return `<div class="pur">${PURPOSE.map(([k,e,l])=>`<button class="${S.f.purpose===k?'on':''}" data-pur="${k}"><em>${e}</em>${l}</button>`).join('')}</div>`}
 function filterSheet(){

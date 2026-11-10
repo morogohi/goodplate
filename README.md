@@ -75,3 +75,9 @@ pip install -r collector/requirements.txt
 python collector/test_collect.py
 python -m http.server 8000      # http://localhost:8000
 ```
+
+## 저작권 및 이용조건
+- **저작권자:** 양인석 (Inseok Yang, GitHub 계정 morogohi) · © 2026 · All rights reserved. — [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md)
+- 자체 제작 코드·디자인·문안의 복제·수정·재배포 및 별도 서비스로의 이용은 사전 서면 허락이 필요합니다. 저장소 공개는 오픈소스 이용허락이 아니며, GitHub 이용약관에 따른 열람·포크는 가능합니다.
+- `data/`의 수집 데이터와 카카오·네이버·YouTube·공공 목록 등 외부 자료는 각 제공자의 조건을 따릅니다: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
+- 상세 안내: https://morogohi.github.io/goodplate/copyright.html
