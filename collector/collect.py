@@ -261,7 +261,9 @@ def main():
     nid, nsec = os.getenv("NAVER_CLIENT_ID"), os.getenv("NAVER_CLIENT_SECRET")
     yt = os.getenv("YOUTUBE_API_KEY")
     if not kakao:
-        sys.exit("KAKAO_REST_KEY 가 없습니다. 가게 목록의 기준이라 필수입니다.")
+        # 키를 아직 등록하지 않았으면 실패 대신 건너뛴다 (샘플 데이터 유지, 매일 실패 알림 방지)
+        print("KAKAO_REST_KEY 가 없어 수집을 건너뜁니다. 저장소 Settings → Secrets 에 등록하세요.")
+        sys.exit(0)
 
     only = [s for s in os.getenv("SIDO", "").split(",") if s]   # 예: SIDO=seoul,busan (비우면 전국)
     if only:
