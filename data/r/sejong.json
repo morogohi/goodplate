@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k9274802",
@@ -59,6 +59,84 @@
    ],
    "kw": [],
    "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k574541126",
+   "area": "jochiwon",
+   "name": "조치원ㄱ",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 으뜸길 215",
+   "lat": 36.6011734661237,
+   "lng": 127.296341342731,
+   "place_url": "http://place.map.kakao.com/574541126",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 15,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "마늘소스 듬뿍 올라간 조치원 족발 맛집?! 🧄",
+     "url": "https://www.youtube.com/watch?v=8Tw7oLkrUhE",
+     "date": "2026-11-12",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "애견동반도 가능한 에그타르트 맛집 !",
+     "url": "https://www.youtube.com/watch?v=2N0frrNhx40",
+     "date": "2026-11-12",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "광고) 조치원 정수장을 개조한 이색카페 비건베이커리 #커넥트윗 #청주맛집 #맛집 #조치원카페",
+     "url": "https://www.youtube.com/watch?v=YuGY9hB1ZvI",
+     "date": "2026-11-10",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원 9000원 칼국수",
+     "url": "https://www.youtube.com/watch?v=Stvpj4NJWO8",
+     "date": "2026-11-10",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원 송은정 보리밥, 반찬이 끝이 없다 #shorts",
+     "url": "https://www.youtube.com/watch?v=szllfoQzoTk",
+     "date": "2026-11-10",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원에서 단백질 해장필요 할때마다 찾는 먹으러 GO!  #맛집",
+     "url": "https://www.youtube.com/watch?v=beV-DV2yB5w",
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "부모님 모시고 베어트리파크 갔다가 찾은 세종 조치원 맛집🍚",
+     "url": "https://www.youtube.com/watch?v=3OzfYv_fWfc",
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원에 만오천 원으로 반찬이 18가지나 나오는 보리밥집이 있다구요? 😋",
+     "url": "https://www.youtube.com/watch?v=eQEF3P4VlA8",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -345,6 +423,300 @@
    "place_url": "http://place.map.kakao.com/380251220",
    "good": null,
    "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1671702958",
+   "area": "jochiwon",
+   "name": "모디스트임팩트",
+   "cat": "커피전문점",
+   "addr": "세종특별자치시 조치원읍 으뜸길 233",
+   "lat": 36.6019434604071,
+   "lng": 127.296534287439,
+   "place_url": "http://place.map.kakao.com/1671702958",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1267882546",
+   "area": "jochiwon",
+   "name": "화양연화",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 으뜸길 131",
+   "lat": 36.5973941838279,
+   "lng": 127.297387471895,
+   "place_url": "http://place.map.kakao.com/1267882546",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1306382678",
+   "area": "jochiwon",
+   "name": "메가MGC커피 조치원역점",
+   "cat": "메가MGC커피",
+   "addr": "세종특별자치시 조치원읍 조치원로 6-1",
+   "lat": 36.601070067618146,
+   "lng": 127.29733340463399,
+   "place_url": "http://place.map.kakao.com/1306382678",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k109099929",
+   "area": "jochiwon",
+   "name": "카페가가 1호점",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 새내로 76",
+   "lat": 36.59848927252948,
+   "lng": 127.29874731728935,
+   "place_url": "http://place.map.kakao.com/109099929",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k88467189",
+   "area": "jochiwon",
+   "name": "솜브",
+   "cat": "디저트카페",
+   "addr": "세종특별자치시 조치원읍 충현로 154",
+   "lat": 36.6025807829172,
+   "lng": 127.294994364206,
+   "place_url": "http://place.map.kakao.com/88467189",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k953452519",
+   "area": "jochiwon",
+   "name": "빽다방 세종조치원역점",
+   "cat": "빽다방",
+   "addr": "세종특별자치시 조치원읍 으뜸길 208",
+   "lat": 36.60083815559078,
+   "lng": 127.29710004787232,
+   "place_url": "http://place.map.kakao.com/953452519",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k785095628",
+   "area": "jochiwon",
+   "name": "카페섭골",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 문화로 27",
+   "lat": 36.60399036585551,
+   "lng": 127.30068310517031,
+   "place_url": "http://place.map.kakao.com/785095628",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k708606769",
+   "area": "jochiwon",
+   "name": "호머",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 충현로 72",
+   "lat": 36.59510912333444,
+   "lng": 127.29729488700055,
+   "place_url": "http://place.map.kakao.com/708606769",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1724627407",
+   "area": "jochiwon",
+   "name": "오누케이크",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 장안로 32",
+   "lat": 36.5990322484748,
+   "lng": 127.301416010736,
+   "place_url": "http://place.map.kakao.com/1724627407",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1681243181",
+   "area": "jochiwon",
+   "name": "감성커피 조치원역점",
+   "cat": "감성커피",
+   "addr": "세종특별자치시 조치원읍 으뜸길 260",
+   "lat": 36.6031290479486,
+   "lng": 127.296659532713,
+   "place_url": "http://place.map.kakao.com/1681243181",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1334143282",
+   "area": "jochiwon",
+   "name": "언더로우",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 으뜸길 222",
+   "lat": 36.6015458385719,
+   "lng": 127.296984291791,
+   "place_url": "http://place.map.kakao.com/1334143282",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k34997940",
+   "area": "jochiwon",
+   "name": "풀리셔스",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 으뜸길 193",
+   "lat": 36.600235872702676,
+   "lng": 127.29686750870644,
+   "place_url": "http://place.map.kakao.com/34997940",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k19413752",
+   "area": "jochiwon",
+   "name": "투썸플레이스 세종조치원점",
+   "cat": "투썸플레이스",
+   "addr": "세종특별자치시 조치원읍 행복5길 23",
+   "lat": 36.604981907804884,
+   "lng": 127.29223499225044,
+   "place_url": "http://place.map.kakao.com/19413752",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k856167263",
+   "area": "jochiwon",
+   "name": "이디야커피 세종시조치원점",
+   "cat": "이디야커피",
+   "addr": "세종특별자치시 조치원읍 조치원로 19-2",
+   "lat": 36.6015515660434,
+   "lng": 127.29901841689,
+   "place_url": "http://place.map.kakao.com/856167263",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

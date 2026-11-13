@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k26396219",
@@ -369,6 +369,321 @@
    "place_url": "http://place.map.kakao.com/140567292",
    "good": null,
    "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k291356097",
+   "area": "tongyeong",
+   "name": "바이사이드",
+   "cat": "카페",
+   "addr": "경남 통영시 항남1길 12",
+   "lat": 34.842127592450005,
+   "lng": 128.42286054317782,
+   "place_url": "http://place.map.kakao.com/291356097",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1968731041",
+   "area": "tongyeong",
+   "name": "삼문당",
+   "cat": "카페",
+   "addr": "경남 통영시 중앙로 168",
+   "lat": 34.8465783805553,
+   "lng": 128.42423597338,
+   "place_url": "http://place.map.kakao.com/1968731041",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k817926882",
+   "area": "tongyeong",
+   "name": "짹짹커피 통영점",
+   "cat": "카페",
+   "addr": "경남 통영시 간창골1길 12",
+   "lat": 34.84704410967969,
+   "lng": 128.42248599918034,
+   "place_url": "http://place.map.kakao.com/817926882",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k226077455",
+   "area": "tongyeong",
+   "name": "바다봄",
+   "cat": "카페",
+   "addr": "경남 통영시 통영해안로 303",
+   "lat": 34.8421669221234,
+   "lng": 128.424120608194,
+   "place_url": "http://place.map.kakao.com/226077455",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k950486942",
+   "area": "tongyeong",
+   "name": "유어커피",
+   "cat": "커피전문점",
+   "addr": "경남 통영시 통영해안로 331-2",
+   "lat": 34.84434962166841,
+   "lng": 128.42398985280178,
+   "place_url": "http://place.map.kakao.com/950486942",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1795781560",
+   "area": "tongyeong",
+   "name": "커피니스트",
+   "cat": "카페",
+   "addr": "경남 통영시 통영해안로 368",
+   "lat": 34.8441211047653,
+   "lng": 128.427490857263,
+   "place_url": "http://place.map.kakao.com/1795781560",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25037933",
+   "area": "tongyeong",
+   "name": "카페울라봉",
+   "cat": "테마카페",
+   "addr": "경남 통영시 동문로 51",
+   "lat": 34.84650790049783,
+   "lng": 128.42901456037887,
+   "place_url": "http://place.map.kakao.com/25037933",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27608326",
+   "area": "tongyeong",
+   "name": "마당",
+   "cat": "카페",
+   "addr": "경남 통영시 세병로 17-11",
+   "lat": 34.846211377688,
+   "lng": 128.422633471685,
+   "place_url": "http://place.map.kakao.com/27608326",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k22300959",
+   "area": "tongyeong",
+   "name": "동피랑100",
+   "cat": "카페",
+   "addr": "경남 통영시 동피랑길 100",
+   "lat": 34.8457602645154,
+   "lng": 128.426058563029,
+   "place_url": "http://place.map.kakao.com/22300959",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k165291477",
+   "area": "tongyeong",
+   "name": "통영다방",
+   "cat": "카페",
+   "addr": "경남 통영시 항남1번가길 11-1",
+   "lat": 34.8429958663405,
+   "lng": 128.422063218674,
+   "place_url": "http://place.map.kakao.com/165291477",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1584159069",
+   "area": "tongyeong",
+   "name": "쑥쑥커피",
+   "cat": "커피전문점",
+   "addr": "경남 통영시 중앙로 164",
+   "lat": 34.8462843213543,
+   "lng": 128.424101899989,
+   "place_url": "http://place.map.kakao.com/1584159069",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2084494003",
+   "area": "tongyeong",
+   "name": "카페이스트힐",
+   "cat": "카페",
+   "addr": "경남 통영시 동피랑길 17",
+   "lat": 34.8451483628645,
+   "lng": 128.426896373838,
+   "place_url": "http://place.map.kakao.com/2084494003",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10722121",
+   "area": "tongyeong",
+   "name": "커피볶는남자",
+   "cat": "커피전문점",
+   "addr": "경남 통영시 중앙로 161",
+   "lat": 34.8461086266225,
+   "lng": 128.423711854884,
+   "place_url": "http://place.map.kakao.com/10722121",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1466158012",
+   "area": "tongyeong",
+   "name": "동피랑폴리",
+   "cat": "카페",
+   "addr": "경남 통영시 통영해안로 355",
+   "lat": 34.8447671796702,
+   "lng": 128.426198857773,
+   "place_url": "http://place.map.kakao.com/1466158012",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k385457262",
+   "area": "tongyeong",
+   "name": "카페오픈",
+   "cat": "카페",
+   "addr": "경남 통영시 남망공원길 3",
+   "lat": 34.8431935607586,
+   "lng": 128.427115166007,
+   "place_url": "http://place.map.kakao.com/385457262",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

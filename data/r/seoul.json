@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "seoul",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k21326655",
@@ -265,6 +265,49 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k24725284",
+   "area": "jongno-gwanghwamun",
+   "name": "테라로사 광화문점",
+   "cat": "테라로사",
+   "addr": "서울 종로구 종로1길 50",
+   "lat": 37.57482524736088,
+   "lng": 126.97982728286621,
+   "place_url": "http://place.map.kakao.com/24725284",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 3,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "커피 성지 강릉 가서 해변 프랜차이즈만 들렀다 오면 후회하는 이유 ☕🧱 #강릉카페 #테라로사 #강릉각 #shorts",
+     "url": "https://www.youtube.com/watch?v=RSvNb902Gy4",
+     "date": "2026-11-11",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "강릉맛집 원데이코스 따라오세요|테라로사|강릉신라모노그램|강릉중앙시장|예닮곳간|참순찰떡방|강릉길감자|효주원",
+     "url": "https://www.youtube.com/watch?v=XpYpfk-TVow",
+     "date": "2026-11-10",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "경주 이렇게 핫했어? 맛집부터 카페까지 제대로 즐긴 하루",
+     "url": "https://www.youtube.com/watch?v=Up6nIilV63o",
+     "date": "2026-11-09",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k24725293",
    "area": "jongno-jonggak",
    "name": "이문설농탕",
@@ -424,6 +467,35 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k906872061",
+   "area": "jongno-jonggak",
+   "name": "조앤도슨 광화문점",
+   "cat": "카페",
+   "addr": "서울 종로구 종로 33",
+   "lat": 37.5711043949641,
+   "lng": 126.981390405688,
+   "place_url": "http://place.map.kakao.com/906872061",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "안국•광화문•종로3가까지 종로구 실패 없는 맛집 탐방 ✌🏻| 프렌치토스트 찐 맛집 조앤도슨, 모찌 천국 자이소, 한옥 인테리어 비움안국",
+     "url": "https://www.youtube.com/watch?v=B8k3CHUAVTI",
+     "date": "2026-11-02",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 12,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k9820808",
    "area": "jongno-ikseon",
    "name": "삼해집 종로점",
@@ -508,6 +580,35 @@
    ],
    "kw": [],
    "last": 14,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k630916358",
+   "area": "jongno-ikseon",
+   "name": "동백양과점 익선점",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 수표로28길 17-24",
+   "lat": 37.57340474297706,
+   "lng": 126.9895991355101,
+   "place_url": "http://place.map.kakao.com/630916358",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#동백양과점익선점#20261102일상#익선동#수플레맛집익선",
+     "url": "https://www.youtube.com/watch?v=UUNAUq70G5Q",
+     "date": "2026-11-02",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 12,
    "first_seen": "2026-11-14"
   },
   {
@@ -866,6 +967,35 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k1754511299",
+   "area": "seongdong-seongsu",
+   "name": "한정선 성수본점",
+   "cat": "디저트카페",
+   "addr": "서울 성동구 연무장길 43-1",
+   "lat": 37.5429282542542,
+   "lng": 127.054178340067,
+   "place_url": "http://place.map.kakao.com/1754511299",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "친구랑 성수 브이로그 1편",
+     "url": "https://www.youtube.com/watch?v=yyW8ku0Cgpo",
+     "date": "2026-11-11",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k26545925",
    "area": "jongno-gwanghwamun",
    "name": "토속촌삼계탕",
@@ -1065,6 +1195,300 @@
    "place_url": "http://place.map.kakao.com/1179567185",
    "good": null,
    "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11016313",
+   "area": "jongno-gwanghwamun",
+   "name": "나무사이로",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 사직로8길 21",
+   "lat": 37.574643209390864,
+   "lng": 126.97099754478326,
+   "place_url": "http://place.map.kakao.com/11016313",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k100671345",
+   "area": "jongno-gwanghwamun",
+   "name": "서울형키즈카페 시립공예마을점",
+   "cat": "서울형키즈카페",
+   "addr": "서울 종로구 율곡로3길 4",
+   "lat": 37.576611555409,
+   "lng": 126.98326145224,
+   "place_url": "http://place.map.kakao.com/100671345",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k745214463",
+   "area": "jongno-gwanghwamun",
+   "name": "테일러커피 서촌경복궁점",
+   "cat": "카페",
+   "addr": "서울 종로구 효자로 15",
+   "lat": 37.5771936899626,
+   "lng": 126.973849353352,
+   "place_url": "http://place.map.kakao.com/745214463",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k320882660",
+   "area": "jongno-gwanghwamun",
+   "name": "도트블랭킷",
+   "cat": "카페",
+   "addr": "서울 종로구 윤보선길 22",
+   "lat": 37.5770261283167,
+   "lng": 126.984096819784,
+   "place_url": "http://place.map.kakao.com/320882660",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1041123432",
+   "area": "jongno-gwanghwamun",
+   "name": "애즈라이크 서촌",
+   "cat": "카페",
+   "addr": "서울 종로구 효자로7길 23",
+   "lat": 37.5784081074036,
+   "lng": 126.973301001437,
+   "place_url": "http://place.map.kakao.com/1041123432",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k212413668",
+   "area": "jongno-gwanghwamun",
+   "name": "내자상회",
+   "cat": "카페",
+   "addr": "서울 종로구 사직로10길 3",
+   "lat": 37.5757828406201,
+   "lng": 126.97048542016,
+   "place_url": "http://place.map.kakao.com/212413668",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8045991",
+   "area": "jongno-gwanghwamun",
+   "name": "카페이마",
+   "cat": "카페",
+   "addr": "서울 종로구 세종대로 152",
+   "lat": 37.5697306216335,
+   "lng": 126.977610035652,
+   "place_url": "http://place.map.kakao.com/8045991",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1849776839",
+   "area": "jongno-gwanghwamun",
+   "name": "카멜커피 15호점 서촌",
+   "cat": "카페",
+   "addr": "서울 종로구 효자로 31",
+   "lat": 37.5787893200918,
+   "lng": 126.973711812813,
+   "place_url": "http://place.map.kakao.com/1849776839",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15815825",
+   "area": "jongno-gwanghwamun",
+   "name": "mk2",
+   "cat": "카페",
+   "addr": "서울 종로구 자하문로10길 17",
+   "lat": 37.57952695576981,
+   "lng": 126.97249001980663,
+   "place_url": "http://place.map.kakao.com/15815825",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27411968",
+   "area": "jongno-gwanghwamun",
+   "name": "토즈모임센터 광화문점",
+   "cat": "토즈모임센터",
+   "addr": "서울 종로구 새문안로 89",
+   "lat": 37.5704363788647,
+   "lng": 126.974535420138,
+   "place_url": "http://place.map.kakao.com/27411968",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26436728",
+   "area": "jongno-gwanghwamun",
+   "name": "미라보쇼콜라",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 자하문로5길 6",
+   "lat": 37.5777985899396,
+   "lng": 126.971399338516,
+   "place_url": "http://place.map.kakao.com/26436728",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k977211586",
+   "area": "jongno-gwanghwamun",
+   "name": "펠트커피 광화문점",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 종로3길 17",
+   "lat": 37.5709805434398,
+   "lng": 126.97892048108426,
+   "place_url": "http://place.map.kakao.com/977211586",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1579324098",
+   "area": "jongno-gwanghwamun",
+   "name": "널담은공간",
+   "cat": "카페",
+   "addr": "서울 종로구 삼청로 24",
+   "lat": 37.57804810541146,
+   "lng": 126.97983320588393,
+   "place_url": "http://place.map.kakao.com/1579324098",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1320230164",
+   "area": "jongno-gwanghwamun",
+   "name": "파티스리 데시데",
+   "cat": "디저트카페",
+   "addr": "서울 종로구 삼청로 22-31",
+   "lat": 37.5778301770483,
+   "lng": 126.980501187289,
+   "place_url": "http://place.map.kakao.com/1320230164",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1317,6 +1741,258 @@
    "place_url": "http://place.map.kakao.com/444516464",
    "good": null,
    "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1797985577",
+   "area": "jongno-jonggak",
+   "name": "놀숲 종로관철점",
+   "cat": "놀숲",
+   "addr": "서울 종로구 삼일대로17길 8",
+   "lat": 37.56924729467428,
+   "lng": 126.98701096148542,
+   "place_url": "http://place.map.kakao.com/1797985577",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1654396478",
+   "area": "jongno-jonggak",
+   "name": "벌툰 인더스트리얼 종각점",
+   "cat": "벌툰",
+   "addr": "서울 종로구 종로14길 9",
+   "lat": 37.56965274898378,
+   "lng": 126.98706862044833,
+   "place_url": "http://place.map.kakao.com/1654396478",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2055835737",
+   "area": "jongno-jonggak",
+   "name": "레드버튼 종로점",
+   "cat": "레드버튼",
+   "addr": "서울 종로구 삼일대로19길 15",
+   "lat": 37.569449085306,
+   "lng": 126.986720016475,
+   "place_url": "http://place.map.kakao.com/2055835737",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2046858106",
+   "area": "jongno-jonggak",
+   "name": "홈즈앤루팡 종로점",
+   "cat": "홈즈앤루팡",
+   "addr": "서울 종로구 돈화문로11길 41",
+   "lat": 37.5723946804978,
+   "lng": 126.989077428596,
+   "place_url": "http://place.map.kakao.com/2046858106",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k517442171",
+   "area": "jongno-jonggak",
+   "name": "결",
+   "cat": "카페",
+   "addr": "서울 종로구 우정국로 26",
+   "lat": 37.57188858492207,
+   "lng": 126.9835749364385,
+   "place_url": "http://place.map.kakao.com/517442171",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10405822",
+   "area": "jongno-jonggak",
+   "name": "반쥴",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 삼일대로17길 23",
+   "lat": 37.5690615964593,
+   "lng": 126.986190337567,
+   "place_url": "http://place.map.kakao.com/10405822",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1440347564",
+   "area": "jongno-jonggak",
+   "name": "커피한약방",
+   "cat": "커피전문점",
+   "addr": "서울 중구 삼일대로12길 16-6",
+   "lat": 37.566564293688046,
+   "lng": 126.9886017493288,
+   "place_url": "http://place.map.kakao.com/1440347564",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2070879433",
+   "area": "jongno-jonggak",
+   "name": "히어로보드게임카페 종로점",
+   "cat": "히어로보드게임카페",
+   "addr": "서울 종로구 종로 78",
+   "lat": 37.5698796829043,
+   "lng": 126.986041900824,
+   "place_url": "http://place.map.kakao.com/2070879433",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1784996243",
+   "area": "jongno-jonggak",
+   "name": "스타벅스 종로R점",
+   "cat": "스타벅스",
+   "addr": "서울 종로구 종로 51",
+   "lat": 37.57078754872737,
+   "lng": 126.98343141859559,
+   "place_url": "http://place.map.kakao.com/1784996243",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27187492",
+   "area": "jongno-jonggak",
+   "name": "포비 광화문점",
+   "cat": "포비",
+   "addr": "서울 종로구 종로3길 17",
+   "lat": 37.570995859341494,
+   "lng": 126.9789148169238,
+   "place_url": "http://place.map.kakao.com/27187492",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1959516004",
+   "area": "jongno-jonggak",
+   "name": "플리퍼스 익선점",
+   "cat": "디저트카페",
+   "addr": "서울 종로구 수표로28길 31",
+   "lat": 37.5730804295386,
+   "lng": 126.990119900781,
+   "place_url": "http://place.map.kakao.com/1959516004",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k127029191",
+   "area": "jongno-jonggak",
+   "name": "코튼 서울",
+   "cat": "카페",
+   "addr": "서울 종로구 인사동12길 17",
+   "lat": 37.5747413144454,
+   "lng": 126.984921420242,
+   "place_url": "http://place.map.kakao.com/127029191",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1601,6 +2277,153 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k78911659",
+   "area": "jongno-ikseon",
+   "name": "청수당 베이커리",
+   "cat": "디저트카페",
+   "addr": "서울 종로구 돈화문로11나길 31-9",
+   "lat": 37.57388138546145,
+   "lng": 126.98978471926921,
+   "place_url": "http://place.map.kakao.com/78911659",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26404597",
+   "area": "jongno-ikseon",
+   "name": "식물",
+   "cat": "테마카페",
+   "addr": "서울 종로구 돈화문로11다길 46-1",
+   "lat": 37.5737687492763,
+   "lng": 126.989648893361,
+   "place_url": "http://place.map.kakao.com/26404597",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1154772851",
+   "area": "jongno-ikseon",
+   "name": "프릳츠 원서점",
+   "cat": "디저트카페",
+   "addr": "서울 종로구 율곡로 83",
+   "lat": 37.57764652305364,
+   "lng": 126.98849590984979,
+   "place_url": "http://place.map.kakao.com/1154772851",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1620441418",
+   "area": "jongno-ikseon",
+   "name": "레인리포트 레인보우",
+   "cat": "카페",
+   "addr": "서울 종로구 수표로28길 33-7",
+   "lat": 37.573430014419,
+   "lng": 126.99010627053,
+   "place_url": "http://place.map.kakao.com/1620441418",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1982729295",
+   "area": "jongno-ikseon",
+   "name": "파이키",
+   "cat": "북카페",
+   "addr": "서울 종로구 서순라길 81",
+   "lat": 37.57388969099967,
+   "lng": 126.9923883471516,
+   "place_url": "http://place.map.kakao.com/1982729295",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k853028118",
+   "area": "jongno-ikseon",
+   "name": "어니언 안국",
+   "cat": "카페",
+   "addr": "서울 종로구 계동길 5",
+   "lat": 37.57763190416756,
+   "lng": 126.98657365849033,
+   "place_url": "http://place.map.kakao.com/853028118",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k499490341",
+   "area": "jongno-ikseon",
+   "name": "온지심",
+   "cat": "카페",
+   "addr": "서울 종로구 돈화문로11다길 17",
+   "lat": 37.57315795194294,
+   "lng": 126.99057042715269,
+   "place_url": "http://place.map.kakao.com/499490341",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k27306859",
    "area": "jongno-hyehwa",
    "name": "정돈 대학로점",
@@ -1874,6 +2697,321 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k704583232",
+   "area": "jongno-hyehwa",
+   "name": "벌툰 대학로점",
+   "cat": "벌툰",
+   "addr": "서울 종로구 대학로10길 26",
+   "lat": 37.5816005866323,
+   "lng": 127.0037133843,
+   "place_url": "http://place.map.kakao.com/704583232",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1394932219",
+   "area": "jongno-hyehwa",
+   "name": "레드버튼 대학로점",
+   "cat": "레드버튼",
+   "addr": "서울 종로구 대명길 9",
+   "lat": 37.58337740040577,
+   "lng": 127.00095101126414,
+   "place_url": "http://place.map.kakao.com/1394932219",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8143287",
+   "area": "jongno-hyehwa",
+   "name": "학림다방",
+   "cat": "카페",
+   "addr": "서울 종로구 대학로 119",
+   "lat": 37.581950218926636,
+   "lng": 127.00165744513413,
+   "place_url": "http://place.map.kakao.com/8143287",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1902998466",
+   "area": "jongno-hyehwa",
+   "name": "홈즈앤루팡24 오티티 보드게임 플러스 대학로점",
+   "cat": "홈즈앤루팡",
+   "addr": "서울 종로구 창경궁로 236",
+   "lat": 37.5826439898206,
+   "lng": 126.998833890485,
+   "place_url": "http://place.map.kakao.com/1902998466",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1670739315",
+   "area": "jongno-hyehwa",
+   "name": "커피한약방 혜화점",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 동숭2길 9",
+   "lat": 37.5808563261382,
+   "lng": 127.004812634,
+   "place_url": "http://place.map.kakao.com/1670739315",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1880651051",
+   "area": "jongno-hyehwa",
+   "name": "캣툰 대학로점",
+   "cat": "캣툰",
+   "addr": "서울 종로구 대학로 146",
+   "lat": 37.584248647302,
+   "lng": 127.002029979844,
+   "place_url": "http://place.map.kakao.com/1880651051",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1067900892",
+   "area": "jongno-hyehwa",
+   "name": "칠린",
+   "cat": "카페",
+   "addr": "서울 종로구 대학로11길 41-8",
+   "lat": 37.5821700712676,
+   "lng": 126.999361474177,
+   "place_url": "http://place.map.kakao.com/1067900892",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2116856688",
+   "area": "jongno-hyehwa",
+   "name": "에그마카슈 대학로점",
+   "cat": "디저트카페",
+   "addr": "서울 종로구 대학로12길 13",
+   "lat": 37.58275028846154,
+   "lng": 127.00239788685879,
+   "place_url": "http://place.map.kakao.com/2116856688",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27321598",
+   "area": "jongno-hyehwa",
+   "name": "카페다오",
+   "cat": "카페",
+   "addr": "서울 종로구 대학로14길 19",
+   "lat": 37.58420629083754,
+   "lng": 127.00253605815597,
+   "place_url": "http://place.map.kakao.com/27321598",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15419388",
+   "area": "jongno-hyehwa",
+   "name": "학림카페",
+   "cat": "카페",
+   "addr": "서울 종로구 대학로9길 23",
+   "lat": 37.581499732149574,
+   "lng": 127.00061474541329,
+   "place_url": "http://place.map.kakao.com/15419388",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8108237",
+   "area": "jongno-hyehwa",
+   "name": "가비아노",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 대학로 122",
+   "lat": 37.58203309964388,
+   "lng": 127.00229597162439,
+   "place_url": "http://place.map.kakao.com/8108237",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1877004477",
+   "area": "jongno-hyehwa",
+   "name": "일월일일",
+   "cat": "디저트카페",
+   "addr": "서울 종로구 창경궁로 231",
+   "lat": 37.5826529891593,
+   "lng": 126.998034595765,
+   "place_url": "http://place.map.kakao.com/1877004477",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1223984349",
+   "area": "jongno-hyehwa",
+   "name": "서화커피",
+   "cat": "카페",
+   "addr": "서울 종로구 대학로9가길 8",
+   "lat": 37.58159343708794,
+   "lng": 127.00002264258504,
+   "place_url": "http://place.map.kakao.com/1223984349",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1761099960",
+   "area": "jongno-hyehwa",
+   "name": "에디션엠",
+   "cat": "커피전문점",
+   "addr": "서울 종로구 대학로11길 17-2",
+   "lat": 37.5821457430079,
+   "lng": 127.000863821,
+   "place_url": "http://place.map.kakao.com/1761099960",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1822481162",
+   "area": "jongno-hyehwa",
+   "name": "카페랑솜",
+   "cat": "카페",
+   "addr": "서울 종로구 대학로11길 22",
+   "lat": 37.5823322510486,
+   "lng": 127.000430213367,
+   "place_url": "http://place.map.kakao.com/1822481162",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k10635098",
    "area": "jongno-seochon",
    "name": "영화루",
@@ -2115,6 +3253,174 @@
    "place_url": "http://place.map.kakao.com/1151300196",
    "good": null,
    "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1429224581",
+   "area": "jongno-seochon",
+   "name": "아키비스트",
+   "cat": "카페",
+   "addr": "서울 종로구 효자로13길 52",
+   "lat": 37.58221195892894,
+   "lng": 126.97267017402979,
+   "place_url": "http://place.map.kakao.com/1429224581",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1508329235",
+   "area": "jongno-seochon",
+   "name": "스태픽스",
+   "cat": "카페",
+   "addr": "서울 종로구 사직로9길 22",
+   "lat": 37.5774769385374,
+   "lng": 126.967908167278,
+   "place_url": "http://place.map.kakao.com/1508329235",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1882706147",
+   "area": "jongno-seochon",
+   "name": "대충유원지 인왕산",
+   "cat": "카페",
+   "addr": "서울 종로구 필운대로 46",
+   "lat": 37.5800936700638,
+   "lng": 126.968821786222,
+   "place_url": "http://place.map.kakao.com/1882706147",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k876466056",
+   "area": "jongno-seochon",
+   "name": "이도림 블로트커피X베이크",
+   "cat": "카페",
+   "addr": "서울 종로구 자하문로 43",
+   "lat": 37.5799320658288,
+   "lng": 126.971079269096,
+   "place_url": "http://place.map.kakao.com/876466056",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2134782133",
+   "area": "jongno-seochon",
+   "name": "헤르만의정원",
+   "cat": "카페",
+   "addr": "서울 종로구 자하문로7길 62",
+   "lat": 37.58005775199594,
+   "lng": 126.96928596464126,
+   "place_url": "http://place.map.kakao.com/2134782133",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k85503217",
+   "area": "jongno-seochon",
+   "name": "통인스윗",
+   "cat": "디저트카페",
+   "addr": "서울 종로구 자하문로7길 50",
+   "lat": 37.5796433856467,
+   "lng": 126.969637085757,
+   "place_url": "http://place.map.kakao.com/85503217",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k18454377",
+   "area": "jongno-seochon",
+   "name": "대오서점",
+   "cat": "카페",
+   "addr": "서울 종로구 자하문로7길 55",
+   "lat": 37.579747815438,
+   "lng": 126.969306469781,
+   "place_url": "http://place.map.kakao.com/18454377",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k14095755",
+   "area": "jongno-seochon",
+   "name": "사직동그가게",
+   "cat": "카페",
+   "addr": "서울 종로구 사직로9길 18",
+   "lat": 37.57708677198367,
+   "lng": 126.96777588359174,
+   "place_url": "http://place.map.kakao.com/14095755",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -2441,6 +3747,321 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k953386352",
+   "area": "mapo-hongdae",
+   "name": "레드버튼 홍대점",
+   "cat": "레드버튼",
+   "addr": "서울 마포구 홍익로 19",
+   "lat": 37.5540084192114,
+   "lng": 126.922613551217,
+   "place_url": "http://place.map.kakao.com/953386352",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2134411175",
+   "area": "mapo-hongdae",
+   "name": "벌툰 봉화당 홍대입구역점",
+   "cat": "벌툰",
+   "addr": "서울 마포구 어울마당로 137",
+   "lat": 37.5564499530999,
+   "lng": 126.925146143059,
+   "place_url": "http://place.map.kakao.com/2134411175",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k354755930",
+   "area": "mapo-hongdae",
+   "name": "벌툰 인더스트리얼 홍대본점",
+   "cat": "벌툰",
+   "addr": "서울 마포구 독막로7길 63",
+   "lat": 37.550604561853106,
+   "lng": 126.92007762539521,
+   "place_url": "http://place.map.kakao.com/354755930",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k13623634",
+   "area": "mapo-hongdae",
+   "name": "히어로보드게임카페 홍대1호점",
+   "cat": "히어로보드게임카페",
+   "addr": "서울 마포구 와우산로21길 31-10",
+   "lat": 37.55209599632931,
+   "lng": 126.92184598443768,
+   "place_url": "http://place.map.kakao.com/13623634",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k205320302",
+   "area": "mapo-hongdae",
+   "name": "히어로보드게임카페 홍대2호점",
+   "cat": "히어로보드게임카페",
+   "addr": "서울 마포구 홍익로6길 15",
+   "lat": 37.55534916196303,
+   "lng": 126.92270270334447,
+   "place_url": "http://place.map.kakao.com/205320302",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1479788174",
+   "area": "mapo-hongdae",
+   "name": "레드버튼 레이어드 홍대점",
+   "cat": "레드버튼",
+   "addr": "서울 마포구 홍익로3길 44",
+   "lat": 37.5526020758834,
+   "lng": 126.921422203806,
+   "place_url": "http://place.map.kakao.com/1479788174",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1265568839",
+   "area": "mapo-hongdae",
+   "name": "놀숲 프리미엄홍대점",
+   "cat": "놀숲",
+   "addr": "서울 마포구 와우산로21길 31",
+   "lat": 37.5522899275144,
+   "lng": 126.92217397074651,
+   "place_url": "http://place.map.kakao.com/1265568839",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1493237095",
+   "area": "mapo-hongdae",
+   "name": "홈즈앤루팡 홍대점",
+   "cat": "홈즈앤루팡",
+   "addr": "서울 마포구 홍익로3길 8",
+   "lat": 37.5541414020202,
+   "lng": 126.922058874058,
+   "place_url": "http://place.map.kakao.com/1493237095",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1995359429",
+   "area": "mapo-hongdae",
+   "name": "캣툰 홍대점",
+   "cat": "캣툰",
+   "addr": "서울 마포구 어울마당로 74",
+   "lat": 37.5515597603811,
+   "lng": 126.921631526217,
+   "place_url": "http://place.map.kakao.com/1995359429",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k53292857",
+   "area": "mapo-hongdae",
+   "name": "943킹스크로스",
+   "cat": "테마카페",
+   "addr": "서울 마포구 양화로16길 24",
+   "lat": 37.552989095652656,
+   "lng": 126.92080954986005,
+   "place_url": "http://place.map.kakao.com/53292857",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k32375674",
+   "area": "mapo-hongdae",
+   "name": "데블다이스 홍대점",
+   "cat": "데블다이스",
+   "addr": "서울 마포구 어울마당로 116",
+   "lat": 37.5549495465089,
+   "lng": 126.923358385336,
+   "place_url": "http://place.map.kakao.com/32375674",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k38787979",
+   "area": "mapo-hongdae",
+   "name": "홈즈앤루팡24 오티티 보드게임 플러스 연남점",
+   "cat": "홈즈앤루팡",
+   "addr": "서울 마포구 동교로38안길 24",
+   "lat": 37.5621469970776,
+   "lng": 126.925210617354,
+   "place_url": "http://place.map.kakao.com/38787979",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15985522",
+   "area": "mapo-hongdae",
+   "name": "이미커피",
+   "cat": "커피전문점",
+   "addr": "서울 마포구 동교로25길 7",
+   "lat": 37.55747500027613,
+   "lng": 126.92191959031598,
+   "place_url": "http://place.map.kakao.com/15985522",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1797970569",
+   "area": "mapo-hongdae",
+   "name": "카페공명 연남점",
+   "cat": "커피전문점",
+   "addr": "서울 마포구 연희로 11",
+   "lat": 37.5598708965573,
+   "lng": 126.926352615326,
+   "place_url": "http://place.map.kakao.com/1797970569",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15612278",
+   "area": "mapo-hongdae",
+   "name": "카페장쌤",
+   "cat": "카페",
+   "addr": "서울 마포구 와우산로29마길 5",
+   "lat": 37.5557374557051,
+   "lng": 126.926889731852,
+   "place_url": "http://place.map.kakao.com/15612278",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k396321384",
    "area": "seongdong-seongsu",
    "name": "밥플러스 성수역점",
@@ -2682,6 +4303,300 @@
    "place_url": "http://place.map.kakao.com/776967629",
    "good": null,
    "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1003023375",
+   "area": "seongdong-seongsu",
+   "name": "벌툰 성수점",
+   "cat": "벌툰",
+   "addr": "서울 성동구 아차산로 122",
+   "lat": 37.54387184227469,
+   "lng": 127.05747864732174,
+   "place_url": "http://place.map.kakao.com/1003023375",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1476449408",
+   "area": "seongdong-seongsu",
+   "name": "레드버튼 성수점",
+   "cat": "레드버튼",
+   "addr": "서울 성동구 연무장길 17",
+   "lat": 37.5437358671727,
+   "lng": 127.051454136678,
+   "place_url": "http://place.map.kakao.com/1476449408",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k65203",
+   "area": "seongdong-seongsu",
+   "name": "캣툰 성수점",
+   "cat": "캣툰",
+   "addr": "서울 성동구 연무장길 47",
+   "lat": 37.5427991551552,
+   "lng": 127.054733833885,
+   "place_url": "http://place.map.kakao.com/65203",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1019465165",
+   "area": "seongdong-seongsu",
+   "name": "히어로보드게임카페 성수점",
+   "cat": "히어로보드게임카페",
+   "addr": "서울 성동구 연무장7길 4",
+   "lat": 37.5430001371634,
+   "lng": 127.054606116199,
+   "place_url": "http://place.map.kakao.com/1019465165",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1128989913",
+   "area": "seongdong-seongsu",
+   "name": "성수동대림창고갤러리",
+   "cat": "갤러리카페",
+   "addr": "서울 성동구 성수이로 78",
+   "lat": 37.54171994709006,
+   "lng": 127.05624815815919,
+   "place_url": "http://place.map.kakao.com/1128989913",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1091304591",
+   "area": "seongdong-seongsu",
+   "name": "베통 성수",
+   "cat": "카페",
+   "addr": "서울 성동구 연무장7가길 8",
+   "lat": 37.54294488785,
+   "lng": 127.055226162255,
+   "place_url": "http://place.map.kakao.com/1091304591",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1302549042",
+   "area": "seongdong-seongsu",
+   "name": "로우키",
+   "cat": "카페",
+   "addr": "서울 성동구 연무장3길 6",
+   "lat": 37.5441908183721,
+   "lng": 127.05157665819107,
+   "place_url": "http://place.map.kakao.com/1302549042",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k497095814",
+   "area": "seongdong-seongsu",
+   "name": "서울형키즈카페 성수1가1동점",
+   "cat": "서울형키즈카페",
+   "addr": "서울 성동구 뚝섬로3길 18",
+   "lat": 37.54202923056365,
+   "lng": 127.0496855129745,
+   "place_url": "http://place.map.kakao.com/497095814",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k804984272",
+   "area": "seongdong-seongsu",
+   "name": "브루잉세레모니",
+   "cat": "커피전문점",
+   "addr": "서울 성동구 연무장5가길 22-1",
+   "lat": 37.5432845888473,
+   "lng": 127.055174361552,
+   "place_url": "http://place.map.kakao.com/804984272",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k145791269",
+   "area": "seongdong-seongsu",
+   "name": "어니언 성수",
+   "cat": "카페",
+   "addr": "서울 성동구 아차산로9길 8",
+   "lat": 37.54476077567393,
+   "lng": 127.05819900951983,
+   "place_url": "http://place.map.kakao.com/145791269",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1501931765",
+   "area": "seongdong-seongsu",
+   "name": "천상가옥",
+   "cat": "카페",
+   "addr": "서울 성동구 성수이로14길 14",
+   "lat": 37.54140788470683,
+   "lng": 127.05690873210554,
+   "place_url": "http://place.map.kakao.com/1501931765",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1038283810",
+   "area": "seongdong-seongsu",
+   "name": "마를리",
+   "cat": "카페",
+   "addr": "서울 성동구 연무장길 47",
+   "lat": 37.5427802289338,
+   "lng": 127.054745135469,
+   "place_url": "http://place.map.kakao.com/1038283810",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1872567121",
+   "area": "seongdong-seongsu",
+   "name": "따우전드 성수점",
+   "cat": "커피전문점",
+   "addr": "서울 성동구 연무장1길 7",
+   "lat": 37.5446418617135,
+   "lng": 127.050316399829,
+   "place_url": "http://place.map.kakao.com/1872567121",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1494998512",
+   "area": "seongdong-seongsu",
+   "name": "본지르르 성수점",
+   "cat": "카페",
+   "addr": "서울 성동구 광나루로4가길 13",
+   "lat": 37.5493431509406,
+   "lng": 127.05464695574,
+   "place_url": "http://place.map.kakao.com/1494998512",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

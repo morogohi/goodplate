@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k7970465",
@@ -119,6 +119,78 @@
      "title": "행궁동 1박2일, 둘째 날은 이 코스로 | 성곽길 아침 산책 → 옥상 테라스 → 점심 로우파이브",
      "url": "https://www.youtube.com/watch?v=EUaKW2GhAfU",
      "date": "2026-11-06",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k439941325",
+   "area": "suwon-haenggung",
+   "name": "츄플러스",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 화서문로45번길 26",
+   "lat": 37.2864829225592,
+   "lng": 127.012663992997,
+   "place_url": "http://place.map.kakao.com/439941325",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "행궁동 80년 노포,통닭골목 혼술까지 나 혼자!🍗나홀로 수원 나들이",
+     "url": "https://www.youtube.com/watch?v=y0OM30sTuCI",
+     "date": "2026-11-11",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "✶ 행궁동 VLOG ✶ 츄플러스 I 브리셀프라이 I 행궁동분좋카 I 행궁동맛집 I 행궁동코스 I 행궁동코스추천",
+     "url": "https://www.youtube.com/watch?v=RKgY_rL37Cw",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1266415615",
+   "area": "suwon-haenggung",
+   "name": "본지르르",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 정조로 838",
+   "lat": 37.282816095761,
+   "lng": 127.016689047409,
+   "place_url": "http://place.map.kakao.com/1266415615",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "(저장•공유)서촌갈때 이대로 ㄱㄱ🔥맛집•소품샵•카페•야장주점까지🍁서촌 7시간 코스 #서촌 #서촌브이로그 #본지르르 #미라벨 #ofr서울 #레드망",
+     "url": "https://www.youtube.com/watch?v=FvXQRsDN8yw",
+     "date": "2026-11-12",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "서촌🍁완벽풀코스 낋여옴!🔥이대로만 가면 성공함 | 맛집•소품샵•디저트•야장술집까지 #서촌 #서촌브이로그 #본지르르 #ofr서울 #서촌주점 #미라",
+     "url": "https://www.youtube.com/watch?v=Ov8bXeSa3wc",
+     "date": "2026-11-02",
      "sponsored": false
     }
    ],
@@ -410,6 +482,279 @@
    "place_url": "http://place.map.kakao.com/26018235",
    "good": null,
    "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k351534262",
+   "area": "suwon-haenggung",
+   "name": "보드게임카페 레드버튼 수원행궁점",
+   "cat": "레드버튼",
+   "addr": "경기 수원시 팔달구 정조로841번길 10",
+   "lat": 37.2833658657214,
+   "lng": 127.015694584566,
+   "place_url": "http://place.map.kakao.com/351534262",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2063783633",
+   "area": "suwon-haenggung",
+   "name": "홈즈앤루팡24 오티티 보드게임 플러스 수원행궁점",
+   "cat": "홈즈앤루팡",
+   "addr": "경기 수원시 팔달구 화서문로45번길 17",
+   "lat": 37.2861234310552,
+   "lng": 127.012447416718,
+   "place_url": "http://place.map.kakao.com/2063783633",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1236788802",
+   "area": "suwon-haenggung",
+   "name": "홍라드 행궁본점",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 정조로 844-1",
+   "lat": 37.28350001923865,
+   "lng": 127.0164411157548,
+   "place_url": "http://place.map.kakao.com/1236788802",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k951061862",
+   "area": "suwon-haenggung",
+   "name": "매트그린",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 화서문로45번길 8",
+   "lat": 37.285726030545646,
+   "lng": 127.01284429523899,
+   "place_url": "http://place.map.kakao.com/951061862",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k324805118",
+   "area": "suwon-haenggung",
+   "name": "디애트모스",
+   "cat": "커피전문점",
+   "addr": "경기 수원시 팔달구 화서문로31번길 9-8",
+   "lat": 37.2855514382261,
+   "lng": 127.010744526987,
+   "place_url": "http://place.map.kakao.com/324805118",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1484782596",
+   "area": "suwon-haenggung",
+   "name": "패터슨카페",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 화서문로 33",
+   "lat": 37.28510263597251,
+   "lng": 127.01164209045231,
+   "place_url": "http://place.map.kakao.com/1484782596",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k764598426",
+   "area": "suwon-haenggung",
+   "name": "르븨밀크 수원행궁점",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 신풍로 55",
+   "lat": 37.2860710195865,
+   "lng": 127.013810781549,
+   "place_url": "http://place.map.kakao.com/764598426",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21227998",
+   "area": "suwon-haenggung",
+   "name": "시인과농부",
+   "cat": "전통찻집",
+   "addr": "경기 수원시 팔달구 정조로796번길 8",
+   "lat": 37.278929852266,
+   "lng": 127.017107649243,
+   "place_url": "http://place.map.kakao.com/21227998",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k506457577",
+   "area": "suwon-haenggung",
+   "name": "버터앤츄 행궁본점",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 화서문로45번길 9",
+   "lat": 37.2856999191258,
+   "lng": 127.01267062787079,
+   "place_url": "http://place.map.kakao.com/506457577",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1188686187",
+   "area": "suwon-haenggung",
+   "name": "몽테드",
+   "cat": "디저트카페",
+   "addr": "경기 수원시 팔달구 화서문로48번길 14",
+   "lat": 37.2847708429672,
+   "lng": 127.013616585135,
+   "place_url": "http://place.map.kakao.com/1188686187",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1083255647",
+   "area": "suwon-haenggung",
+   "name": "공간상점 1",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 화서문로41번길 26",
+   "lat": 37.286334325489875,
+   "lng": 127.01194901210721,
+   "place_url": "http://place.map.kakao.com/1083255647",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1110332114",
+   "area": "suwon-haenggung",
+   "name": "스타벅스 수원화성행궁점",
+   "cat": "스타벅스",
+   "addr": "경기 수원시 팔달구 정조로841번길 10",
+   "lat": 37.2833487495723,
+   "lng": 127.015667517501,
+   "place_url": "http://place.map.kakao.com/1110332114",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1250586703",
+   "area": "suwon-haenggung",
+   "name": "텀어스",
+   "cat": "카페",
+   "addr": "경기 수원시 팔달구 창룡대로 20",
+   "lat": 37.2816984889351,
+   "lng": 127.018809856963,
+   "place_url": "http://place.map.kakao.com/1250586703",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

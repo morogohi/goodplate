@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k1545071550",
@@ -247,6 +247,49 @@
    ],
    "kw": [],
    "last": 13,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1789651401",
+   "area": "gangneung",
+   "name": "말랑곳간",
+   "cat": "디저트카페",
+   "addr": "강원특별자치도 강릉시 중앙시장길 16",
+   "lat": 37.7534323895104,
+   "lng": 128.898230821429,
+   "place_url": "http://place.map.kakao.com/1789651401",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 3,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "강릉 중앙시장 가면 이건 무조건 사야됨.😋빵보다 부드럽고 떡보다 쫄깃한 식감은한번 맛 보면 무조건 반하는 맛🌟#강릉여행#강릉중앙시장#강릉디저트#",
+     "url": "https://www.youtube.com/watch?v=xb2BZQFVnck",
+     "date": "2026-11-13",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "강릉 말랑곳간 요즘은 웨이팅 덜함. 카스테라인절미 맛있음",
+     "url": "https://www.youtube.com/watch?v=9PiICxKVWz0",
+     "date": "2026-11-11",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "“저는 여기 갑니다” 사장님이 알려주는 강릉 저녁 맛집",
+     "url": "https://www.youtube.com/watch?v=jj94y8xnIu8",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -512,6 +555,300 @@
    "place_url": "http://place.map.kakao.com/878842690",
    "good": null,
    "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1043406437",
+   "area": "gangneung",
+   "name": "툇마루 중앙시장",
+   "cat": "카페",
+   "addr": "강원특별자치도 강릉시 중앙시장2길 6",
+   "lat": 37.7517388169801,
+   "lng": 128.89565633811446,
+   "place_url": "http://place.map.kakao.com/1043406437",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9123791",
+   "area": "gangneung",
+   "name": "100년임당방앗간",
+   "cat": "카페",
+   "addr": "강원특별자치도 강릉시 경강로2095번길 7",
+   "lat": 37.75512070621615,
+   "lng": 128.8954805593097,
+   "place_url": "http://place.map.kakao.com/9123791",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1004538025",
+   "area": "gangneung",
+   "name": "강릉이래요",
+   "cat": "디저트카페",
+   "addr": "강원특별자치도 강릉시 금성로 21",
+   "lat": 37.7542402803726,
+   "lng": 128.898688289327,
+   "place_url": "http://place.map.kakao.com/1004538025",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10037301",
+   "area": "gangneung",
+   "name": "테라로사 임당점",
+   "cat": "테라로사",
+   "addr": "강원특별자치도 강릉시 문화의길 9",
+   "lat": 37.7549333659331,
+   "lng": 128.894358188612,
+   "place_url": "http://place.map.kakao.com/10037301",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k17812364",
+   "area": "gangneung",
+   "name": "봉봉방앗간",
+   "cat": "커피전문점",
+   "addr": "강원특별자치도 강릉시 경강로2024번길 17-1",
+   "lat": 37.7510367510744,
+   "lng": 128.892425377761,
+   "place_url": "http://place.map.kakao.com/17812364",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1797604176",
+   "area": "gangneung",
+   "name": "오버웨잇 강릉본점",
+   "cat": "카페",
+   "addr": "강원특별자치도 강릉시 금성로23번길 11",
+   "lat": 37.7531808520405,
+   "lng": 128.898914218238,
+   "place_url": "http://place.map.kakao.com/1797604176",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1096368710",
+   "area": "gangneung",
+   "name": "지베이스",
+   "cat": "테마카페",
+   "addr": "강원특별자치도 강릉시 금성로56번길 6",
+   "lat": 37.7524709463063,
+   "lng": 128.895112275979,
+   "place_url": "http://place.map.kakao.com/1096368710",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1037506521",
+   "area": "gangneung",
+   "name": "베베딸",
+   "cat": "디저트카페",
+   "addr": "강원특별자치도 강릉시 임영로164번길 16-2",
+   "lat": 37.75587989370686,
+   "lng": 128.89325338158264,
+   "place_url": "http://place.map.kakao.com/1037506521",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k623626442",
+   "area": "gangneung",
+   "name": "정커피 임당점",
+   "cat": "카페",
+   "addr": "강원특별자치도 강릉시 토성로164번길 3",
+   "lat": 37.7559192177081,
+   "lng": 128.894673798487,
+   "place_url": "http://place.map.kakao.com/623626442",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k834519035",
+   "area": "gangneung",
+   "name": "리도커피",
+   "cat": "커피전문점",
+   "addr": "강원특별자치도 강릉시 경강로2115번길 12",
+   "lat": 37.7567893324057,
+   "lng": 128.897199005826,
+   "place_url": "http://place.map.kakao.com/834519035",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26410055",
+   "area": "gangneung",
+   "name": "스타벅스 강릉중앙점",
+   "cat": "스타벅스",
+   "addr": "강원특별자치도 강릉시 경강로 2097",
+   "lat": 37.75497344417105,
+   "lng": 128.8962347197954,
+   "place_url": "http://place.map.kakao.com/26410055",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1756385488",
+   "area": "gangneung",
+   "name": "카페106",
+   "cat": "카페",
+   "addr": "강원특별자치도 강릉시 금성로13번길 17",
+   "lat": 37.753279948329,
+   "lng": 128.900143235522,
+   "place_url": "http://place.map.kakao.com/1756385488",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11844674",
+   "area": "gangneung",
+   "name": "명주배롱",
+   "cat": "커피전문점",
+   "addr": "강원특별자치도 강릉시 경강로2046번길 10",
+   "lat": 37.7508206267027,
+   "lng": 128.892869151884,
+   "place_url": "http://place.map.kakao.com/11844674",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k896194271",
+   "area": "gangneung",
+   "name": "시로울",
+   "cat": "카페",
+   "addr": "강원특별자치도 강릉시 대학길 12",
+   "lat": 37.754083819913404,
+   "lng": 128.89626533260773,
+   "place_url": "http://place.map.kakao.com/896194271",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

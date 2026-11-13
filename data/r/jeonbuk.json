@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k15482458",
@@ -102,6 +102,85 @@
    ],
    "kw": [],
    "last": 7,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1851904708",
+   "area": "jeonju-hanok",
+   "name": "평화와평화",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 전라감영4길 16-7",
+   "lat": 35.81705181156164,
+   "lng": 127.14487752027989,
+   "place_url": "http://place.map.kakao.com/1851904708",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "[vlog]1박2일 전주여행 🌳 | 또간집 맛집 • 또순이네 • 평화와평화• 전주수목원 • 한벽터널 •오짱 • 전주한옥마을• 현대옥 •플랫메이트",
+     "url": "https://www.youtube.com/watch?v=9ahbnOka2XE",
+     "date": "2026-11-12",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1712272678",
+   "area": "jeonju-hanok",
+   "name": "이르리",
+   "cat": "디저트카페",
+   "addr": "전북특별자치도 전주시 완산구 은행로 69",
+   "lat": 35.813796504416764,
+   "lng": 127.15284613383284,
+   "place_url": "http://place.map.kakao.com/1712272678",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 4,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전주한옥마을카페 중 제일 넓은 한옥카페, 이르리 가봤습니더",
+     "url": "https://www.youtube.com/watch?v=CHOLGbeiT3A",
+     "date": "2026-11-13",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "전주한옥마을에서 가장 넓은 한옥카페 이르리 무화과크로플 디저트 맛집",
+     "url": "https://www.youtube.com/watch?v=Du7x7ujHpHw",
+     "date": "2026-11-12",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "전주 한옥마을에 이런 카페가? 분위기부터 디저트까지 완벽했던 곳!",
+     "url": "https://www.youtube.com/watch?v=jAlMBgil-T0",
+     "date": "2026-11-11",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "전주한옥마을 여행 중 꼭 들러야 할 감성 한옥카페 🤎",
+     "url": "https://www.youtube.com/watch?v=fBJ5xO4ZYO4",
+     "date": "2026-11-07",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -388,6 +467,279 @@
    "place_url": "http://place.map.kakao.com/14594702",
    "good": null,
    "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k902174089",
+   "area": "jeonju-hanok",
+   "name": "차경",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 경기전길 61",
+   "lat": 35.81672829756763,
+   "lng": 127.15071060171813,
+   "place_url": "http://place.map.kakao.com/902174089",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k12146320",
+   "area": "jeonju-hanok",
+   "name": "외할머니솜씨",
+   "cat": "전통찻집",
+   "addr": "전북특별자치도 전주시 완산구 오목대길 81-8",
+   "lat": 35.81273583198496,
+   "lng": 127.15204743360002,
+   "place_url": "http://place.map.kakao.com/12146320",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8771337",
+   "area": "jeonju-hanok",
+   "name": "교동다원",
+   "cat": "전통찻집",
+   "addr": "전북특별자치도 전주시 완산구 은행로 65-5",
+   "lat": 35.8142108905077,
+   "lng": 127.152998518931,
+   "place_url": "http://place.map.kakao.com/8771337",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1595025887",
+   "area": "jeonju-hanok",
+   "name": "전주한옥마을 전망대카페",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 어진길 15",
+   "lat": 35.8177714990302,
+   "lng": 127.15391714954,
+   "place_url": "http://place.map.kakao.com/1595025887",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1602164487",
+   "area": "jeonju-hanok",
+   "name": "만추",
+   "cat": "커피전문점",
+   "addr": "전북특별자치도 전주시 완산구 팔달로 138",
+   "lat": 35.8148330069634,
+   "lng": 127.148489570263,
+   "place_url": "http://place.map.kakao.com/1602164487",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1118951922",
+   "area": "jeonju-hanok",
+   "name": "라스트위크",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 풍남문4길 25-22",
+   "lat": 35.81467342750949,
+   "lng": 127.144842217278,
+   "place_url": "http://place.map.kakao.com/1118951922",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26785714",
+   "area": "jeonju-hanok",
+   "name": "스타벅스 전주한옥마을점",
+   "cat": "스타벅스",
+   "addr": "전북특별자치도 전주시 완산구 팔달로 123",
+   "lat": 35.8134450138835,
+   "lng": 127.148531245728,
+   "place_url": "http://place.map.kakao.com/26785714",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1996228583",
+   "area": "jeonju-hanok",
+   "name": "오유",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 전동성당길 33-6",
+   "lat": 35.8174232328472,
+   "lng": 127.149214755966,
+   "place_url": "http://place.map.kakao.com/1996228583",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1091339070",
+   "area": "jeonju-hanok",
+   "name": "마시랑게",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 전동성당길 100",
+   "lat": 35.8145063079703,
+   "lng": 127.148847470352,
+   "place_url": "http://place.map.kakao.com/1091339070",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8678642",
+   "area": "jeonju-hanok",
+   "name": "행원",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 풍남문3길 12",
+   "lat": 35.814423101451,
+   "lng": 127.147621306222,
+   "place_url": "http://place.map.kakao.com/8678642",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10429669",
+   "area": "jeonju-hanok",
+   "name": "삼양다방",
+   "cat": "다방",
+   "addr": "전북특별자치도 전주시 완산구 동문길 94",
+   "lat": 35.8182321209637,
+   "lng": 127.14884557231,
+   "place_url": "http://place.map.kakao.com/10429669",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25408707",
+   "area": "jeonju-hanok",
+   "name": "꽃가마",
+   "cat": "디저트카페",
+   "addr": "전북특별자치도 전주시 완산구 경기전길 167",
+   "lat": 35.8120061576901,
+   "lng": 127.151772743861,
+   "place_url": "http://place.map.kakao.com/25408707",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k379587767",
+   "area": "jeonju-hanok",
+   "name": "더마시랑게",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 전동성당길 88",
+   "lat": 35.8151219566208,
+   "lng": 127.148776695874,
+   "place_url": "http://place.map.kakao.com/379587767",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

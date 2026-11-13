@@ -1,10 +1,10 @@
 {
  "sample": false,
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "regions": {
   "seoul": {
    "name": "서울",
-   "count": 116,
+   "count": 205,
    "good": 0,
    "areas": {
     "jongno-gwanghwamun": {
@@ -46,7 +46,7 @@
   },
   "busan": {
    "name": "부산",
-   "count": 32,
+   "count": 62,
    "good": 0,
    "areas": {
     "nampo": {
@@ -63,7 +63,7 @@
   },
   "daegu": {
    "name": "대구",
-   "count": 18,
+   "count": 33,
    "good": 0,
    "areas": {
     "dongseongno": {
@@ -75,7 +75,7 @@
   },
   "incheon": {
    "name": "인천",
-   "count": 17,
+   "count": 32,
    "good": 0,
    "areas": {
     "gaehang": {
@@ -87,7 +87,7 @@
   },
   "gwangju": {
    "name": "광주",
-   "count": 17,
+   "count": 32,
    "good": 0,
    "areas": {
     "chungjang": {
@@ -99,7 +99,7 @@
   },
   "daejeon": {
    "name": "대전",
-   "count": 17,
+   "count": 32,
    "good": 0,
    "areas": {
     "eunhaeng": {
@@ -111,7 +111,7 @@
   },
   "ulsan": {
    "name": "울산",
-   "count": 16,
+   "count": 31,
    "good": 0,
    "areas": {
     "seongnam": {
@@ -123,7 +123,7 @@
   },
   "sejong": {
    "name": "세종",
-   "count": 16,
+   "count": 31,
    "good": 0,
    "areas": {
     "jochiwon": {
@@ -135,7 +135,7 @@
   },
   "gyeonggi": {
    "name": "경기",
-   "count": 18,
+   "count": 33,
    "good": 0,
    "areas": {
     "suwon-haenggung": {
@@ -147,7 +147,7 @@
   },
   "gangwon": {
    "name": "강원",
-   "count": 21,
+   "count": 36,
    "good": 0,
    "areas": {
     "gangneung": {
@@ -159,7 +159,7 @@
   },
   "chungbuk": {
    "name": "충북",
-   "count": 16,
+   "count": 31,
    "good": 0,
    "areas": {
     "cheongju": {
@@ -171,7 +171,7 @@
   },
   "chungnam": {
    "name": "충남",
-   "count": 17,
+   "count": 32,
    "good": 0,
    "areas": {
     "gongju": {
@@ -183,7 +183,7 @@
   },
   "jeonbuk": {
    "name": "전북",
-   "count": 17,
+   "count": 32,
    "good": 0,
    "areas": {
     "jeonju-hanok": {
@@ -195,7 +195,7 @@
   },
   "jeonnam": {
    "name": "전남",
-   "count": 18,
+   "count": 33,
    "good": 0,
    "areas": {
     "yeosu": {
@@ -207,7 +207,7 @@
   },
   "gyeongbuk": {
    "name": "경북",
-   "count": 17,
+   "count": 32,
    "good": 0,
    "areas": {
     "gyeongju": {
@@ -219,7 +219,7 @@
   },
   "gyeongnam": {
    "name": "경남",
-   "count": 16,
+   "count": 31,
    "good": 0,
    "areas": {
     "tongyeong": {
@@ -231,7 +231,7 @@
   },
   "jeju": {
    "name": "제주",
-   "count": 33,
+   "count": 63,
    "good": 0,
    "areas": {
     "jeju-city": {

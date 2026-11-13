@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -374,6 +374,321 @@
    "place_url": "http://place.map.kakao.com/7895185",
    "good": null,
    "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k453352716",
+   "area": "chungjang",
+   "name": "레드버튼 충장로점",
+   "cat": "레드버튼",
+   "addr": "전남광주통합특별시 동구 중앙로160번길 31-6",
+   "lat": 35.1465011232536,
+   "lng": 126.916365594652,
+   "place_url": "http://place.map.kakao.com/453352716",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2041950836",
+   "area": "chungjang",
+   "name": "데블다이스 충장로점",
+   "cat": "데블다이스",
+   "addr": "전남광주통합특별시 동구 충장로 94-5",
+   "lat": 35.14740397822229,
+   "lng": 126.91722832745205,
+   "place_url": "http://place.map.kakao.com/2041950836",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k325063027",
+   "area": "chungjang",
+   "name": "홈즈앤루팡 광주충장로점",
+   "cat": "홈즈앤루팡",
+   "addr": "전남광주통합특별시 동구 중앙로160번길 21",
+   "lat": 35.1471412059668,
+   "lng": 126.915235715328,
+   "place_url": "http://place.map.kakao.com/325063027",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k761956849",
+   "area": "chungjang",
+   "name": "손탁앤아이허",
+   "cat": "카페",
+   "addr": "전남광주통합특별시 동구 제봉로138번길 8",
+   "lat": 35.150377027330826,
+   "lng": 126.92184335855943,
+   "place_url": "http://place.map.kakao.com/761956849",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1969815297",
+   "area": "chungjang",
+   "name": "티앗",
+   "cat": "카페",
+   "addr": "전남광주통합특별시 동구 동명로14번길 12",
+   "lat": 35.1500000421055,
+   "lng": 126.924342586092,
+   "place_url": "http://place.map.kakao.com/1969815297",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k911467809",
+   "area": "chungjang",
+   "name": "러너펍 광주구시청점",
+   "cat": "러너펍",
+   "addr": "전남광주통합특별시 동구 문화전당로35번길 17",
+   "lat": 35.1451054888247,
+   "lng": 126.917202122931,
+   "place_url": "http://place.map.kakao.com/911467809",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k24839815",
+   "area": "chungjang",
+   "name": "소맥베이커리",
+   "cat": "카페",
+   "addr": "전남광주통합특별시 동구 문화전당로26번길 10-2",
+   "lat": 35.14511501595872,
+   "lng": 126.92066432418093,
+   "place_url": "http://place.map.kakao.com/24839815",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11441733",
+   "area": "chungjang",
+   "name": "캔모아 충장로2호점",
+   "cat": "생과일전문점",
+   "addr": "전남광주통합특별시 동구 중앙로 170",
+   "lat": 35.148907095122205,
+   "lng": 126.91412987608314,
+   "place_url": "http://place.map.kakao.com/11441733",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2116137905",
+   "area": "chungjang",
+   "name": "카페소뇨",
+   "cat": "카페",
+   "addr": "전남광주통합특별시 동구 장동로 21",
+   "lat": 35.148323418354956,
+   "lng": 126.92419488934983,
+   "place_url": "http://place.map.kakao.com/2116137905",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1609600817",
+   "area": "chungjang",
+   "name": "반가사유",
+   "cat": "카페",
+   "addr": "전남광주통합특별시 동구 백서로153번길 6",
+   "lat": 35.1435556119992,
+   "lng": 126.921978270151,
+   "place_url": "http://place.map.kakao.com/1609600817",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1649888912",
+   "area": "chungjang",
+   "name": "츄룹",
+   "cat": "카페",
+   "addr": "전남광주통합특별시 동구 문화전당로35번길 3",
+   "lat": 35.1455544927336,
+   "lng": 126.918719342792,
+   "place_url": "http://place.map.kakao.com/1649888912",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k908861159",
+   "area": "chungjang",
+   "name": "아우스밀",
+   "cat": "디저트카페",
+   "addr": "전남광주통합특별시 동구 동명로25번길 4-1",
+   "lat": 35.15154608601661,
+   "lng": 126.92324369593565,
+   "place_url": "http://place.map.kakao.com/908861159",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k89414531",
+   "area": "chungjang",
+   "name": "카페꼼마 파랑새안과점",
+   "cat": "카페",
+   "addr": "전남광주통합특별시 동구 문화전당로26번길 6",
+   "lat": 35.144866818772186,
+   "lng": 126.92017294354758,
+   "place_url": "http://place.map.kakao.com/89414531",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k815850982",
+   "area": "chungjang",
+   "name": "투썸플레이스 금남로케이엔타워점",
+   "cat": "투썸플레이스",
+   "addr": "전남광주통합특별시 동구 금남로 220",
+   "lat": 35.149440267786964,
+   "lng": 126.91608493755402,
+   "place_url": "http://place.map.kakao.com/815850982",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k880653192",
+   "area": "chungjang",
+   "name": "더홀릭 보드게임카페 광주충장로점",
+   "cat": "보드카페",
+   "addr": "전남광주통합특별시 동구 중앙로160번길 12-1",
+   "lat": 35.1474452609684,
+   "lng": 126.914375035354,
+   "place_url": "http://place.map.kakao.com/880653192",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

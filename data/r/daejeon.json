@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -475,6 +475,321 @@
    "place_url": "http://place.map.kakao.com/10594540",
    "good": null,
    "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k457559512",
+   "area": "eunhaeng",
+   "name": "벌툰 몽유도원 대전은행점",
+   "cat": "벌툰",
+   "addr": "대전 중구 중앙로164번길 20",
+   "lat": 36.3283946291117,
+   "lng": 127.42793830797,
+   "place_url": "http://place.map.kakao.com/457559512",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k621490052",
+   "area": "eunhaeng",
+   "name": "레드버튼 대전은행점",
+   "cat": "레드버튼",
+   "addr": "대전 중구 중앙로164번길 7",
+   "lat": 36.3290410470667,
+   "lng": 127.428113357225,
+   "place_url": "http://place.map.kakao.com/621490052",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1519260481",
+   "area": "eunhaeng",
+   "name": "놀숲 대전은행점",
+   "cat": "놀숲",
+   "addr": "대전 중구 중앙로156번길 7",
+   "lat": 36.3286748234921,
+   "lng": 127.42720255464889,
+   "place_url": "http://place.map.kakao.com/1519260481",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2003584818",
+   "area": "eunhaeng",
+   "name": "홈즈앤루팡 대전은행점",
+   "cat": "홈즈앤루팡",
+   "addr": "대전 중구 중앙로156번길 10",
+   "lat": 36.3285245349867,
+   "lng": 127.426892119441,
+   "place_url": "http://place.map.kakao.com/2003584818",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1328180335",
+   "area": "eunhaeng",
+   "name": "땡큐베리머치",
+   "cat": "디저트카페",
+   "addr": "대전 중구 중교로 49",
+   "lat": 36.32592645569062,
+   "lng": 127.42511832497128,
+   "place_url": "http://place.map.kakao.com/1328180335",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27539637",
+   "area": "eunhaeng",
+   "name": "커피맨션문장",
+   "cat": "커피전문점",
+   "addr": "대전 중구 대흥로139번길 10",
+   "lat": 36.324620723856235,
+   "lng": 127.42737197615298,
+   "place_url": "http://place.map.kakao.com/27539637",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k982183204",
+   "area": "eunhaeng",
+   "name": "카페뮤제",
+   "cat": "카페",
+   "addr": "대전 중구 대흥로121번길 44",
+   "lat": 36.3253827887815,
+   "lng": 127.424937183483,
+   "place_url": "http://place.map.kakao.com/982183204",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k23876960",
+   "area": "eunhaeng",
+   "name": "스타벅스 대전중앙로R점",
+   "cat": "스타벅스",
+   "addr": "대전 중구 대종로 486",
+   "lat": 36.3279580611042,
+   "lng": 127.42653709567,
+   "place_url": "http://place.map.kakao.com/23876960",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k517534479",
+   "area": "eunhaeng",
+   "name": "더홀릭보드게임카페 대전은행점",
+   "cat": "보드카페",
+   "addr": "대전 중구 중앙로 164",
+   "lat": 36.3290698081255,
+   "lng": 127.427631269486,
+   "place_url": "http://place.map.kakao.com/517534479",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11118902",
+   "area": "eunhaeng",
+   "name": "쌍리",
+   "cat": "카페",
+   "addr": "대전 중구 중앙로130번길 46",
+   "lat": 36.3261101179841,
+   "lng": 127.42516832487,
+   "place_url": "http://place.map.kakao.com/11118902",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1031817760",
+   "area": "eunhaeng",
+   "name": "대흥동커피",
+   "cat": "커피전문점",
+   "addr": "대전 중구 중앙로130번길 37-6",
+   "lat": 36.3264732671597,
+   "lng": 127.425428674506,
+   "place_url": "http://place.map.kakao.com/1031817760",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k361849729",
+   "area": "eunhaeng",
+   "name": "사무실카페",
+   "cat": "카페",
+   "addr": "대전 중구 대종로452번길 3",
+   "lat": 36.3252668088171,
+   "lng": 127.428143940415,
+   "place_url": "http://place.map.kakao.com/361849729",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1060009168",
+   "area": "eunhaeng",
+   "name": "정글비 대전은행점",
+   "cat": "정글비",
+   "addr": "대전 중구 중앙로164번길 28",
+   "lat": 36.3280238774041,
+   "lng": 127.428292669411,
+   "place_url": "http://place.map.kakao.com/1060009168",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k20245776",
+   "area": "eunhaeng",
+   "name": "안도르",
+   "cat": "카페",
+   "addr": "대전 중구 목척4길 4",
+   "lat": 36.33134782388686,
+   "lng": 127.42337243936194,
+   "place_url": "http://place.map.kakao.com/20245776",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8439658",
+   "area": "eunhaeng",
+   "name": "스타벅스 은행동점",
+   "cat": "스타벅스",
+   "addr": "대전 중구 중앙로 164",
+   "lat": 36.32908858505014,
+   "lng": 127.42767258011575,
+   "place_url": "http://place.map.kakao.com/8439658",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

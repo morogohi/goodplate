@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daegu",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k930928466",
@@ -418,6 +418,321 @@
    "place_url": "http://place.map.kakao.com/9252005",
    "good": null,
    "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1557051470",
+   "area": "dongseongno",
+   "name": "보드게임카페 레드버튼 동성로점",
+   "cat": "레드버튼",
+   "addr": "대구 중구 동성로5길 25",
+   "lat": 35.8680036309713,
+   "lng": 128.596055801069,
+   "place_url": "http://place.map.kakao.com/1557051470",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1864746639",
+   "area": "dongseongno",
+   "name": "벌툰 파리지앵 동성로중앙점",
+   "cat": "벌툰",
+   "addr": "대구 중구 동성로5길 26",
+   "lat": 35.86763214256938,
+   "lng": 128.59593653183146,
+   "place_url": "http://place.map.kakao.com/1864746639",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1175821885",
+   "area": "dongseongno",
+   "name": "놀숲 대구동성로점",
+   "cat": "놀숲",
+   "addr": "대구 중구 동성로6길 22",
+   "lat": 35.86883309311809,
+   "lng": 128.59656732427484,
+   "place_url": "http://place.map.kakao.com/1175821885",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1610277117",
+   "area": "dongseongno",
+   "name": "레드버튼 동성로2호점",
+   "cat": "레드버튼",
+   "addr": "대구 중구 동성로3길 62",
+   "lat": 35.8679921191576,
+   "lng": 128.598141375905,
+   "place_url": "http://place.map.kakao.com/1610277117",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k787053044",
+   "area": "dongseongno",
+   "name": "히어로보드게임카페 동성로점",
+   "cat": "히어로보드게임카페",
+   "addr": "대구 중구 동성로5길 50",
+   "lat": 35.8673285152024,
+   "lng": 128.597220221394,
+   "place_url": "http://place.map.kakao.com/787053044",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k322994796",
+   "area": "dongseongno",
+   "name": "홈즈앤루팡 동성로점",
+   "cat": "홈즈앤루팡",
+   "addr": "대구 중구 동성로1길 28",
+   "lat": 35.86618446600076,
+   "lng": 128.5949520794343,
+   "place_url": "http://place.map.kakao.com/322994796",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1663271436",
+   "area": "dongseongno",
+   "name": "홈즈앤루팡 동성로2호점",
+   "cat": "홈즈앤루팡",
+   "addr": "대구 중구 동성로5길 52",
+   "lat": 35.8672670979816,
+   "lng": 128.597366233677,
+   "place_url": "http://place.map.kakao.com/1663271436",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7873915",
+   "area": "dongseongno",
+   "name": "미도다방",
+   "cat": "다방",
+   "addr": "대구 중구 진골목길 14",
+   "lat": 35.8680482963436,
+   "lng": 128.592691061827,
+   "place_url": "http://place.map.kakao.com/7873915",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1278136019",
+   "area": "dongseongno",
+   "name": "데블다이스 동성로2호점",
+   "cat": "데블다이스",
+   "addr": "대구 중구 동성로5길 31",
+   "lat": 35.86787637923712,
+   "lng": 128.59627356442877,
+   "place_url": "http://place.map.kakao.com/1278136019",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k902831734",
+   "area": "dongseongno",
+   "name": "데블다이스 동성로1호점",
+   "cat": "데블다이스",
+   "addr": "대구 중구 동성로5길 55",
+   "lat": 35.8675069116183,
+   "lng": 128.597629003921,
+   "place_url": "http://place.map.kakao.com/902831734",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k819667955",
+   "area": "dongseongno",
+   "name": "르폴뒤",
+   "cat": "디저트카페",
+   "addr": "대구 중구 동성로1길 26",
+   "lat": 35.8664366411727,
+   "lng": 128.594895136346,
+   "place_url": "http://place.map.kakao.com/819667955",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k715674526",
+   "area": "dongseongno",
+   "name": "넌테이블 본점",
+   "cat": "커피전문점",
+   "addr": "대구 중구 경상감영길 62",
+   "lat": 35.871443086471615,
+   "lng": 128.59084140599873,
+   "place_url": "http://place.map.kakao.com/715674526",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k946950605",
+   "area": "dongseongno",
+   "name": "스타벅스 대구종로고택점",
+   "cat": "스타벅스",
+   "addr": "대구 중구 중앙대로77길 22",
+   "lat": 35.8684287839178,
+   "lng": 128.592471717341,
+   "place_url": "http://place.map.kakao.com/946950605",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25051379",
+   "area": "dongseongno",
+   "name": "티클래스",
+   "cat": "카페",
+   "addr": "대구 중구 동성로2길 87",
+   "lat": 35.8698865946822,
+   "lng": 128.597036855352,
+   "place_url": "http://place.map.kakao.com/25051379",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1496525260",
+   "area": "dongseongno",
+   "name": "롤러커피",
+   "cat": "카페",
+   "addr": "대구 중구 달구벌대로414길 36",
+   "lat": 35.86449504411073,
+   "lng": 128.5893607410422,
+   "place_url": "http://place.map.kakao.com/1496525260",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

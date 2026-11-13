@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongbuk",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k9935399",
@@ -118,6 +118,35 @@
      "src": "yt",
      "title": "경주 여행 브이로그)사진 진심인 여자랑 먹는거 진심인 남자가 간 1박2일 경주여행🍂| 오아르미술관,십원빵,녹음제과 성공,술술방앗간,이가네떡볶이,",
      "url": "https://www.youtube.com/watch?v=TQ6TjUoJzQc",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k13101482",
+   "area": "gyeongju",
+   "name": "커피플레이스",
+   "cat": "카페",
+   "addr": "경북 경주시 중앙로 18",
+   "lat": 35.841436092258704,
+   "lng": 129.21179744929205,
+   "place_url": "http://place.map.kakao.com/13101482",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "🇰🇷 먹으러 간 경주 당일치기 (ft. 운곡서원 은행나무)",
+     "url": "https://www.youtube.com/watch?v=ongJj8NMIHA",
      "date": "2026-11-13",
      "sponsored": false
     }
@@ -389,6 +418,300 @@
    "place_url": "http://place.map.kakao.com/2023623666",
    "good": null,
    "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k213453321",
+   "area": "gyeongju",
+   "name": "놀숲 경주노동점",
+   "cat": "놀숲",
+   "addr": "경북 경주시 원효로 106",
+   "lat": 35.84188597162067,
+   "lng": 129.2124683879669,
+   "place_url": "http://place.map.kakao.com/213453321",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k154069571",
+   "area": "gyeongju",
+   "name": "청수당 경주",
+   "cat": "카페",
+   "addr": "경북 경주시 첨성로81번길 21-1",
+   "lat": 35.83496704871482,
+   "lng": 129.21079343525574,
+   "place_url": "http://place.map.kakao.com/154069571",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k730708466",
+   "area": "gyeongju",
+   "name": "향미사",
+   "cat": "커피전문점",
+   "addr": "경북 경주시 태종로 734",
+   "lat": 35.83905696451933,
+   "lng": 129.20838947636537,
+   "place_url": "http://place.map.kakao.com/730708466",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k24994872",
+   "area": "gyeongju",
+   "name": "스타벅스 경주대릉원점",
+   "cat": "스타벅스",
+   "addr": "경북 경주시 첨성로 125",
+   "lat": 35.8340500195735,
+   "lng": 129.214987136254,
+   "place_url": "http://place.map.kakao.com/24994872",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k684936409",
+   "area": "gyeongju",
+   "name": "스컹크웍스",
+   "cat": "카페",
+   "addr": "경북 경주시 포석로 1058-3",
+   "lat": 35.83559727503051,
+   "lng": 129.2100374563482,
+   "place_url": "http://place.map.kakao.com/684936409",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1968403670",
+   "area": "gyeongju",
+   "name": "빛꾸리",
+   "cat": "전통찻집",
+   "addr": "경북 경주시 손효자길 16-1",
+   "lat": 35.83751738563956,
+   "lng": 129.2106750030969,
+   "place_url": "http://place.map.kakao.com/1968403670",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k523596256",
+   "area": "gyeongju",
+   "name": "신라당 경주",
+   "cat": "카페",
+   "addr": "경북 경주시 사정로57번길 15",
+   "lat": 35.8378809716256,
+   "lng": 129.209131468052,
+   "place_url": "http://place.map.kakao.com/523596256",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1550261336",
+   "area": "gyeongju",
+   "name": "가배향주",
+   "cat": "카페",
+   "addr": "경북 경주시 포석로 1063",
+   "lat": 35.8360469283733,
+   "lng": 129.209447971619,
+   "place_url": "http://place.map.kakao.com/1550261336",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k599889357",
+   "area": "gyeongju",
+   "name": "양지다방",
+   "cat": "카페",
+   "addr": "경북 경주시 사정로57번길 7-2",
+   "lat": 35.8372704666191,
+   "lng": 129.209207485633,
+   "place_url": "http://place.map.kakao.com/599889357",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k451391415",
+   "area": "gyeongju",
+   "name": "노워즈 경주점",
+   "cat": "카페",
+   "addr": "경북 경주시 태종로 744",
+   "lat": 35.8392654553066,
+   "lng": 129.209497422902,
+   "place_url": "http://place.map.kakao.com/451391415",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k965551710",
+   "area": "gyeongju",
+   "name": "커피템플 경주",
+   "cat": "커피전문점",
+   "addr": "경북 경주시 태종로 812",
+   "lat": 35.8407856235333,
+   "lng": 129.216631873912,
+   "place_url": "http://place.map.kakao.com/965551710",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1225998161",
+   "area": "gyeongju",
+   "name": "가봉반과",
+   "cat": "카페",
+   "addr": "경북 경주시 첨성로 61-7",
+   "lat": 35.83359804265305,
+   "lng": 129.2088024444157,
+   "place_url": "http://place.map.kakao.com/1225998161",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1502845749",
+   "area": "gyeongju",
+   "name": "카페능",
+   "cat": "디저트카페",
+   "addr": "경북 경주시 포석로1068번길 3",
+   "lat": 35.8364577718658,
+   "lng": 129.209939612151,
+   "place_url": "http://place.map.kakao.com/1502845749",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k904444377",
+   "area": "gyeongju",
+   "name": "설월당",
+   "cat": "카페",
+   "addr": "경북 경주시 첨성로81번길 22-13",
+   "lat": 35.835079030668,
+   "lng": 129.212541545331,
+   "place_url": "http://place.map.kakao.com/904444377",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k16725331",
@@ -337,6 +337,321 @@
    "place_url": "http://place.map.kakao.com/26094293",
    "good": null,
    "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1218048641",
+   "area": "seongnam",
+   "name": "레드버튼 울산성남점",
+   "cat": "레드버튼",
+   "addr": "울산 중구 젊음의거리 44",
+   "lat": 35.5535716668112,
+   "lng": 129.319260029885,
+   "place_url": "http://place.map.kakao.com/1218048641",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k139686050",
+   "area": "seongnam",
+   "name": "홈즈앤루팡 울산성남점",
+   "cat": "홈즈앤루팡",
+   "addr": "울산 중구 젊음의거리 52",
+   "lat": 35.5536440634734,
+   "lng": 129.31971198411,
+   "place_url": "http://place.map.kakao.com/139686050",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2096295839",
+   "area": "seongnam",
+   "name": "카페머물다",
+   "cat": "카페",
+   "addr": "울산 중구 먹자거리 2-4",
+   "lat": 35.5545916684978,
+   "lng": 129.319540824509,
+   "place_url": "http://place.map.kakao.com/2096295839",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k277016212",
+   "area": "seongnam",
+   "name": "에낭",
+   "cat": "디저트카페",
+   "addr": "울산 중구 중앙3길 17",
+   "lat": 35.55466167978966,
+   "lng": 129.31665063930146,
+   "place_url": "http://place.map.kakao.com/277016212",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15741984",
+   "area": "seongnam",
+   "name": "숨",
+   "cat": "카페",
+   "addr": "울산 중구 중앙길 152",
+   "lat": 35.5561232323554,
+   "lng": 129.321799092909,
+   "place_url": "http://place.map.kakao.com/15741984",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k357203634",
+   "area": "seongnam",
+   "name": "모노크롬커피바",
+   "cat": "커피전문점",
+   "addr": "울산 중구 젊음의2거리 27",
+   "lat": 35.5532416537482,
+   "lng": 129.319552635403,
+   "place_url": "http://place.map.kakao.com/357203634",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k453587274",
+   "area": "seongnam",
+   "name": "무슈부부커피스탠드 울산점",
+   "cat": "카페",
+   "addr": "울산 중구 중앙길 61",
+   "lat": 35.5548673267325,
+   "lng": 129.317014915515,
+   "place_url": "http://place.map.kakao.com/453587274",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26421045",
+   "area": "seongnam",
+   "name": "그녀의커피잔",
+   "cat": "카페",
+   "addr": "울산 중구 젊음의거리 77",
+   "lat": 35.554221436153,
+   "lng": 129.321360511342,
+   "place_url": "http://place.map.kakao.com/26421045",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26575690",
+   "area": "seongnam",
+   "name": "앙뚜케이크",
+   "cat": "디저트카페",
+   "addr": "울산 중구 중앙길 107-1",
+   "lat": 35.5558451243128,
+   "lng": 129.319396118914,
+   "place_url": "http://place.map.kakao.com/26575690",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1779768797",
+   "area": "seongnam",
+   "name": "오브리움",
+   "cat": "카페",
+   "addr": "울산 중구 학성로 69-1",
+   "lat": 35.5548826378321,
+   "lng": 129.318654974364,
+   "place_url": "http://place.map.kakao.com/1779768797",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k81437046",
+   "area": "seongnam",
+   "name": "울산시립미술관 지관서가",
+   "cat": "북카페",
+   "addr": "울산 중구 미술관길 72",
+   "lat": 35.5577885862577,
+   "lng": 129.32066618004,
+   "place_url": "http://place.map.kakao.com/81437046",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21356727",
+   "area": "seongnam",
+   "name": "파스쿠찌 울산성남점",
+   "cat": "파스쿠찌",
+   "addr": "울산 중구 젊음의거리 29-1",
+   "lat": 35.55371121468683,
+   "lng": 129.3180952756783,
+   "place_url": "http://place.map.kakao.com/21356727",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1926897831",
+   "area": "seongnam",
+   "name": "투썸플레이스 울산성남점",
+   "cat": "투썸플레이스",
+   "addr": "울산 중구 만남의거리 15",
+   "lat": 35.554309730211834,
+   "lng": 129.32079961616842,
+   "place_url": "http://place.map.kakao.com/1926897831",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k443843527",
+   "area": "seongnam",
+   "name": "럭키714에스프레소바",
+   "cat": "카페",
+   "addr": "울산 중구 먹자거리 26",
+   "lat": 35.55462178781107,
+   "lng": 129.32087808098723,
+   "place_url": "http://place.map.kakao.com/443843527",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2124263931",
+   "area": "seongnam",
+   "name": "데미안 본점",
+   "cat": "카페",
+   "addr": "울산 중구 중앙길 130",
+   "lat": 35.5557516159573,
+   "lng": 129.320649337883,
+   "place_url": "http://place.map.kakao.com/2124263931",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

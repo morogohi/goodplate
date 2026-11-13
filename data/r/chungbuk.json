@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungbuk",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k25042020",
@@ -88,6 +88,64 @@
    ],
    "kw": [],
    "last": 8,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k876446141",
+   "area": "cheongju",
+   "name": "케이키",
+   "cat": "디저트카페",
+   "addr": "충북 청주시 상당구 상당로69번길 3",
+   "lat": 36.63430577496286,
+   "lng": 127.49034036497825,
+   "place_url": "http://place.map.kakao.com/876446141",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "청주성안길 케이크 맛집",
+     "url": "https://www.youtube.com/watch?v=aM-psa7yiG0",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k277329364",
+   "area": "cheongju",
+   "name": "태그원",
+   "cat": "카페",
+   "addr": "충북 청주시 상당구 상당로115번길 36",
+   "lat": 36.63865923539273,
+   "lng": 127.48789903944926,
+   "place_url": "http://place.map.kakao.com/277329364",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#청주맛집 # 비케케가든테라스 #청주데이트 #청주성안길레스토랑 #청주크리스마스 #태그원",
+     "url": "https://www.youtube.com/watch?v=zTpPl9vRzxA",
+     "date": "2026-11-02",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 12,
    "first_seen": "2026-11-14"
   },
   {
@@ -353,6 +411,279 @@
    "place_url": "http://place.map.kakao.com/15535807",
    "good": null,
    "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k776550801",
+   "area": "cheongju",
+   "name": "벌툰 몽유도원 청주성안길점",
+   "cat": "벌툰",
+   "addr": "충북 청주시 상당구 성안로 19-2",
+   "lat": 36.6349742240716,
+   "lng": 127.489290218957,
+   "place_url": "http://place.map.kakao.com/776550801",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2052885150",
+   "area": "cheongju",
+   "name": "레드버튼 청주성안길점",
+   "cat": "레드버튼",
+   "addr": "충북 청주시 상당구 상당로81번길 36",
+   "lat": 36.63567207510602,
+   "lng": 127.4883196271525,
+   "place_url": "http://place.map.kakao.com/2052885150",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k325616464",
+   "area": "cheongju",
+   "name": "홈즈앤루팡 청주성안길점",
+   "cat": "홈즈앤루팡",
+   "addr": "충북 청주시 상당구 상당로81번길 26",
+   "lat": 36.6356934863355,
+   "lng": 127.488811737095,
+   "place_url": "http://place.map.kakao.com/325616464",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k627177949",
+   "area": "cheongju",
+   "name": "비올라",
+   "cat": "디저트카페",
+   "addr": "충북 청주시 상당구 사직대로361번길 30",
+   "lat": 36.63826108530802,
+   "lng": 127.48764270609082,
+   "place_url": "http://place.map.kakao.com/627177949",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21400243",
+   "area": "cheongju",
+   "name": "어반브라운",
+   "cat": "디저트카페",
+   "addr": "충북 청주시 상당구 상당로81번길 44-10",
+   "lat": 36.6358535482681,
+   "lng": 127.48845494759,
+   "place_url": "http://place.map.kakao.com/21400243",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1413909143",
+   "area": "cheongju",
+   "name": "카페목간",
+   "cat": "카페",
+   "addr": "충북 청주시 상당구 상당로115번길 46",
+   "lat": 36.63856971156306,
+   "lng": 127.48753507091281,
+   "place_url": "http://place.map.kakao.com/1413909143",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k737840849",
+   "area": "cheongju",
+   "name": "키프키프",
+   "cat": "카페",
+   "addr": "충북 청주시 상당구 교서로 8-2",
+   "lat": 36.6373720683122,
+   "lng": 127.486664313677,
+   "place_url": "http://place.map.kakao.com/737840849",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k17884790",
+   "area": "cheongju",
+   "name": "스타벅스 청주서문점",
+   "cat": "스타벅스",
+   "addr": "충북 청주시 상당구 무심동로392번길 20",
+   "lat": 36.6353478474985,
+   "lng": 127.4860723968,
+   "place_url": "http://place.map.kakao.com/17884790",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k306789820",
+   "area": "cheongju",
+   "name": "폴앤주비",
+   "cat": "카페",
+   "addr": "충북 청주시 상당구 사직대로361번길 67",
+   "lat": 36.6399574489893,
+   "lng": 127.487094304616,
+   "place_url": "http://place.map.kakao.com/306789820",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2101842598",
+   "area": "cheongju",
+   "name": "모스아워",
+   "cat": "카페",
+   "addr": "충북 청주시 상당구 교서로 8-10",
+   "lat": 36.63739654618893,
+   "lng": 127.48706923767512,
+   "place_url": "http://place.map.kakao.com/2101842598",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2019389099",
+   "area": "cheongju",
+   "name": "미결의 미학",
+   "cat": "카페",
+   "addr": "충북 청주시 상당구 사직대로362번길 5",
+   "lat": 36.6364937763006,
+   "lng": 127.487690829448,
+   "place_url": "http://place.map.kakao.com/2019389099",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1446194807",
+   "area": "cheongju",
+   "name": "해호미",
+   "cat": "커피전문점",
+   "addr": "충북 청주시 서원구 사직대로 308-2",
+   "lat": 36.6359415687117,
+   "lng": 127.481665109708,
+   "place_url": "http://place.map.kakao.com/1446194807",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k242241035",
+   "area": "cheongju",
+   "name": "땡큐베리머치",
+   "cat": "카페",
+   "addr": "충북 청주시 상당구 사직대로 370",
+   "lat": 36.6366985461775,
+   "lng": 127.48851842488,
+   "place_url": "http://place.map.kakao.com/242241035",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,

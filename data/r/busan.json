@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-14T08:47+09:00",
+ "generated_at": "2026-11-14T08:56+09:00",
  "stores": [
   {
    "id": "k10070964",
@@ -181,6 +181,35 @@
    ],
    "kw": [],
    "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k68040813",
+   "area": "nampo",
+   "name": "그리다부부",
+   "cat": "커피전문점",
+   "addr": "부산 중구 광복중앙로 35-1",
+   "lat": 35.1025709749371,
+   "lng": 129.030703289741,
+   "place_url": "http://place.map.kakao.com/68040813",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "그리다부부 #일상기록 #맛집 #jmt #남포동#까페#그리다부부#웨이팅까페#까페맛집#남포동까페맛집#커피맛집#남포동커피맛집#케잌맛집#남포동웨이팅까페",
+     "url": "https://www.youtube.com/watch?v=KOEQagMUwPA",
+     "date": "2026-11-10",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -433,6 +462,300 @@
    "place_url": "http://place.map.kakao.com/14635584",
    "good": null,
    "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k213660927",
+   "area": "nampo",
+   "name": "레드버튼 남포점",
+   "cat": "레드버튼",
+   "addr": "부산 중구 광복로 38",
+   "lat": 35.0991224173525,
+   "lng": 129.029128661057,
+   "place_url": "http://place.map.kakao.com/213660927",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k663990938",
+   "area": "nampo",
+   "name": "레귤러하우스 남포점",
+   "cat": "카페",
+   "addr": "부산 중구 중구로40번길 22",
+   "lat": 35.10138602575658,
+   "lng": 129.03010587785124,
+   "place_url": "http://place.map.kakao.com/663990938",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1049103144",
+   "area": "nampo",
+   "name": "탑플로어",
+   "cat": "카페",
+   "addr": "부산 중구 구덕로48번길 4-1",
+   "lat": 35.09874211544656,
+   "lng": 129.03079690408575,
+   "place_url": "http://place.map.kakao.com/1049103144",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k539722966",
+   "area": "nampo",
+   "name": "오드이븐",
+   "cat": "카페",
+   "addr": "부산 중구 중구로29번길 7",
+   "lat": 35.1003466754933,
+   "lng": 129.02748569161,
+   "place_url": "http://place.map.kakao.com/539722966",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k815101936",
+   "area": "nampo",
+   "name": "류이즈커피바",
+   "cat": "커피전문점",
+   "addr": "부산 중구 남포길 6",
+   "lat": 35.0988485064243,
+   "lng": 129.029341174983,
+   "place_url": "http://place.map.kakao.com/815101936",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k19041969",
+   "area": "nampo",
+   "name": "바우노바커피",
+   "cat": "커피전문점",
+   "addr": "부산 중구 광복로97번길 6",
+   "lat": 35.09916839791382,
+   "lng": 129.03552252058736,
+   "place_url": "http://place.map.kakao.com/19041969",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21554492",
+   "area": "nampo",
+   "name": "클라우드밤",
+   "cat": "카페",
+   "addr": "부산 중구 비프광장로 12-1",
+   "lat": 35.09836362233308,
+   "lng": 129.02665147335816,
+   "place_url": "http://place.map.kakao.com/21554492",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k225089771",
+   "area": "nampo",
+   "name": "스타벅스 자갈치역점",
+   "cat": "스타벅스",
+   "addr": "부산 중구 구덕로 54-1",
+   "lat": 35.0983254287316,
+   "lng": 129.029795321484,
+   "place_url": "http://place.map.kakao.com/225089771",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1141988",
+   "area": "nampo",
+   "name": "투썸플레이스 부산남포점",
+   "cat": "투썸플레이스",
+   "addr": "부산 중구 구덕로 40",
+   "lat": 35.098314355178104,
+   "lng": 129.03153191926924,
+   "place_url": "http://place.map.kakao.com/1141988",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1584632298",
+   "area": "nampo",
+   "name": "쿠오리노",
+   "cat": "카페",
+   "addr": "부산 중구 대청로126번길 35",
+   "lat": 35.0997925795154,
+   "lng": 129.034468925904,
+   "place_url": "http://place.map.kakao.com/1584632298",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1230336841",
+   "area": "nampo",
+   "name": "아인스크레페",
+   "cat": "디저트카페",
+   "addr": "부산 중구 광복로 69",
+   "lat": 35.0990005319957,
+   "lng": 129.03263779168256,
+   "place_url": "http://place.map.kakao.com/1230336841",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1819165067",
+   "area": "nampo",
+   "name": "심심푸리 남포본점",
+   "cat": "만화카페",
+   "addr": "부산 중구 비프광장로 37",
+   "lat": 35.0985001392048,
+   "lng": 129.029479471696,
+   "place_url": "http://place.map.kakao.com/1819165067",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2071981011",
+   "area": "nampo",
+   "name": "바우노바 백산점",
+   "cat": "커피전문점",
+   "addr": "부산 중구 백산길 9",
+   "lat": 35.1020914566527,
+   "lng": 129.034362677625,
+   "place_url": "http://place.map.kakao.com/2071981011",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k24707342",
+   "area": "nampo",
+   "name": "용호동할매팥빙수 남포1호점",
+   "cat": "디저트카페",
+   "addr": "부산 중구 구덕로84번길 7",
+   "lat": 35.0979440144309,
+   "lng": 129.02630774733,
+   "place_url": "http://place.map.kakao.com/24707342",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -748,6 +1071,321 @@
    "place_url": "http://place.map.kakao.com/15555120",
    "good": null,
    "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1822809501",
+   "area": "haeundae",
+   "name": "홈즈앤루팡 해운대점",
+   "cat": "홈즈앤루팡",
+   "addr": "부산 해운대구 해운대해변로265번길 13",
+   "lat": 35.1607272642564,
+   "lng": 129.160822633594,
+   "place_url": "http://place.map.kakao.com/1822809501",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k892905972",
+   "area": "haeundae",
+   "name": "블랙업커피 해운대점",
+   "cat": "커피전문점",
+   "addr": "부산 해운대구 중동2로 16",
+   "lat": 35.1633307599834,
+   "lng": 129.164349280553,
+   "place_url": "http://place.map.kakao.com/892905972",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k371600532",
+   "area": "haeundae",
+   "name": "해운대옛날팥빙수단팥죽",
+   "cat": "디저트카페",
+   "addr": "부산 해운대구 해운대해변로 329-6",
+   "lat": 35.1628282833594,
+   "lng": 129.165639608661,
+   "place_url": "http://place.map.kakao.com/371600532",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1538461447",
+   "area": "haeundae",
+   "name": "오프온",
+   "cat": "카페",
+   "addr": "부산 해운대구 우동1로38번길 12",
+   "lat": 35.165262131889264,
+   "lng": 129.1583286770982,
+   "place_url": "http://place.map.kakao.com/1538461447",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k285841321",
+   "area": "haeundae",
+   "name": "워킹홀리데이 해운대",
+   "cat": "카페",
+   "addr": "부산 해운대구 해운대해변로 277",
+   "lat": 35.1598877813127,
+   "lng": 129.161558661074,
+   "place_url": "http://place.map.kakao.com/285841321",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k170158027",
+   "area": "haeundae",
+   "name": "브레이크아웃이스케이프 해운대본점",
+   "cat": "테마카페",
+   "addr": "부산 해운대구 해운대해변로 291",
+   "lat": 35.1606997562049,
+   "lng": 129.162515066175,
+   "place_url": "http://place.map.kakao.com/170158027",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k966102752",
+   "area": "haeundae",
+   "name": "보노베리 해운대점",
+   "cat": "카페",
+   "addr": "부산 해운대구 중동1로 25-2",
+   "lat": 35.16297455216571,
+   "lng": 129.16259834927524,
+   "place_url": "http://place.map.kakao.com/966102752",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1870791005",
+   "area": "haeundae",
+   "name": "은쏨",
+   "cat": "카페",
+   "addr": "부산 해운대구 우동1로38번길 2",
+   "lat": 35.164726666749,
+   "lng": 129.1574289440808,
+   "place_url": "http://place.map.kakao.com/1870791005",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k281604918",
+   "area": "haeundae",
+   "name": "부산바다샌드 해운대본점",
+   "cat": "디저트카페",
+   "addr": "부산 해운대구 우동1로20번길 21",
+   "lat": 35.16427044459771,
+   "lng": 129.15774610019386,
+   "place_url": "http://place.map.kakao.com/281604918",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1142159570",
+   "area": "haeundae",
+   "name": "금송덕미 해운대 해리단길점",
+   "cat": "디저트카페",
+   "addr": "부산 해운대구 우동1로38번가길 19",
+   "lat": 35.164849334931496,
+   "lng": 129.15853504590473,
+   "place_url": "http://place.map.kakao.com/1142159570",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7975172",
+   "area": "haeundae",
+   "name": "스타벅스 하버타운점",
+   "cat": "스타벅스",
+   "addr": "부산 해운대구 해운대해변로 257",
+   "lat": 35.1597225815149,
+   "lng": 129.159908332386,
+   "place_url": "http://place.map.kakao.com/7975172",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k287869523",
+   "area": "haeundae",
+   "name": "오설록 티하우스 해운대점",
+   "cat": "오설록 티하우스",
+   "addr": "부산 해운대구 구남로 36-1",
+   "lat": 35.16089487588882,
+   "lng": 129.16082267914075,
+   "place_url": "http://place.map.kakao.com/287869523",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1858799779",
+   "area": "haeundae",
+   "name": "로우앤스윗 해운대카페",
+   "cat": "커피전문점",
+   "addr": "부산 해운대구 우동1로38번가길 1",
+   "lat": 35.165106339679,
+   "lng": 129.15806996757365,
+   "place_url": "http://place.map.kakao.com/1858799779",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1428144856",
+   "area": "haeundae",
+   "name": "코오리마찌",
+   "cat": "디저트카페",
+   "addr": "부산 해운대구 우동1로20번가길 31",
+   "lat": 35.16624176054153,
+   "lng": 129.15837432498716,
+   "place_url": "http://place.map.kakao.com/1428144856",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k393169109",
+   "area": "haeundae",
+   "name": "파리앤케이크",
+   "cat": "카페",
+   "addr": "부산 해운대구 해운대해변로298번길 9",
+   "lat": 35.1609312284556,
+   "lng": 129.164690596732,
+   "place_url": "http://place.map.kakao.com/393169109",
+   "good": null,
+   "emoji": "☕",
    "src": {
     "yt": 0,
     "blog": 0,
