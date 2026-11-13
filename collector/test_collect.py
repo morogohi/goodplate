@@ -68,6 +68,13 @@ def run():
     g = st["착한백반집"]   # 카카오 반경에 없던 착한가격업소 → 주소 검색으로 추가, 언급 없어도 유지
     assert g["good"] == "price" and g["price"] == 7000 and g["emoji"] == "🍚"
     assert json.loads((tmp / "geocache.json").read_text(encoding="utf-8")), "좌표 캐시 저장"
+    # 네이버 키 없는 모드: 언급 없는 일반 가게도 지역 상위 순위면 남는다
+    os.environ.pop("NAVER_CLIENT_ID"); os.environ.pop("NAVER_CLIENT_SECRET")
+    collect.main()
+    j2 = json.loads((tmp / "r" / "seoul.json").read_text(encoding="utf-8"))
+    st2 = {s["name"]: s for s in j2["stores"]}
+    assert "조용한식당" in st2 and st2["조용한식당"]["src"] == {"yt": 0, "blog": 0, "insta": 0}, "네이버 없을 때 카카오 상위 가게 유지"
+    assert st2["테스트국밥 종로점"]["src"]["yt"] == 1 and "rank" not in st2["조용한식당"], "유튜브 유지·내부 순위 필드 제거"
     collect.load_csv = real_csv
     print("ALL PASS", s["src"], s["kw"], s["price"], g["name"])
 

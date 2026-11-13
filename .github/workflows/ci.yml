@@ -18,3 +18,4 @@ jobs:
           python -m http.server 8765 >/dev/null 2>&1 &
           sleep 1
           python tests/e2e_regress.py http://localhost:8765
+          python tests/e2e_map.py http://localhost:8765

@@ -6,6 +6,8 @@
 <meta name="theme-color" content="#F6F4F0">
 <meta name="description" content="전국 착한가게와 맛집, 여행코스를 내 위치 기준으로 찾는 무료 공익 서비스">
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<script src="vendor/leaflet/leaflet.js" defer></script>
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -122,6 +124,12 @@ a{color:inherit}
 /* map */
 .map{margin:0 18px;height:250px;border-radius:var(--r);overflow:hidden;background:#EFEBE4;box-shadow:var(--sh);position:relative}
 .map svg{width:100%;height:100%;display:block}
+.map.real{height:320px}
+.map{isolation:isolate;z-index:0}  /* Leaflet 내부 z-index(400~1000)가 시트·내비 위로 올라오지 않게 */
+.map .leaflet-container{width:100%;height:100%;font-family:inherit;background:#EFEBE4}
+.lpin{width:32px;height:32px;border-radius:50%;background:#fff;border:2.6px solid #E8613C;display:grid;place-items:center;font-size:16px;box-shadow:0 2px 6px rgba(0,0,0,.18);cursor:pointer}
+.lme{width:18px;height:18px;border-radius:50%;background:#16181D;border:3.5px solid #fff;box-shadow:0 0 0 6px rgba(31,111,92,.18)}
+.leaflet-control-attribution{font-size:10px!important;background:rgba(255,255,255,.8)!important}
 .legend{display:flex;gap:12px;font-size:11.5px;color:var(--sub);padding:10px 18px 0}
 .legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:0}
 .collect{margin:14px 18px 0;display:flex;align-items:center;gap:12px;background:var(--surface);border-radius:16px;padding:12px 14px;border:1px solid var(--line)}
@@ -377,7 +385,7 @@ function storeRow(s){
     <div class="ph" style="background:${s.bg}">${s.last===0?'<span class="newb">NEW</span>':''}${s.emoji}</div>
     <div class="si"><div class="r1"><span class="nm">${esc(s.name)}</span>${s.d!=null?`<span class="ds">${fD(s.d)}</span>`:''}</div>
     <div class="mn">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>`:esc(s.addr||s.cat)}</div>
-    <div class="srcline"><span><i style="color:var(--yt)">▶</i> ${s.src.yt}</span><span><i style="color:var(--blog)">B</i> ${s.src.blog}</span><span><i style="color:var(--insta)">◎</i> ${s.src.insta}</span>${s.last<99?`<span>· ${ago(s.last)} 언급</span>`:''}</div>
+    <div class="srcline">${s.src.yt+s.src.blog+s.src.insta===0?'<span>카카오맵 등록 가게 · 아직 언급 없음</span>':`<span><i style="color:var(--yt)">▶</i> ${s.src.yt}</span><span><i style="color:var(--blog)">B</i> ${s.src.blog}</span><span><i style="color:var(--insta)">◎</i> ${s.src.insta}</span>${s.last<99?`<span>· ${ago(s.last)} 언급</span>`:''}`}</div>
     <div class="bds">${badges(s)}</div></div></button>`;
 }
 function miniCard(s){
@@ -465,6 +473,28 @@ function filterSheet(){
   <div style="display:flex;gap:8px;margin-top:22px"><button class="btn ghost sm" data-fclear>초기화</button><button class="btn brand" data-fapply>${lbl}</button></div>
   <p class="note">목적은 업종·메뉴·가격과 블로그 키워드(분위기·단체·친절·혼밥 등)로 자동 분류해요. 가격 정보가 없는 가게는 예산 조건에서 빠져요.</p>`);
 }
+/* 실제 지도: Leaflet(저장소 내장) + CARTO 밝은 지도 타일. 타일이 안 오면(오프라인·차단) 모식도로 되돌린다 */
+let LMAP=null;S.mapFail=false;
+function realMap(arr){
+  const box=$('#mapBox');if(!box||!window.L||S.mapFail||navigator.onLine===false)return;
+  dropMap();
+  const c=area(),svgFallback=box.innerHTML;
+  box.innerHTML='<div id="lmap" style="width:100%;height:100%"></div>';box.classList.add('real');
+  const m=L.map('lmap',{zoomControl:false,attributionControl:true,zoomAnimation:false,fadeAnimation:false,markerZoomAnimation:false}).setView([c.lat,c.lng],15,{animate:false});
+  let ok=0,bad=0;
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:19,
+    attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>'})
+    .on('tileload',()=>ok++).on('tileerror',()=>{if(++bad>=6&&!ok){S.mapFail=true;dropMap();box.classList.remove('real');box.innerHTML=svgFallback}}).addTo(m);
+  const ring=L.circle([c.lat,c.lng],{radius:S.radius,color:'#1F6F5C',weight:1.5,opacity:.6,fillColor:'#1F6F5C',fillOpacity:.05,dashArray:'5 5'}).addTo(m);
+  L.marker([c.lat,c.lng],{icon:L.divIcon({className:'',html:'<div class="lme"></div>',iconSize:[18,18]}),interactive:false,keyboard:false}).addTo(m);
+  arr.forEach(s=>{const col=s.good?GOOD[s.good].c:'#E8613C';
+    L.marker([s.lat,s.lng],{title:s.name,alt:s.name,icon:L.divIcon({className:'',html:`<div class="lpin" style="border-color:${col}">${s.emoji}</div>`,iconSize:[32,32],iconAnchor:[16,16]})})
+      .on('click',()=>storeSheet(s.id,s.sido)).addTo(m)});
+  m.fitBounds(ring.getBounds(),{padding:[12,12],animate:false});
+  L.control.zoom({position:'bottomright'}).addTo(m);
+  m.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
+  LMAP=m;
+}
 function mapSvg(arr){
   const W=440,H=250,cx=W/2,cy=H/2,c=area(),sc=(H/2-20)/S.radius;
   let st='';for(let x=-W;x<W*2;x+=62)st+=`<line x1="${x}" y1="0" x2="${x+70}" y2="${H}" stroke="#E4DED4" stroke-width="8"/>`;
@@ -481,7 +511,7 @@ function vMap(){
   return `<section class="hero" style="padding-bottom:12px"><div class="eyebrow"><i></i>${esc(IDX.regions[S.sido].name)} · ${esc(area().name)}</div><h1 style="font-size:24px">내 주변 맛집 <em>${a.length}곳</em></h1></section>
   <div class="chips"><button class="chip ${S.useGps?'on':''}" data-gps>📍 내 위치</button><button class="chip ${fActive()?'on':''}" data-fopen>⚙ 맞춤${fActive()?' '+fLabel().length:''}</button><button class="chip g ${S.goodOnly?'on':''}" data-good>착한가게만</button>${[500,1000,3000].map(v=>`<button class="chip ${S.radius===v?'on':''}" data-radius="${v}">${fD(v)}</button>`).join('')}${[['dist','가까운순'],['buzz','화제순'],['new','최신 언급']].map(([k,l])=>`<button class="chip ${S.sort===k?'on':''}" data-sort="${k}">${l}</button>`).join('')}</div>
   ${fActive()?`<div class="pad pills" style="margin-top:10px">${fLabel().map(l=>`<span class="pill">${esc(l)}</span>`).join('')}<button class="clear" data-fclear>지우기</button></div>`:''}
-  <div class="map" style="margin-top:12px">${mapSvg(a)}</div>
+  <div class="map" id="mapBox" style="margin-top:12px">${mapSvg(a)}</div>
   <div class="legend"><span><i style="background:#1F6F5C"></i>착한가격업소</span><span><i style="background:#6B4FBB"></i>나눔가게</span><span><i style="background:#E8613C"></i>일반 맛집</span></div>
   ${collectBar()}
   <section class="sec"><div class="pad list">${a.length?a.map(storeRow).join(''):'</div><div class="empty">이 반경엔 아직 없어요. 반경을 넓혀 보세요.'}</div></section>`;
@@ -524,11 +554,14 @@ function renderNav(){
   const L={home:'홈',map:'지도',course:'여행코스',list:'내 리스트',brag:'뽐내기'};
   $('#nav').innerHTML=Object.entries(L).map(([k,l])=>`<button class="${S.tab===k?'on':''}" data-tab="${k}">${svg(k==='list'?'list':k)}${l}</button>`).join('');
 }
+function dropMap(){if(LMAP){try{LMAP.stop();LMAP.off();LMAP.remove()}catch(e){}LMAP=null}}
 function render(){
+  dropMap();
   $('#regionLabel').textContent=`${IDX.regions[S.sido].name} · ${area().name}`;
   renderNav();
   $('#view').innerHTML={home:vHome,map:vMap,course:vCourse,list:vList,brag:vBrag}[S.tab]();
   if(S.tab==='brag')bindBrag();
+  if(S.tab==='map')realMap(nearby());
   const q=$('#q');if(q){q.addEventListener('input',e=>{S.q=e.target.value;const pos=e.target.selectionStart;render();const n=$('#q');n.focus();n.setSelectionRange(pos,pos)})}
 }
 
@@ -563,6 +596,7 @@ async function storeSheet(id,sk){
   <div class="box"><h4>최근 언급 ${s.mentions.length}건</h4>${s.mentions.map(m=>`<div class="men"><span class="s" style="color:${SRC[m.src].c}">${SRC[m.src].n}</span><span class="t">${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)} ↗</a>`:esc(m.title)}${m.sponsored?' <span class="bd spon">협찬</span>':''}</span><span class="a">${ago(m.ago)}</span></div>`).join('')||'<p class="note">아직 언급이 없어요</p>'}
   <p class="note">${IDX.sample?'가상의 샘플 제목이에요. 실제 수집 데이터에선 누르면 원문으로 이동해요.':'원문은 저장하지 않고 링크로 연결해요.'}</p></div>
   ${s.good==='share'?`<div class="box" style="background:var(--share-soft);box-shadow:none"><h4 style="color:var(--share)">나눔 실천 가게</h4><p class="note" style="margin:0">결식아동 식사 나눔 등에 참여하는 가게예요. 아동 이용 안내는 전문 플랫폼으로 연결합니다.</p></div>`:''}
+  <a class="mini" style="display:inline-flex;margin-top:10px" target="_blank" rel="noopener" href="https://github.com/morogohi/goodplate/issues/new?title=${encodeURIComponent('[정보 수정] '+s.name)}&body=${encodeURIComponent(`가게: ${s.name}\n가게 ID: ${s.id}\n지역: ${IDX.regions[sk]?.name||''} ${IDX.regions[sk]?.areas[s.area]?.name||''}\n주소: ${s.addr||''}\n\n무엇이 다른가요? (예: 폐업, 가격 변경, 착한가게 지정·해제, 위치 오류)\n- `)}">✎ 정보가 달라요 · 수정 요청</a>
   <div class="box"><h4>내 메모</h4><input type="text" id="memo" data-mid="${s.id}" placeholder="예: 다음엔 수제비도 먹어보기" value="${esc(S.memos[s.id]||'')}"></div>
   <div style="display:flex;gap:8px;margin-top:14px"><a class="btn ghost" href="${esc(s.place_url||kmap(s.name))}" target="_blank" rel="noopener">지도에서 보기</a><button class="btn brand" data-gobrag="${s.id}" data-bsido="${sk}">이 가게 뽐내기</button></div>`);
   $('#memo').addEventListener('change',e=>{const v=e.target.value.trim();v?S.memos[s.id]=v:delete S.memos[s.id];persist();toast('메모를 저장했어요')});

@@ -110,6 +110,7 @@ def kakao_stores(key):
                     "addr": d.get("road_address_name") or d.get("address_name", ""),
                     "lat": float(d["y"]), "lng": float(d["x"]),
                     "place_url": d.get("place_url"),
+                    "rank": len([s for s in stores.values() if s["area"] == ak]),  # 카카오 정확도순 순위 (0부터)
                 }
             if j.get("meta", {}).get("is_end"):
                 break
@@ -348,10 +349,10 @@ def main():
             "first_seen": prev.get(s["id"], {}).get("first_seen", now.date().isoformat()),
         })
         s.pop("cat_full", None)
-    print(f"[naver] {blog_n}건")
+    print(f"[naver] {blog_n}건" if nid and nsec else "[naver] 키 없음 — 블로그 언급 없이 지역별 카카오 상위 가게를 함께 싣습니다")
 
     # 언급이 하나도 없는 일반 가게는 빼고, 착한가게는 언급이 없어도 남긴다
-    keep = [s for s in stores.values() if s["mentions"] or s["good"]]
+    keep = select_stores(stores.values(), naver=bool(nid and nsec))
     write_outputs(keep, now)
 
 
@@ -360,6 +361,25 @@ def _count(sk):
         return len(json.loads((DATA / "r" / f"{sk}.json").read_text(encoding="utf-8"))["stores"])
     except Exception:
         return 0
+
+
+KEEP_PER_AREA = 15   # 블로그 수집이 없을 때 지역마다 남길 카카오 상위 가게 수
+
+
+def select_stores(stores, naver):
+    """남길 가게 고르기.
+    - 언급(유튜브·블로그·인스타)이 있거나 착한가게면 항상 남긴다.
+    - 네이버 블로그 수집이 없으면 언급이 드물어 목록이 비므로, 지역별 카카오 상위 가게도 남긴다."""
+    stores = list(stores)
+    keep = {s["id"]: s for s in stores if s["mentions"] or s["good"]}
+    if not naver:
+        for s in stores:
+            if s.get("rank", 99) < KEEP_PER_AREA:
+                keep.setdefault(s["id"], s)
+    out = list(keep.values())
+    for s in out:
+        s.pop("rank", None)
+    return out
 
 
 def write_outputs(keep, now, sample=False):
