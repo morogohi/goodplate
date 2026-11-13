@@ -366,7 +366,8 @@ def _count(sk):
         return 0
 
 
-KEEP_PER_AREA = 15   # 블로그 수집이 없을 때 지역·분류(음식점/카페)마다 남길 카카오 상위 가게 수
+KEEP_PER_AREA = 15       # 블로그 수집이 없을 때 지역마다 남길 카카오 상위 음식점 수
+KEEP_CAFE_PER_AREA = 5   # 같은 조건의 카페 수 (코스 '쉼' 슬롯용, 맛집 목록이 카페로 넘치지 않게)
 
 
 def select_stores(stores, naver):
@@ -377,7 +378,7 @@ def select_stores(stores, naver):
     keep = {s["id"]: s for s in stores if s["mentions"] or s["good"]}
     if not naver:
         for s in stores:
-            if s.get("rank", 99) < KEEP_PER_AREA:
+            if s.get("rank", 99) < (KEEP_CAFE_PER_AREA if s.get("_code") == "CE7" else KEEP_PER_AREA):
                 keep.setdefault(s["id"], s)
     out = list(keep.values())
     for s in out:
