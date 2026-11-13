@@ -1,243 +1,467 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "chungnam",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s80",
+   "id": "k904041132",
    "area": "gongju",
-   "name": "원도심 골목국밥",
-   "cat": "국밥",
-   "menu": "국밥",
-   "price": 9000,
-   "lat": 36.46219151994251,
-   "lng": 127.12034036148485,
-   "place_url": null,
-   "emoji": "🍲",
+   "name": "베이커리 밤마을",
+   "cat": "제과,베이커리",
+   "addr": "충남 공주시 백미고을길 5-9",
+   "lat": 36.46475282882715,
+   "lng": 127.12300557505748,
+   "place_url": "http://place.map.kakao.com/904041132",
    "good": null,
+   "emoji": "🥐",
    "src": {
-    "yt": 1,
-    "blog": 21,
-    "insta": 3
+    "yt": 3,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "국밥 9,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
+     "title": "공주 여행 어디 가지?🌰 먹거리부터 공산성까지 당일치기 코스! #shrots #당일치기 #공주여행",
+     "url": "https://www.youtube.com/watch?v=ue5KVoT7_-c",
+     "date": "2026-11-09",
      "sponsored": false
     },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[원도심 맛집] 원도심 골목국밥 국밥 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 점심 추천 원도심 골목국밥",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 골목국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s81",
-   "area": "gongju",
-   "name": "원도심 시장디저트",
-   "cat": "디저트",
-   "menu": "밤 디저트",
-   "price": 4000,
-   "lat": 36.46434746676249,
-   "lng": 127.11609588344949,
-   "place_url": null,
-   "emoji": "🍰",
-   "good": "share",
-   "src": {
-    "yt": 4,
-    "blog": 16,
-    "insta": 12
-   },
-   "mentions": [
     {
      "src": "yt",
-     "title": "밤 디저트 4,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[원도심 맛집] 원도심 시장디저트 밤 디저트 후기",
-     "url": null,
+     "title": "공주 당일치기 여행🌰 | 국내여행 맛집 카페 공산성 밤디저트",
+     "url": "https://www.youtube.com/watch?v=QvN_p4aJMGU",
      "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "yt",
-     "title": "원도심 현지인 맛집 투어 — 원도심 시장디저트",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 점심 추천 원도심 시장디저트",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "밤 디저트 4,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 시장디저트 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
+     "title": "공주 베이커리밤마을 #공주 #베이커리밤마을 #밤파이 #공주맛집 #맛집 #밤 # #cafe #데이트 #여행 #부부 #연인 #shorts",
+     "url": "https://www.youtube.com/watch?v=YMjzSJREnLs",
+     "date": "2026-11-05",
      "sponsored": false
     }
    ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 4
+   "kw": [],
+   "last": 5,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s82",
+   "id": "k10471794",
    "area": "gongju",
-   "name": "원도심 옛날칼국수",
-   "cat": "칼국수",
-   "menu": "칼국수",
-   "price": 8000,
-   "lat": 36.465155946819976,
-   "lng": 127.12235090371213,
-   "place_url": null,
-   "emoji": "🍜",
+   "name": "부자떡집",
+   "cat": "떡,한과",
+   "addr": "충남 공주시 용당길 11",
+   "lat": 36.45854388637806,
+   "lng": 127.12380568479351,
+   "place_url": "http://place.map.kakao.com/10471794",
    "good": null,
+   "emoji": "🍽️",
    "src": {
-    "yt": 1,
-    "blog": 11,
-    "insta": 6
+    "yt": 9,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "칼국수 8,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
+     "title": "공주 당일치기 맛집 3곳 | 이 코스면 끝! #공주여행 #공주맛집 #공주당일치기 #부자떡집 #알밤모찌",
+     "url": "https://www.youtube.com/watch?v=3NQTwS2_pCA",
+     "date": "2026-11-12",
      "sponsored": false
     },
     {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
+     "src": "yt",
+     "title": "공주.밤모찌.시루떡.유명 떡집.",
+     "url": "https://www.youtube.com/watch?v=knrMdzjhuNM",
+     "date": "2026-11-12",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "[원도심 맛집] 원도심 옛날칼국수 칼국수 후기",
-     "url": null,
+     "src": "yt",
+     "title": "당일치기 공주 여행 | 공주 맛집 투어 | 매향 | 바므 | 부자떡집 | 피탕김탕 | 르코티 | 소로빵집",
+     "url": "https://www.youtube.com/watch?v=StTsqBe2SoQ",
+     "date": "2026-11-11",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "공주 여행 어디 가지?🌰 먹거리부터 공산성까지 당일치기 코스! #shrots #당일치기 #공주여행",
+     "url": "https://www.youtube.com/watch?v=ue5KVoT7_-c",
      "date": "2026-11-09",
      "sponsored": false
     },
     {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
+     "src": "yt",
+     "title": "비 와도 완벽했던 공주 하루코스 #shorts",
+     "url": "https://www.youtube.com/watch?v=9vFj9ErbQu8",
+     "date": "2026-11-09",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "원도심 점심 추천 원도심 옛날칼국수",
-     "url": null,
+     "src": "yt",
+     "title": "여기가 공주 부자떡집이예유",
+     "url": "https://www.youtube.com/watch?v=olnVq1w71yk",
+     "date": "2026-11-08",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "#일상 #일상브이로그 #먹방 #브이로그 #공주 #공주여행 #부자떡집",
+     "url": "https://www.youtube.com/watch?v=OawlsIe0voI",
      "date": "2026-11-06",
      "sponsored": false
     },
     {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 옛날칼국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
+     "src": "yt",
+     "title": "공주 당일치기 여행🌰 | 국내여행 맛집 카페 공산성 밤디저트",
+     "url": "https://www.youtube.com/watch?v=QvN_p4aJMGU",
+     "date": "2026-11-05",
      "sponsored": false
     }
    ],
-   "kw": [
-    "혼밥",
-    "깔끔"
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7970877",
+   "area": "gongju",
+   "name": "시장정육점식당",
+   "cat": "육류,고기",
+   "addr": "충남 공주시 백미고을길 10-5",
+   "lat": 36.4658620323761,
+   "lng": 127.122253119496,
+   "place_url": "http://place.map.kakao.com/7970877",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "공주 당일치기 여행🌰 | 국내여행 맛집 카페 공산성 밤디저트",
+     "url": "https://www.youtube.com/watch?v=QvN_p4aJMGU",
+     "date": "2026-11-05",
+     "sponsored": false
+    }
    ],
-   "last": 0
+   "kw": [],
+   "last": 9,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k57028650",
+   "area": "gongju",
+   "name": "개미식당",
+   "cat": "한식",
+   "addr": "충남 공주시 산성시장5길 78-2",
+   "lat": 36.4596320859881,
+   "lng": 127.12332770544833,
+   "place_url": "http://place.map.kakao.com/57028650",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#강릉맛집추천 #강릉맛집 #강릉중앙시장맛집추천 #강릉중앙시장맛집 #강릉시장맛집추천 #강릉장칼국수맛집추천 #강릉장칼국수맛집 #강릉장칼국수 #강릉옹",
+     "url": "https://www.youtube.com/watch?v=fw1-D8SGyT0",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 8,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1908737020",
+   "area": "gongju",
+   "name": "꼬소미지지미",
+   "cat": "한식",
+   "addr": "충남 공주시 산성시장3길 98",
+   "lat": 36.4583859501524,
+   "lng": 127.1240296663,
+   "place_url": "http://place.map.kakao.com/1908737020",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "제가 한번 먹어보겠습니다. 공주맛집 꼬소미지지미",
+     "url": "https://www.youtube.com/watch?v=b2LLW4mHV8s",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9031230",
+   "area": "gongju",
+   "name": "매향",
+   "cat": "냉면",
+   "addr": "충남 공주시 백미고을길 18",
+   "lat": 36.465590515416686,
+   "lng": 127.12163237061982,
+   "place_url": "http://place.map.kakao.com/9031230",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8684887",
+   "area": "gongju",
+   "name": "고마나루1999",
+   "cat": "한식",
+   "addr": "충남 공주시 백미고을길 5-8",
+   "lat": 36.46490993756712,
+   "lng": 127.12270793712241,
+   "place_url": "http://place.map.kakao.com/8684887",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7931728",
+   "area": "gongju",
+   "name": "새이학가든",
+   "cat": "국밥",
+   "addr": "충남 공주시 금강공원길 15-2",
+   "lat": 36.46652740446001,
+   "lng": 127.12194623056884,
+   "place_url": "http://place.map.kakao.com/7931728",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26903015",
+   "area": "gongju",
+   "name": "원진노기순청국장",
+   "cat": "한식",
+   "addr": "충남 공주시 백미고을길 6",
+   "lat": 36.4656126748091,
+   "lng": 127.122873050744,
+   "place_url": "http://place.map.kakao.com/26903015",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1825916113",
+   "area": "gongju",
+   "name": "촌정선곤드레밥",
+   "cat": "한정식",
+   "addr": "충남 공주시 백미고을길 14-1",
+   "lat": 36.46557773076439,
+   "lng": 127.12179747246054,
+   "place_url": "http://place.map.kakao.com/1825916113",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27252729",
+   "area": "gongju",
+   "name": "개성집",
+   "cat": "해물,생선",
+   "addr": "충남 공주시 미나리3길 6-5",
+   "lat": 36.4634790865989,
+   "lng": 127.122517136226,
+   "place_url": "http://place.map.kakao.com/27252729",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1657777181",
+   "area": "gongju",
+   "name": "자연에서온알밤묵밥비빔밥",
+   "cat": "한식",
+   "addr": "충남 공주시 백미고을길 18-3",
+   "lat": 36.4657692134298,
+   "lng": 127.121369346765,
+   "place_url": "http://place.map.kakao.com/1657777181",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25808889",
+   "area": "gongju",
+   "name": "기품명가",
+   "cat": "한식",
+   "addr": "충남 공주시 백미고을길 10-1",
+   "lat": 36.465552000843026,
+   "lng": 127.12228387198203,
+   "place_url": "http://place.map.kakao.com/25808889",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1674542852",
+   "area": "gongju",
+   "name": "유씨네본가누룽지삼계탕 공주점",
+   "cat": "삼계탕",
+   "addr": "충남 공주시 왕릉로 135",
+   "lat": 36.46440487475635,
+   "lng": 127.12223074967049,
+   "place_url": "http://place.map.kakao.com/1674542852",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k931875591",
+   "area": "gongju",
+   "name": "공주알밤빵 본점",
+   "cat": "제과,베이커리",
+   "addr": "충남 공주시 미나리3길 12-9",
+   "lat": 36.46365997573171,
+   "lng": 127.12187591607454,
+   "place_url": "http://place.map.kakao.com/931875591",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k17129985",
+   "area": "gongju",
+   "name": "알밤에반한한우",
+   "cat": "한식",
+   "addr": "충남 공주시 금강공원길 9",
+   "lat": 36.46613549075911,
+   "lng": 127.1227355294725,
+   "place_url": "http://place.map.kakao.com/17129985",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1422803026",
+   "area": "gongju",
+   "name": "인화당베이커리",
+   "cat": "제과,베이커리",
+   "addr": "충남 공주시 백미고을길 5-13",
+   "lat": 36.4645781023533,
+   "lng": 127.122909351123,
+   "place_url": "http://place.map.kakao.com/1422803026",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

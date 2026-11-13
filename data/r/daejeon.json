@@ -1,310 +1,489 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s59",
+   "id": "k17733090",
    "area": "eunhaeng",
-   "name": "은행동 골목칼국수",
-   "cat": "칼국수",
-   "menu": "칼국수",
-   "price": 7000,
-   "lat": 36.327691519942505,
-   "lng": 127.42913804408204,
-   "place_url": null,
-   "emoji": "🍜",
+   "name": "성심당 본점",
+   "cat": "제과,베이커리",
+   "addr": "대전 중구 대종로480번길 15",
+   "lat": 36.32774375491543,
+   "lng": 127.42724536162811,
+   "place_url": "http://place.map.kakao.com/17733090",
    "good": null,
-   "src": {
-    "yt": 1,
-    "blog": 11,
-    "insta": 12
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "칼국수 7,000원? 은행동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[은행동 맛집] 은행동 골목칼국수 칼국수 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "은행동 점심 추천 은행동 골목칼국수",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "은행동 골목칼국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 2
-  },
-  {
-   "id": "s60",
-   "area": "eunhaeng",
-   "name": "은행동 시장두부두루치기",
-   "cat": "한식",
-   "menu": "두부두루치기",
-   "price": 9000,
-   "lat": 36.32984746676249,
-   "lng": 127.42490090448894,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "share",
-   "src": {
-    "yt": 4,
-    "blog": 6,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "두부두루치기 9,000원? 은행동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[은행동 맛집] 은행동 시장두부두루치기 두부두루치기 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "은행동 현지인 맛집 투어 — 은행동 시장두부두루치기",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "은행동 점심 추천 은행동 시장두부두루치기",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "두부두루치기 9,000원? 은행동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "은행동 시장두부두루치기 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s61",
-   "area": "eunhaeng",
-   "name": "은행동 옛날단팥빵",
-   "cat": "베이커리",
-   "menu": "단팥빵",
-   "price": 2500,
-   "lat": 36.330655946819974,
-   "lng": 127.43114511020508,
-   "place_url": null,
    "emoji": "🥐",
-   "good": null,
    "src": {
-    "yt": 1,
-    "blog": 21,
+    "yt": 7,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "단팥빵 2,500원? 은행동 숨은 맛집",
-     "url": null,
+     "title": "성심당 근처 역대급 포케 맛집 •• 🤍",
+     "url": "https://www.youtube.com/watch?v=rqCZsVic6zI",
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "[대전 맛집 BEST 10++] 성심당과 대전 현지인 추천 맛 PLUS++",
+     "url": "https://www.youtube.com/watch?v=44ZBWCLLc6k",
      "date": "2026-11-06",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "[은행동 맛집] 은행동 옛날단팥빵 단팥빵 후기",
-     "url": null,
+     "src": "yt",
+     "title": "성심당에서 빵만 사세요? 2층 피자세트 구성이 대박! 🍕 #대전맛집 #성심당",
+     "url": "https://www.youtube.com/watch?v=VjnnE_Kstx8",
      "date": "2026-11-05",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "은행동 점심 추천 은행동 옛날단팥빵",
-     "url": null,
+     "src": "yt",
+     "title": "대전역·은행동 하루 코스 🥐 성심당 아침부터 스카이로드 야경까지 7곳 | SEOUL TRIP & TASTE",
+     "url": "https://www.youtube.com/watch?v=x9KHJKb8i08",
+     "date": "2026-11-03",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "돌아온 대전맛집 투어 🥐 두부두루치기 1티어, 아자자야채치킨, 성심당 우동야, 칼국수 맛집, 스시 맛집, 꿈돌이 가득한 카페투어까지…⭐️",
+     "url": "https://www.youtube.com/watch?v=TXhmcUephJw",
      "date": "2026-11-02",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "은행동 옛날단팥빵 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
+     "src": "yt",
+     "title": "성심당 말고! 대전 사람들 단골 국밥 맛집 7곳 | 6,000원 순대국밥부터 24시 해장국까지",
+     "url": "https://www.youtube.com/watch?v=FgMcSnk2CQk",
+     "date": "2026-11-02",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "성심당 직원분들 친절해     #대전 #성심당 #대전빵집 #대전맛집 #맛집 #맛집추천 #빵집 #빵집투어 #충남 #빵돌이",
+     "url": "https://www.youtube.com/watch?v=fsfZIdDWDDc",
+     "date": "2026-11-01",
      "sponsored": false
     }
    ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 4
+   "kw": [],
+   "last": 7,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s62",
+   "id": "k8209640",
    "area": "eunhaeng",
-   "name": "은행동 정겨운국밥",
-   "cat": "국밥",
-   "menu": "국밥",
-   "price": 8000,
-   "lat": 36.32562540424003,
-   "lng": 127.42612744489746,
-   "place_url": null,
-   "emoji": "🍲",
-   "good": "price",
+   "name": "광천식당",
+   "cat": "한식",
+   "addr": "대전 중구 대종로505번길 29",
+   "lat": 36.3286714374113,
+   "lng": 127.423596296507,
+   "place_url": "http://place.map.kakao.com/8209640",
+   "good": null,
+   "emoji": "🍚",
    "src": {
-    "yt": 4,
-    "blog": 16,
-    "insta": 9
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "국밥 8,000원? 은행동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[은행동 맛집] 은행동 정겨운국밥 국밥 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "은행동 현지인 맛집 투어 — 은행동 정겨운국밥",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "은행동 점심 추천 은행동 정겨운국밥",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "국밥 8,000원? 은행동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "은행동 정겨운국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
+     "title": "(저장•공유) 대전맛집+광천식당+2인주문꿀팁",
+     "url": "https://www.youtube.com/watch?v=HY44YR4B6jo",
+     "date": "2026-11-08",
      "sponsored": false
     }
    ],
-   "kw": [
-    "분위기",
-    "데이트"
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k12468740",
+   "area": "eunhaeng",
+   "name": "진로집",
+   "cat": "불고기,두루치기",
+   "addr": "대전 중구 중교로 45-5",
+   "lat": 36.3258521835256,
+   "lng": 127.424716995185,
+   "place_url": "http://place.map.kakao.com/12468740",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "대전 두부두루치기 맛집 진로집",
+     "url": "https://www.youtube.com/watch?v=2LsbC_Hz6OE",
+     "date": "2026-10-31",
+     "sponsored": false
+    }
    ],
-   "last": 0
+   "kw": [],
+   "last": 14,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9937270",
+   "area": "eunhaeng",
+   "name": "정식당",
+   "cat": "닭요리",
+   "addr": "대전 중구 중앙로130번길 37-13",
+   "lat": 36.32677859872553,
+   "lng": 127.425728805194,
+   "place_url": "http://place.map.kakao.com/9937270",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "통영 맛집 10곳, 시락국부터 충무김밥까지 #Shorts",
+     "url": "https://www.youtube.com/watch?v=09ci9tvW4-M",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11116260",
+   "area": "eunhaeng",
+   "name": "신도칼국수 본점",
+   "cat": "칼국수",
+   "addr": "대전 동구 대전로825번길 11",
+   "lat": 36.33257403893511,
+   "lng": 127.43101626280318,
+   "place_url": "http://place.map.kakao.com/11116260",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#대전맛집#신도칼국수#먹는행복#맛있는추억",
+     "url": "https://www.youtube.com/watch?v=n9VsuRb5kL8",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8570326",
+   "area": "eunhaeng",
+   "name": "토박이",
+   "cat": "불고기,두루치기",
+   "addr": "대전 중구 중앙로156번길 41-9",
+   "lat": 36.3275348595269,
+   "lng": 127.42795142587,
+   "place_url": "http://place.map.kakao.com/8570326",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 6,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 가면 무조건 가야 하는 복국집 #부산맛집 #현지인맛집 #먹스타그램#복국#선우용여#부산먹방#부산관광#금수복국#복껍데기무침",
+     "url": "https://www.youtube.com/watch?v=XR0qBiKKNEM",
+     "date": "2026-11-13",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "경주에서 푸짐한 갈치 한 상 즐기려면? 🐟부모님 모시고 가기 좋은 토박이식당 🤍#토박이식당 #경주맛집 #보문단지맛집 #경주한정식",
+     "url": "https://www.youtube.com/watch?v=4E9DOSNoQKc",
+     "date": "2026-11-13",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "혜화에서 참치 머리고기 먹고 싶다면, 한돌참치 | 혜화 추천 맛집 #shorts",
+     "url": "https://www.youtube.com/watch?v=iTVox7Kp9HI",
+     "date": "2026-11-12",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "산더미 곱창 비주얼 좀 보고 가세요~ 남포동 맛집 \"대양곱창연탄구이\"",
+     "url": "https://www.youtube.com/watch?v=ZrSn2Wi6IBE",
+     "date": "2026-11-12",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "청주 토박이들은 여기 삼겹살 먹으러간다 #청주맛집",
+     "url": "https://www.youtube.com/watch?v=IWUeZolRAEQ",
+     "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "[그냥해!은] 부산 토박이 김혜은이 남포동 갈때마다 들리는 찐단골 꼼장어집 최초 공개(feat. 양곱창거리)",
+     "url": "https://www.youtube.com/watch?v=cfo820YY96o",
+     "date": "2026-11-04",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1834095519",
+   "area": "eunhaeng",
+   "name": "성심당 케익부띠끄 본점",
+   "cat": "제과,베이커리",
+   "addr": "대전 중구 대종로 480",
+   "lat": 36.3275110291498,
+   "lng": 127.42680306279986,
+   "place_url": "http://place.map.kakao.com/1834095519",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10983353",
+   "area": "eunhaeng",
+   "name": "현대식당",
+   "cat": "닭요리",
+   "addr": "대전 중구 중앙로130번길 37-10",
+   "lat": 36.3264878851072,
+   "lng": 127.42562587768772,
+   "place_url": "http://place.map.kakao.com/10983353",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21537026",
+   "area": "eunhaeng",
+   "name": "성심당 대전역점",
+   "cat": "제과,베이커리",
+   "addr": "대전 동구 중앙로 215",
+   "lat": 36.332217306511836,
+   "lng": 127.4337196562067,
+   "place_url": "http://place.map.kakao.com/21537026",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k23346501",
+   "area": "eunhaeng",
+   "name": "손이가어죽칼국수",
+   "cat": "칼국수",
+   "addr": "대전 중구 중앙로121번길 48",
+   "lat": 36.32984728025321,
+   "lng": 127.42237754606485,
+   "place_url": "http://place.map.kakao.com/23346501",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k12512189",
+   "area": "eunhaeng",
+   "name": "김화칼국수",
+   "cat": "칼국수",
+   "addr": "대전 동구 중앙로203번길 28",
+   "lat": 36.3320297033274,
+   "lng": 127.431023288301,
+   "place_url": "http://place.map.kakao.com/12512189",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8670704",
+   "area": "eunhaeng",
+   "name": "희락반점",
+   "cat": "중국요리",
+   "addr": "대전 중구 중앙로129번길 21",
+   "lat": 36.3289817362185,
+   "lng": 127.423513332748,
+   "place_url": "http://place.map.kakao.com/8670704",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8365404",
+   "area": "eunhaeng",
+   "name": "별난집",
+   "cat": "두부전문점",
+   "addr": "대전 동구 중앙로193번길 8",
+   "lat": 36.33093956100423,
+   "lng": 127.43069540777535,
+   "place_url": "http://place.map.kakao.com/8365404",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8944672",
+   "area": "eunhaeng",
+   "name": "동은성",
+   "cat": "중국요리",
+   "addr": "대전 중구 대종로 532-1",
+   "lat": 36.3310953790963,
+   "lng": 127.423150549209,
+   "place_url": "http://place.map.kakao.com/8944672",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10033021",
+   "area": "eunhaeng",
+   "name": "태화장",
+   "cat": "중국요리",
+   "addr": "대전 동구 중앙로203번길 78",
+   "lat": 36.3338344441655,
+   "lng": 127.429358078452,
+   "place_url": "http://place.map.kakao.com/10033021",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10542619",
+   "area": "eunhaeng",
+   "name": "미소본가스마일칼국수",
+   "cat": "칼국수",
+   "addr": "대전 중구 보문로230번길 82",
+   "lat": 36.3244773424123,
+   "lng": 127.427146232981,
+   "place_url": "http://place.map.kakao.com/10542619",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10594540",
+   "area": "eunhaeng",
+   "name": "아저씨돈까스",
+   "cat": "돈까스,우동",
+   "addr": "대전 중구 중앙로164번길 22-7",
+   "lat": 36.3281728801841,
+   "lng": 127.427954914849,
+   "place_url": "http://place.map.kakao.com/10594540",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

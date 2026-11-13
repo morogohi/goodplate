@@ -1,620 +1,732 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s99",
+   "id": "k9797621",
    "area": "jeju-city",
-   "name": "원도심 할매고기국수",
+   "name": "동진식당",
    "cat": "국수",
-   "menu": "고기국수",
-   "price": 9000,
-   "lat": 33.51119151994251,
-   "lng": 126.5262928902973,
-   "place_url": null,
+   "addr": "제주특별자치도 제주시 동문로 16",
+   "lat": 33.512803000062654,
+   "lng": 126.52856697970252,
+   "place_url": "http://place.map.kakao.com/9797621",
+   "good": null,
    "emoji": "🍜",
-   "good": "price",
    "src": {
-    "yt": 0,
-    "blog": 16,
-    "insta": 3
-   },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[원도심 맛집] 원도심 할매고기국수 고기국수 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 점심 추천 원도심 할매고기국수",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 할매고기국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s100",
-   "area": "jeju-city",
-   "name": "원도심 골목갈치조림",
-   "cat": "한식",
-   "menu": "갈치조림",
-   "price": 18000,
-   "lat": 33.51334746676249,
-   "lng": 126.5221987376892,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": null,
-   "src": {
-    "yt": 3,
-    "blog": 11,
-    "insta": 12
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "갈치조림 18,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[원도심 맛집] 원도심 골목갈치조림 갈치조림 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "원도심 현지인 맛집 투어 — 원도심 골목갈치조림",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 점심 추천 원도심 골목갈치조림",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "갈치조림 18,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 골목갈치조림 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 4
-  },
-  {
-   "id": "s101",
-   "area": "jeju-city",
-   "name": "원도심 시장몸국",
-   "cat": "한식",
-   "menu": "몸국",
-   "price": 9000,
-   "lat": 33.514155946819976,
-   "lng": 126.52823222574325,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "share",
-   "src": {
-    "yt": 0,
-    "blog": 6,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[원도심 맛집] 원도심 시장몸국 몸국 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 점심 추천 원도심 시장몸국",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 시장몸국 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 0
-  },
-  {
-   "id": "s102",
-   "area": "jeju-city",
-   "name": "원도심 옛날디저트",
-   "cat": "디저트",
-   "menu": "감귤 디저트",
-   "price": 5000,
-   "lat": 33.50912540424003,
-   "lng": 126.52338388712838,
-   "place_url": null,
-   "emoji": "🍰",
-   "good": null,
-   "src": {
-    "yt": 3,
-    "blog": 21,
+    "yt": 1,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "감귤 디저트 5,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[원도심 맛집] 원도심 옛날디저트 감귤 디저트 후기",
-     "url": null,
+     "title": "1965년부터! 제주 동문시장 고기국수 맛집 동진식당 #shorts",
+     "url": "https://www.youtube.com/watch?v=Ve7DXzoA0b8",
      "date": "2026-11-08",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "원도심 현지인 맛집 투어 — 원도심 옛날디저트",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 점심 추천 원도심 옛날디저트",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "감귤 디저트 5,000원? 원도심 숨은 맛집",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "원도심 옛날디저트 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
     }
    ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 1
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s103",
-   "area": "seogwipo",
-   "name": "올레시장 골목고기국수",
-   "cat": "국수",
-   "menu": "고기국수",
-   "price": 9000,
-   "lat": 33.24819151994251,
-   "lng": 126.56528898591425,
-   "place_url": null,
-   "emoji": "🍜",
+   "id": "k22173396",
+   "area": "jeju-city",
+   "name": "오현불백",
+   "cat": "불고기,두루치기",
+   "addr": "제주특별자치도 제주시 성지로 58-2",
+   "lat": 33.51102542118467,
+   "lng": 126.52960985556567,
+   "place_url": "http://place.map.kakao.com/22173396",
    "good": null,
-   "src": {
-    "yt": 1,
-    "blog": 11,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "고기국수 9,000원? 올레시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[올레시장 맛집] 올레시장 골목고기국수 고기국수 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 점심 추천 올레시장 골목고기국수",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 골목고기국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 4
-  },
-  {
-   "id": "s104",
-   "area": "seogwipo",
-   "name": "올레시장 시장보말칼국수",
-   "cat": "칼국수",
-   "menu": "보말칼국수",
-   "price": 11000,
-   "lat": 33.25034746676249,
-   "lng": 126.56120719718578,
-   "place_url": null,
-   "emoji": "🍜",
-   "good": "share",
-   "src": {
-    "yt": 4,
-    "blog": 6,
-    "insta": 3
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "보말칼국수 11,000원? 올레시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[올레시장 맛집] 올레시장 시장보말칼국수 보말칼국수 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "올레시장 현지인 맛집 투어 — 올레시장 시장보말칼국수",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 점심 추천 올레시장 시장보말칼국수",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "보말칼국수 11,000원? 올레시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 시장보말칼국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 0
-  },
-  {
-   "id": "s105",
-   "area": "seogwipo",
-   "name": "올레시장 옛날흑돼지",
-   "cat": "고기",
-   "menu": "흑돼지",
-   "price": 18000,
-   "lat": 33.25115594681998,
-   "lng": 126.56722246478563,
-   "place_url": null,
    "emoji": "🥩",
-   "good": null,
    "src": {
     "yt": 1,
-    "blog": 21,
-    "insta": 12
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "흑돼지 18,000원? 올레시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[올레시장 맛집] 올레시장 옛날흑돼지 흑돼지 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 점심 추천 올레시장 옛날흑돼지",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 옛날흑돼지 메뉴·가격 정리",
-     "url": null,
+     "title": "#협찬 제주 동문시장 불백 맛집 오현불백 동문시장 본점",
+     "url": "https://www.youtube.com/watch?v=gz48iubn6lk",
      "date": "2026-11-02",
      "sponsored": false
     }
    ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 1
+   "kw": [],
+   "last": 12,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s106",
-   "area": "seogwipo",
-   "name": "올레시장 정겨운오메기떡",
-   "cat": "디저트",
-   "menu": "오메기떡",
-   "price": 3000,
-   "lat": 33.24612540424003,
-   "lng": 126.56238876760717,
-   "place_url": null,
-   "emoji": "🍰",
-   "good": "price",
+   "id": "k1089591928",
+   "area": "jeju-city",
+   "name": "픽업 카페 본점",
+   "cat": "제과,베이커리",
+   "addr": "제주특별자치도 제주시 남성로 167",
+   "lat": 33.50954051708653,
+   "lng": 126.52301175274472,
+   "place_url": "http://place.map.kakao.com/1089591928",
+   "good": null,
+   "emoji": "🥐",
    "src": {
-    "yt": 4,
-    "blog": 16,
-    "insta": 6
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "오메기떡 3,000원? 올레시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[올레시장 맛집] 올레시장 정겨운오메기떡 오메기떡 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "올레시장 현지인 맛집 투어 — 올레시장 정겨운오메기떡",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 점심 추천 올레시장 정겨운오메기떡",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "오메기떡 3,000원? 올레시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "올레시장 정겨운오메기떡 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
+     "title": "빵수저 대전인이 인정한 제주도 소금빵 맛집 #제주여행",
+     "url": "https://www.youtube.com/watch?v=ssY1XxgLUkw",
+     "date": "2026-11-12",
      "sponsored": false
     }
    ],
-   "kw": [
-    "분위기",
-    "데이트"
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k473694684",
+   "area": "jeju-city",
+   "name": "찰리공장",
+   "cat": "초콜릿",
+   "addr": "제주특별자치도 제주시 중앙로13길 21",
+   "lat": 33.511572574329,
+   "lng": 126.526739647672,
+   "place_url": "http://place.map.kakao.com/473694684",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#제주여행 필수코스! #제주디저트 맛집 #찰리공장 #제주맛집추천",
+     "url": "https://www.youtube.com/watch?v=6LL1-yBOn74",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
    ],
-   "last": 2
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11547525",
+   "area": "jeju-city",
+   "name": "우진해장국",
+   "cat": "해장국",
+   "addr": "제주특별자치도 제주시 서사로 11",
+   "lat": 33.51151689656457,
+   "lng": 126.52000128027187,
+   "place_url": "http://place.map.kakao.com/11547525",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k232056222",
+   "area": "jeju-city",
+   "name": "고집돌우럭 제주공항점",
+   "cat": "해물,생선",
+   "addr": "제주특별자치도 제주시 임항로 30",
+   "lat": 33.51625415483425,
+   "lng": 126.52805852098426,
+   "place_url": "http://place.map.kakao.com/232056222",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k587249375",
+   "area": "jeju-city",
+   "name": "아베베베이커리 제주",
+   "cat": "제과,베이커리",
+   "addr": "제주특별자치도 제주시 동문로6길 4",
+   "lat": 33.512655088399306,
+   "lng": 126.5287905775174,
+   "place_url": "http://place.map.kakao.com/587249375",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25430346",
+   "area": "jeju-city",
+   "name": "산지해장국",
+   "cat": "해장국",
+   "addr": "제주특별자치도 제주시 임항로 34",
+   "lat": 33.516340623989,
+   "lng": 126.528510119738,
+   "place_url": "http://place.map.kakao.com/25430346",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11291795",
+   "area": "jeju-city",
+   "name": "원조미풍해장국 본점",
+   "cat": "해장국",
+   "addr": "제주특별자치도 제주시 중앙로14길 13",
+   "lat": 33.5112665583468,
+   "lng": 126.522880661443,
+   "place_url": "http://place.map.kakao.com/11291795",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21461466",
+   "area": "jeju-city",
+   "name": "금복식당",
+   "cat": "국수",
+   "addr": "제주특별자치도 제주시 동문로 16",
+   "lat": 33.512793021632994,
+   "lng": 126.52831410117405,
+   "place_url": "http://place.map.kakao.com/21461466",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k13325715",
+   "area": "jeju-city",
+   "name": "정성듬뿍제주국",
+   "cat": "한식",
+   "addr": "제주특별자치도 제주시 무근성7길 16",
+   "lat": 33.51402680197489,
+   "lng": 126.5202026853259,
+   "place_url": "http://place.map.kakao.com/13325715",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10777503",
+   "area": "jeju-city",
+   "name": "진아떡집",
+   "cat": "떡,한과",
+   "addr": "제주특별자치도 제주시 동문로4길 7-1",
+   "lat": 33.51240994774403,
+   "lng": 126.52834093483106,
+   "place_url": "http://place.map.kakao.com/10777503",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1755141351",
+   "area": "jeju-city",
+   "name": "스시도모다찌 칠성점",
+   "cat": "초밥,롤",
+   "addr": "제주특별자치도 제주시 관덕로13길 3",
+   "lat": 33.513486632398966,
+   "lng": 126.52579175413014,
+   "place_url": "http://place.map.kakao.com/1755141351",
+   "good": null,
+   "emoji": "🍣",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k899155913",
+   "area": "jeju-city",
+   "name": "제라헌 본점",
+   "cat": "떡,한과",
+   "addr": "제주특별자치도 제주시 동문로 6-6",
+   "lat": 33.512453729110916,
+   "lng": 126.52705451295418,
+   "place_url": "http://place.map.kakao.com/899155913",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k24119106",
+   "area": "jeju-city",
+   "name": "태광식당",
+   "cat": "한식",
+   "addr": "제주특별자치도 제주시 탑동로 142",
+   "lat": 33.512656755073415,
+   "lng": 126.51867112872115,
+   "place_url": "http://place.map.kakao.com/24119106",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k439308243",
+   "area": "jeju-city",
+   "name": "제주보말칼국수",
+   "cat": "칼국수",
+   "addr": "제주특별자치도 제주시 관덕로8길 40",
+   "lat": 33.50996108594127,
+   "lng": 126.52335708163123,
+   "place_url": "http://place.map.kakao.com/439308243",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1994899330",
+   "area": "jeju-city",
+   "name": "동문올레수산",
+   "cat": "회",
+   "addr": "제주특별자치도 제주시 관덕로14길 10",
+   "lat": 33.512245732860485,
+   "lng": 126.52618168718375,
+   "place_url": "http://place.map.kakao.com/1994899330",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21477180",
+   "area": "jeju-city",
+   "name": "파도식당",
+   "cat": "국수",
+   "addr": "제주특별자치도 제주시 성지로 68-1",
+   "lat": 33.5113029327216,
+   "lng": 126.530513514467,
+   "place_url": "http://place.map.kakao.com/21477180",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8453998",
+   "area": "seogwipo",
+   "name": "오는정김밥",
+   "cat": "분식",
+   "addr": "제주특별자치도 서귀포시 동문동로 2",
+   "lat": 33.2495955703083,
+   "lng": 126.567621058572,
+   "place_url": "http://place.map.kakao.com/8453998",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11733078",
+   "area": "seogwipo",
+   "name": "뽈살집 제주본점",
+   "cat": "육류,고기",
+   "addr": "제주특별자치도 서귀포시 중정로91번길 41",
+   "lat": 33.250828541434046,
+   "lng": 126.56284725485826,
+   "place_url": "http://place.map.kakao.com/11733078",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21473782",
+   "area": "seogwipo",
+   "name": "다정이네 올레시장본점",
+   "cat": "한식",
+   "addr": "제주특별자치도 서귀포시 동문로 59-1",
+   "lat": 33.24938988768495,
+   "lng": 126.56681190288538,
+   "place_url": "http://place.map.kakao.com/21473782",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9733194",
+   "area": "seogwipo",
+   "name": "네거리식당",
+   "cat": "해물,생선",
+   "addr": "제주특별자치도 서귀포시 서문로29번길 20",
+   "lat": 33.2484915875436,
+   "lng": 126.559290966856,
+   "place_url": "http://place.map.kakao.com/9733194",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1197785972",
+   "area": "seogwipo",
+   "name": "고씨네천지국수",
+   "cat": "국수",
+   "addr": "제주특별자치도 서귀포시 중앙로79번길 4",
+   "lat": 33.251745326745,
+   "lng": 126.560751219246,
+   "place_url": "http://place.map.kakao.com/1197785972",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1144232432",
+   "area": "seogwipo",
+   "name": "남매네흑돼지",
+   "cat": "삼겹살",
+   "addr": "제주특별자치도 서귀포시 중정로61번길 24-1",
+   "lat": 33.25000475627925,
+   "lng": 126.56293398348375,
+   "place_url": "http://place.map.kakao.com/1144232432",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k12501703",
+   "area": "seogwipo",
+   "name": "천짓골",
+   "cat": "육류,고기",
+   "addr": "제주특별자치도 서귀포시 중앙로41번길 4",
+   "lat": 33.24823813411932,
+   "lng": 126.56130421983669,
+   "place_url": "http://place.map.kakao.com/12501703",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1510813713",
+   "area": "seogwipo",
+   "name": "제주약수터 본점",
+   "cat": "호프,요리주점",
+   "addr": "제주특별자치도 서귀포시 중앙로 35",
+   "lat": 33.247751628065885,
+   "lng": 126.5616661224143,
+   "place_url": "http://place.map.kakao.com/1510813713",
+   "good": null,
+   "emoji": "🍶",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k19358629",
+   "area": "seogwipo",
+   "name": "짱구분식",
+   "cat": "분식",
+   "addr": "제주특별자치도 서귀포시 중동로48번길 3",
+   "lat": 33.2501815866952,
+   "lng": 126.567090217045,
+   "place_url": "http://place.map.kakao.com/19358629",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k938060243",
+   "area": "seogwipo",
+   "name": "천일만두",
+   "cat": "중식",
+   "addr": "제주특별자치도 서귀포시 서문로 25",
+   "lat": 33.25050150235034,
+   "lng": 126.55908772319164,
+   "place_url": "http://place.map.kakao.com/938060243",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1056381412",
+   "area": "seogwipo",
+   "name": "올레왕갈치 서귀포올레시장점",
+   "cat": "해물,생선",
+   "addr": "제주특별자치도 서귀포시 중앙로42번길 9",
+   "lat": 33.248513882010336,
+   "lng": 126.56279761463912,
+   "place_url": "http://place.map.kakao.com/1056381412",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1626708928",
+   "area": "seogwipo",
+   "name": "모루쿠다 서귀포점",
+   "cat": "회",
+   "addr": "제주특별자치도 서귀포시 태평로431번길 32",
+   "lat": 33.248281462901666,
+   "lng": 126.56620250944731,
+   "place_url": "http://place.map.kakao.com/1626708928",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25448888",
+   "area": "seogwipo",
+   "name": "흑돼지BBQ",
+   "cat": "육류,고기",
+   "addr": "제주특별자치도 서귀포시 태평로353번길 7",
+   "lat": 33.24682757900611,
+   "lng": 126.55965878651736,
+   "place_url": "http://place.map.kakao.com/25448888",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11291724",
+   "area": "seogwipo",
+   "name": "마농치킨 본점",
+   "cat": "치킨",
+   "addr": "제주특별자치도 서귀포시 중앙로48번길 14-1",
+   "lat": 33.2491295705844,
+   "lng": 126.563275283204,
+   "place_url": "http://place.map.kakao.com/11291724",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11600257",
+   "area": "seogwipo",
+   "name": "쌍둥이횟집",
+   "cat": "회",
+   "addr": "제주특별자치도 서귀포시 중정로62번길 14",
+   "lat": 33.2465677180323,
+   "lng": 126.562927484565,
+   "place_url": "http://place.map.kakao.com/11600257",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

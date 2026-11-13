@@ -1,296 +1,388 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s55",
+   "id": "k10575386",
    "area": "chungjang",
-   "name": "충장로 할매떡갈비",
-   "cat": "한식",
-   "menu": "떡갈비",
-   "price": 13000,
-   "lat": 35.14669151994251,
-   "lng": 126.91931834334042,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 16,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[충장로 맛집] 충장로 할매떡갈비 떡갈비 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 점심 추천 충장로 할매떡갈비",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 할매떡갈비 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 1
-  },
-  {
-   "id": "s56",
-   "area": "chungjang",
-   "name": "충장로 골목상추튀김",
-   "cat": "분식",
-   "menu": "상추튀김",
-   "price": 6000,
-   "lat": 35.14884746676249,
-   "lng": 126.91514358942912,
-   "place_url": null,
-   "emoji": "🍙",
+   "name": "엄마네돼지찌개",
+   "cat": "찌개,전골",
+   "addr": "전남광주통합특별시 동구 문화전당로23번길 33",
+   "lat": 35.143677857587825,
+   "lng": 126.91607439209159,
+   "place_url": "http://place.map.kakao.com/10575386",
    "good": null,
+   "emoji": "🥘",
    "src": {
-    "yt": 3,
-    "blog": 11,
+    "yt": 1,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "상추튀김 6,000원? 충장로 숨은 맛집",
-     "url": null,
+     "title": "【광주 도착하자마자 달려간 엄마네돼지찌개! 맵찔이와 소주한잔 오똔데?🔥🍺】",
+     "url": "https://www.youtube.com/watch?v=EHhmasWXnzI",
      "date": "2026-11-08",
      "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[충장로 맛집] 충장로 골목상추튀김 상추튀김 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
+    }
+   ],
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1272324070",
+   "area": "chungjang",
+   "name": "용가회전훠궈 광주충장로점",
+   "cat": "중국요리",
+   "addr": "전남광주통합특별시 동구 충장로 72",
+   "lat": 35.1486013261741,
+   "lng": 126.915114582554,
+   "place_url": "http://place.map.kakao.com/1272324070",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
     {
      "src": "yt",
-     "title": "충장로 현지인 맛집 투어 — 충장로 골목상추튀김",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 점심 추천 충장로 골목상추튀김",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "상추튀김 6,000원? 충장로 숨은 맛집",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 골목상추튀김 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
+     "title": "용가회전훠궈 광주충장로점 훠궈 뷔페 #마라탕 #회전훠궈 #광주뷔페 #광주훠궈 #충장로맛집 #충장로",
+     "url": "https://www.youtube.com/watch?v=xAAiRXny1Ww",
+     "date": "2026-11-12",
      "sponsored": false
     }
    ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 2
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s57",
+   "id": "k8483180",
    "area": "chungjang",
-   "name": "충장로 시장애호박찌개",
-   "cat": "찌개",
-   "menu": "애호박찌개",
-   "price": 8000,
-   "lat": 35.149655946819976,
-   "lng": 126.92129585835103,
-   "place_url": null,
-   "emoji": "🥘",
-   "good": "share",
+   "name": "월계수식당 본점",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 동구 충장로 102-11",
+   "lat": 35.1467795216971,
+   "lng": 126.91750221109,
+   "place_url": "http://place.map.kakao.com/8483180",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "어릴 때 너무 맛있었던 충장로맛집",
+     "url": "https://www.youtube.com/watch?v=w10Pxn3JwNw",
+     "date": "2026-11-10",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11701966",
+   "area": "chungjang",
+   "name": "궁전제과 충장점",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 동구 충장로 93-6",
+   "lat": 35.1477242371978,
+   "lng": 126.917632946625,
+   "place_url": "http://place.map.kakao.com/11701966",
+   "good": null,
+   "emoji": "🥐",
    "src": {
     "yt": 0,
-    "blog": 6,
-    "insta": 9
+    "blog": 0,
+    "insta": 0
    },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[충장로 맛집] 충장로 시장애호박찌개 애호박찌개 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 점심 추천 충장로 시장애호박찌개",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 시장애호박찌개 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 3
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s58",
+   "id": "k16692691",
    "area": "chungjang",
-   "name": "충장로 옛날보리밥",
-   "cat": "한식",
-   "menu": "보리밥",
-   "price": 8000,
-   "lat": 35.14462540424003,
-   "lng": 126.91635207082449,
-   "place_url": null,
-   "emoji": "🍚",
+   "name": "민속촌 도청점",
+   "cat": "갈비",
+   "addr": "전남광주통합특별시 동구 문화전당로 37-2",
+   "lat": 35.145884442310624,
+   "lng": 126.91879583155794,
+   "place_url": "http://place.map.kakao.com/16692691",
    "good": null,
+   "emoji": "🥩",
    "src": {
-    "yt": 3,
-    "blog": 21,
-    "insta": 3
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "보리밥 8,000원? 충장로 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[충장로 맛집] 충장로 옛날보리밥 보리밥 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "충장로 현지인 맛집 투어 — 충장로 옛날보리밥",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 점심 추천 충장로 옛날보리밥",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "보리밥 8,000원? 충장로 숨은 맛집",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "충장로 옛날보리밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 4
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8126406",
+   "area": "chungjang",
+   "name": "평화식당",
+   "cat": "육류,고기",
+   "addr": "전남광주통합특별시 동구 서석로7번길 6-27",
+   "lat": 35.1461398288683,
+   "lng": 126.915286136018,
+   "place_url": "http://place.map.kakao.com/8126406",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8355613",
+   "area": "chungjang",
+   "name": "마한지",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 동구 문화전당로 37-2",
+   "lat": 35.145991665951726,
+   "lng": 126.91873866105986,
+   "place_url": "http://place.map.kakao.com/8355613",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21318122",
+   "area": "chungjang",
+   "name": "황솔촌 충장점",
+   "cat": "육류,고기",
+   "addr": "전남광주통합특별시 동구 중앙로160번길 16-10",
+   "lat": 35.147290930255835,
+   "lng": 126.91409535952718,
+   "place_url": "http://place.map.kakao.com/21318122",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11834461",
+   "area": "chungjang",
+   "name": "예향식당",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 동구 중앙로 150-4",
+   "lat": 35.14742966087728,
+   "lng": 126.91272345908091,
+   "place_url": "http://place.map.kakao.com/11834461",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10343783",
+   "area": "chungjang",
+   "name": "맛삼",
+   "cat": "육류,고기",
+   "addr": "전남광주통합특별시 동구 서석로7번길 6-46",
+   "lat": 35.1461256826391,
+   "lng": 126.915681209725,
+   "place_url": "http://place.map.kakao.com/10343783",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k451615583",
+   "area": "chungjang",
+   "name": "열도지",
+   "cat": "중국요리",
+   "addr": "전남광주통합특별시 동구 제봉로82번길 17",
+   "lat": 35.1470896766024,
+   "lng": 126.923116192548,
+   "place_url": "http://place.map.kakao.com/451615583",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k356332807",
+   "area": "chungjang",
+   "name": "육층집",
+   "cat": "삼겹살",
+   "addr": "전남광주통합특별시 동구 문화전당로35번길 16-4",
+   "lat": 35.14553209062234,
+   "lng": 126.91758028638935,
+   "place_url": "http://place.map.kakao.com/356332807",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k780171077",
+   "area": "chungjang",
+   "name": "행복한담벼락",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 동구 서석로85번길 2",
+   "lat": 35.1496118611524,
+   "lng": 126.920594113887,
+   "place_url": "http://place.map.kakao.com/780171077",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k939386167",
+   "area": "chungjang",
+   "name": "베비에르 문화의전당점",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 동구 서석로 36",
+   "lat": 35.1461594034484,
+   "lng": 126.91752917416,
+   "place_url": "http://place.map.kakao.com/939386167",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10271895",
+   "area": "chungjang",
+   "name": "퍼스트네팔커리스토리 광주본점",
+   "cat": "인도음식",
+   "addr": "전남광주통합특별시 동구 서석로7번길 6-44",
+   "lat": 35.1461834277311,
+   "lng": 126.91576455158,
+   "place_url": "http://place.map.kakao.com/10271895",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15583397",
+   "area": "chungjang",
+   "name": "신성식당",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 동구 충장로 101-17",
+   "lat": 35.1476307546928,
+   "lng": 126.918014938269,
+   "place_url": "http://place.map.kakao.com/15583397",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7895185",
+   "area": "chungjang",
+   "name": "박순자녹두집",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 동구 구성로204번길 26",
+   "lat": 35.15186605908523,
+   "lng": 126.91641717340349,
+   "place_url": "http://place.map.kakao.com/7895185",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

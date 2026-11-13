@@ -1,331 +1,432 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "daegu",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s47",
+   "id": "k930928466",
    "area": "dongseongno",
-   "name": "동성로 정겨운납작만두",
-   "cat": "만두",
-   "menu": "납작만두",
-   "price": 5000,
-   "lat": 35.86849151994251,
-   "lng": 128.59433024719166,
-   "place_url": null,
-   "emoji": "🥟",
-   "good": "price",
-   "src": {
-    "yt": 4,
-    "blog": 6,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "납작만두 5,000원? 동성로 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[동성로 맛집] 동성로 정겨운납작만두 납작만두 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "동성로 현지인 맛집 투어 — 동성로 정겨운납작만두",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "동성로 점심 추천 동성로 정겨운납작만두",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "납작만두 5,000원? 동성로 숨은 맛집",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "동성로 정겨운납작만두 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 4
-  },
-  {
-   "id": "s48",
-   "area": "dongseongno",
-   "name": "동성로 온정떡볶이",
-   "cat": "떡볶이",
-   "menu": "떡볶이",
-   "price": 4000,
-   "lat": 35.87064746676249,
-   "lng": 128.5901177977514,
-   "place_url": null,
-   "emoji": "🌶️",
+   "name": "태산만두 본점",
+   "cat": "분식",
+   "addr": "대구 중구 달구벌대로 2109-32",
+   "lat": 35.86671145934624,
+   "lng": 128.59401496566406,
+   "place_url": "http://place.map.kakao.com/930928466",
    "good": null,
+   "emoji": "🍙",
    "src": {
     "yt": 1,
-    "blog": 21,
-    "insta": 3
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "떡볶이 4,000원? 동성로 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
+     "title": "최근 먹었던 쌀국수중에 진심 쩰 맛있음..💖  #포홈 #동성로맛집 #동성로쌀국수 #대구베트남맛집 #대구맛집",
+     "url": "https://www.youtube.com/watch?v=GrDYpaoIKRU",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10091825",
+   "area": "dongseongno",
+   "name": "전원돈까스",
+   "cat": "돈까스,우동",
+   "addr": "대구 중구 동성로6길 2-23",
+   "lat": 35.8679606507643,
+   "lng": 128.595492524394,
+   "place_url": "http://place.map.kakao.com/10091825",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "결국 마지막은 이렇게 됩니다..  #대구 #대구맛집 #동성로맛집 #전원돈까스 #버터샵 #노래방 #실화 #텐션 #스타벅스 #일상",
+     "url": "https://www.youtube.com/watch?v=UWK-9pFDK0Q",
+     "date": "2026-11-13",
      "sponsored": false
     },
     {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
+     "src": "yt",
+     "title": "#대구맛집 #대구맛집추천 #동성로맛집 #전원돈까스 #버터샵 #노래방 #일상 #실화",
+     "url": "https://www.youtube.com/watch?v=XREcnrvF044",
+     "date": "2026-11-13",
      "sponsored": false
-    },
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27454688",
+   "area": "dongseongno",
+   "name": "거송갈비찜",
+   "cat": "갈비",
+   "addr": "대구 중구 남성로 40",
+   "lat": 35.867377958826225,
+   "lng": 128.59098266288095,
+   "place_url": "http://place.map.kakao.com/27454688",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
     {
-     "src": "blog",
-     "title": "[동성로 맛집] 동성로 온정떡볶이 떡볶이 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "동성로 점심 추천 동성로 온정떡볶이",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
+     "src": "yt",
+     "title": "경주 황리단길 맛집 거송갈비찜에서 돼지갈비찜 갈비만두 후기",
+     "url": "https://www.youtube.com/watch?v=i8tAJqevSWQ",
      "date": "2026-11-04",
      "sponsored": false
-    },
+    }
+   ],
+   "kw": [],
+   "last": 10,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k120347136",
+   "area": "dongseongno",
+   "name": "스구식탁 동성로본점",
+   "cat": "샤브샤브",
+   "addr": "대구 중구 동성로1길 25",
+   "lat": 35.86664466611501,
+   "lng": 128.59497348105742,
+   "place_url": "http://place.map.kakao.com/120347136",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
     {
-     "src": "blog",
-     "title": "동성로 온정떡볶이 메뉴·가격 정리",
-     "url": null,
+     "src": "yt",
+     "title": "[즐기면] 샤부집소소 동성로, 국수방 동성로점, 스구식탁 동성로점 · 동성로 따끈한 국물 맛집 3곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=Et19NzsLHYU",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8071894",
+   "area": "dongseongno",
+   "name": "종로초밥",
+   "cat": "초밥,롤",
+   "addr": "대구 중구 국채보상로 558",
+   "lat": 35.870437107788526,
+   "lng": 128.5916804413784,
+   "place_url": "http://place.map.kakao.com/8071894",
+   "good": null,
+   "emoji": "🍣",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "서울여행 경복궁 광화문역 맛집 코끼리초밥",
+     "url": "https://www.youtube.com/watch?v=C2mqJl4Z_q0",
      "date": "2026-11-03",
      "sponsored": false
     }
    ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 0
+   "kw": [],
+   "last": 11,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s49",
+   "id": "k15380037",
    "area": "dongseongno",
-   "name": "동성로 할매찜갈비",
+   "name": "신라식당",
    "cat": "한식",
-   "menu": "찜갈비",
-   "price": 15000,
-   "lat": 35.87145594681998,
-   "lng": 128.59632561797915,
-   "place_url": null,
+   "addr": "대구 중구 중앙대로 406-10",
+   "lat": 35.86932347300189,
+   "lng": 128.59424886001116,
+   "place_url": "http://place.map.kakao.com/15380037",
+   "good": null,
    "emoji": "🍚",
-   "good": "price",
    "src": {
-    "yt": 4,
-    "blog": 16,
-    "insta": 12
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "찜갈비 15,000원? 동성로 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[동성로 맛집] 동성로 할매찜갈비 찜갈비 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "동성로 현지인 맛집 투어 — 동성로 할매찜갈비",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "동성로 점심 추천 동성로 할매찜갈비",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "찜갈비 15,000원? 동성로 숨은 맛집",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "동성로 할매찜갈비 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 1
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s50",
+   "id": "k799054961",
    "area": "dongseongno",
-   "name": "동성로 골목따로국밥",
-   "cat": "국밥",
-   "menu": "따로국밥",
-   "price": 9000,
-   "lat": 35.86642540424003,
-   "lng": 128.5913371910104,
-   "place_url": null,
-   "emoji": "🍲",
+   "name": "소베",
+   "cat": "제과,베이커리",
+   "addr": "대구 중구 중앙대로79길 6",
+   "lat": 35.86931258738431,
+   "lng": 128.59323561381794,
+   "place_url": "http://place.map.kakao.com/799054961",
    "good": null,
+   "emoji": "🥐",
    "src": {
-    "yt": 1,
-    "blog": 11,
-    "insta": 6
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "따로국밥 9,000원? 동성로 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[동성로 맛집] 동성로 골목따로국밥 따로국밥 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "동성로 점심 추천 동성로 골목따로국밥",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "동성로 골목따로국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 2
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k91896634",
+   "area": "dongseongno",
+   "name": "도마29",
+   "cat": "일식집",
+   "addr": "대구 중구 동성로1길 46-2",
+   "lat": 35.86579926727569,
+   "lng": 128.59572928276066,
+   "place_url": "http://place.map.kakao.com/91896634",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10787627",
+   "area": "dongseongno",
+   "name": "중앙떡볶이",
+   "cat": "떡볶이",
+   "addr": "대구 중구 동성로2길 81",
+   "lat": 35.869454220452,
+   "lng": 128.597023748627,
+   "place_url": "http://place.map.kakao.com/10787627",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1242598286",
+   "area": "dongseongno",
+   "name": "칸다소바 대구동성로점",
+   "cat": "일본식라면",
+   "addr": "대구 중구 중앙대로 398-1",
+   "lat": 35.868723833924726,
+   "lng": 128.59393792188666,
+   "place_url": "http://place.map.kakao.com/1242598286",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8316616",
+   "area": "dongseongno",
+   "name": "미진분식",
+   "cat": "분식",
+   "addr": "대구 중구 동성로 6-2",
+   "lat": 35.86747974857079,
+   "lng": 128.594383523193,
+   "place_url": "http://place.map.kakao.com/8316616",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k517608900",
+   "area": "dongseongno",
+   "name": "맨션드방콕",
+   "cat": "태국음식",
+   "addr": "대구 중구 남성로 60",
+   "lat": 35.86712064341968,
+   "lng": 128.59319504823523,
+   "place_url": "http://place.map.kakao.com/517608900",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21227749",
+   "area": "dongseongno",
+   "name": "국일따로국밥",
+   "cat": "국밥",
+   "addr": "대구 중구 국채보상로 571",
+   "lat": 35.8710870691225,
+   "lng": 128.593225752268,
+   "place_url": "http://place.map.kakao.com/21227749",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1933999479",
+   "area": "dongseongno",
+   "name": "동아식당",
+   "cat": "국수",
+   "addr": "대구 중구 국채보상로125길 14",
+   "lat": 35.871047145939926,
+   "lng": 128.59894231821195,
+   "place_url": "http://place.map.kakao.com/1933999479",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10137426",
+   "area": "dongseongno",
+   "name": "군위식당",
+   "cat": "국밥",
+   "addr": "대구 중구 경상감영길 101",
+   "lat": 35.87227495934902,
+   "lng": 128.59321189549723,
+   "place_url": "http://place.map.kakao.com/10137426",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k14718368",
+   "area": "dongseongno",
+   "name": "다락방만두",
+   "cat": "분식",
+   "addr": "대구 중구 경상감영1길 43",
+   "lat": 35.87293874114133,
+   "lng": 128.59276349165503,
+   "place_url": "http://place.map.kakao.com/14718368",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8632787",
+   "area": "dongseongno",
+   "name": "8번식당 본점",
+   "cat": "국밥",
+   "addr": "대구 중구 서성로13길 8",
+   "lat": 35.8723568918284,
+   "lng": 128.586887123697,
+   "place_url": "http://place.map.kakao.com/8632787",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9252005",
+   "area": "dongseongno",
+   "name": "영생덕",
+   "cat": "중국요리",
+   "addr": "대구 중구 종로 39",
+   "lat": 35.869384767619,
+   "lng": 128.591393678021,
+   "place_url": "http://place.map.kakao.com/9252005",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

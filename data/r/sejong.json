@@ -1,250 +1,359 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s66",
+   "id": "k9274802",
    "area": "jochiwon",
-   "name": "조치원 옛날디저트",
-   "cat": "디저트",
-   "menu": "복숭아 디저트",
-   "price": 5000,
-   "lat": 36.600191519942506,
-   "lng": 127.2993427552542,
-   "place_url": null,
-   "emoji": "🍰",
+   "name": "왕천파닭 본점",
+   "cat": "치킨",
+   "addr": "세종특별자치시 조치원읍 조치원6길 13-12",
+   "lat": 36.6009123868065,
+   "lng": 127.30020175534877,
+   "place_url": "http://place.map.kakao.com/9274802",
    "good": null,
+   "emoji": "🍗",
    "src": {
-    "yt": 3,
-    "blog": 21,
-    "insta": 9
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "복숭아 디저트 5,000원? 조치원 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[조치원 맛집] 조치원 옛날디저트 복숭아 디저트 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "조치원 현지인 맛집 투어 — 조치원 옛날디저트",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "조치원 점심 추천 조치원 옛날디저트",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "복숭아 디저트 5,000원? 조치원 숨은 맛집",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "조치원 옛날디저트 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 4
-  },
-  {
-   "id": "s67",
-   "area": "jochiwon",
-   "name": "조치원 정겨운순대국밥",
-   "cat": "국밥",
-   "menu": "순대국밥",
-   "price": 8000,
-   "lat": 36.60234746676249,
-   "lng": 127.29509069694922,
-   "place_url": null,
-   "emoji": "🍲",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 16,
-    "insta": 3
-   },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[조치원 맛집] 조치원 정겨운순대국밥 순대국밥 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "조치원 점심 추천 조치원 정겨운순대국밥",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "조치원 정겨운순대국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 0
-  },
-  {
-   "id": "s68",
-   "area": "jochiwon",
-   "name": "조치원 온정짬뽕",
-   "cat": "중식",
-   "menu": "짬뽕",
-   "price": 8000,
-   "lat": 36.603155946819975,
-   "lng": 127.30135688813552,
-   "place_url": null,
-   "emoji": "🥟",
-   "good": null,
-   "src": {
-    "yt": 3,
-    "blog": 11,
-    "insta": 12
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "짬뽕 8,000원? 조치원 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[조치원 맛집] 조치원 온정짬뽕 짬뽕 후기",
-     "url": null,
+     "title": "조치원 시장 왕천파닭 본점… 파채랑 생마늘 조합 미쳤다 🍗",
+     "url": "https://www.youtube.com/watch?v=KuAkaVY1_aM",
      "date": "2026-11-08",
      "sponsored": false
-    },
+    }
+   ],
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k240524940",
+   "area": "jochiwon",
+   "name": "세종감자탕",
+   "cat": "감자탕",
+   "addr": "세종특별자치시 조치원읍 장안길 7",
+   "lat": 36.6003216928876,
+   "lng": 127.300379403744,
+   "place_url": "http://place.map.kakao.com/240524940",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
     {
      "src": "yt",
-     "title": "조치원 현지인 맛집 투어 — 조치원 온정짬뽕",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "조치원 점심 추천 조치원 온정짬뽕",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "짬뽕 8,000원? 조치원 숨은 맛집",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "조치원 온정짬뽕 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
+     "title": "@삶 #삼겹살 #맛집 #먹방 #꼬마철학자 #유튜버 #세종감자탕 #긍정적 #끌어당김의법칙",
+     "url": "https://www.youtube.com/watch?v=O2OasXkJ9NM",
+     "date": "2026-11-10",
      "sponsored": false
     }
    ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 1
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10332865",
+   "area": "jochiwon",
+   "name": "몽마르뜨",
+   "cat": "돈까스,우동",
+   "addr": "세종특별자치시 조치원읍 조치원로 31",
+   "lat": 36.60173451342118,
+   "lng": 127.30008758840175,
+   "place_url": "http://place.map.kakao.com/10332865",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k17822503",
+   "area": "jochiwon",
+   "name": "이바돔",
+   "cat": "돈까스,우동",
+   "addr": "세종특별자치시 조치원읍 새내11길 11",
+   "lat": 36.60207923646549,
+   "lng": 127.29737639509344,
+   "place_url": "http://place.map.kakao.com/17822503",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2044888581",
+   "area": "jochiwon",
+   "name": "스시애용",
+   "cat": "초밥,롤",
+   "addr": "세종특별자치시 조치원읍 으뜸길 226",
+   "lat": 36.60161011122638,
+   "lng": 127.29686718595835,
+   "place_url": "http://place.map.kakao.com/2044888581",
+   "good": null,
+   "emoji": "🍣",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k559939609",
+   "area": "jochiwon",
+   "name": "새마을전집",
+   "cat": "한식",
+   "addr": "세종특별자치시 조치원읍 새내8길 51",
+   "lat": 36.59971465313104,
+   "lng": 127.30132031539662,
+   "place_url": "http://place.map.kakao.com/559939609",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25606141",
+   "area": "jochiwon",
+   "name": "수구레국밥",
+   "cat": "국밥",
+   "addr": "세종특별자치시 조치원읍 새내9길 7",
+   "lat": 36.6000980816473,
+   "lng": 127.29791754183,
+   "place_url": "http://place.map.kakao.com/25606141",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k17822344",
+   "area": "jochiwon",
+   "name": "카티지피자",
+   "cat": "피자",
+   "addr": "세종특별자치시 조치원읍 행복12길 9-13",
+   "lat": 36.604143030943,
+   "lng": 127.293301444376,
+   "place_url": "http://place.map.kakao.com/17822344",
+   "good": null,
+   "emoji": "🍕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10491478",
+   "area": "jochiwon",
+   "name": "석기정부대찌개",
+   "cat": "찌개,전골",
+   "addr": "세종특별자치시 조치원읍 조치원3길 30-1",
+   "lat": 36.6028860911881,
+   "lng": 127.298683799339,
+   "place_url": "http://place.map.kakao.com/10491478",
+   "good": null,
+   "emoji": "🥘",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9059245",
+   "area": "jochiwon",
+   "name": "사리원면옥",
+   "cat": "분식",
+   "addr": "세종특별자치시 조치원읍 조치원6길 8",
+   "lat": 36.6010963411384,
+   "lng": 127.29943688985,
+   "place_url": "http://place.map.kakao.com/9059245",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27327527",
+   "area": "jochiwon",
+   "name": "신흥파닭",
+   "cat": "치킨",
+   "addr": "세종특별자치시 조치원읍 충현로 91",
+   "lat": 36.59670141670659,
+   "lng": 127.29549165110166,
+   "place_url": "http://place.map.kakao.com/27327527",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10131511",
+   "area": "jochiwon",
+   "name": "거부장",
+   "cat": "육류,고기",
+   "addr": "세종특별자치시 조치원읍 조치원로 58-1",
+   "lat": 36.6021900011283,
+   "lng": 127.303129355693,
+   "place_url": "http://place.map.kakao.com/10131511",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27056232",
+   "area": "jochiwon",
+   "name": "그대랑닭갈비",
+   "cat": "닭요리",
+   "addr": "세종특별자치시 조치원읍 조치원3길 28",
+   "lat": 36.6025943825713,
+   "lng": 127.298579850566,
+   "place_url": "http://place.map.kakao.com/27056232",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k172618246",
+   "area": "jochiwon",
+   "name": "양평칼국수",
+   "cat": "칼국수",
+   "addr": "세종특별자치시 조치원읍 침산로 4",
+   "lat": 36.6009956869649,
+   "lng": 127.290589332594,
+   "place_url": "http://place.map.kakao.com/172618246",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9682953",
+   "area": "jochiwon",
+   "name": "깡통주먹구이 조치원점",
+   "cat": "육류,고기",
+   "addr": "세종특별자치시 조치원읍 새내12길 11",
+   "lat": 36.6024140892685,
+   "lng": 127.298605979384,
+   "place_url": "http://place.map.kakao.com/9682953",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k380251220",
+   "area": "jochiwon",
+   "name": "덕윤당",
+   "cat": "일식",
+   "addr": "세종특별자치시 조치원읍 으뜸길 197",
+   "lat": 36.6003224731373,
+   "lng": 127.296830959003,
+   "place_url": "http://place.map.kakao.com/380251220",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

@@ -1,310 +1,403 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "gyeongbuk",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s91",
+   "id": "k9935399",
    "area": "gyeongju",
-   "name": "황리단길 정겨운쌈밥",
-   "cat": "한식",
-   "menu": "쌈밥",
-   "price": 13000,
-   "lat": 35.83619151994251,
-   "lng": 129.2153297053878,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 4,
-    "blog": 6,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "쌈밥 13,000원? 황리단길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[황리단길 맛집] 황리단길 정겨운쌈밥 쌈밥 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "황리단길 현지인 맛집 투어 — 황리단길 정겨운쌈밥",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 점심 추천 황리단길 정겨운쌈밥",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "쌈밥 13,000원? 황리단길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 정겨운쌈밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 1
-  },
-  {
-   "id": "s92",
-   "area": "gyeongju",
-   "name": "황리단길 온정찰보리빵",
-   "cat": "베이커리",
-   "menu": "찰보리빵",
-   "price": 1500,
-   "lat": 35.83834746676249,
-   "lng": 129.21111897165977,
-   "place_url": null,
-   "emoji": "🥐",
+   "name": "정록쌈밥",
+   "cat": "쌈밥",
+   "addr": "경북 경주시 계림로 48",
+   "lat": 35.83862613742365,
+   "lng": 129.2140742142922,
+   "place_url": "http://place.map.kakao.com/9935399",
    "good": null,
+   "emoji": "🍚",
    "src": {
     "yt": 1,
-    "blog": 21,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "찰보리빵 1,500원? 황리단길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[황리단길 맛집] 황리단길 온정찰보리빵 찰보리빵 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 점심 추천 황리단길 온정찰보리빵",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 온정찰보리빵 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
+     "title": "#경주여행#경주맛집#정록쌈밥",
+     "url": "https://www.youtube.com/watch?v=sJYMil9W2XQ",
+     "date": "2026-11-12",
      "sponsored": false
     }
    ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 2
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s93",
+   "id": "k19454026",
    "area": "gyeongju",
-   "name": "황리단길 할매한우국밥",
-   "cat": "국밥",
-   "menu": "한우국밥",
-   "price": 10000,
-   "lat": 35.83915594681998,
-   "lng": 129.2173242634695,
-   "place_url": null,
-   "emoji": "🍲",
-   "good": "price",
-   "src": {
-    "yt": 4,
-    "blog": 16,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "한우국밥 10,000원? 황리단길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[황리단길 맛집] 황리단길 할매한우국밥 한우국밥 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "황리단길 현지인 맛집 투어 — 황리단길 할매한우국밥",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 점심 추천 황리단길 할매한우국밥",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "한우국밥 10,000원? 황리단길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 할매한우국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s94",
-   "area": "gyeongju",
-   "name": "황리단길 골목쌍화차",
-   "cat": "카페",
-   "menu": "한옥 카페 쌍화차",
-   "price": 6000,
-   "lat": 35.834125404240034,
-   "lng": 129.21233786826525,
-   "place_url": null,
-   "emoji": "☕",
+   "name": "시즈닝",
+   "cat": "양식",
+   "addr": "경북 경주시 첨성로99번길 25-2",
+   "lat": 35.835462997102,
+   "lng": 129.212437131226,
+   "place_url": "http://place.map.kakao.com/19454026",
    "good": null,
+   "emoji": "🍝",
    "src": {
-    "yt": 1,
-    "blog": 11,
-    "insta": 3
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "한옥 카페 쌍화차 6,000원? 황리단길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
+     "title": "📍여수 달밑밤 #협찬 #여수카페 #여수브런치",
+     "url": "https://www.youtube.com/watch?v=E2kiJJob8dI",
+     "date": "2026-11-10",
      "sponsored": false
     },
     {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[황리단길 맛집] 황리단길 골목쌍화차 한옥 카페 쌍화차 후기",
-     "url": null,
+     "src": "yt",
+     "title": "수원 행궁동 맛집 브뤼셀프라이 감자튀김에 토핑까지🍟 #shorts #수원화성행궁 #행궁동데이트",
+     "url": "https://www.youtube.com/watch?v=fI4hVxjagcQ",
      "date": "2026-11-05",
      "sponsored": false
-    },
+    }
+   ],
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k492784484",
+   "area": "gyeongju",
+   "name": "경주교동순두부",
+   "cat": "두부전문점",
+   "addr": "경북 경주시 첨성로 77",
+   "lat": 35.8332422637933,
+   "lng": 129.210558565024,
+   "place_url": "http://place.map.kakao.com/492784484",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
     {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 점심 추천 황리단길 골목쌍화차",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "황리단길 골목쌍화차 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
+     "src": "yt",
+     "title": "경주 황리단길 첨성대 주차가능 맛집 경주교동순두부 황리단길점",
+     "url": "https://www.youtube.com/watch?v=H9o8fyxMlW4",
+     "date": "2026-11-10",
      "sponsored": false
     }
    ],
-   "kw": [
-    "노포",
-    "친절"
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2068966961",
+   "area": "gyeongju",
+   "name": "다인매운등갈비찜",
+   "cat": "갈비",
+   "addr": "경북 경주시 원화로181번길 25",
+   "lat": 35.836208802411534,
+   "lng": 129.2172403463257,
+   "place_url": "http://place.map.kakao.com/2068966961",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "경주 여행 브이로그)사진 진심인 여자랑 먹는거 진심인 남자가 간 1박2일 경주여행🍂| 오아르미술관,십원빵,녹음제과 성공,술술방앗간,이가네떡볶이,",
+     "url": "https://www.youtube.com/watch?v=TQ6TjUoJzQc",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
    ],
-   "last": 4
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26519092",
+   "area": "gyeongju",
+   "name": "황남빵",
+   "cat": "제과,베이커리",
+   "addr": "경북 경주시 태종로 783",
+   "lat": 35.8408398161359,
+   "lng": 129.21364442351,
+   "place_url": "http://place.map.kakao.com/26519092",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k632306474",
+   "area": "gyeongju",
+   "name": "향화정",
+   "cat": "한식",
+   "addr": "경북 경주시 사정로57번길 17",
+   "lat": 35.8380095983727,
+   "lng": 129.209192577739,
+   "place_url": "http://place.map.kakao.com/632306474",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k822374476",
+   "area": "gyeongju",
+   "name": "료코",
+   "cat": "일식",
+   "addr": "경북 경주시 첨성로99번길 24",
+   "lat": 35.835284462400665,
+   "lng": 129.21273757585004,
+   "place_url": "http://place.map.kakao.com/822374476",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26312724",
+   "area": "gyeongju",
+   "name": "백년손님",
+   "cat": "불고기,두루치기",
+   "addr": "경북 경주시 첨성로99번길 20",
+   "lat": 35.834979086881425,
+   "lng": 129.21278220592941,
+   "place_url": "http://place.map.kakao.com/26312724",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26348190",
+   "area": "gyeongju",
+   "name": "최영화빵",
+   "cat": "제과,베이커리",
+   "addr": "경북 경주시 북정로 6-1",
+   "lat": 35.841572474144975,
+   "lng": 129.21534906906183,
+   "place_url": "http://place.map.kakao.com/26348190",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21474812",
+   "area": "gyeongju",
+   "name": "박용자경주명동쫄면 본점",
+   "cat": "국수",
+   "addr": "경북 경주시 계림로93번길 3",
+   "lat": 35.8425665263111,
+   "lng": 129.213236489611,
+   "place_url": "http://place.map.kakao.com/21474812",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9959009",
+   "area": "gyeongju",
+   "name": "경주원조콩국",
+   "cat": "한식",
+   "addr": "경북 경주시 첨성로 113",
+   "lat": 35.83345287503942,
+   "lng": 129.21472931242565,
+   "place_url": "http://place.map.kakao.com/9959009",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7815624",
+   "area": "gyeongju",
+   "name": "대구갈비 본점",
+   "cat": "갈비",
+   "addr": "경북 경주시 북정로 5",
+   "lat": 35.8414611569987,
+   "lng": 129.215131287884,
+   "place_url": "http://place.map.kakao.com/7815624",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1783751879",
+   "area": "gyeongju",
+   "name": "도미",
+   "cat": "양식",
+   "addr": "경북 경주시 중앙로 10",
+   "lat": 35.8407626996026,
+   "lng": 129.211765466849,
+   "place_url": "http://place.map.kakao.com/1783751879",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1012514158",
+   "area": "gyeongju",
+   "name": "최영화빵 황리단점",
+   "cat": "제과,베이커리",
+   "addr": "경북 경주시 포석로1095번길 2",
+   "lat": 35.83896493598476,
+   "lng": 129.2097679453888,
+   "place_url": "http://place.map.kakao.com/1012514158",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1952344699",
+   "area": "gyeongju",
+   "name": "황남두꺼비",
+   "cat": "갈비",
+   "addr": "경북 경주시 포석로1050번길 16",
+   "lat": 35.834487397456726,
+   "lng": 129.21090737271513,
+   "place_url": "http://place.map.kakao.com/1952344699",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21511039",
+   "area": "gyeongju",
+   "name": "운수대통닭갈비",
+   "cat": "닭요리",
+   "addr": "경북 경주시 원효로 104-15",
+   "lat": 35.8416307517433,
+   "lng": 129.212382726771,
+   "place_url": "http://place.map.kakao.com/21511039",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2023623666",
+   "area": "gyeongju",
+   "name": "신라제면 경주황리단길점",
+   "cat": "국수",
+   "addr": "경북 경주시 첨성로81번길 22-7",
+   "lat": 35.8350981503799,
+   "lng": 129.211894754767,
+   "place_url": "http://place.map.kakao.com/2023623666",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

@@ -1,324 +1,526 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s73",
+   "id": "k1545071550",
    "area": "gangneung",
-   "name": "중앙시장 온정장칼국수",
-   "cat": "칼국수",
-   "menu": "장칼국수",
-   "price": 8000,
-   "lat": 37.753191519942504,
-   "lng": 128.89986340698243,
-   "place_url": null,
-   "emoji": "🍜",
+   "name": "강릉길감자",
+   "cat": "간식",
+   "addr": "강원특별자치도 강릉시 금성로 16",
+   "lat": 37.75464662559153,
+   "lng": 128.89862833186885,
+   "place_url": "http://place.map.kakao.com/1545071550",
    "good": null,
+   "emoji": "🍽️",
    "src": {
-    "yt": 5,
-    "blog": 11,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "장칼국수 8,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 온정장칼국수 장칼국수 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 온정장칼국수",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 온정장칼국수",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "장칼국수 8,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 온정장칼국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 1
-  },
-  {
-   "id": "s74",
-   "area": "gangneung",
-   "name": "중앙시장 할매초당순두부",
-   "cat": "한식",
-   "menu": "초당순두부",
-   "price": 10000,
-   "lat": 37.75534746676249,
-   "lng": 128.8955459515381,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 2,
-    "blog": 6,
+    "yt": 3,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "초당순두부 10,000원? 중앙시장 숨은 맛집",
-     "url": null,
+     "title": "강릉에서 줄 서서 먹는 그 길감자를 이제 성수에서도 맛볼 수 있다니! 🥔💛",
+     "url": "https://www.youtube.com/watch?v=cxjtnevRrII",
+     "date": "2026-11-11",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "강릉맛집 원데이코스 따라오세요|테라로사|강릉신라모노그램|강릉중앙시장|예닮곳간|참순찰떡방|강릉길감자|효주원",
+     "url": "https://www.youtube.com/watch?v=XpYpfk-TVow",
+     "date": "2026-11-10",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "📍강릉길감자 본점 #강릉중앙시장 #강릉맛집 #강릉길감자",
+     "url": "https://www.youtube.com/watch?v=gChc_DGxT3Y",
+     "date": "2026-11-04",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k234216431",
+   "area": "gangneung",
+   "name": "수제어묵고로케",
+   "cat": "간식",
+   "addr": "강원특별자치도 강릉시 금성로13번길 8",
+   "lat": 37.7539473228977,
+   "lng": 128.899202712888,
+   "place_url": "http://place.map.kakao.com/234216431",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "강릉 시장에서 고로케만 먹은 이유 #강릉맛집 #강릉먹방",
+     "url": "https://www.youtube.com/watch?v=omc-hE7gdqs",
+     "date": "2026-11-07",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 7,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1342614114",
+   "area": "gangneung",
+   "name": "강릉중화짬뽕빵",
+   "cat": "제과,베이커리",
+   "addr": "강원특별자치도 강릉시 금성로13번길 17",
+   "lat": 37.7533278195922,
+   "lng": 128.90013538353114,
+   "place_url": "http://place.map.kakao.com/1342614114",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "강릉 중앙시장에서 꼭 먹어봐야 할 이색 먹거리!강릉 여행 중 특별한 간식을 찾다가 발견한 강릉 중화짬뽕빵",
+     "url": "https://www.youtube.com/watch?v=aM02afPUskU",
      "date": "2026-11-08",
      "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 할매초당순두부 초당순두부 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 할매초당순두부",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 할매초당순두부",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 할매초당순두부 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
     }
    ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 2
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s75",
+   "id": "k931854869",
    "area": "gangneung",
-   "name": "중앙시장 골목닭강정",
-   "cat": "치킨",
-   "menu": "닭강정",
-   "price": 15000,
-   "lat": 37.75615594681997,
-   "lng": 128.90190851745604,
-   "place_url": null,
-   "emoji": "🍗",
-   "good": null,
-   "src": {
-    "yt": 5,
-    "blog": 21,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "닭강정 15,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 골목닭강정 닭강정 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 골목닭강정",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 골목닭강정",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "닭강정 15,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 골목닭강정 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s76",
-   "area": "gangneung",
-   "name": "중앙시장 시장감자옹심이",
+   "name": "감자옹심이",
    "cat": "한식",
-   "menu": "감자옹심이",
-   "price": 9000,
-   "lat": 37.75112540424003,
-   "lng": 128.896795741272,
-   "place_url": null,
+   "addr": "강원특별자치도 강릉시 금성로14번길 9-1",
+   "lat": 37.75509407808783,
+   "lng": 128.89814167654163,
+   "place_url": "http://place.map.kakao.com/931854869",
+   "good": null,
    "emoji": "🍚",
-   "good": "share",
    "src": {
-    "yt": 2,
-    "blog": 16,
-    "insta": 3
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "감자옹심이 9,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 시장감자옹심이 감자옹심이 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 시장감자옹심이",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 시장감자옹심이",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 시장감자옹심이 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
+     "title": "강릉 여행 갈 때 이 코스 어때요 #강릉여행 #강릉맛집 #강릉코스추천",
+     "url": "https://www.youtube.com/watch?v=9fVPkisitMQ",
+     "date": "2026-11-10",
      "sponsored": false
     }
    ],
-   "kw": [
-    "양 많음",
-    "점심"
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10665079",
+   "area": "gangneung",
+   "name": "여왕개미식당",
+   "cat": "국수",
+   "addr": "강원특별자치도 강릉시 금성로23번길 4",
+   "lat": 37.7537529419428,
+   "lng": 128.89807222921,
+   "place_url": "http://place.map.kakao.com/10665079",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#강릉맛집추천 #강릉맛집 #강릉중앙시장맛집추천 #강릉중앙시장맛집 #강릉시장맛집추천 #강릉장칼국수맛집추천 #강릉장칼국수맛집 #강릉장칼국수 #강릉옹",
+     "url": "https://www.youtube.com/watch?v=fw1-D8SGyT0",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
    ],
-   "last": 4
+   "kw": [],
+   "last": 8,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1722163390",
+   "area": "gangneung",
+   "name": "강릉만복래닭강정",
+   "cat": "닭강정",
+   "addr": "강원특별자치도 강릉시 중앙시장2길 42",
+   "lat": 37.75315683748511,
+   "lng": 128.89939807025328,
+   "place_url": "http://place.map.kakao.com/1722163390",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "강릉 중앙시장 가면 무조건 사 오는 수제 닭강정 강릉만복래닭강정 포장 후기 #강릉중앙시장맛집",
+     "url": "https://www.youtube.com/watch?v=YXm8nt-Gb7A",
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 13,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27364436",
+   "area": "gangneung",
+   "name": "모자호떡",
+   "cat": "간식",
+   "addr": "강원특별자치도 강릉시 금성로 21",
+   "lat": 37.75417940625877,
+   "lng": 128.89899988174844,
+   "place_url": "http://place.map.kakao.com/27364436",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "BTS뷔도 줄 서서 먹는 곳?! 강릉 중앙시장 ‘이것’때문에 난리 난 상황",
+     "url": "https://www.youtube.com/watch?v=18Z1dITJhwg",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9651486",
+   "area": "gangneung",
+   "name": "곱창집",
+   "cat": "곱창,막창",
+   "addr": "강원특별자치도 강릉시 율곡로 2795",
+   "lat": 37.754379888185,
+   "lng": 128.900756829111,
+   "place_url": "http://place.map.kakao.com/9651486",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "울산 42년 터줏대감 찐노포 곱창집 | #울산맛집 #울산맛집추천 #울산현지인맛집 #고또픽",
+     "url": "https://www.youtube.com/watch?v=ZyqQ5t1UYqM",
+     "date": "2026-11-01",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 13,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1895412800",
+   "area": "gangneung",
+   "name": "만동 제과 강릉점",
+   "cat": "제과,베이커리",
+   "addr": "강원특별자치도 강릉시 금성로 6",
+   "lat": 37.75518124679549,
+   "lng": 128.8994963615783,
+   "place_url": "http://place.map.kakao.com/1895412800",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11395119",
+   "area": "gangneung",
+   "name": "옹심이장칼국수 감자바우",
+   "cat": "칼국수",
+   "addr": "강원특별자치도 강릉시 금성로35번길 4",
+   "lat": 37.75310689521508,
+   "lng": 128.89707430758034,
+   "place_url": "http://place.map.kakao.com/11395119",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k18673146",
+   "area": "gangneung",
+   "name": "정화식당",
+   "cat": "한식",
+   "addr": "강원특별자치도 강릉시 토성로 193",
+   "lat": 37.75758975758613,
+   "lng": 128.8968336736277,
+   "place_url": "http://place.map.kakao.com/18673146",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8793742",
+   "area": "gangneung",
+   "name": "금학칼국수분식",
+   "cat": "칼국수",
+   "addr": "강원특별자치도 강릉시 대학길 12-6",
+   "lat": 37.7544188199559,
+   "lng": 128.896328346511,
+   "place_url": "http://place.map.kakao.com/8793742",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8606955",
+   "area": "gangneung",
+   "name": "해성집",
+   "cat": "회",
+   "addr": "강원특별자치도 강릉시 금성로 21",
+   "lat": 37.7540157398762,
+   "lng": 128.898982081968,
+   "place_url": "http://place.map.kakao.com/8606955",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11056626",
+   "area": "gangneung",
+   "name": "빨간삼겹살",
+   "cat": "삼겹살",
+   "addr": "강원특별자치도 강릉시 금성로45번길 14",
+   "lat": 37.7518234847002,
+   "lng": 128.897056277862,
+   "place_url": "http://place.map.kakao.com/11056626",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k112760187",
+   "area": "gangneung",
+   "name": "강릉꼬막집 독도네본점",
+   "cat": "한식",
+   "addr": "강원특별자치도 강릉시 옥천로 47",
+   "lat": 37.75934295376065,
+   "lng": 128.90045722247197,
+   "place_url": "http://place.map.kakao.com/112760187",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9072806",
+   "area": "gangneung",
+   "name": "벌집",
+   "cat": "국수",
+   "addr": "강원특별자치도 강릉시 경강로2069번길 15",
+   "lat": 37.75449507584071,
+   "lng": 128.8928187004322,
+   "place_url": "http://place.map.kakao.com/9072806",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k13131970",
+   "area": "gangneung",
+   "name": "형제칼국수",
+   "cat": "칼국수",
+   "addr": "강원특별자치도 강릉시 강릉대로204번길 2",
+   "lat": 37.757879615605844,
+   "lng": 128.89309445092806,
+   "place_url": "http://place.map.kakao.com/13131970",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10730956",
+   "area": "gangneung",
+   "name": "장군시오야끼 체인1호점",
+   "cat": "불고기,두루치기",
+   "addr": "강원특별자치도 강릉시 문화의길7번길 7",
+   "lat": 37.7542434069807,
+   "lng": 128.894240745871,
+   "place_url": "http://place.map.kakao.com/10730956",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9835230",
+   "area": "gangneung",
+   "name": "바로방",
+   "cat": "제과,베이커리",
+   "addr": "강원특별자치도 강릉시 옥가로 14",
+   "lat": 37.757581476452074,
+   "lng": 128.89930472671793,
+   "place_url": "http://place.map.kakao.com/9835230",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8773810",
+   "area": "gangneung",
+   "name": "원조강릉교동반점 본점",
+   "cat": "중국요리",
+   "addr": "강원특별자치도 강릉시 강릉대로 205",
+   "lat": 37.758302633497415,
+   "lng": 128.89294978619063,
+   "place_url": "http://place.map.kakao.com/8773810",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k878842690",
+   "area": "gangneung",
+   "name": "중앙돈가스",
+   "cat": "돈까스,우동",
+   "addr": "강원특별자치도 강릉시 금성로23번길 4-6",
+   "lat": 37.75368852299395,
+   "lng": 128.89798889254766,
+   "place_url": "http://place.map.kakao.com/878842690",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

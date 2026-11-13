@@ -1,324 +1,396 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "incheon",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s51",
+   "id": "k8294851",
    "area": "gaehang",
-   "name": "개항장 온정짜장면",
-   "cat": "중식",
-   "menu": "짜장면",
-   "price": 7000,
-   "lat": 37.47379151994251,
-   "lng": 126.62145829383373,
-   "place_url": null,
-   "emoji": "🥟",
+   "name": "만다복 본점",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 차이나타운로 36",
+   "lat": 37.47611245574872,
+   "lng": 126.61927006924279,
+   "place_url": "http://place.map.kakao.com/8294851",
    "good": null,
+   "emoji": "🥟",
    "src": {
-    "yt": 5,
-    "blog": 21,
+    "yt": 1,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "짜장면 7,000원? 개항장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[개항장 맛집] 개항장 온정짜장면 짜장면 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "개항장 현지인 맛집 투어 — 개항장 온정짜장면",
-     "url": null,
+     "title": "공갈빵 사러 들어갔다 양손 가득 들고나온 이유? 인천 차이나타운 구구만다복 솔직후기",
+     "url": "https://www.youtube.com/watch?v=-CFIbgvqvBY",
      "date": "2026-11-07",
      "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 점심 추천 개항장 온정짜장면",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "짜장면 7,000원? 개항장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 온정짜장면 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
     }
    ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 0
+   "kw": [],
+   "last": 7,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s52",
+   "id": "k26968250",
    "area": "gaehang",
-   "name": "개항장 할매쫄면",
-   "cat": "분식",
-   "menu": "쫄면",
-   "price": 7000,
-   "lat": 37.47594746676249,
-   "lng": 126.6171570300269,
-   "place_url": null,
-   "emoji": "🍙",
-   "good": "price",
-   "src": {
-    "yt": 2,
-    "blog": 16,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "쫄면 7,000원? 개항장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[개항장 맛집] 개항장 할매쫄면 쫄면 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "개항장 현지인 맛집 투어 — 개항장 할매쫄면",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 점심 추천 개항장 할매쫄면",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 할매쫄면 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 1
-  },
-  {
-   "id": "s53",
-   "area": "gaehang",
-   "name": "개항장 골목닭강정",
-   "cat": "치킨",
-   "menu": "닭강정",
-   "price": 12000,
-   "lat": 37.47675594681998,
-   "lng": 126.62349573458434,
-   "place_url": null,
-   "emoji": "🍗",
+   "name": "해안칼국수",
+   "cat": "칼국수",
+   "addr": "인천 제물포구 신포로15번길 59-1",
+   "lat": 37.47202871633511,
+   "lng": 126.62139345480301,
+   "place_url": "http://place.map.kakao.com/26968250",
    "good": null,
+   "emoji": "🍜",
    "src": {
-    "yt": 5,
-    "blog": 11,
-    "insta": 3
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "닭강정 12,000원? 개항장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[개항장 맛집] 개항장 골목닭강정 닭강정 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "개항장 현지인 맛집 투어 — 개항장 골목닭강정",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 점심 추천 개항장 골목닭강정",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "닭강정 12,000원? 개항장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 골목닭강정 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
+     "title": "인천 신포동 칼국수 맛집 해안칼국수, 1979년 노포의 8천 원 가성비 한 끼 #노포맛집 #칼국수맛집 #맛집탐방 #맛집 #해안칼국수 #short",
+     "url": "https://www.youtube.com/watch?v=C33nk2I16zg",
+     "date": "2026-11-13",
      "sponsored": false
     }
    ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 2
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s54",
+   "id": "k632607580",
    "area": "gaehang",
-   "name": "개항장 시장만두",
-   "cat": "만두",
-   "menu": "만두",
-   "price": 6000,
-   "lat": 37.47172540424003,
-   "lng": 126.61840213270783,
-   "place_url": null,
-   "emoji": "🥟",
-   "good": "share",
+   "name": "인천맥주",
+   "cat": "호프,요리주점",
+   "addr": "인천 제물포구 신포로15번길 41",
+   "lat": 37.4715086745052,
+   "lng": 126.622187400106,
+   "place_url": "http://place.map.kakao.com/632607580",
+   "good": null,
+   "emoji": "🍶",
    "src": {
-    "yt": 2,
-    "blog": 6,
-    "insta": 12
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "만두 6,000원? 개항장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[개항장 맛집] 개항장 시장만두 만두 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "개항장 현지인 맛집 투어 — 개항장 시장만두",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 점심 추천 개항장 시장만두",
-     "url": null,
+     "title": "나혼자 인천 당일치기⚓신포시장 맛집 l 차이나타운 카페 추천 l 인천맥주, 타르트야, 아키라 커피 l 인천 유나이티드 블루마켓",
+     "url": "https://www.youtube.com/watch?v=jb9MEp02p0M",
      "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "개항장 시장만두 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
      "sponsored": false
     }
    ],
-   "kw": [
-    "양 많음",
-    "점심"
+   "kw": [],
+   "last": 11,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11193331",
+   "area": "gaehang",
+   "name": "신포야채치킨 본점",
+   "cat": "치킨",
+   "addr": "인천 제물포구 우현로49번길 25",
+   "lat": 37.471481846706524,
+   "lng": 126.62678737708852,
+   "place_url": "http://place.map.kakao.com/11193331",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "포야채치킨에 오시면 이 3가지는 꼭 드셔보셔야 합니다. 🥢 #치킨 #닭강정 #신포시장 #맛집 #신포동 #chicken #food #먹방 #촌닭 ",
+     "url": "https://www.youtube.com/watch?v=cGcsKEt3VI8",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
    ],
-   "last": 3
+   "kw": [],
+   "last": 8,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9175466",
+   "area": "gaehang",
+   "name": "신승반점 본점",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 차이나타운로44번길 31-3",
+   "lat": 37.4754680156144,
+   "lng": 126.617805923634,
+   "place_url": "http://place.map.kakao.com/9175466",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8494566",
+   "area": "gaehang",
+   "name": "차이나타운 연경 본관",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 차이나타운로 41",
+   "lat": 37.47562766847219,
+   "lng": 126.61981517926819,
+   "place_url": "http://place.map.kakao.com/8494566",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8081757",
+   "area": "gaehang",
+   "name": "중화루",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 홍예문로 12",
+   "lat": 37.4717930817768,
+   "lng": 126.623784445655,
+   "place_url": "http://place.map.kakao.com/8081757",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8189016",
+   "area": "gaehang",
+   "name": "공화춘 차이나타운1호점",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 차이나타운로 43",
+   "lat": 37.4753908741045,
+   "lng": 126.619588013992,
+   "place_url": "http://place.map.kakao.com/8189016",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8986903",
+   "area": "gaehang",
+   "name": "미광",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 참외전로13번길 15-4",
+   "lat": 37.48015788135192,
+   "lng": 126.62064469343873,
+   "place_url": "http://place.map.kakao.com/8986903",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8568222",
+   "area": "gaehang",
+   "name": "진흥각",
+   "cat": "중식",
+   "addr": "인천 제물포구 신포로23번길 20",
+   "lat": 37.471703414500226,
+   "lng": 126.62392055068015,
+   "place_url": "http://place.map.kakao.com/8568222",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15558943",
+   "area": "gaehang",
+   "name": "명월집",
+   "cat": "찌개,전골",
+   "addr": "인천 제물포구 신포로23번길 41",
+   "lat": 37.47206909472531,
+   "lng": 126.6227498137118,
+   "place_url": "http://place.map.kakao.com/15558943",
+   "good": null,
+   "emoji": "🥘",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8109671",
+   "area": "gaehang",
+   "name": "청실홍실 신포본점",
+   "cat": "국수",
+   "addr": "인천 제물포구 우현로35번길 23-1",
+   "lat": 37.47086084358118,
+   "lng": 126.62501339610753,
+   "place_url": "http://place.map.kakao.com/8109671",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9433427",
+   "area": "gaehang",
+   "name": "태화원",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 차이나타운로59번길 10",
+   "lat": 37.47402887194698,
+   "lng": 126.61856842488434,
+   "place_url": "http://place.map.kakao.com/9433427",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7983810",
+   "area": "gaehang",
+   "name": "십리향",
+   "cat": "간식",
+   "addr": "인천 제물포구 차이나타운로 50-2",
+   "lat": 37.47509288652362,
+   "lng": 126.6188252967364,
+   "place_url": "http://place.map.kakao.com/7983810",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1079632374",
+   "area": "gaehang",
+   "name": "온센 신포점",
+   "cat": "일식",
+   "addr": "인천 제물포구 신포로35번길 22",
+   "lat": 37.47268640965455,
+   "lng": 126.6247702670123,
+   "place_url": "http://place.map.kakao.com/1079632374",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1036209672",
+   "area": "gaehang",
+   "name": "연경 동화마을점",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 차이나타운로 8",
+   "lat": 37.47858178653302,
+   "lng": 126.61944973786635,
+   "place_url": "http://place.map.kakao.com/1036209672",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k12127666",
+   "area": "gaehang",
+   "name": "중화방",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 신포로27번길 43",
+   "lat": 37.4724428914579,
+   "lng": 126.622994378457,
+   "place_url": "http://place.map.kakao.com/12127666",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

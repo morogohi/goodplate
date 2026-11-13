@@ -1,257 +1,351 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s63",
+   "id": "k16725331",
    "area": "seongnam",
-   "name": "성남동 시장불고기",
-   "cat": "한식",
-   "menu": "언양식 불고기",
-   "price": 14000,
-   "lat": 35.554191519942506,
-   "lng": 129.32032501161095,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "share",
-   "src": {
-    "yt": 2,
-    "blog": 6,
-    "insta": 3
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "언양식 불고기 14,000원? 성남동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[성남동 맛집] 성남동 시장불고기 언양식 불고기 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성남동 현지인 맛집 투어 — 성남동 시장불고기",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성남동 점심 추천 성남동 시장불고기",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성남동 시장불고기 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s64",
-   "area": "seongnam",
-   "name": "성남동 옛날칼국수",
-   "cat": "칼국수",
-   "menu": "칼국수",
-   "price": 7000,
-   "lat": 35.55634746676249,
-   "lng": 129.31612914150958,
-   "place_url": null,
-   "emoji": "🍜",
+   "name": "계원닭집",
+   "cat": "치킨",
+   "addr": "울산 중구 젊음의거리 110",
+   "lat": 35.5543808556256,
+   "lng": 129.323561542307,
+   "place_url": "http://place.map.kakao.com/16725331",
    "good": null,
+   "emoji": "🍗",
    "src": {
-    "yt": 5,
-    "blog": 21,
-    "insta": 12
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "칼국수 7,000원? 성남동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[성남동 맛집] 성남동 옛날칼국수 칼국수 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성남동 현지인 맛집 투어 — 성남동 옛날칼국수",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성남동 점심 추천 성남동 옛날칼국수",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "칼국수 7,000원? 성남동 숨은 맛집",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성남동 옛날칼국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 4
-  },
-  {
-   "id": "s65",
-   "area": "seongnam",
-   "name": "성남동 정겨운국밥",
-   "cat": "국밥",
-   "menu": "국밥",
-   "price": 8500,
-   "lat": 35.557155946819975,
-   "lng": 129.32231252902739,
-   "place_url": null,
-   "emoji": "🍲",
-   "good": "price",
-   "src": {
-    "yt": 2,
-    "blog": 16,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "국밥 8,500원? 성남동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[성남동 맛집] 성남동 정겨운국밥 국밥 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성남동 현지인 맛집 투어 — 성남동 정겨운국밥",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성남동 점심 추천 성남동 정겨운국밥",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
+     "title": "이게 한 마리라고요?! 진정한 노포맛집 시장통닭 #먹스타그램 #맛집 #부산북구",
+     "url": "https://www.youtube.com/watch?v=wrobHXSrPbQ",
      "date": "2026-11-04",
      "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성남동 정겨운국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
     }
    ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 0
+   "kw": [],
+   "last": 10,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1086317267",
+   "area": "seongnam",
+   "name": "명장스시",
+   "cat": "초밥,롤",
+   "addr": "울산 중구 학성로 85-1",
+   "lat": 35.55523216570661,
+   "lng": 129.32053181307575,
+   "place_url": "http://place.map.kakao.com/1086317267",
+   "good": null,
+   "emoji": "🍣",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15969236",
+   "area": "seongnam",
+   "name": "호재래",
+   "cat": "양꼬치",
+   "addr": "울산 중구 중앙길 77",
+   "lat": 35.5552818802481,
+   "lng": 129.317761209673,
+   "place_url": "http://place.map.kakao.com/15969236",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10988644",
+   "area": "seongnam",
+   "name": "형제식당",
+   "cat": "찌개,전골",
+   "addr": "울산 중구 젊음의거리 68",
+   "lat": 35.55388147923333,
+   "lng": 129.32071890408648,
+   "place_url": "http://place.map.kakao.com/10988644",
+   "good": null,
+   "emoji": "🥘",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k465359772",
+   "area": "seongnam",
+   "name": "손가",
+   "cat": "중국요리",
+   "addr": "울산 중구 문화의거리 14",
+   "lat": 35.5560075874303,
+   "lng": 129.321861915271,
+   "place_url": "http://place.map.kakao.com/465359772",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k13561163",
+   "area": "seongnam",
+   "name": "이모집식당",
+   "cat": "한식",
+   "addr": "울산 중구 젊음의1거리 38",
+   "lat": 35.55372187779015,
+   "lng": 129.32109911553468,
+   "place_url": "http://place.map.kakao.com/13561163",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k434306603",
+   "area": "seongnam",
+   "name": "부기타이",
+   "cat": "태국음식",
+   "addr": "울산 중구 중앙3길 17",
+   "lat": 35.5546330525174,
+   "lng": 129.316639891552,
+   "place_url": "http://place.map.kakao.com/434306603",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k877069288",
+   "area": "seongnam",
+   "name": "덴푸라찬",
+   "cat": "일식집",
+   "addr": "울산 중구 젊음의1거리 5",
+   "lat": 35.5533702773854,
+   "lng": 129.31872166386,
+   "place_url": "http://place.map.kakao.com/877069288",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9259742",
+   "area": "seongnam",
+   "name": "영안반점",
+   "cat": "중국요리",
+   "addr": "울산 중구 중앙길 13",
+   "lat": 35.5537387007947,
+   "lng": 129.314977859477,
+   "place_url": "http://place.map.kakao.com/9259742",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9399162",
+   "area": "seongnam",
+   "name": "조포닭발 본점",
+   "cat": "닭요리",
+   "addr": "울산 중구 중앙2길 20-1",
+   "lat": 35.55552619420307,
+   "lng": 129.32009592640722,
+   "place_url": "http://place.map.kakao.com/9399162",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k759598301",
+   "area": "seongnam",
+   "name": "심야라멘트럭 울산 성남동점",
+   "cat": "일본식라면",
+   "addr": "울산 중구 중앙1길 7",
+   "lat": 35.55617198691309,
+   "lng": 129.3198289581801,
+   "place_url": "http://place.map.kakao.com/759598301",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1657182616",
+   "area": "seongnam",
+   "name": "피자몰 울산점",
+   "cat": "피자몰",
+   "addr": "울산 중구 젊음의2거리 33",
+   "lat": 35.55318303473123,
+   "lng": 129.3203977511813,
+   "place_url": "http://place.map.kakao.com/1657182616",
+   "good": null,
+   "emoji": "🍕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k24371740",
+   "area": "seongnam",
+   "name": "시로스시",
+   "cat": "초밥,롤",
+   "addr": "울산 중구 시계탑거리 32",
+   "lat": 35.5538774763763,
+   "lng": 129.321628450331,
+   "place_url": "http://place.map.kakao.com/24371740",
+   "good": null,
+   "emoji": "🍣",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8215648",
+   "area": "seongnam",
+   "name": "궁중삼계탕",
+   "cat": "삼계탕",
+   "addr": "울산 중구 먹자거리 6",
+   "lat": 35.5546972286728,
+   "lng": 129.319861424973,
+   "place_url": "http://place.map.kakao.com/8215648",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15778287",
+   "area": "seongnam",
+   "name": "봉계돼지국밥",
+   "cat": "국밥",
+   "addr": "울산 중구 중앙길 91-2",
+   "lat": 35.5557387485943,
+   "lng": 129.3180875196623,
+   "place_url": "http://place.map.kakao.com/15778287",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26094293",
+   "area": "seongnam",
+   "name": "더스위트타이",
+   "cat": "동남아음식",
+   "addr": "울산 중구 중앙길 113",
+   "lat": 35.5557811248839,
+   "lng": 129.319725068358,
+   "place_url": "http://place.map.kakao.com/26094293",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

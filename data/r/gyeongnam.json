@@ -1,324 +1,383 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s95",
+   "id": "k26396219",
    "area": "tongyeong",
-   "name": "중앙시장 온정충무김밥",
-   "cat": "분식",
-   "menu": "충무김밥",
-   "price": 9000,
-   "lat": 34.8451915199425,
-   "lng": 128.42631349526582,
-   "place_url": null,
-   "emoji": "🍙",
+   "name": "심가네해물짬뽕",
+   "cat": "중국요리",
+   "addr": "경남 통영시 새터길 74-4",
+   "lat": 34.84151649686873,
+   "lng": 128.4206253416037,
+   "place_url": "http://place.map.kakao.com/26396219",
    "good": null,
+   "emoji": "🥟",
    "src": {
-    "yt": 5,
-    "blog": 21,
-    "insta": 12
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "충무김밥 9,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 온정충무김밥 충무김밥 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 온정충무김밥",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 온정충무김밥",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "충무김밥 9,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 온정충무김밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 2
-  },
-  {
-   "id": "s96",
-   "area": "tongyeong",
-   "name": "중앙시장 할매꿀빵",
-   "cat": "디저트",
-   "menu": "꿀빵",
-   "price": 1500,
-   "lat": 34.847347466762486,
-   "lng": 128.42215409359073,
-   "place_url": null,
-   "emoji": "🍰",
-   "good": "price",
-   "src": {
-    "yt": 2,
-    "blog": 16,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "꿀빵 1,500원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 할매꿀빵 꿀빵 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 할매꿀빵",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 할매꿀빵",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 할매꿀빵 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s97",
-   "area": "tongyeong",
-   "name": "중앙시장 골목굴국밥",
-   "cat": "국밥",
-   "menu": "굴국밥",
-   "price": 10000,
-   "lat": 34.84815594681997,
-   "lng": 128.42828373816454,
-   "place_url": null,
-   "emoji": "🍲",
-   "good": null,
-   "src": {
-    "yt": 5,
-    "blog": 11,
+    "yt": 1,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "굴국밥 10,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 골목굴국밥 굴국밥 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 골목굴국밥",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 골목굴국밥",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "굴국밥 10,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 골목굴국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
+     "title": "[경남 통영] 가면 무조건인 맛집 3곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=pOOFQQOAJpE",
+     "date": "2026-11-04",
      "sponsored": false
     }
    ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 4
+   "kw": [],
+   "last": 10,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s98",
+   "id": "k1620566882",
    "area": "tongyeong",
-   "name": "중앙시장 시장시락국",
-   "cat": "한식",
-   "menu": "시락국",
-   "price": 6000,
-   "lat": 34.84312540424003,
-   "lng": 128.42335813091773,
-   "place_url": null,
+   "name": "다담아해물뚝배기",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 항남5길 12-5",
+   "lat": 34.8412426706505,
+   "lng": 128.421459125718,
+   "place_url": "http://place.map.kakao.com/1620566882",
+   "good": null,
    "emoji": "🍚",
-   "good": "share",
    "src": {
-    "yt": 2,
-    "blog": 6,
-    "insta": 9
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "시락국 6,000원? 중앙시장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[중앙시장 맛집] 중앙시장 시장시락국 시락국 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "중앙시장 현지인 맛집 투어 — 중앙시장 시장시락국",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 점심 추천 중앙시장 시장시락국",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "중앙시장 시장시락국 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
+     "title": "현지인이 찾는 통영 해물뚝배기 #통영맛집 #통영여행 #통영현지인맛집",
+     "url": "https://www.youtube.com/watch?v=ZWkFY95u-tw",
+     "date": "2026-11-05",
      "sponsored": false
     }
    ],
-   "kw": [
-    "양 많음",
-    "점심"
+   "kw": [],
+   "last": 9,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10468843",
+   "area": "tongyeong",
+   "name": "부일식당",
+   "cat": "복어",
+   "addr": "경남 통영시 서호시장길 45",
+   "lat": 34.84122401826879,
+   "lng": 128.42050990154388,
+   "place_url": "http://place.map.kakao.com/10468843",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "맛집VLOG)전국 해산물 원산지 통영으로~! 다찌집 완벽성공🍣부일식당+미정해물탕+몸과마음+토담실비+통영원조호떡+피엘씨치킨+한산섬식당+카페녘+백만",
+     "url": "https://www.youtube.com/watch?v=T4UEn11QJDk",
+     "date": "2026-11-10",
+     "sponsored": false
+    }
    ],
-   "last": 0
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11892442",
+   "area": "tongyeong",
+   "name": "한산섬식당",
+   "cat": "매운탕,해물탕",
+   "addr": "경남 통영시 정동4길 58",
+   "lat": 34.8432407193522,
+   "lng": 128.43123199891,
+   "place_url": "http://place.map.kakao.com/11892442",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "맛집VLOG)전국 해산물 원산지 통영으로~! 다찌집 완벽성공🍣부일식당+미정해물탕+몸과마음+토담실비+통영원조호떡+피엘씨치킨+한산섬식당+카페녘+백만",
+     "url": "https://www.youtube.com/watch?v=T4UEn11QJDk",
+     "date": "2026-11-10",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8608591",
+   "area": "tongyeong",
+   "name": "한일김밥 본점",
+   "cat": "분식",
+   "addr": "경남 통영시 통영해안로 319",
+   "lat": 34.8433043981677,
+   "lng": 128.423348703468,
+   "place_url": "http://place.map.kakao.com/8608591",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "통영 맛집 10곳, 시락국부터 충무김밥까지 #Shorts",
+     "url": "https://www.youtube.com/watch?v=09ci9tvW4-M",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k915869564",
+   "area": "tongyeong",
+   "name": "동피랑전복마을",
+   "cat": "굴,전복",
+   "addr": "경남 통영시 해송정2길 29",
+   "lat": 34.84325419271865,
+   "lng": 128.4274015464899,
+   "place_url": "http://place.map.kakao.com/915869564",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k115499738",
+   "area": "tongyeong",
+   "name": "대풍관",
+   "cat": "굴,전복",
+   "addr": "경남 통영시 해송정2길 29",
+   "lat": 34.843255299105984,
+   "lng": 128.42738407387415,
+   "place_url": "http://place.map.kakao.com/115499738",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8694850",
+   "area": "tongyeong",
+   "name": "명가충무김밥 본점",
+   "cat": "분식",
+   "addr": "경남 통영시 통영해안로 339",
+   "lat": 34.8448390300167,
+   "lng": 128.424682661183,
+   "place_url": "http://place.map.kakao.com/8694850",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11891884",
+   "area": "tongyeong",
+   "name": "동광식당",
+   "cat": "복어",
+   "addr": "경남 통영시 통영해안로 343-1",
+   "lat": 34.8448712331589,
+   "lng": 128.425011192551,
+   "place_url": "http://place.map.kakao.com/11891884",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k24199598",
+   "area": "tongyeong",
+   "name": "뚱보할매김밥집",
+   "cat": "분식",
+   "addr": "경남 통영시 통영해안로 325",
+   "lat": 34.84386747160767,
+   "lng": 128.42367762562958,
+   "place_url": "http://place.map.kakao.com/24199598",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8455466",
+   "area": "tongyeong",
+   "name": "오미사꿀빵 본점",
+   "cat": "제과,베이커리",
+   "addr": "경남 통영시 충렬로 14-18",
+   "lat": 34.8426554227319,
+   "lng": 128.420267751601,
+   "place_url": "http://place.map.kakao.com/8455466",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27357697",
+   "area": "tongyeong",
+   "name": "동피랑쭈굴",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 통영해안로 363-1",
+   "lat": 34.8445670245979,
+   "lng": 128.42727990825,
+   "place_url": "http://place.map.kakao.com/27357697",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k817202662",
+   "area": "tongyeong",
+   "name": "동피랑 현지인의 통큰해물",
+   "cat": "한식",
+   "addr": "경남 통영시 통새미길 22",
+   "lat": 34.84443469256967,
+   "lng": 128.42772694820852,
+   "place_url": "http://place.map.kakao.com/817202662",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10445065",
+   "area": "tongyeong",
+   "name": "산양식당",
+   "cat": "한식",
+   "addr": "경남 통영시 강구안길 29",
+   "lat": 34.844093120806825,
+   "lng": 128.42341913345885,
+   "place_url": "http://place.map.kakao.com/10445065",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k13618032",
+   "area": "tongyeong",
+   "name": "통영동해식당",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 항남1길 36",
+   "lat": 34.84159280891259,
+   "lng": 128.42404184542343,
+   "place_url": "http://place.map.kakao.com/13618032",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k140567292",
+   "area": "tongyeong",
+   "name": "충무멸치쌈밥",
+   "cat": "쌈밥",
+   "addr": "경남 통영시 중앙시장2길 22",
+   "lat": 34.845793697334,
+   "lng": 128.425359449343,
+   "place_url": "http://place.map.kakao.com/140567292",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

@@ -1,296 +1,433 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s87",
+   "id": "k9967837",
    "area": "yeosu",
-   "name": "이순신광장 옛날게장백반",
-   "cat": "한식",
-   "menu": "게장백반",
-   "price": 13000,
-   "lat": 34.73919151994251,
-   "lng": 127.73931180787487,
-   "place_url": null,
-   "emoji": "🍚",
+   "name": "서울해장국",
+   "cat": "해장국",
+   "addr": "전남광주통합특별시 여수시 통제영5길 11",
+   "lat": 34.74099653867476,
+   "lng": 127.73569457430386,
+   "place_url": "http://place.map.kakao.com/9967837",
    "good": null,
+   "emoji": "🍲",
    "src": {
-    "yt": 3,
-    "blog": 11,
+    "yt": 1,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "게장백반 13,000원? 이순신광장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[이순신광장 맛집] 이순신광장 옛날게장백반 게장백반 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "이순신광장 현지인 맛집 투어 — 이순신광장 옛날게장백반",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 점심 추천 이순신광장 옛날게장백반",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "게장백반 13,000원? 이순신광장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 옛날게장백반 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
+     "title": "전현무계획에 소개된 동대문 맛집, 대화정 진짜해장국!",
+     "url": "https://www.youtube.com/watch?v=edqf2D6W93M",
+     "date": "2026-11-11",
      "sponsored": false
     }
    ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 0
+   "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s88",
+   "id": "k26972508",
    "area": "yeosu",
-   "name": "이순신광장 정겨운서대회무침",
-   "cat": "한식",
-   "menu": "서대회무침",
-   "price": 15000,
-   "lat": 34.74134746676249,
-   "lng": 127.73515774960444,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 6,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[이순신광장 맛집] 이순신광장 정겨운서대회무침 서대회무침 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 점심 추천 이순신광장 정겨운서대회무침",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 정겨운서대회무침 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 1
-  },
-  {
-   "id": "s89",
-   "area": "yeosu",
-   "name": "이순신광장 온정백반",
-   "cat": "한식",
-   "menu": "갓김치 백반",
-   "price": 9000,
-   "lat": 34.74215594681998,
-   "lng": 127.74127951968718,
-   "place_url": null,
-   "emoji": "🍚",
+   "name": "이순신수제버거",
+   "cat": "햄버거",
+   "addr": "전남광주통합특별시 여수시 중앙로 73",
+   "lat": 34.74022411692939,
+   "lng": 127.73568226727866,
+   "place_url": "http://place.map.kakao.com/26972508",
    "good": null,
+   "emoji": "🍔",
    "src": {
-    "yt": 3,
-    "blog": 21,
-    "insta": 3
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "갓김치 백반 9,000원? 이순신광장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[이순신광장 맛집] 이순신광장 온정백반 갓김치 백반 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "이순신광장 현지인 맛집 투어 — 이순신광장 온정백반",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 점심 추천 이순신광장 온정백반",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "갓김치 백반 9,000원? 이순신광장 숨은 맛집",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 온정백반 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
+     "title": "#여수수제버거 #이순신광장맛집",
+     "url": "https://www.youtube.com/watch?v=a4yyEg7WPIU",
+     "date": "2026-11-13",
      "sponsored": false
     }
    ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 2
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s90",
+   "id": "k1323696604",
    "area": "yeosu",
-   "name": "이순신광장 할매해물삼합",
-   "cat": "한식",
-   "menu": "해물삼합",
-   "price": 25000,
-   "lat": 34.73712540424003,
-   "lng": 127.7363602401564,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "price",
+   "name": "구봉만두",
+   "cat": "분식",
+   "addr": "전남광주통합특별시 여수시 중앙로 77",
+   "lat": 34.7401723402292,
+   "lng": 127.736344627893,
+   "place_url": "http://place.map.kakao.com/1323696604",
+   "good": null,
+   "emoji": "🍙",
    "src": {
-    "yt": 0,
-    "blog": 16,
-    "insta": 12
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[이순신광장 맛집] 이순신광장 할매해물삼합 해물삼합 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 점심 추천 이순신광장 할매해물삼합",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "이순신광장 할매해물삼합 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
+     "src": "yt",
+     "title": "#맛도리#여행#travel #맛집#맛도리#추천#맛집추천#여수#오동도#딸기모찌 #모찌#바다김밥#피타베이커스#명란바게트#광장국밥#국밥#돼지국밥#해장",
+     "url": "https://www.youtube.com/watch?v=-BvcO2smY3w",
+     "date": "2026-11-13",
      "sponsored": false
     }
    ],
-   "kw": [
-    "가성비",
-    "현지인"
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1716648703",
+   "area": "yeosu",
+   "name": "광장국밥",
+   "cat": "국밥",
+   "addr": "전남광주통합특별시 여수시 통제영5길 3",
+   "lat": 34.7403427758582,
+   "lng": 127.735437627658,
+   "place_url": "http://place.map.kakao.com/1716648703",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#맛도리#여행#travel #맛집#맛도리#추천#맛집추천#여수#오동도#딸기모찌 #모찌#바다김밥#피타베이커스#명란바게트#광장국밥#국밥#돼지국밥#해장",
+     "url": "https://www.youtube.com/watch?v=-BvcO2smY3w",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
    ],
-   "last": 3
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2010383698",
+   "area": "yeosu",
+   "name": "아이스크림옥",
+   "cat": "아이스크림",
+   "addr": "전남광주통합특별시 여수시 이순신광장로 75",
+   "lat": 34.73933962869456,
+   "lng": 127.73542000292095,
+   "place_url": "http://place.map.kakao.com/2010383698",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "여수 이순신광장 수제젤라또 #아이스크림옥",
+     "url": "https://www.youtube.com/watch?v=gw4fjhqyv58",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1791603371",
+   "area": "yeosu",
+   "name": "피타베이커스",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 여수시 통제영5길 5",
+   "lat": 34.7405736856591,
+   "lng": 127.735412374744,
+   "place_url": "http://place.map.kakao.com/1791603371",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#맛도리#여행#travel #맛집#맛도리#추천#맛집추천#여수#오동도#딸기모찌 #모찌#바다김밥#피타베이커스#명란바게트#광장국밥#국밥#돼지국밥#해장",
+     "url": "https://www.youtube.com/watch?v=-BvcO2smY3w",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1580162918",
+   "area": "yeosu",
+   "name": "바다김밥 중앙본점",
+   "cat": "분식",
+   "addr": "전남광주통합특별시 여수시 통제영5길 10-4",
+   "lat": 34.7407823298531,
+   "lng": 127.735939460128,
+   "place_url": "http://place.map.kakao.com/1580162918",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2085896456",
+   "area": "yeosu",
+   "name": "여수당",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 여수시 중앙로 72",
+   "lat": 34.73989892574248,
+   "lng": 127.73534852194733,
+   "place_url": "http://place.map.kakao.com/2085896456",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9025490",
+   "area": "yeosu",
+   "name": "복춘식당",
+   "cat": "아구",
+   "addr": "전남광주통합특별시 여수시 교동남1길 5-8",
+   "lat": 34.73956039618868,
+   "lng": 127.73408759400289,
+   "place_url": "http://place.map.kakao.com/9025490",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2073877553",
+   "area": "yeosu",
+   "name": "순이네 밥상",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 여수시 통제영5길 5",
+   "lat": 34.74053173570238,
+   "lng": 127.73549280838843,
+   "place_url": "http://place.map.kakao.com/2073877553",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2089785035",
+   "area": "yeosu",
+   "name": "바다식탁",
+   "cat": "이탈리안",
+   "addr": "전남광주통합특별시 여수시 중앙5길 5",
+   "lat": 34.73831257146603,
+   "lng": 127.73935169653298,
+   "place_url": "http://place.map.kakao.com/2089785035",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27578277",
+   "area": "yeosu",
+   "name": "좌수영바게트버거",
+   "cat": "간식",
+   "addr": "전남광주통합특별시 여수시 동문로 10",
+   "lat": 34.74083086192392,
+   "lng": 127.7367086362529,
+   "place_url": "http://place.map.kakao.com/27578277",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k647109492",
+   "area": "yeosu",
+   "name": "희망선어",
+   "cat": "회",
+   "addr": "전남광주통합특별시 여수시 동문로 10-10",
+   "lat": 34.7404780917405,
+   "lng": 127.736762286873,
+   "place_url": "http://place.map.kakao.com/647109492",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1862765385",
+   "area": "yeosu",
+   "name": "여수 회포장전문점 여수찬 이순신광장 본점",
+   "cat": "회",
+   "addr": "전남광주통합특별시 여수시 이순신광장로 95-1",
+   "lat": 34.73922148483881,
+   "lng": 127.73662337388255,
+   "place_url": "http://place.map.kakao.com/1862765385",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k787357115",
+   "area": "yeosu",
+   "name": "노랑고래찹쌀꽈배기 여수중앙점",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 여수시 진남상가길 9",
+   "lat": 34.7413023767817,
+   "lng": 127.735799931138,
+   "place_url": "http://place.map.kakao.com/787357115",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k22319583",
+   "area": "yeosu",
+   "name": "7공주식당 여수본점",
+   "cat": "장어",
+   "addr": "전남광주통합특별시 여수시 교동시장2길 13-3",
+   "lat": 34.7391409318033,
+   "lng": 127.730692298029,
+   "place_url": "http://place.map.kakao.com/22319583",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8272851",
+   "area": "yeosu",
+   "name": "돌산식당",
+   "cat": "해물,생선",
+   "addr": "전남광주통합특별시 여수시 교동남2길 13",
+   "lat": 34.73950602297124,
+   "lng": 127.73473354815178,
+   "place_url": "http://place.map.kakao.com/8272851",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9602257",
+   "area": "yeosu",
+   "name": "한려식당",
+   "cat": "삼겹살",
+   "addr": "전남광주통합특별시 여수시 중앙로 81-1",
+   "lat": 34.7399343648486,
+   "lng": 127.736643896525,
+   "place_url": "http://place.map.kakao.com/9602257",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

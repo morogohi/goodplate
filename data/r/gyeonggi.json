@@ -1,310 +1,424 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s69",
+   "id": "k7970465",
    "area": "suwon-haenggung",
-   "name": "행궁동 정겨운통닭",
-   "cat": "치킨",
-   "menu": "통닭",
-   "price": 17000,
-   "lat": 37.28219151994251,
-   "lng": 127.01585482814293,
-   "place_url": null,
-   "emoji": "🍗",
-   "good": "price",
+   "name": "수원만두",
+   "cat": "중식",
+   "addr": "경기 수원시 팔달구 창룡대로8번길 6",
+   "lat": 37.28152659783932,
+   "lng": 127.0174555436597,
+   "place_url": "http://place.map.kakao.com/7970465",
+   "good": null,
+   "emoji": "🥟",
    "src": {
-    "yt": 4,
-    "blog": 16,
+    "yt": 1,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "통닭 17,000원? 행궁동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[행궁동 맛집] 행궁동 정겨운통닭 통닭 후기",
-     "url": null,
+     "title": "수원 행궁동 수원만두 Suwon Mandu, Haenggung-dong, Suwon #수원만두 #군만두 #단단탕면 #행궁동맛집 #맛집한입",
+     "url": "https://www.youtube.com/watch?v=hfEvR-robEY",
      "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "행궁동 현지인 맛집 투어 — 행궁동 정겨운통닭",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 점심 추천 행궁동 정겨운통닭",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "통닭 17,000원? 행궁동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 정겨운통닭 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
      "sponsored": false
     }
    ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 0
+   "kw": [],
+   "last": 5,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s70",
+   "id": "k21386517",
    "area": "suwon-haenggung",
-   "name": "행궁동 온정왕갈비탕",
-   "cat": "한식",
-   "menu": "왕갈비탕",
-   "price": 14000,
-   "lat": 37.28434746676249,
-   "lng": 127.01156453902364,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": null,
-   "src": {
-    "yt": 1,
-    "blog": 11,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "왕갈비탕 14,000원? 행궁동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[행궁동 맛집] 행궁동 온정왕갈비탕 왕갈비탕 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 점심 추천 행궁동 온정왕갈비탕",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 온정왕갈비탕 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 1
-  },
-  {
-   "id": "s71",
-   "area": "suwon-haenggung",
-   "name": "행궁동 할매칼국수",
+   "name": "대왕칼국수",
    "cat": "칼국수",
-   "menu": "칼국수",
-   "price": 8000,
-   "lat": 37.28515594681998,
-   "lng": 127.01788707035733,
-   "place_url": null,
-   "emoji": "🍜",
-   "good": "price",
-   "src": {
-    "yt": 4,
-    "blog": 6,
-    "insta": 3
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "칼국수 8,000원? 행궁동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[행궁동 맛집] 행궁동 할매칼국수 칼국수 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "행궁동 현지인 맛집 투어 — 행궁동 할매칼국수",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 점심 추천 행궁동 할매칼국수",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "칼국수 8,000원? 행궁동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 할매칼국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 2
-  },
-  {
-   "id": "s72",
-   "area": "suwon-haenggung",
-   "name": "행궁동 골목쌍화차",
-   "cat": "카페",
-   "menu": "한옥 카페 쌍화차",
-   "price": 6000,
-   "lat": 37.28012540424003,
-   "lng": 127.01280646482134,
-   "place_url": null,
-   "emoji": "☕",
+   "addr": "경기 수원시 팔달구 창룡대로7번길 11",
+   "lat": 37.28245465173419,
+   "lng": 127.01756852128833,
+   "place_url": "http://place.map.kakao.com/21386517",
    "good": null,
+   "emoji": "🍜",
    "src": {
     "yt": 1,
-    "blog": 21,
-    "insta": 12
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "한옥 카페 쌍화차 6,000원? 행궁동 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[행궁동 맛집] 행궁동 골목쌍화차 한옥 카페 쌍화차 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 점심 추천 행궁동 골목쌍화차",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "행궁동 골목쌍화차 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
+     "title": "수원 행궁동 무려 57년된 노포 칼국수집 대왕칼국수",
+     "url": "https://www.youtube.com/watch?v=3HA5uLhpjMQ",
+     "date": "2026-11-08",
      "sponsored": false
     }
    ],
-   "kw": [
-    "노포",
-    "친절"
+   "kw": [],
+   "last": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k772761461",
+   "area": "suwon-haenggung",
+   "name": "삼춘옥",
+   "cat": "해장국",
+   "addr": "경기 수원시 팔달구 팔달문로 5-5",
+   "lat": 37.277895328731226,
+   "lng": 127.01798240549174,
+   "place_url": "http://place.map.kakao.com/772761461",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "행궁동 80년 노포,통닭골목 혼술까지 나 혼자!🍗나홀로 수원 나들이",
+     "url": "https://www.youtube.com/watch?v=y0OM30sTuCI",
+     "date": "2026-11-11",
+     "sponsored": false
+    }
    ],
-   "last": 3
+   "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1325528968",
+   "area": "suwon-haenggung",
+   "name": "로우파이브",
+   "cat": "양식",
+   "addr": "경기 수원시 팔달구 신풍로23번길 59",
+   "lat": 37.28369878840387,
+   "lng": 127.01193055298171,
+   "place_url": "http://place.map.kakao.com/1325528968",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "비주얼 폭발 수원 행궁동 양식 맛집, 통옥수수 피자 + 바지락 봉골레 + 아보카도 김치볶음밥 로우파이브 #행궁동맛집 #수원맛집",
+     "url": "https://www.youtube.com/watch?v=cQxl022VKXs",
+     "date": "2026-11-12",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "행궁동 1박2일, 둘째 날은 이 코스로 | 성곽길 아침 산책 → 옥상 테라스 → 점심 로우파이브",
+     "url": "https://www.youtube.com/watch?v=EUaKW2GhAfU",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8022147",
+   "area": "suwon-haenggung",
+   "name": "용성통닭 본점",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 정조로800번길 15",
+   "lat": 37.2796253788949,
+   "lng": 127.017626498393,
+   "place_url": "http://place.map.kakao.com/8022147",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1673108386",
+   "area": "suwon-haenggung",
+   "name": "연밀",
+   "cat": "중국요리",
+   "addr": "경기 수원시 팔달구 창룡대로8번길 10",
+   "lat": 37.28132836583828,
+   "lng": 127.01747805020183,
+   "place_url": "http://place.map.kakao.com/1673108386",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1618985758",
+   "area": "suwon-haenggung",
+   "name": "운멜로 1호점",
+   "cat": "이탈리안",
+   "addr": "경기 수원시 팔달구 화서문로32번길 4",
+   "lat": 37.2847584549492,
+   "lng": 127.011479653338,
+   "place_url": "http://place.map.kakao.com/1618985758",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k406816688",
+   "area": "suwon-haenggung",
+   "name": "진미통닭",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 정조로800번길 21",
+   "lat": 37.2796604471175,
+   "lng": 127.018105732851,
+   "place_url": "http://place.map.kakao.com/406816688",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1102998606",
+   "area": "suwon-haenggung",
+   "name": "송연",
+   "cat": "한식",
+   "addr": "경기 수원시 팔달구 신풍로23번길 28",
+   "lat": 37.28363826131574,
+   "lng": 127.01340212746284,
+   "place_url": "http://place.map.kakao.com/1102998606",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1529424805",
+   "area": "suwon-haenggung",
+   "name": "남문통닭 본점",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 정조로800번길 16",
+   "lat": 37.27943615920185,
+   "lng": 127.01763547497177,
+   "place_url": "http://place.map.kakao.com/1529424805",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10066476",
+   "area": "suwon-haenggung",
+   "name": "동흥식당",
+   "cat": "한식",
+   "addr": "경기 수원시 팔달구 창룡대로8번길 8",
+   "lat": 37.281425680598154,
+   "lng": 127.01746115844136,
+   "place_url": "http://place.map.kakao.com/10066476",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k293730624",
+   "area": "suwon-haenggung",
+   "name": "셰프스위트",
+   "cat": "이탈리안",
+   "addr": "경기 수원시 팔달구 정조로801번길 27",
+   "lat": 37.279959111160565,
+   "lng": 127.0151131653851,
+   "place_url": "http://place.map.kakao.com/293730624",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11162155",
+   "area": "suwon-haenggung",
+   "name": "장안통닭",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 팔달문로3번길 42",
+   "lat": 37.2794271170333,
+   "lng": 127.017847459363,
+   "place_url": "http://place.map.kakao.com/11162155",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k824778682",
+   "area": "suwon-haenggung",
+   "name": "얼티튜드",
+   "cat": "이탈리안",
+   "addr": "경기 수원시 팔달구 화서문로45번길 9",
+   "lat": 37.285699919136,
+   "lng": 127.012670627871,
+   "place_url": "http://place.map.kakao.com/824778682",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10745910",
+   "area": "suwon-haenggung",
+   "name": "입주집",
+   "cat": "곱창,막창",
+   "addr": "경기 수원시 팔달구 팔달문로3번길 37",
+   "lat": 37.2793190247019,
+   "lng": 127.017630937299,
+   "place_url": "http://place.map.kakao.com/10745910",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k22731456",
+   "area": "suwon-haenggung",
+   "name": "라비아화덕피자",
+   "cat": "이탈리안",
+   "addr": "경기 수원시 팔달구 행궁로 49-2",
+   "lat": 37.27818758558663,
+   "lng": 127.01573635700909,
+   "place_url": "http://place.map.kakao.com/22731456",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10340916",
+   "area": "suwon-haenggung",
+   "name": "매향통닭",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 수원천로 317",
+   "lat": 37.281680610781045,
+   "lng": 127.01788971346272,
+   "place_url": "http://place.map.kakao.com/10340916",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26018235",
+   "area": "suwon-haenggung",
+   "name": "돌판짜장 짜마",
+   "cat": "중식",
+   "addr": "경기 수원시 팔달구 화서문로 39",
+   "lat": 37.28524673710904,
+   "lng": 127.01228601484969,
+   "place_url": "http://place.map.kakao.com/26018235",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

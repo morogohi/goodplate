@@ -1,694 +1,762 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s38",
+   "id": "k10070964",
    "area": "nampo",
-   "name": "남포 시장돼지국밥",
-   "cat": "국밥",
-   "menu": "돼지국밥",
-   "price": 9000,
-   "lat": 35.09709151994251,
-   "lng": 129.03131754081255,
-   "place_url": null,
-   "emoji": "🍲",
-   "good": "share",
-   "src": {
-    "yt": 2,
-    "blog": 16,
-    "insta": 12
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "돼지국밥 9,000원? 남포 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[남포 맛집] 남포 시장돼지국밥 돼지국밥 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "남포 현지인 맛집 투어 — 남포 시장돼지국밥",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 점심 추천 남포 시장돼지국밥",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 시장돼지국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 2
-  },
-  {
-   "id": "s39",
-   "area": "nampo",
-   "name": "남포 옛날밀면",
-   "cat": "냉면",
-   "menu": "밀면",
-   "price": 8000,
-   "lat": 35.09924746676249,
-   "lng": 129.02714532823947,
-   "place_url": null,
-   "emoji": "🍜",
+   "name": "이재모피자 본점",
+   "cat": "피자",
+   "addr": "부산 중구 광복중앙로 31",
+   "lat": 35.10204215079571,
+   "lng": 129.030747190728,
+   "place_url": "http://place.map.kakao.com/10070964",
    "good": null,
+   "emoji": "🍕",
    "src": {
-    "yt": 5,
-    "blog": 11,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "밀면 8,000원? 남포 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[남포 맛집] 남포 옛날밀면 밀면 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "남포 현지인 맛집 투어 — 남포 옛날밀면",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 점심 추천 남포 옛날밀면",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "밀면 8,000원? 남포 숨은 맛집",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 옛날밀면 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s40",
-   "area": "nampo",
-   "name": "남포 정겨운어묵",
-   "cat": "분식",
-   "menu": "어묵",
-   "price": 3000,
-   "lat": 35.10005594681998,
-   "lng": 129.03329385203136,
-   "place_url": null,
-   "emoji": "🍙",
-   "good": "price",
-   "src": {
-    "yt": 2,
-    "blog": 6,
+    "yt": 3,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "어묵 3,000원? 남포 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[남포 맛집] 남포 정겨운어묵 어묵 후기",
-     "url": null,
-     "date": "2026-11-05",
+     "title": "ASMR MUKBANG | [부산맛집] 이재모피자 김치볶음밥 & 제로콜라 | Lee Jae Mo Kimchi Fried Rice & Coke Z",
+     "url": "https://www.youtube.com/watch?v=cvhZLCoRGfU",
+     "date": "2026-11-12",
      "sponsored": false
     },
     {
      "src": "yt",
-     "title": "남포 현지인 맛집 투어 — 남포 정겨운어묵",
-     "url": null,
-     "date": "2026-11-03",
+     "title": "이재모피자 본점 필수 추천 조합 #이재모피자 #부산맛집 #부산여행",
+     "url": "https://www.youtube.com/watch?v=qJ9UzaYW-4k",
+     "date": "2026-11-12",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "남포 점심 추천 남포 정겨운어묵",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 정겨운어묵 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
+     "src": "yt",
+     "title": "가을🍂이 끝나기 전에 축제한번은 다녀와야죠~  / 차이나타운축제.자갈치시장축제",
+     "url": "https://www.youtube.com/watch?v=ncqZ__S_iKk",
+     "date": "2026-11-05",
      "sponsored": false
     }
    ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 4
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s41",
+   "id": "k20204736",
    "area": "nampo",
-   "name": "남포 온정비빔당면",
-   "cat": "분식",
-   "menu": "비빔당면",
-   "price": 5000,
-   "lat": 35.09502540424003,
-   "lng": 129.0283530739843,
-   "place_url": null,
+   "name": "이가네떡볶이 본점",
+   "cat": "떡볶이",
+   "addr": "부산 중구 부평1길 48",
+   "lat": 35.1014825667343,
+   "lng": 129.02595233473696,
+   "place_url": "http://place.map.kakao.com/20204736",
+   "good": null,
    "emoji": "🍙",
-   "good": null,
-   "src": {
-    "yt": 5,
-    "blog": 21,
-    "insta": 9
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "비빔당면 5,000원? 남포 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[남포 맛집] 남포 온정비빔당면 비빔당면 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "남포 현지인 맛집 투어 — 남포 온정비빔당면",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 점심 추천 남포 온정비빔당면",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "비빔당면 5,000원? 남포 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 온정비빔당면 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 0
-  },
-  {
-   "id": "s42",
-   "area": "nampo",
-   "name": "남포 할매생선구이",
-   "cat": "한식",
-   "menu": "생선구이",
-   "price": 11000,
-   "lat": 35.09736101329501,
-   "lng": 129.0346113928439,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 2,
-    "blog": 16,
-    "insta": 3
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "생선구이 11,000원? 남포 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[남포 맛집] 남포 할매생선구이 생선구이 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "남포 현지인 맛집 투어 — 남포 할매생선구이",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 점심 추천 남포 할매생선구이",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "남포 할매생선구이 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 1
-  },
-  {
-   "id": "s43",
-   "area": "haeundae",
-   "name": "해운대 옛날복국",
-   "cat": "한식",
-   "menu": "복국",
-   "price": 12000,
-   "lat": 35.16229151994251,
-   "lng": 129.16491859615485,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": null,
    "src": {
     "yt": 3,
-    "blog": 11,
-    "insta": 3
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "복국 12,000원? 해운대 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[해운대 맛집] 해운대 옛날복국 복국 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "해운대 현지인 맛집 투어 — 해운대 옛날복국",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "해운대 점심 추천 해운대 옛날복국",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "복국 12,000원? 해운대 숨은 맛집",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "해운대 옛날복국 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s44",
-   "area": "haeundae",
-   "name": "해운대 정겨운밀면",
-   "cat": "냉면",
-   "menu": "밀면",
-   "price": 8500,
-   "lat": 35.16444746676249,
-   "lng": 129.16074304166452,
-   "place_url": null,
-   "emoji": "🍜",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 6,
-    "insta": 12
-   },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[해운대 맛집] 해운대 정겨운밀면 밀면 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "해운대 점심 추천 해운대 정겨운밀면",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "해운대 정겨운밀면 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 4
-  },
-  {
-   "id": "s45",
-   "area": "haeundae",
-   "name": "해운대 온정돼지국밥",
-   "cat": "국밥",
-   "menu": "돼지국밥",
-   "price": 9500,
-   "lat": 35.165255946819975,
-   "lng": 129.1668964903871,
-   "place_url": null,
-   "emoji": "🍲",
-   "good": null,
-   "src": {
-    "yt": 3,
-    "blog": 21,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "돼지국밥 9,500원? 해운대 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[해운대 맛집] 해운대 온정돼지국밥 돼지국밥 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "해운대 현지인 맛집 투어 — 해운대 온정돼지국밥",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "해운대 점심 추천 해운대 온정돼지국밥",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "돼지국밥 9,500원? 해운대 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "해운대 온정돼지국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 0
-  },
-  {
-   "id": "s46",
-   "area": "haeundae",
-   "name": "해운대 할매해물칼국수",
-   "cat": "칼국수",
-   "menu": "해물칼국수",
-   "price": 10000,
-   "lat": 35.16022540424003,
-   "lng": 129.16195175480644,
-   "place_url": null,
-   "emoji": "🍜",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 16,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
-     "src": "blog",
-     "title": "[해운대 맛집] 해운대 할매해물칼국수 해물칼국수 후기",
-     "url": null,
-     "date": "2026-11-08",
+     "src": "yt",
+     "title": "경주 여행 브이로그)사진 진심인 여자랑 먹는거 진심인 남자가 간 1박2일 경주여행🍂| 오아르미술관,십원빵,녹음제과 성공,술술방앗간,이가네떡볶이,",
+     "url": "https://www.youtube.com/watch?v=TQ6TjUoJzQc",
+     "date": "2026-11-13",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "해운대 점심 추천 해운대 할매해물칼국수",
-     "url": null,
-     "date": "2026-11-05",
+     "src": "yt",
+     "title": "부산 깡통시장 맛집 이가네 떡볶이 #맛집 #부산맛집 #부산맛집추천 #깡통시장맛집 #부산깡통시장맛집 #부산떡볶이맛집 #shorts",
+     "url": "https://www.youtube.com/watch?v=joaHXZJ_kzY",
+     "date": "2026-11-12",
      "sponsored": false
     },
     {
-     "src": "blog",
-     "title": "해운대 할매해물칼국수 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
+     "src": "yt",
+     "title": "깡통시장 찐맛집만 추천해드림❤️",
+     "url": "https://www.youtube.com/watch?v=O6SNE32DFMo",
+     "date": "2026-11-11",
      "sponsored": false
     }
    ],
-   "kw": [
-    "가성비",
-    "현지인"
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8190288",
+   "area": "nampo",
+   "name": "개미집 본점",
+   "cat": "해물,생선",
+   "addr": "부산 중구 중구로30번길 21-1",
+   "lat": 35.10075509786033,
+   "lng": 129.03011216070587,
+   "place_url": "http://place.map.kakao.com/8190288",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 낙곱새 맛집 개미집, 1972년 국제시장에서 시작된 이야기 🐙 #쇼츠",
+     "url": "https://www.youtube.com/watch?v=iAdeYd3Tt5E",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
    ],
-   "last": 1
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8551576",
+   "area": "nampo",
+   "name": "이승학돈까스 본점",
+   "cat": "돈까스,우동",
+   "addr": "부산 중구 광복중앙로 12",
+   "lat": 35.10039174458834,
+   "lng": 129.03125232110978,
+   "place_url": "http://place.map.kakao.com/8551576",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 유명 경양식 돈까스 3곳 먹어봤습니다… 여러분의 원픽은?",
+     "url": "https://www.youtube.com/watch?v=ceMRmiEQ1HE",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8916998",
+   "area": "nampo",
+   "name": "돌고래순두부",
+   "cat": "두부전문점",
+   "addr": "부산 중구 중구로40번길 15",
+   "lat": 35.101543047824954,
+   "lng": 129.0296086472138,
+   "place_url": "http://place.map.kakao.com/8916998",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "남포동 여행 돌고래 순두부 맛집",
+     "url": "https://www.youtube.com/watch?v=YPsHZ6LrEEE",
+     "date": "2026-11-13",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "오이소/보이소/사이소  추억의 맛을 찾아서 #남포동 #돌고래순두부 #자갈치시장 #꼼장어골목 #선지국밥 #시장맛집 #남포동맛집 #웹툰 #Short",
+     "url": "https://www.youtube.com/watch?v=8PeGGHMPmIs",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k837267301",
+   "area": "haeundae",
+   "name": "해운대원조할매국밥",
+   "cat": "국밥",
+   "addr": "부산 해운대구 중동1로 40",
+   "lat": 35.1620187108888,
+   "lng": 129.163239118689,
+   "place_url": "http://place.map.kakao.com/837267301",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 해운대 원조할매국밥｜진짜 원조의 맛 Haeundae's Original Grandma's Korean Beef Soup 맛은 진국인데 가격",
+     "url": "https://www.youtube.com/watch?v=_vPmEsadcTk",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11047533",
+   "area": "nampo",
+   "name": "할매가야밀면",
+   "cat": "냉면",
+   "addr": "부산 중구 광복로 56-14",
+   "lat": 35.098946750334,
+   "lng": 129.031223043883,
+   "place_url": "http://place.map.kakao.com/11047533",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k16723710",
+   "area": "nampo",
+   "name": "대정양곱창 본관",
+   "cat": "곱창,막창",
+   "addr": "부산 중구 중구로23번길 31",
+   "lat": 35.0999553291537,
+   "lng": 129.026098752709,
+   "place_url": "http://place.map.kakao.com/16723710",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7886000",
+   "area": "nampo",
+   "name": "백화양곱창 6호",
+   "cat": "곱창,막창",
+   "addr": "부산 중구 자갈치로23번길 6",
+   "lat": 35.097002085808725,
+   "lng": 129.02706875483264,
+   "place_url": "http://place.map.kakao.com/7886000",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7931954",
+   "area": "nampo",
+   "name": "18번완당집",
+   "cat": "분식",
+   "addr": "부산 중구 비프광장로 31",
+   "lat": 35.098942419469,
+   "lng": 129.028468480826,
+   "place_url": "http://place.map.kakao.com/7931954",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10465006",
+   "area": "nampo",
+   "name": "원조부산족발",
+   "cat": "족발,보쌈",
+   "addr": "부산 중구 광복로 13-1",
+   "lat": 35.099585807981086,
+   "lng": 129.02664006377947,
+   "place_url": "http://place.map.kakao.com/10465006",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k990108683",
+   "area": "nampo",
+   "name": "미친막창",
+   "cat": "곱창,막창",
+   "addr": "부산 중구 광복로 16-2",
+   "lat": 35.09932958717518,
+   "lng": 129.02687276273002,
+   "place_url": "http://place.map.kakao.com/990108683",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8201472",
+   "area": "nampo",
+   "name": "김해식당",
+   "cat": "아구",
+   "addr": "부산 중구 자갈치로 51-2",
+   "lat": 35.0974796350193,
+   "lng": 129.029932246077,
+   "place_url": "http://place.map.kakao.com/8201472",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11128820",
+   "area": "nampo",
+   "name": "수복센타",
+   "cat": "호프,요리주점",
+   "addr": "부산 중구 남포길 25-3",
+   "lat": 35.09888829266081,
+   "lng": 129.0314310282674,
+   "place_url": "http://place.map.kakao.com/11128820",
+   "good": null,
+   "emoji": "🍶",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8915383",
+   "area": "nampo",
+   "name": "돌솥밥집",
+   "cat": "한식",
+   "addr": "부산 중구 광복로37번길 7-1",
+   "lat": 35.0999706757908,
+   "lng": 129.029059772371,
+   "place_url": "http://place.map.kakao.com/8915383",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11892204",
+   "area": "nampo",
+   "name": "옥생관",
+   "cat": "중국요리",
+   "addr": "부산 중구 대청로 66",
+   "lat": 35.1028269851025,
+   "lng": 129.027038320854,
+   "place_url": "http://place.map.kakao.com/11892204",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k14635584",
+   "area": "nampo",
+   "name": "홍가네양곱창",
+   "cat": "곱창,막창",
+   "addr": "부산 중구 자갈치로59번길 5-13",
+   "lat": 35.0977469426982,
+   "lng": 129.03032922936,
+   "place_url": "http://place.map.kakao.com/14635584",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8708426",
+   "area": "haeundae",
+   "name": "금수복국 해운대본점",
+   "cat": "복어",
+   "addr": "부산 해운대구 중동1로43번길 23",
+   "lat": 35.1623954243218,
+   "lng": 129.164447392476,
+   "place_url": "http://place.map.kakao.com/8708426",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8149130",
+   "area": "haeundae",
+   "name": "해운대암소갈비집",
+   "cat": "갈비",
+   "addr": "부산 해운대구 해운대해변로 333",
+   "lat": 35.163113604157466,
+   "lng": 129.16646470006606,
+   "place_url": "http://place.map.kakao.com/8149130",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k977177107",
+   "area": "haeundae",
+   "name": "해목",
+   "cat": "일식",
+   "addr": "부산 해운대구 구남로24번길 8",
+   "lat": 35.1618140418277,
+   "lng": 129.159660783393,
+   "place_url": "http://place.map.kakao.com/977177107",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25038747",
+   "area": "haeundae",
+   "name": "거대갈비",
+   "cat": "갈비",
+   "addr": "부산 해운대구 달맞이길 22",
+   "lat": 35.16155611368559,
+   "lng": 129.16693583295233,
+   "place_url": "http://place.map.kakao.com/25038747",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k20522414",
+   "area": "haeundae",
+   "name": "빨간떡볶이",
+   "cat": "떡볶이",
+   "addr": "부산 해운대구 우동1로20번길 74",
+   "lat": 35.16553238654025,
+   "lng": 129.160506443788,
+   "place_url": "http://place.map.kakao.com/20522414",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k16722795",
+   "area": "haeundae",
+   "name": "해운대밀면",
+   "cat": "국수",
+   "addr": "부산 해운대구 중동2로10번길 21",
+   "lat": 35.1633626826793,
+   "lng": 129.165587939929,
+   "place_url": "http://place.map.kakao.com/16722795",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27535411",
+   "area": "haeundae",
+   "name": "해운대할매집",
+   "cat": "국밥",
+   "addr": "부산 해운대구 중동2로10번길 7",
+   "lat": 35.163269107308025,
+   "lng": 129.16487437497153,
+   "place_url": "http://place.map.kakao.com/27535411",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k455501700",
+   "area": "haeundae",
+   "name": "오복돼지국밥",
+   "cat": "국밥",
+   "addr": "부산 해운대구 구남로 15",
+   "lat": 35.1625617984413,
+   "lng": 129.159974646463,
+   "place_url": "http://place.map.kakao.com/455501700",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k367285394",
+   "area": "haeundae",
+   "name": "해운대원조할매국밥",
+   "cat": "국밥",
+   "addr": "부산 해운대구 구남로21번길 33",
+   "lat": 35.163301573016895,
+   "lng": 129.1613417627714,
+   "place_url": "http://place.map.kakao.com/367285394",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26457226",
+   "area": "haeundae",
+   "name": "고래사어묵 해운대점",
+   "cat": "분식",
+   "addr": "부산 해운대구 구남로 14",
+   "lat": 35.1624914556872,
+   "lng": 129.159472398046,
+   "place_url": "http://place.map.kakao.com/26457226",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8010849",
+   "area": "haeundae",
+   "name": "옵스 해운대점",
+   "cat": "제과,베이커리",
+   "addr": "부산 해운대구 중동1로 31",
+   "lat": 35.1628053131907,
+   "lng": 129.162891247943,
+   "place_url": "http://place.map.kakao.com/8010849",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1711024786",
+   "area": "haeundae",
+   "name": "거북이금고",
+   "cat": "돈까스,우동",
+   "addr": "부산 해운대구 중동1로 32",
+   "lat": 35.16254866942863,
+   "lng": 129.16272972528716,
+   "place_url": "http://place.map.kakao.com/1711024786",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9089301",
+   "area": "haeundae",
+   "name": "상국이네",
+   "cat": "분식",
+   "addr": "부산 해운대구 구남로41번길 40-1",
+   "lat": 35.162016169133,
+   "lng": 129.16287693095907,
+   "place_url": "http://place.map.kakao.com/9089301",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8616462",
+   "area": "haeundae",
+   "name": "해운대기와집대구탕",
+   "cat": "한식",
+   "addr": "부산 해운대구 달맞이길50번길 4",
+   "lat": 35.16112663954615,
+   "lng": 129.16998486614517,
+   "place_url": "http://place.map.kakao.com/8616462",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15555120",
+   "area": "haeundae",
+   "name": "해운대가야밀면",
+   "cat": "국수",
+   "addr": "부산 해운대구 좌동순환로 27",
+   "lat": 35.1688354703383,
+   "lng": 129.166334485854,
+   "place_url": "http://place.map.kakao.com/15555120",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

@@ -1,208 +1,367 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "chungbuk",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s77",
+   "id": "k25042020",
    "area": "cheongju",
-   "name": "성안길 할매짜글이",
-   "cat": "찌개",
-   "menu": "짜글이",
-   "price": 9000,
-   "lat": 36.634191519942505,
-   "lng": 127.49034334753442,
-   "place_url": null,
-   "emoji": "🥘",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 6,
-    "insta": 12
-   },
-   "mentions": [
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[성안길 맛집] 성안길 할매짜글이 짜글이 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성안길 점심 추천 성안길 할매짜글이",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성안길 할매짜글이 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "가성비",
-    "현지인"
-   ],
-   "last": 2
-  },
-  {
-   "id": "s78",
-   "area": "cheongju",
-   "name": "성안길 골목올갱이국",
-   "cat": "한식",
-   "menu": "올갱이국",
-   "price": 9000,
-   "lat": 36.63634746676249,
-   "lng": 127.48608941367544,
-   "place_url": null,
-   "emoji": "🍚",
+   "name": "경주집",
+   "cat": "찌개,전골",
+   "addr": "충북 청주시 상당구 남사로93번길 21",
+   "lat": 36.6328789754001,
+   "lng": 127.48579749410533,
+   "place_url": "http://place.map.kakao.com/25042020",
    "good": null,
+   "emoji": "🥘",
    "src": {
-    "yt": 3,
-    "blog": 21,
-    "insta": 6
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "올갱이국 9,000원? 성안길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[성안길 맛집] 성안길 골목올갱이국 올갱이국 후기",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성안길 현지인 맛집 투어 — 성안길 골목올갱이국",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성안길 점심 추천 성안길 골목올갱이국",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "올갱이국 9,000원? 성안길 숨은 맛집",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성안길 골목올갱이국 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "노포",
-    "친절"
-   ],
-   "last": 3
-  },
-  {
-   "id": "s79",
-   "area": "cheongju",
-   "name": "성안길 시장떡볶이",
-   "cat": "떡볶이",
-   "menu": "떡볶이",
-   "price": 4500,
-   "lat": 36.63715594681997,
-   "lng": 127.49235836883604,
-   "place_url": null,
-   "emoji": "🌶️",
-   "good": "share",
-   "src": {
-    "yt": 0,
-    "blog": 16,
+    "yt": 1,
+    "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
-     "src": "blog",
-     "title": "[성안길 맛집] 성안길 시장떡볶이 떡볶이 후기",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성안길 점심 추천 성안길 시장떡볶이",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "성안길 시장떡볶이 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
+     "src": "yt",
+     "title": "Vlog | 청주 당일치기 여행 즐거운겨,이이~",
+     "url": "https://www.youtube.com/watch?v=KtDVuKfx5y8",
+     "date": "2026-11-09",
      "sponsored": false
     }
    ],
-   "kw": [
-    "양 많음",
-    "점심"
+   "kw": [],
+   "last": 5,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k257656419",
+   "area": "cheongju",
+   "name": "올드타운클럽",
+   "cat": "아시아음식",
+   "addr": "충북 청주시 상당구 상당로55번길 40-1",
+   "lat": 36.63312143433475,
+   "lng": 127.48842875792829,
+   "place_url": "http://place.map.kakao.com/257656419",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "성안길 웨이팅 맛집, 줄 설 가치가 있을까? #청주맛집",
+     "url": "https://www.youtube.com/watch?v=Un_GG0ReJ-o",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
    ],
-   "last": 4
+   "kw": [],
+   "last": 8,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8104039",
+   "area": "cheongju",
+   "name": "육거리춘천닭갈비",
+   "cat": "닭요리",
+   "addr": "충북 청주시 상당구 상당로29번길 17-2",
+   "lat": 36.630891869867,
+   "lng": 127.4897876588,
+   "place_url": "http://place.map.kakao.com/8104039",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "40년동안 단일메뉴로 승부보는 노포닭갈비집 #청주맛집 #청주시내맛집 #청주술집 #청주고기집 #청주갈매기살 #성안길데이트 #성안길고기집 #청주시상",
+     "url": "https://www.youtube.com/watch?v=OSYpgZeMlYU",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 8,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k293015499",
+   "area": "cheongju",
+   "name": "흥흥제과 본점",
+   "cat": "제과,베이커리",
+   "addr": "충북 청주시 상당구 중앙로 5-3",
+   "lat": 36.6374676677056,
+   "lng": 127.488626150559,
+   "place_url": "http://place.map.kakao.com/293015499",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9993446",
+   "area": "cheongju",
+   "name": "쫄쫄호떡 중앙공원본점",
+   "cat": "분식",
+   "addr": "충북 청주시 상당구 상당로55번길 40-1",
+   "lat": 36.6329987740036,
+   "lng": 127.488454817828,
+   "place_url": "http://place.map.kakao.com/9993446",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k12729828",
+   "area": "cheongju",
+   "name": "짱이네 본점",
+   "cat": "돈까스,우동",
+   "addr": "충북 청주시 상당구 상당로59번길 12-1",
+   "lat": 36.6337071800014,
+   "lng": 127.489742863225,
+   "place_url": "http://place.map.kakao.com/12729828",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8751538",
+   "area": "cheongju",
+   "name": "원조고추만두국집",
+   "cat": "한식",
+   "addr": "충북 청주시 상당구 사직대로350번길 61",
+   "lat": 36.6338232452583,
+   "lng": 127.48648769754277,
+   "place_url": "http://place.map.kakao.com/8751538",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k17297647",
+   "area": "cheongju",
+   "name": "코끼리만두",
+   "cat": "분식",
+   "addr": "충북 청주시 상당구 남사로 133-5",
+   "lat": 36.6324413665017,
+   "lng": 127.489895855913,
+   "place_url": "http://place.map.kakao.com/17297647",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9876341",
+   "area": "cheongju",
+   "name": "성안골",
+   "cat": "한식",
+   "addr": "충북 청주시 상당구 상당로59번길 37-6",
+   "lat": 36.6333669566248,
+   "lng": 127.488327443157,
+   "place_url": "http://place.map.kakao.com/9876341",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7945419",
+   "area": "cheongju",
+   "name": "서문우동 본점",
+   "cat": "돈까스,우동",
+   "addr": "충북 청주시 상당구 무심동로392번길 8",
+   "lat": 36.63544438938414,
+   "lng": 127.48515838012997,
+   "place_url": "http://place.map.kakao.com/7945419",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1621058095",
+   "area": "cheongju",
+   "name": "소로리 본점",
+   "cat": "한식",
+   "addr": "충북 청주시 상당구 중앙로 37",
+   "lat": 36.6403395354489,
+   "lng": 127.48841282188694,
+   "place_url": "http://place.map.kakao.com/1621058095",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2135073544",
+   "area": "cheongju",
+   "name": "우암산호랭이",
+   "cat": "양식",
+   "addr": "충북 청주시 상당구 중앙로 5-7",
+   "lat": 36.63745939486605,
+   "lng": 127.4884460761469,
+   "place_url": "http://place.map.kakao.com/2135073544",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1920562059",
+   "area": "cheongju",
+   "name": "테디헤이데이",
+   "cat": "양식",
+   "addr": "충북 청주시 상당구 상당로 89",
+   "lat": 36.6361818342818,
+   "lng": 127.490143162359,
+   "place_url": "http://place.map.kakao.com/1920562059",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21346744",
+   "area": "cheongju",
+   "name": "APM떡볶이",
+   "cat": "떡볶이",
+   "addr": "충북 청주시 상당구 상당로59번길 31",
+   "lat": 36.63355213050472,
+   "lng": 127.48887871371484,
+   "place_url": "http://place.map.kakao.com/21346744",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1684840209",
+   "area": "cheongju",
+   "name": "메릴본케이크",
+   "cat": "제과,베이커리",
+   "addr": "충북 청주시 상당구 사직대로361번길 14-9",
+   "lat": 36.6376863344382,
+   "lng": 127.488041619051,
+   "place_url": "http://place.map.kakao.com/1684840209",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15535807",
+   "area": "cheongju",
+   "name": "송학식당",
+   "cat": "육류,고기",
+   "addr": "충북 청주시 상당구 사직대로350번길 38-1",
+   "lat": 36.63495090494261,
+   "lng": 127.48618171484134,
+   "place_url": "http://place.map.kakao.com/15535807",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }

@@ -1,11 +1,11 @@
 {
- "sample": true,
- "generated_at": "2026-11-10T23:42+09:00",
+ "sample": false,
+ "generated_at": "2026-11-14T08:47+09:00",
  "regions": {
   "seoul": {
    "name": "서울",
-   "count": 38,
-   "good": 21,
+   "count": 116,
+   "good": 0,
    "areas": {
     "jongno-gwanghwamun": {
      "name": "종로 광화문",
@@ -46,8 +46,8 @@
   },
   "busan": {
    "name": "부산",
-   "count": 9,
-   "good": 5,
+   "count": 32,
+   "good": 0,
    "areas": {
     "nampo": {
      "name": "남포·자갈치",
@@ -63,8 +63,8 @@
   },
   "daegu": {
    "name": "대구",
-   "count": 4,
-   "good": 2,
+   "count": 18,
+   "good": 0,
    "areas": {
     "dongseongno": {
      "name": "동성로·근대골목",
@@ -75,8 +75,8 @@
   },
   "incheon": {
    "name": "인천",
-   "count": 4,
-   "good": 2,
+   "count": 17,
+   "good": 0,
    "areas": {
     "gaehang": {
      "name": "개항장·신포",
@@ -87,8 +87,8 @@
   },
   "gwangju": {
    "name": "광주",
-   "count": 4,
-   "good": 2,
+   "count": 17,
+   "good": 0,
    "areas": {
     "chungjang": {
      "name": "충장로·양림",
@@ -99,8 +99,8 @@
   },
   "daejeon": {
    "name": "대전",
-   "count": 4,
-   "good": 2,
+   "count": 17,
+   "good": 0,
    "areas": {
     "eunhaeng": {
      "name": "은행동·중앙시장",
@@ -111,8 +111,8 @@
   },
   "ulsan": {
    "name": "울산",
-   "count": 3,
-   "good": 2,
+   "count": 16,
+   "good": 0,
    "areas": {
     "seongnam": {
      "name": "성남동",
@@ -123,8 +123,8 @@
   },
   "sejong": {
    "name": "세종",
-   "count": 3,
-   "good": 1,
+   "count": 16,
+   "good": 0,
    "areas": {
     "jochiwon": {
      "name": "조치원",
@@ -135,8 +135,8 @@
   },
   "gyeonggi": {
    "name": "경기",
-   "count": 4,
-   "good": 2,
+   "count": 18,
+   "good": 0,
    "areas": {
     "suwon-haenggung": {
      "name": "수원 행궁동",
@@ -147,8 +147,8 @@
   },
   "gangwon": {
    "name": "강원",
-   "count": 4,
-   "good": 2,
+   "count": 21,
+   "good": 0,
    "areas": {
     "gangneung": {
      "name": "강릉 중앙시장",
@@ -159,8 +159,8 @@
   },
   "chungbuk": {
    "name": "충북",
-   "count": 3,
-   "good": 2,
+   "count": 16,
+   "good": 0,
    "areas": {
     "cheongju": {
      "name": "청주 성안길",
@@ -171,8 +171,8 @@
   },
   "chungnam": {
    "name": "충남",
-   "count": 3,
-   "good": 1,
+   "count": 17,
+   "good": 0,
    "areas": {
     "gongju": {
      "name": "공주 원도심",
@@ -183,8 +183,8 @@
   },
   "jeonbuk": {
    "name": "전북",
-   "count": 4,
-   "good": 2,
+   "count": 17,
+   "good": 0,
    "areas": {
     "jeonju-hanok": {
      "name": "전주 한옥마을",
@@ -195,8 +195,8 @@
   },
   "jeonnam": {
    "name": "전남",
-   "count": 4,
-   "good": 2,
+   "count": 18,
+   "good": 0,
    "areas": {
     "yeosu": {
      "name": "여수 이순신광장",
@@ -207,8 +207,8 @@
   },
   "gyeongbuk": {
    "name": "경북",
-   "count": 4,
-   "good": 2,
+   "count": 17,
+   "good": 0,
    "areas": {
     "gyeongju": {
      "name": "경주 황리단길",
@@ -219,8 +219,8 @@
   },
   "gyeongnam": {
    "name": "경남",
-   "count": 4,
-   "good": 2,
+   "count": 16,
+   "good": 0,
    "areas": {
     "tongyeong": {
      "name": "통영 중앙시장",
@@ -231,8 +231,8 @@
   },
   "jeju": {
    "name": "제주",
-   "count": 8,
-   "good": 4,
+   "count": 33,
+   "good": 0,
    "areas": {
     "jeju-city": {
      "name": "제주시 원도심",

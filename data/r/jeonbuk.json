@@ -1,345 +1,402 @@
 {
- "sample": true,
+ "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-10T23:42+09:00",
+ "generated_at": "2026-11-14T08:47+09:00",
  "stores": [
   {
-   "id": "s83",
+   "id": "k15482458",
    "area": "jeonju-hanok",
-   "name": "한옥마을 시장비빔밥",
-   "cat": "한식",
-   "menu": "비빔밥",
-   "price": 11000,
-   "lat": 35.814191519942504,
-   "lng": 127.1513293368517,
-   "place_url": null,
-   "emoji": "🍚",
-   "good": "share",
+   "name": "베테랑",
+   "cat": "국수",
+   "addr": "전북특별자치도 전주시 완산구 경기전길 135",
+   "lat": 35.8134558171736,
+   "lng": 127.151430276776,
+   "place_url": "http://place.map.kakao.com/15482458",
+   "good": null,
+   "emoji": "🍜",
    "src": {
     "yt": 2,
-    "blog": 16,
-    "insta": 9
+    "blog": 0,
+    "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "비빔밥 11,000원? 한옥마을 숨은 맛집",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[한옥마을 맛집] 한옥마을 시장비빔밥 비빔밥 후기",
-     "url": null,
+     "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
+     "url": "https://www.youtube.com/watch?v=8xaYRbkvryo",
      "date": "2026-11-05",
      "sponsored": false
     },
     {
      "src": "yt",
-     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 시장비빔밥",
-     "url": null,
+     "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
+     "url": "https://www.youtube.com/watch?v=OEZn1OKh7rM",
      "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 점심 추천 한옥마을 시장비빔밥",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-10-31",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 시장비빔밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-10-30",
      "sponsored": false
     }
    ],
-   "kw": [
-    "양 많음",
-    "점심"
-   ],
-   "last": 4
+   "kw": [],
+   "last": 9,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s84",
+   "id": "k11171115",
    "area": "jeonju-hanok",
-   "name": "한옥마을 옛날콩나물국밥",
+   "name": "자매갈비전골",
+   "cat": "한식",
+   "addr": "전북특별자치도 전주시 완산구 기린대로 121",
+   "lat": 35.8198449917904,
+   "lng": 127.153451961487,
+   "place_url": "http://place.map.kakao.com/11171115",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전주 가면 꼭 먹어야 한다는 물갈비 🍖 자매갈비전골 솔직 후기",
+     "url": "https://www.youtube.com/watch?v=r5Az3bJeKGs",
+     "date": "2026-11-11",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "KR sub） 全州2泊3日Mini Vlog | 日韓友達旅 韓屋ステイ 人気店 한국친구 한옥마을 한옥숙서 맛집추천",
+     "url": "https://www.youtube.com/watch?v=LI_H4FTO4Mw",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10588760",
+   "area": "jeonju-hanok",
+   "name": "양반가",
+   "cat": "한정식",
+   "addr": "전북특별자치도 전주시 완산구 최명희길 30-2",
+   "lat": 35.8161454455038,
+   "lng": 127.151218504013,
+   "place_url": "http://place.map.kakao.com/10588760",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전주한옥마을 여행 중 꼭 들러야 할 감성 한옥카페 🤎",
+     "url": "https://www.youtube.com/watch?v=fBJ5xO4ZYO4",
+     "date": "2026-11-07",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 7,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26615208",
+   "area": "jeonju-hanok",
+   "name": "전주왱이콩나물국밥전문점",
    "cat": "국밥",
-   "menu": "콩나물국밥",
-   "price": 8000,
-   "lat": 35.81634746676249,
-   "lng": 127.14711977015467,
-   "place_url": null,
+   "addr": "전북특별자치도 전주시 완산구 동문길 88",
+   "lat": 35.81828668481779,
+   "lng": 127.14917874864973,
+   "place_url": "http://place.map.kakao.com/26615208",
+   "good": null,
    "emoji": "🍲",
-   "good": null,
    "src": {
-    "yt": 5,
-    "blog": 11,
-    "insta": 3
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "콩나물국밥 8,000원? 한옥마을 숨은 맛집",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[한옥마을 맛집] 한옥마을 옛날콩나물국밥 콩나물국밥 후기",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 옛날콩나물국밥",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 점심 추천 한옥마을 옛날콩나물국밥",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "콩나물국밥 8,000원? 한옥마을 숨은 맛집",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 옛날콩나물국밥 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "혼밥",
-    "깔끔"
-   ],
-   "last": 0
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s85",
+   "id": "k8629568",
    "area": "jeonju-hanok",
-   "name": "한옥마을 정겨운피순대",
+   "name": "한국집",
    "cat": "한식",
-   "menu": "피순대",
-   "price": 10000,
-   "lat": 35.81715594681997,
-   "lng": 127.15332334212924,
-   "place_url": null,
+   "addr": "전북특별자치도 전주시 완산구 어진길 119",
+   "lat": 35.8165168855475,
+   "lng": 127.148227137182,
+   "place_url": "http://place.map.kakao.com/8629568",
+   "good": null,
    "emoji": "🍚",
-   "good": "price",
    "src": {
-    "yt": 2,
-    "blog": 6,
-    "insta": 12
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "피순대 10,000원? 한옥마을 숨은 맛집",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[한옥마을 맛집] 한옥마을 정겨운피순대 피순대 후기",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 정겨운피순대",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 점심 추천 한옥마을 정겨운피순대",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 정겨운피순대 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "분위기",
-    "데이트"
-   ],
-   "last": 1
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   },
   {
-   "id": "s86",
+   "id": "k10186580",
    "area": "jeonju-hanok",
-   "name": "한옥마을 온정쌍화차",
-   "cat": "카페",
-   "menu": "한옥 카페 쌍화차",
-   "price": 6000,
-   "lat": 35.81212540424003,
-   "lng": 127.1483383289354,
-   "place_url": null,
-   "emoji": "☕",
+   "name": "조점례남문피순대",
+   "cat": "순대",
+   "addr": "전북특별자치도 전주시 완산구 풍남문2길 39",
+   "lat": 35.812624984628115,
+   "lng": 127.14696847356655,
+   "place_url": "http://place.map.kakao.com/10186580",
    "good": null,
+   "emoji": "🍚",
    "src": {
-    "yt": 5,
-    "blog": 21,
-    "insta": 6
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "한옥 카페 쌍화차 6,000원? 한옥마을 숨은 맛집",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "[한옥마을 맛집] 한옥마을 온정쌍화차 한옥 카페 쌍화차 후기",
-     "url": null,
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "한옥마을 현지인 맛집 투어 — 한옥마을 온정쌍화차",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 점심 추천 한옥마을 온정쌍화차",
-     "url": null,
-     "date": "2026-11-04",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "한옥 카페 쌍화차 6,000원? 한옥마을 숨은 맛집",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "insta",
-     "title": "인스타그램 게시물 (사용자 공유)",
-     "url": null,
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "blog",
-     "title": "한옥마을 온정쌍화차 메뉴·가격 정리",
-     "url": null,
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [
-    "포장",
-    "가성비"
-   ],
-   "last": 2
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26808763",
+   "area": "jeonju-hanok",
+   "name": "풍년제과 본점",
+   "cat": "제과,베이커리",
+   "addr": "전북특별자치도 전주시 완산구 팔달로 141",
+   "lat": 35.815023896863046,
+   "lng": 127.14790236648302,
+   "place_url": "http://place.map.kakao.com/26808763",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21292200",
+   "area": "jeonju-hanok",
+   "name": "PNB풍년제과 전주본점",
+   "cat": "제과,베이커리",
+   "addr": "전북특별자치도 전주시 완산구 팔달로 180",
+   "lat": 35.8184288311183,
+   "lng": 127.147190523108,
+   "place_url": "http://place.map.kakao.com/21292200",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15658928",
+   "area": "jeonju-hanok",
+   "name": "길거리야 한옥마을점",
+   "cat": "제과,베이커리",
+   "addr": "전북특별자치도 전주시 완산구 경기전길 124",
+   "lat": 35.813956465402974,
+   "lng": 127.1510738279796,
+   "place_url": "http://place.map.kakao.com/15658928",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8676321",
+   "area": "jeonju-hanok",
+   "name": "가족회관",
+   "cat": "한식",
+   "addr": "전북특별자치도 전주시 완산구 전라감영5길 17",
+   "lat": 35.81708744597352,
+   "lng": 127.14596642351144,
+   "place_url": "http://place.map.kakao.com/8676321",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8600047",
+   "area": "jeonju-hanok",
+   "name": "메르밀진미집 본점",
+   "cat": "국수",
+   "addr": "전북특별자치도 전주시 완산구 전주천동로 94",
+   "lat": 35.81109758690795,
+   "lng": 127.15041781442807,
+   "place_url": "http://place.map.kakao.com/8600047",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15476950",
+   "area": "jeonju-hanok",
+   "name": "전일갑오",
+   "cat": "호프,요리주점",
+   "addr": "전북특별자치도 전주시 완산구 현무2길 16",
+   "lat": 35.8202098969438,
+   "lng": 127.149964703378,
+   "place_url": "http://place.map.kakao.com/15476950",
+   "good": null,
+   "emoji": "🍶",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2040577733",
+   "area": "jeonju-hanok",
+   "name": "하숙영가마솥비빔밥",
+   "cat": "한식",
+   "addr": "전북특별자치도 전주시 완산구 전라감영5길 19-3",
+   "lat": 35.81742290205506,
+   "lng": 127.14581212084875,
+   "place_url": "http://place.map.kakao.com/2040577733",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k27395478",
+   "area": "jeonju-hanok",
+   "name": "옛촌막걸리 한옥마을 직영점",
+   "cat": "호프,요리주점",
+   "addr": "전북특별자치도 전주시 완산구 팔달로 144-4",
+   "lat": 35.8152475421611,
+   "lng": 127.148525750664,
+   "place_url": "http://place.map.kakao.com/27395478",
+   "good": null,
+   "emoji": "🍶",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21272064",
+   "area": "jeonju-hanok",
+   "name": "PNB풍년제과 한옥마을점",
+   "cat": "제과,베이커리",
+   "addr": "전북특별자치도 전주시 완산구 은행로 61",
+   "lat": 35.8145680759458,
+   "lng": 127.152773476512,
+   "place_url": "http://place.map.kakao.com/21272064",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8865570",
+   "area": "jeonju-hanok",
+   "name": "대보장",
+   "cat": "중국요리",
+   "addr": "전북특별자치도 전주시 완산구 전라감영4길 3",
+   "lat": 35.815750447641385,
+   "lng": 127.14483089508765,
+   "place_url": "http://place.map.kakao.com/8865570",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k14594702",
+   "area": "jeonju-hanok",
+   "name": "전주현대옥 남부시장점",
+   "cat": "전주현대옥",
+   "addr": "전북특별자치도 전주시 완산구 풍남문2길 63",
+   "lat": 35.812420913445514,
+   "lng": 127.14654652925103,
+   "place_url": "http://place.map.kakao.com/14594702",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
   }
  ]
 }
