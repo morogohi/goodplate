@@ -19,10 +19,11 @@ jobs:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GOODPRICE_CSV_URL: ${{ secrets.GOODPRICE_CSV_URL }}
       - name: commit data
         run: |
           git config user.name "goodplate-bot"
           git config user.email "goodplate-bot@users.noreply.github.com"
-          git add data/ collector/geocache.json 2>/dev/null || git add data/
+          git add data/; git add collector/geocache.json collector/goodprice.csv 2>/dev/null || true
           git diff --cached --quiet || git commit -m "data: 전국 $(date -u +%F)"
           git push

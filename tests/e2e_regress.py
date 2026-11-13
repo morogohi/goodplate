@@ -9,6 +9,7 @@ def ok(name,cond,info=''): R.append(('PASS' if cond else 'FAIL',name,info))
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':390,'height':844}); errs=[]; pg.on('pageerror',lambda e:errs.append(str(e)))
     pg.goto(BASE+'/app.html'); pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(1200)
+    SAMPLE=pg.evaluate('IDX.sample')
     # 1) 필터 집계 일치: 데이트 + 1만원 미만
     pg.click('[data-pur="date"]'); pg.wait_for_timeout(200); pg.click('[data-fopen]'); pg.wait_for_timeout(200); pg.click('[data-fbud="b1"]'); pg.wait_for_timeout(200)
     btn=pg.inner_text('[data-fapply]'); n=int(re.search(r'(\d+)곳',btn).group(1))
@@ -48,8 +49,10 @@ with sync_playwright() as p:
     ok('Esc로 상세창 닫힘 + inert/aria-hidden', pg.evaluate("(s=>!s.classList.contains('open')&&s.hasAttribute('inert')&&s.getAttribute('aria-hidden')==='true')(document.querySelector('#sheet'))"))
     pg.click('.mcard'); pg.wait_for_timeout(300); pg.click('#sheet .xbtn'); pg.wait_for_timeout(300); ok('닫기 버튼으로 닫힘', not pg.evaluate("document.querySelector('#sheet').classList.contains('open')"))
     # 3) 샘플 표현
-    ok('앱 수집 바: 샘플 명시', '샘플 데이터' in pg.inner_text('.collect') and '자동 수집은 준비 중' in pg.inner_text('.collect'), pg.inner_text('.collect').replace('\n',' '))
-    pg.click('.mcard'); pg.wait_for_timeout(300); ok('가게 상세: 가상 샘플 안내', '가상의 샘플 가게' in pg.inner_text('#sheet')); pg.keyboard.press('Escape')
+    if SAMPLE: ok('앱 수집 바: 샘플 명시', '샘플 데이터' in pg.inner_text('.collect') and '자동 수집은 준비 중' in pg.inner_text('.collect'), pg.inner_text('.collect').replace('\n',' '))
+    else: ok('실데이터: 샘플 문구 없음', '샘플' not in pg.inner_text('.collect'))
+    if pg.locator('.mcard').count():
+        pg.click('.mcard'); pg.wait_for_timeout(300); ok('가게 상세: 샘플 안내 여부 일치', ('가상의 샘플 가게' in pg.inner_text('#sheet'))==bool(SAMPLE)); pg.keyboard.press('Escape')
     # 4a) 코스 카드 문구
     card=pg.inner_text('.ccard .cmeta'); ok('코스 카드: 식사·쉼 분리', '식사' in card and '착한 한 끼' not in card, [l for l in card.split('\n') if '식사' in l])
     # 6) 응원 배지 즉시 반영
@@ -59,8 +62,10 @@ with sync_playwright() as p:
     # 대표 페이지 샘플 문구 일관성
     lp=b.new_page(viewport={'width':1366,'height':860}); lp.goto(BASE+'/index.html'); lp.wait_for_timeout(2500)
     body=lp.inner_text('body')
-    ok('대표: 샘플일 때 "새벽 업데이트" 문구 없음', '새벽 업데이트' not in body and '매일 새벽 자동 업데이트' not in body)
-    ok('대표: 통계 라벨 (샘플)', '소개하는 가게 (샘플)' in body)
+    if SAMPLE:
+      ok('대표: 샘플일 때 "새벽 업데이트" 문구 없음', '새벽 업데이트' not in body and '매일 새벽 자동 업데이트' not in body)
+      ok('대표: 통계 라벨 (샘플)', '소개하는 가게 (샘플)' in body)
+    else: ok('대표: 실데이터면 샘플 안내 없음', '시범 운영 중' not in body and '(샘플)' not in body)
     ok('대표: 코스 카드 식사 표기', '착한 한 끼 ' not in lp.inner_text('#cgrid'))
     ok('JS 오류 없음', not errs, str(errs))
     b.close()

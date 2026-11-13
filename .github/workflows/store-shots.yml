@@ -1,0 +1,29 @@
+# 실데이터 수집이 처음 성공하면 스토어 스크린샷을 실데이터로 다시 만든다 (샘플이면 건너뜀)
+name: store-shots
+on:
+  workflow_run: { workflows: [daily-collect], types: [completed] }
+  workflow_dispatch: { inputs: { force: { description: "샘플이어도 강제로 다시 생성", type: boolean, default: false } } }
+permissions: { contents: write }
+jobs:
+  shots:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install playwright && python -m playwright install --with-deps chromium && sudo apt-get install -y fonts-noto-cjk
+      - run: node scripts/build-www.mjs
+      - name: 스크린샷 생성
+        run: |
+          python -m http.server 8766 --directory www >/dev/null 2>&1 &
+          sleep 1
+          python scripts/store_shots.py ${{ inputs.force && '--force' || '' }}
+      - run: |
+          git config user.name "goodplate-bot"; git config user.email "goodplate-bot@users.noreply.github.com"
+          git add store/
+          git diff --cached --quiet || git commit -m "store: 실데이터 스크린샷"
+          git push

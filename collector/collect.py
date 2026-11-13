@@ -179,6 +179,33 @@ PRICE_COLS = ("가격", "가격1", "대표가격", "판매가격")
 GEOCACHE = HERE / "geocache.json"
 
 
+def fetch_goodprice():
+    """GOODPRICE_CSV_URL 이 있으면 착한가격업소 목록을 내려받아 goodprice.csv 로 저장 (UTF-8·CP949 모두 처리)"""
+    url = os.getenv("GOODPRICE_CSV_URL")
+    if not url:
+        return
+    try:
+        r = S.get(url, timeout=60)
+        r.raise_for_status()
+        raw = r.content
+        for enc in ("utf-8-sig", "cp949"):
+            try:
+                text = raw.decode(enc)
+                break
+            except UnicodeDecodeError:
+                continue
+        else:
+            print("[goodprice] 인코딩을 알 수 없어 건너뜀")
+            return
+        if "업소명" not in text.splitlines()[0] and "상호" not in text.splitlines()[0]:
+            print("[goodprice] 첫 줄에 업소명/상호 열이 없어 건너뜀 — CSV 파일 주소인지 확인하세요")
+            return
+        (HERE / "goodprice.csv").write_text(text, encoding="utf-8")
+        print(f"[goodprice] {len(text.splitlines()) - 1}행 내려받음")
+    except requests.RequestException as e:
+        print("[goodprice] 내려받기 실패, 기존 파일 사용:", e)
+
+
 def good_rows(rows):
     """착한가격업소 CSV 행을 표준 형태로. 컬럼명이 조금 달라도 읽는다.
     필수: 업소명 · 선택: 주소, 대표메뉴/메뉴1/품목, 가격/가격1"""
@@ -280,6 +307,7 @@ def main():
 
     stores = kakao_stores(kakao)
     print(f"[kakao] {len(stores)}곳")
+    fetch_goodprice()
     good, share = good_rows(load_csv("goodprice.csv")), load_csv("sharing.csv")
     for s in stores.values():
         s["good"] = match_good(s, good, share)

@@ -1,0 +1,20 @@
+name: ci
+on:
+  push: { branches: [main] }
+  pull_request: {}
+  workflow_dispatch: {}
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r collector/requirements.txt playwright && python -m playwright install --with-deps chromium
+      - name: 수집기 모의 테스트
+        run: python collector/test_collect.py
+      - name: 브라우저 회귀 테스트
+        run: |
+          python -m http.server 8765 >/dev/null 2>&1 &
+          sleep 1
+          python tests/e2e_regress.py http://localhost:8765
