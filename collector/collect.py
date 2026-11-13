@@ -91,12 +91,13 @@ def emoji_for(cat: str) -> str:
 
 # ---------------------------------------------------------------- 1. 카카오 로컬
 def kakao_stores(key):
-    stores = {}
+    stores, ranks = {}, {}
     for ak, a in AREAS.items():
-        for page in range(1, KAKAO_PAGES + 1):
+      for code, pages in (("FD6", KAKAO_PAGES), ("CE7", 1)):   # 음식점 · 카페(코스의 '쉼' 슬롯용)
+        for page in range(1, pages + 1):
             j = get("https://dapi.kakao.com/v2/local/search/category.json",
                     headers={"Authorization": f"KakaoAK {key}"},
-                    params={"category_group_code": "FD6", "x": a["lng"], "y": a["lat"],
+                    params={"category_group_code": code, "x": a["lng"], "y": a["lat"],
                             "radius": RADIUS_M, "page": page, "sort": "accuracy"})
             for d in j.get("documents", []):
                 sid = "k" + d["id"]
@@ -110,8 +111,10 @@ def kakao_stores(key):
                     "addr": d.get("road_address_name") or d.get("address_name", ""),
                     "lat": float(d["y"]), "lng": float(d["x"]),
                     "place_url": d.get("place_url"),
-                    "rank": len([s for s in stores.values() if s["area"] == ak]),  # 카카오 정확도순 순위 (0부터)
+                    "_code": code,
+                    "rank": ranks.setdefault((ak, code), [0])[0],  # 지역·분류별 카카오 정확도순 순위 (0부터)
                 }
+                ranks[(ak, code)][0] += 1
             if j.get("meta", {}).get("is_end"):
                 break
     return stores
@@ -363,7 +366,7 @@ def _count(sk):
         return 0
 
 
-KEEP_PER_AREA = 15   # 블로그 수집이 없을 때 지역마다 남길 카카오 상위 가게 수
+KEEP_PER_AREA = 15   # 블로그 수집이 없을 때 지역·분류(음식점/카페)마다 남길 카카오 상위 가게 수
 
 
 def select_stores(stores, naver):
@@ -379,6 +382,7 @@ def select_stores(stores, naver):
     out = list(keep.values())
     for s in out:
         s.pop("rank", None)
+        s.pop("_code", None)
     return out
 
 

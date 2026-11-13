@@ -18,6 +18,9 @@ def fake_get(url, **kw):
     if "keyword.json" in url:   # 착한가격업소 주소 검색
         return {"documents": [{"id": "9", "x": "126.9840", "y": "37.5705", "category_name": "음식점 > 한식 > 백반",
                                "place_url": "http://place.map.kakao.com/9", "road_address_name": "서울 종로구 인사동길 9"}]}
+    if "kakao" in url and p.get("category_group_code") == "CE7":
+        return {"meta": {"is_end": True}, "documents": [
+            {"id": "50", "place_name": "골목카페", "category_name": "음식점 > 카페", "x": "126.9911", "y": "37.5717"}]}
     if "kakao" in url:
         if p["page"] > 1:
             return {"documents": [], "meta": {"is_end": True}}
@@ -75,6 +78,7 @@ def run():
     st2 = {s["name"]: s for s in j2["stores"]}
     assert "조용한식당" in st2 and st2["조용한식당"]["src"] == {"yt": 0, "blog": 0, "insta": 0}, "네이버 없을 때 카카오 상위 가게 유지"
     assert st2["테스트국밥 종로점"]["src"]["yt"] == 1 and "rank" not in st2["조용한식당"], "유튜브 유지·내부 순위 필드 제거"
+    assert "골목카페" in st2 and st2["골목카페"]["emoji"] == "☕" and "_code" not in st2["골목카페"], "카페(CE7) 수집"
     collect.load_csv = real_csv
     print("ALL PASS", s["src"], s["kw"], s["price"], g["name"])
 

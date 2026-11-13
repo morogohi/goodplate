@@ -322,6 +322,7 @@ const FALLBACK={sample:true,regions:{},courses:[]};
   if(!IDX||!IDX.regions){$('#cgrid').innerHTML='<p class="sub">코스 정보를 불러오지 못했어요. <a href="app.html" style="color:var(--brand);font-weight:700">서비스에서 보기 ›</a></p>';return}
   const R=Object.values(IDX.regions);
   const v={sido:R.length,areas:R.reduce((a,r)=>a+Object.keys(r.areas).length,0),stores:R.reduce((a,r)=>a+(r.count||0),0),good:R.reduce((a,r)=>a+(r.good||0),0),courses:IDX.courses.length};
+  if(!v.good){const g=document.querySelector('[data-k="good"]');g.removeAttribute('data-k');g.textContent='준비 중';g.style.fontSize='22px'}
   document.querySelectorAll('[data-k]').forEach(el=>{const n=v[el.dataset.k];if(n==null)return;let i=0;const step=()=>{i=Math.min(n,i+Math.ceil(n/30));el.textContent=i.toLocaleString();if(i<n)requestAnimationFrame(step)};step()});
   const g=new Date(IDX.generated_at);
   if(IDX.sample){
