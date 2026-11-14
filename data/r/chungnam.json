@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungnam",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k904041132",
@@ -15,7 +15,7 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 3,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -26,24 +26,10 @@
      "url": "https://www.youtube.com/watch?v=ue5KVoT7_-c",
      "date": "2026-11-09",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "공주 당일치기 여행🌰 | 국내여행 맛집 카페 공산성 밤디저트",
-     "url": "https://www.youtube.com/watch?v=QvN_p4aJMGU",
-     "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "공주 베이커리밤마을 #공주 #베이커리밤마을 #밤파이 #공주맛집 #맛집 #밤 # #cafe #데이트 #여행 #부부 #연인 #shorts",
-     "url": "https://www.youtube.com/watch?v=YMjzSJREnLs",
-     "date": "2026-11-05",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +44,7 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 9,
+    "yt": 6,
     "blog": 0,
     "insta": 0
    },
@@ -104,53 +90,10 @@
      "url": "https://www.youtube.com/watch?v=olnVq1w71yk",
      "date": "2026-11-08",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "#일상 #일상브이로그 #먹방 #브이로그 #공주 #공주여행 #부자떡집",
-     "url": "https://www.youtube.com/watch?v=OawlsIe0voI",
-     "date": "2026-11-06",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "공주 당일치기 여행🌰 | 국내여행 맛집 카페 공산성 밤디저트",
-     "url": "https://www.youtube.com/watch?v=QvN_p4aJMGU",
-     "date": "2026-11-05",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k7970877",
-   "area": "gongju",
-   "name": "시장정육점식당",
-   "cat": "육류,고기",
-   "addr": "충남 공주시 백미고을길 10-5",
-   "lat": 36.4658620323761,
-   "lng": 127.122253119496,
-   "place_url": "http://place.map.kakao.com/7970877",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "공주 당일치기 여행🌰 | 국내여행 맛집 카페 공산성 밤디저트",
-     "url": "https://www.youtube.com/watch?v=QvN_p4aJMGU",
-     "date": "2026-11-05",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 9,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -179,7 +122,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -208,7 +151,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -243,6 +186,27 @@
    "place_url": "http://place.map.kakao.com/8684887",
    "good": null,
    "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7970877",
+   "area": "gongju",
+   "name": "시장정육점식당",
+   "cat": "육류,고기",
+   "addr": "충남 공주시 백미고을길 10-5",
+   "lat": 36.4658620323761,
+   "lng": 127.122253119496,
+   "place_url": "http://place.map.kakao.com/7970877",
+   "good": null,
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -485,14 +449,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1890024756",
+   "id": "k1092738002",
    "area": "gongju",
-   "name": "로컬커피",
-   "cat": "디저트카페",
-   "addr": "충남 공주시 용당길 55-7",
-   "lat": 36.4586531246083,
-   "lng": 127.118279231914,
-   "place_url": "http://place.map.kakao.com/1890024756",
+   "name": "미담",
+   "cat": "떡카페",
+   "addr": "충남 공주시 백미고을길 9-7",
+   "lat": 36.464841592611975,
+   "lng": 127.12256836975267,
+   "place_url": "http://place.map.kakao.com/1092738002",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -506,14 +470,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1092738002",
+   "id": "k1890024756",
    "area": "gongju",
-   "name": "미담",
-   "cat": "떡카페",
-   "addr": "충남 공주시 백미고을길 9-7",
-   "lat": 36.464841592611975,
-   "lng": 127.12256836975267,
-   "place_url": "http://place.map.kakao.com/1092738002",
+   "name": "로컬커피",
+   "cat": "디저트카페",
+   "addr": "충남 공주시 용당길 55-7",
+   "lat": 36.4586531246083,
+   "lng": 127.118279231914,
+   "place_url": "http://place.map.kakao.com/1890024756",
    "good": null,
    "emoji": "☕",
    "src": {

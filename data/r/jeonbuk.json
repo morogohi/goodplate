@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
+  {
+   "id": "k8629568",
+   "area": "jeonju-hanok",
+   "name": "한국집",
+   "cat": "한식",
+   "addr": "전북특별자치도 전주시 완산구 어진길 119",
+   "lat": 35.8165168855475,
+   "lng": 127.148227137182,
+   "place_url": "http://place.map.kakao.com/8629568",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "[공식 인증 맛집 티어] 전주 한옥마을 맛집 10곳 가족회관·성미당·한국집 (26년 11월 기준) #shorts",
+     "url": "https://www.youtube.com/watch?v=x0qKg8yXZqc",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k15482458",
    "area": "jeonju-hanok",
@@ -23,21 +52,79 @@
     {
      "src": "yt",
      "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
-     "url": "https://www.youtube.com/watch?v=8xaYRbkvryo",
-     "date": "2026-11-05",
+     "url": "https://www.youtube.com/watch?v=PMro7fMyOZ4",
+     "date": "2026-11-14",
      "sponsored": false
     },
     {
      "src": "yt",
      "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
-     "url": "https://www.youtube.com/watch?v=OEZn1OKh7rM",
-     "date": "2026-11-03",
+     "url": "https://www.youtube.com/watch?v=8xaYRbkvryo",
+     "date": "2026-11-05",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 1,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8676321",
+   "area": "jeonju-hanok",
+   "name": "가족회관",
+   "cat": "한식",
+   "addr": "전북특별자치도 전주시 완산구 전라감영5길 17",
+   "lat": 35.81708744597352,
+   "lng": 127.14596642351144,
+   "place_url": "http://place.map.kakao.com/8676321",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "[공식 인증 맛집 티어] 전주 한옥마을 맛집 10곳 가족회관·성미당·한국집 (26년 11월 기준) #shorts",
+     "url": "https://www.youtube.com/watch?v=x0qKg8yXZqc",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8374461",
+   "area": "jeonju-hanok",
+   "name": "성미당 본점",
+   "cat": "한식",
+   "addr": "전북특별자치도 전주시 완산구 전라감영5길 19-9",
+   "lat": 35.817338709177285,
+   "lng": 127.14537820060865,
+   "place_url": "http://place.map.kakao.com/8374461",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "[공식 인증 맛집 티어] 전주 한옥마을 맛집 10곳 가족회관·성미당·한국집 (26년 11월 기준) #shorts",
+     "url": "https://www.youtube.com/watch?v=x0qKg8yXZqc",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-15"
   },
   {
    "id": "k11171115",
@@ -72,7 +159,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -101,7 +188,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -130,8 +217,37 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1091339070",
+   "area": "jeonju-hanok",
+   "name": "마시랑게",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 전동성당길 100",
+   "lat": 35.8145063079703,
+   "lng": 127.148847470352,
+   "place_url": "http://place.map.kakao.com/1091339070",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전주 '마시랑게' 카페 #전주한옥마을맛집 #성당 #전주한옥마을 #팥빙수 #녹차라떼 #시그니처 #포토존 #맛집 #베이커리 #카페 #국내여행 #카페",
+     "url": "https://www.youtube.com/watch?v=ghIIPAbS2g0",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-15"
   },
   {
    "id": "k1712272678",
@@ -166,9 +282,9 @@
     },
     {
      "src": "yt",
-     "title": "전주 한옥마을에 이런 카페가? 분위기부터 디저트까지 완벽했던 곳!",
-     "url": "https://www.youtube.com/watch?v=jAlMBgil-T0",
-     "date": "2026-11-11",
+     "title": "전주한옥마을카페 이르리",
+     "url": "https://www.youtube.com/watch?v=KSR-KwB4xGM",
+     "date": "2026-11-10",
      "sponsored": false
     },
     {
@@ -180,7 +296,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -194,27 +310,6 @@
    "place_url": "http://place.map.kakao.com/26615208",
    "good": null,
    "emoji": "🍲",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8629568",
-   "area": "jeonju-hanok",
-   "name": "한국집",
-   "cat": "한식",
-   "addr": "전북특별자치도 전주시 완산구 어진길 119",
-   "lat": 35.8165168855475,
-   "lng": 127.148227137182,
-   "place_url": "http://place.map.kakao.com/8629568",
-   "good": null,
-   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -299,27 +394,6 @@
    "place_url": "http://place.map.kakao.com/15658928",
    "good": null,
    "emoji": "🥐",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8676321",
-   "area": "jeonju-hanok",
-   "name": "가족회관",
-   "cat": "한식",
-   "addr": "전북특별자치도 전주시 완산구 전라감영5길 17",
-   "lat": 35.81708744597352,
-   "lng": 127.14596642351144,
-   "place_url": "http://place.map.kakao.com/8676321",
-   "good": null,
-   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

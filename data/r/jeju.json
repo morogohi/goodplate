@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k9797621",
@@ -29,7 +29,36 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k439308243",
+   "area": "jeju-city",
+   "name": "제주보말칼국수",
+   "cat": "칼국수",
+   "addr": "제주특별자치도 제주시 관덕로8길 40",
+   "lat": 33.50996108594127,
+   "lng": 126.52335708163123,
+   "place_url": "http://place.map.kakao.com/439308243",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#제주도여행 #제주맛집추천 #신제주보말칼국수 #보말칼국수",
+     "url": "https://www.youtube.com/watch?v=ccua1jvb3Vg",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,36 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1089591928",
-   "area": "jeju-city",
-   "name": "픽업 카페 본점",
-   "cat": "제과,베이커리",
-   "addr": "제주특별자치도 제주시 남성로 167",
-   "lat": 33.50954051708653,
-   "lng": 126.52301175274472,
-   "place_url": "http://place.map.kakao.com/1089591928",
-   "good": null,
-   "emoji": "🥐",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "빵수저 대전인이 인정한 제주도 소금빵 맛집 #제주여행",
-     "url": "https://www.youtube.com/watch?v=ssY1XxgLUkw",
-     "date": "2026-11-12",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,7 +116,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -340,27 +340,6 @@
    "place_url": "http://place.map.kakao.com/24119106",
    "good": null,
    "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k439308243",
-   "area": "jeju-city",
-   "name": "제주보말칼국수",
-   "cat": "칼국수",
-   "addr": "제주특별자치도 제주시 관덕로8길 40",
-   "lat": 33.50996108594127,
-   "lng": 126.52335708163123,
-   "place_url": "http://place.map.kakao.com/439308243",
-   "good": null,
-   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -687,27 +666,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k19358629",
-   "area": "seogwipo",
-   "name": "짱구분식",
-   "cat": "분식",
-   "addr": "제주특별자치도 서귀포시 중동로48번길 3",
-   "lat": 33.2501815866952,
-   "lng": 126.567090217045,
-   "place_url": "http://place.map.kakao.com/19358629",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k938060243",
    "area": "seogwipo",
    "name": "천일만두",
@@ -729,16 +687,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1056381412",
+   "id": "k19358629",
    "area": "seogwipo",
-   "name": "올레왕갈치 서귀포올레시장점",
-   "cat": "해물,생선",
-   "addr": "제주특별자치도 서귀포시 중앙로42번길 9",
-   "lat": 33.248513882010336,
-   "lng": 126.56279761463912,
-   "place_url": "http://place.map.kakao.com/1056381412",
+   "name": "짱구분식",
+   "cat": "분식",
+   "addr": "제주특별자치도 서귀포시 중동로48번길 3",
+   "lat": 33.2501815866952,
+   "lng": 126.567090217045,
+   "place_url": "http://place.map.kakao.com/19358629",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -758,6 +716,27 @@
    "lat": 33.248281462901666,
    "lng": 126.56620250944731,
    "place_url": "http://place.map.kakao.com/1626708928",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1056381412",
+   "area": "seogwipo",
+   "name": "올레왕갈치 서귀포올레시장점",
+   "cat": "해물,생선",
+   "addr": "제주특별자치도 서귀포시 중앙로42번길 9",
+   "lat": 33.248513882010336,
+   "lng": 126.56279761463912,
+   "place_url": "http://place.map.kakao.com/1056381412",
    "good": null,
    "emoji": "🍚",
    "src": {

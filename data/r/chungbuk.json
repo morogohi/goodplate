@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungbuk",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k25042020",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,7 +116,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -145,28 +145,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k293015499",
-   "area": "cheongju",
-   "name": "흥흥제과 본점",
-   "cat": "제과,베이커리",
-   "addr": "충북 청주시 상당구 중앙로 5-3",
-   "lat": 36.6374676677056,
-   "lng": 127.488626150559,
-   "place_url": "http://place.map.kakao.com/293015499",
-   "good": null,
-   "emoji": "🥐",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -180,6 +159,27 @@
    "place_url": "http://place.map.kakao.com/9993446",
    "good": null,
    "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k293015499",
+   "area": "cheongju",
+   "name": "흥흥제과 본점",
+   "cat": "제과,베이커리",
+   "addr": "충북 청주시 상당구 중앙로 5-3",
+   "lat": 36.6374676677056,
+   "lng": 127.488626150559,
+   "place_url": "http://place.map.kakao.com/293015499",
+   "good": null,
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,

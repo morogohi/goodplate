@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k7970465",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -123,7 +123,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -159,7 +159,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -195,7 +195,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -388,16 +388,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k824778682",
+   "id": "k10745910",
    "area": "suwon-haenggung",
-   "name": "얼티튜드",
-   "cat": "이탈리안",
-   "addr": "경기 수원시 팔달구 화서문로45번길 9",
-   "lat": 37.285699919136,
-   "lng": 127.012670627871,
-   "place_url": "http://place.map.kakao.com/824778682",
+   "name": "입주집",
+   "cat": "곱창,막창",
+   "addr": "경기 수원시 팔달구 팔달문로3번길 37",
+   "lat": 37.2793190247019,
+   "lng": 127.017630937299,
+   "place_url": "http://place.map.kakao.com/10745910",
    "good": null,
-   "emoji": "🍝",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -409,16 +409,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10745910",
+   "id": "k824778682",
    "area": "suwon-haenggung",
-   "name": "입주집",
-   "cat": "곱창,막창",
-   "addr": "경기 수원시 팔달구 팔달문로3번길 37",
-   "lat": 37.2793190247019,
-   "lng": 127.017630937299,
-   "place_url": "http://place.map.kakao.com/10745910",
+   "name": "얼티튜드",
+   "cat": "이탈리안",
+   "addr": "경기 수원시 팔달구 화서문로45번길 9",
+   "lat": 37.285699919136,
+   "lng": 127.012670627871,
+   "place_url": "http://place.map.kakao.com/824778682",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🍝",
    "src": {
     "yt": 0,
     "blog": 0,

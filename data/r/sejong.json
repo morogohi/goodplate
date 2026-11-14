@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k9274802",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -73,11 +73,53 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 15,
+    "yt": 20,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "순두부 먹으러 왔다가 반찬까지 싹 비우고 온 세종 조치원 맛집!",
+     "url": "https://www.youtube.com/watch?v=Ap0MQoLIpb4",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "순두부 시켰는데 이게 기본이라고? 👀 조치원 점심",
+     "url": "https://www.youtube.com/watch?v=y8H_zpsFfaU",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "소식은 무슨,  야무진 순두부 한 상!          #조치원역맛집 #조치원역밥집 #세종전통시장맛집 #고려대세종캠퍼스맛집 #조치원역점심",
+     "url": "https://www.youtube.com/watch?v=abfJrkxdKNY",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원에서 순두부 한 그릇 시켰는데, 순두부보다 상이 먼저 꽉 찼어요🔥",
+     "url": "https://www.youtube.com/watch?v=-kFDpWnC5Hg",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "맛집탐방~세종 조치원 '인생역전'(전집) #맛집#전집",
+     "url": "https://www.youtube.com/watch?v=TayFDkZIaN8",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "골목길안에 숨어 있는 오래된 여관의 반전 비밀 #맛집 #세종시맛집 #조치원맛집 #비밀",
+     "url": "https://www.youtube.com/watch?v=WbmwyH0AmmI",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "마늘소스 듬뿍 올라간 조치원 족발 맛집?! 🧄",
@@ -91,52 +133,10 @@
      "url": "https://www.youtube.com/watch?v=2N0frrNhx40",
      "date": "2026-11-12",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "광고) 조치원 정수장을 개조한 이색카페 비건베이커리 #커넥트윗 #청주맛집 #맛집 #조치원카페",
-     "url": "https://www.youtube.com/watch?v=YuGY9hB1ZvI",
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "조치원 9000원 칼국수",
-     "url": "https://www.youtube.com/watch?v=Stvpj4NJWO8",
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "조치원 송은정 보리밥, 반찬이 끝이 없다 #shorts",
-     "url": "https://www.youtube.com/watch?v=szllfoQzoTk",
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "조치원에서 단백질 해장필요 할때마다 찾는 먹으러 GO!  #맛집",
-     "url": "https://www.youtube.com/watch?v=beV-DV2yB5w",
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "부모님 모시고 베어트리파크 갔다가 찾은 세종 조치원 맛집🍚",
-     "url": "https://www.youtube.com/watch?v=3OzfYv_fWfc",
-     "date": "2026-11-08",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "조치원에 만오천 원으로 반찬이 18가지나 나오는 보리밥집이 있다구요? 😋",
-     "url": "https://www.youtube.com/watch?v=eQEF3P4VlA8",
-     "date": "2026-11-08",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {

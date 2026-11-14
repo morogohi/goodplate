@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daegu",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k930928466",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -65,20 +65,20 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k27454688",
+   "id": "k21227749",
    "area": "dongseongno",
-   "name": "거송갈비찜",
-   "cat": "갈비",
-   "addr": "대구 중구 남성로 40",
-   "lat": 35.867377958826225,
-   "lng": 128.59098266288095,
-   "place_url": "http://place.map.kakao.com/27454688",
+   "name": "국일따로국밥",
+   "cat": "국밥",
+   "addr": "대구 중구 국채보상로 571",
+   "lat": 35.8710870691225,
+   "lng": 128.593225752268,
+   "place_url": "http://place.map.kakao.com/21227749",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🍲",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -87,14 +87,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "경주 황리단길 맛집 거송갈비찜에서 돼지갈비찜 갈비만두 후기",
-     "url": "https://www.youtube.com/watch?v=i8tAJqevSWQ",
-     "date": "2026-11-04",
+     "title": "대구까지 가서도 국밥. 그 남자의 #소울푸드 #맛집소개유투버 #맛집 #따로국밥 #국일따로국밥 #대구맛집",
+     "url": "https://www.youtube.com/watch?v=QJV5O_4hxPA",
+     "date": "2026-11-14",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -123,36 +123,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8071894",
-   "area": "dongseongno",
-   "name": "종로초밥",
-   "cat": "초밥,롤",
-   "addr": "대구 중구 국채보상로 558",
-   "lat": 35.870437107788526,
-   "lng": 128.5916804413784,
-   "place_url": "http://place.map.kakao.com/8071894",
-   "good": null,
-   "emoji": "🍣",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "서울여행 경복궁 광화문역 맛집 코끼리초밥",
-     "url": "https://www.youtube.com/watch?v=C2mqJl4Z_q0",
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 11,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -290,27 +261,6 @@
    "lat": 35.86712064341968,
    "lng": 128.59319504823523,
    "place_url": "http://place.map.kakao.com/517608900",
-   "good": null,
-   "emoji": "🍲",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k21227749",
-   "area": "dongseongno",
-   "name": "국일따로국밥",
-   "cat": "국밥",
-   "addr": "대구 중구 국채보상로 571",
-   "lat": 35.8710870691225,
-   "lng": 128.593225752268,
-   "place_url": "http://place.map.kakao.com/21227749",
    "good": null,
    "emoji": "🍲",
    "src": {

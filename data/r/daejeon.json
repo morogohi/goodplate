@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -22,16 +22,16 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "성심당 근처 역대급 포케 맛집 •• 🤍",
-     "url": "https://www.youtube.com/watch?v=rqCZsVic6zI",
-     "date": "2026-11-07",
+     "title": "대전여행🍞 성심당만 가면 아쉽지! 숨은 빵집부터 맛집까지 1박 2일 완벽코스🔥",
+     "url": "https://www.youtube.com/watch?v=rhieFfQ2tLU",
+     "date": "2026-11-13",
      "sponsored": false
     },
     {
      "src": "yt",
-     "title": "[대전 맛집 BEST 10++] 성심당과 대전 현지인 추천 맛 PLUS++",
-     "url": "https://www.youtube.com/watch?v=44ZBWCLLc6k",
-     "date": "2026-11-06",
+     "title": "성심당 근처 역대급 포케 맛집 •• 🤍",
+     "url": "https://www.youtube.com/watch?v=rqCZsVic6zI",
+     "date": "2026-11-07",
      "sponsored": false
     },
     {
@@ -71,7 +71,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -100,36 +100,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k12468740",
-   "area": "eunhaeng",
-   "name": "진로집",
-   "cat": "불고기,두루치기",
-   "addr": "대전 중구 중교로 45-5",
-   "lat": 36.3258521835256,
-   "lng": 127.424716995185,
-   "place_url": "http://place.map.kakao.com/12468740",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "대전 두부두루치기 맛집 진로집",
-     "url": "https://www.youtube.com/watch?v=2LsbC_Hz6OE",
-     "date": "2026-10-31",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 14,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -158,7 +129,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -187,7 +158,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -202,16 +173,30 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 6,
+    "yt": 8,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "부산 가면 무조건 가야 하는 복국집 #부산맛집 #현지인맛집 #먹스타그램#복국#선우용여#부산먹방#부산관광#금수복국#복껍데기무침",
-     "url": "https://www.youtube.com/watch?v=XR0qBiKKNEM",
-     "date": "2026-11-13",
+     "title": "[문화PD] 수원 토박이가 알려주는 행궁동 맛집! 🍽️ 걸어서 즐기는 미식 여행",
+     "url": "https://www.youtube.com/watch?v=d7meSoZu8EM",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "금액대별 인플루언서.. 누구 쓰고 싶으세요?ㅋㅋㅋ 갈치와 찌개가 너무너무 맛있는 경주 토박이식당 들렸는데요. 32년동안 갈치...",
+     "url": "https://www.youtube.com/watch?v=R9-JgOqudVw",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "금액대별 인플루언서ㅋㅋ",
+     "url": "https://www.youtube.com/watch?v=x1H-QSYAFEw",
+     "date": "2026-11-14",
      "sponsored": false
     },
     {
@@ -284,6 +269,27 @@
    "lat": 36.3264878851072,
    "lng": 127.42562587768772,
    "place_url": "http://place.map.kakao.com/10983353",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k12468740",
+   "area": "eunhaeng",
+   "name": "진로집",
+   "cat": "불고기,두루치기",
+   "addr": "대전 중구 중교로 45-5",
+   "lat": 36.3258521835256,
+   "lng": 127.424716995185,
+   "place_url": "http://place.map.kakao.com/12468740",
    "good": null,
    "emoji": "🥩",
    "src": {

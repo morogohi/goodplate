@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k10070964",
@@ -43,7 +43,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -65,9 +65,16 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "경주 여행 브이로그)사진 진심인 여자랑 먹는거 진심인 남자가 간 1박2일 경주여행🍂| 오아르미술관,십원빵,녹음제과 성공,술술방앗간,이가네떡볶이,",
-     "url": "https://www.youtube.com/watch?v=TQ6TjUoJzQc",
-     "date": "2026-11-13",
+     "title": "ASMR MUKBANG | [부산맛집] 이가네 떡볶이 & 고래사 어묵 3종 | Igane Tteokbokki & Goraesa Fish Cake",
+     "url": "https://www.youtube.com/watch?v=lvBMSKY8tZs",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "부산 부평깡통시장 먹거리 10 [부평맷돌빈대떡, 대정양곱창, 진맛집, 산수갑산, 이가네떡볶이, 삼촌호떡, 장우손어묵, 시스루찐빵, 밀곳베이커리,",
+     "url": "https://www.youtube.com/watch?v=cbyK7KZw7Bw",
+     "date": "2026-11-14",
      "sponsored": false
     },
     {
@@ -75,13 +82,6 @@
      "title": "부산 깡통시장 맛집 이가네 떡볶이 #맛집 #부산맛집 #부산맛집추천 #깡통시장맛집 #부산깡통시장맛집 #부산떡볶이맛집 #shorts",
      "url": "https://www.youtube.com/watch?v=joaHXZJ_kzY",
      "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "깡통시장 찐맛집만 추천해드림❤️",
-     "url": "https://www.youtube.com/watch?v=O6SNE32DFMo",
-     "date": "2026-11-11",
      "sponsored": false
     }
    ],
@@ -101,11 +101,18 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "해운대역에서 걸어서 금방, 새벽에도 문 연 낙곱새집! 개미집 국제시장본점 내돈내산",
+     "url": "https://www.youtube.com/watch?v=TgHcqI52fx4",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "부산 낙곱새 맛집 개미집, 1972년 국제시장에서 시작된 이야기 🐙 #쇼츠",
@@ -144,7 +151,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -180,20 +187,20 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k68040813",
-   "area": "nampo",
-   "name": "그리다부부",
-   "cat": "커피전문점",
-   "addr": "부산 중구 광복중앙로 35-1",
-   "lat": 35.1025709749371,
-   "lng": 129.030703289741,
-   "place_url": "http://place.map.kakao.com/68040813",
+   "id": "k13561723",
+   "area": "haeundae",
+   "name": "짱떡볶이",
+   "cat": "떡볶이",
+   "addr": "부산 해운대구 우동1로38번길 12",
+   "lat": 35.16526046731001,
+   "lng": 129.1583209514434,
+   "place_url": "http://place.map.kakao.com/13561723",
    "good": null,
-   "emoji": "☕",
+   "emoji": "🍙",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -202,15 +209,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "그리다부부 #일상기록 #맛집 #jmt #남포동#까페#그리다부부#웨이팅까페#까페맛집#남포동까페맛집#커피맛집#남포동커피맛집#케잌맛집#남포동웨이팅까페",
-     "url": "https://www.youtube.com/watch?v=KOEQagMUwPA",
-     "date": "2026-11-10",
+     "title": "재개발로 인해 옮긴 해운대 짱떡볶이 근황입니다",
+     "url": "https://www.youtube.com/watch?v=JTYE2OuyJag",
+     "date": "2026-11-14",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-14"
+   "last": 1,
+   "first_seen": "2026-11-15"
   },
   {
    "id": "k837267301",
@@ -238,7 +245,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -263,14 +270,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k16723710",
+   "id": "k7886000",
    "area": "nampo",
-   "name": "대정양곱창 본관",
+   "name": "백화양곱창 6호",
    "cat": "곱창,막창",
-   "addr": "부산 중구 중구로23번길 31",
-   "lat": 35.0999553291537,
-   "lng": 129.026098752709,
-   "place_url": "http://place.map.kakao.com/16723710",
+   "addr": "부산 중구 자갈치로23번길 6",
+   "lat": 35.097002085808725,
+   "lng": 129.02706875483264,
+   "place_url": "http://place.map.kakao.com/7886000",
    "good": null,
    "emoji": "🥩",
    "src": {
@@ -284,14 +291,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k7886000",
+   "id": "k16723710",
    "area": "nampo",
-   "name": "백화양곱창 6호",
+   "name": "대정양곱창 본관",
    "cat": "곱창,막창",
-   "addr": "부산 중구 자갈치로23번길 6",
-   "lat": 35.097002085808725,
-   "lng": 129.02706875483264,
-   "place_url": "http://place.map.kakao.com/7886000",
+   "addr": "부산 중구 중구로23번길 31",
+   "lat": 35.0999553291537,
+   "lng": 129.026098752709,
+   "place_url": "http://place.map.kakao.com/16723710",
    "good": null,
    "emoji": "🥩",
    "src": {
@@ -536,6 +543,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k68040813",
+   "area": "nampo",
+   "name": "그리다부부",
+   "cat": "커피전문점",
+   "addr": "부산 중구 광복중앙로 35-1",
+   "lat": 35.1025709749371,
+   "lng": 129.030703289741,
+   "place_url": "http://place.map.kakao.com/68040813",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k539722966",
    "area": "nampo",
    "name": "오드이븐",
@@ -746,16 +774,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k26457226",
+   "id": "k8010849",
    "area": "haeundae",
-   "name": "고래사어묵 해운대점",
-   "cat": "분식",
-   "addr": "부산 해운대구 구남로 14",
-   "lat": 35.1624914556872,
-   "lng": 129.159472398046,
-   "place_url": "http://place.map.kakao.com/26457226",
+   "name": "옵스 해운대점",
+   "cat": "제과,베이커리",
+   "addr": "부산 해운대구 중동1로 31",
+   "lat": 35.1628053131907,
+   "lng": 129.162891247943,
+   "place_url": "http://place.map.kakao.com/8010849",
    "good": null,
-   "emoji": "🍙",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -767,16 +795,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k8010849",
+   "id": "k26457226",
    "area": "haeundae",
-   "name": "옵스 해운대점",
-   "cat": "제과,베이커리",
-   "addr": "부산 해운대구 중동1로 31",
-   "lat": 35.1628053131907,
-   "lng": 129.162891247943,
-   "place_url": "http://place.map.kakao.com/8010849",
+   "name": "고래사어묵 해운대점",
+   "cat": "분식",
+   "addr": "부산 해운대구 구남로 14",
+   "lat": 35.1624914556872,
+   "lng": 129.159472398046,
+   "place_url": "http://place.map.kakao.com/26457226",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,

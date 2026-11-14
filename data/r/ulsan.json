@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-14T09:15+09:00",
+ "generated_at": "2026-11-15T07:54+09:00",
  "stores": [
   {
    "id": "k16725331",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -75,16 +75,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10988644",
+   "id": "k465359772",
    "area": "seongnam",
-   "name": "형제식당",
-   "cat": "찌개,전골",
-   "addr": "울산 중구 젊음의거리 68",
-   "lat": 35.55388147923333,
-   "lng": 129.32071890408648,
-   "place_url": "http://place.map.kakao.com/10988644",
+   "name": "손가",
+   "cat": "중국요리",
+   "addr": "울산 중구 문화의거리 14",
+   "lat": 35.5560075874303,
+   "lng": 129.321861915271,
+   "place_url": "http://place.map.kakao.com/465359772",
    "good": null,
-   "emoji": "🥘",
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -96,16 +96,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k465359772",
+   "id": "k10988644",
    "area": "seongnam",
-   "name": "손가",
-   "cat": "중국요리",
-   "addr": "울산 중구 문화의거리 14",
-   "lat": 35.5560075874303,
-   "lng": 129.321861915271,
-   "place_url": "http://place.map.kakao.com/465359772",
+   "name": "형제식당",
+   "cat": "찌개,전골",
+   "addr": "울산 중구 젊음의거리 68",
+   "lat": 35.55388147923333,
+   "lng": 129.32071890408648,
+   "place_url": "http://place.map.kakao.com/10988644",
    "good": null,
-   "emoji": "🥟",
+   "emoji": "🥘",
    "src": {
     "yt": 0,
     "blog": 0,
