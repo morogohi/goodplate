@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "seoul",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k21326655",
@@ -29,36 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k16983115",
-   "area": "jongno-gwanghwamun",
-   "name": "안주마을",
-   "cat": "호프,요리주점",
-   "addr": "서울 종로구 자하문로1길 3",
-   "lat": 37.576458094002795,
-   "lng": 126.97216738211803,
-   "place_url": "http://place.map.kakao.com/16983115",
-   "good": null,
-   "emoji": "🍶",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "서촌 가을 감성 가-득,,⭐️ 키링남도 좋아하는 데이트 코스 추천 | 안주마을 | 카페 코피티암 | 서촌 쇼핑 거리 #브이로그 #데이트",
-     "url": "https://www.youtube.com/watch?v=30bPzjFWdpg",
-     "date": "2026-11-05",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 10,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -80,43 +51,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "10년 연속 미슐랭 칼국수 맛집",
-     "url": "https://www.youtube.com/watch?v=hxHykAnXUa4",
-     "date": "2026-11-09",
+     "title": "11월 서울 단풍 광화문 산책 코스 #서울단풍명소 #광화문가볼만한곳 #삼청동데이트",
+     "url": "https://www.youtube.com/watch?v=rXl2bwC35us",
+     "date": "2026-11-06",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 6,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k19156993",
-   "area": "jongno-gwanghwamun",
-   "name": "서촌계단집",
-   "cat": "해물,생선",
-   "addr": "서울 종로구 자하문로1길 15",
-   "lat": 37.57641376785623,
-   "lng": 126.97142477329609,
-   "place_url": "http://place.map.kakao.com/19156993",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "아무도 없는 서촌에서 즐기는 낭만 낮술",
-     "url": "https://www.youtube.com/watch?v=-lRqUoDmoBA",
-     "date": "2026-11-04",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 11,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -145,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -160,7 +102,7 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -171,10 +113,17 @@
      "url": "https://www.youtube.com/watch?v=3C9mQ5k-IF4",
      "date": "2026-11-09",
      "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "🎞️ 해방촌 서촌 북촌 | 촌촌촌 나들이 🫧",
+     "url": "https://www.youtube.com/watch?v=uWGcEk2QcoE",
+     "date": "2026-11-05",
+     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -203,7 +152,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -232,8 +181,37 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1639664881",
+   "area": "jongno-gwanghwamun",
+   "name": "해목 서촌점",
+   "cat": "일식",
+   "addr": "서울 종로구 자하문로 26-1",
+   "lat": 37.5784005962043,
+   "lng": 126.971992318629,
+   "place_url": "http://place.map.kakao.com/1639664881",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#해목 #서촌맛집 #경복궁맛집 #광화문맛집#서촌일식 #장어덮밥맛집 #히츠마부시 #네기도로 #서울일식맛집 #서울맛집",
+     "url": "https://www.youtube.com/watch?v=7DEC2GpWAt8",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k24725284",
@@ -268,7 +246,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -297,7 +275,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -312,7 +290,7 @@
    "good": null,
    "emoji": "🍲",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -323,17 +301,10 @@
      "url": "https://www.youtube.com/watch?v=Sv7yU1inSWg",
      "date": "2026-11-12",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "뽀얀 국물이 아니다? 광화문에서 먹는 맑은 돼지국밥",
-     "url": "https://www.youtube.com/watch?v=z3qiz3XI0B0",
-     "date": "2026-11-03",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -348,11 +319,18 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 2,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "종각역 숯불 꼼장어에 소주 한잔! #공평동꼼장어 #꼼장어 #꼼장어구이 #종각역맛집 #종로맛집 #숯불구이 #술안주 #Shorts #쇼츠 #서울맛집",
+     "url": "https://www.youtube.com/watch?v=mNPa9B-gfko",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "숯불 꼼장어 소금 vs 양념! 종각역 직장인들이 찾는 이유 #공평동꼼장어 #꼼장어 #꼼장어구이 #종각역맛집 #종로맛집 #숯불구이 #술안주 #Sh",
@@ -369,73 +347,8 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 1,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k9352032",
-   "area": "jongno-jonggak",
-   "name": "인천집",
-   "cat": "족발,보쌈",
-   "addr": "서울 중구 다동길 36",
-   "lat": 37.567809433105786,
-   "lng": 126.98125539498515,
-   "place_url": "http://place.map.kakao.com/9352032",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#을지로인천집 #을지로맛집 #다동맛집 #을지로입구역맛집 #성시경맛집 으로 유명하지만이미 그 전부터 입소문난 굴김치보쌈맛집 왜 어르신들이 사랑하는",
-     "url": "https://www.youtube.com/watch?v=8x3fR7KHfJA",
-     "date": "2026-11-11",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k18283622",
-   "area": "jongno-jonggak",
-   "name": "르브와 종로점",
-   "cat": "이탈리안",
-   "addr": "서울 종로구 우정국로2길 42",
-   "lat": 37.569447127190855,
-   "lng": 126.98539790462769,
-   "place_url": "http://place.map.kakao.com/18283622",
-   "good": null,
-   "emoji": "🍝",
-   "src": {
-    "yt": 2,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#르브와종로점 #청계천데이트코스 #종로맛집 #종각맛집 #청계천맛집 #파스타맛집 #피자맛집 #로제쉬림프빠네파스타 #마르게리따피자",
-     "url": "https://www.youtube.com/watch?v=Y5D0xTaZ2Tg",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "맛있는 파스타와 와인 #종각맛집 #맛집 #종각파스타 #와인잔 #종로입니다 한잔.",
-     "url": "https://www.youtube.com/watch?v=BTWmnsHJjUI",
-     "date": "2026-11-07",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
-   "first_seen": "2026-11-15"
   },
   {
    "id": "k906872061",
@@ -463,7 +376,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 14,
    "first_seen": "2026-11-14"
   },
   {
@@ -485,14 +398,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "찬바람 불면 못 참지! 종로3가 굴보쌈 맛집 #맛집 #food #삼해집 #shorts",
+     "title": "찬바람 불면 못 참지! 종로3가 굴보쌈 맛집 #맛집 #food #삼해집 #shorts  #호시탐탐 #종로3가맛집",
      "url": "https://www.youtube.com/watch?v=CkUhW7GEmvM",
      "date": "2026-11-09",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -521,7 +434,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -550,7 +463,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-15"
   },
   {
@@ -579,7 +492,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 14,
    "first_seen": "2026-11-14"
   },
   {
@@ -608,7 +521,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -637,7 +550,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -666,7 +579,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -695,7 +608,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -724,36 +637,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k521777293",
-   "area": "jongno-seochon",
-   "name": "체부동수제비와보리밥",
-   "cat": "수제비",
-   "addr": "서울 종로구 자하문로5길 16",
-   "lat": 37.577791294773,
-   "lng": 126.971041606667,
-   "place_url": "http://place.map.kakao.com/521777293",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "서촌 직장인 단골 수제비 맛집 #체부동수제비와보리밥 #서촌맛집 #수제비맛집",
-     "url": "https://www.youtube.com/watch?v=CluSrb4tKEU",
-     "date": "2026-11-04",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 11,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -782,7 +666,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -818,8 +702,66 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1508329235",
+   "area": "jongno-seochon",
+   "name": "스태픽스",
+   "cat": "카페",
+   "addr": "서울 종로구 사직로9길 22",
+   "lat": 37.5774769385374,
+   "lng": 126.967908167278,
+   "place_url": "http://place.map.kakao.com/1508329235",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "구독! 좋아요! 부탁드려요! 올가을 인생샷 건질 단풍 명소! 서촌 카페 스태픽스를 소개합니다. !#스태픽스 #서촌카페 #단풍명소 #서울단풍명소 ",
+     "url": "https://www.youtube.com/watch?v=h-DFXXT2BLg",
+     "date": "2026-11-06",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 10,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k78995073",
+   "area": "mapo-hongdae",
+   "name": "수라간",
+   "cat": "한식",
+   "addr": "서울 마포구 동교로38안길 3",
+   "lat": 37.56197455425837,
+   "lng": 126.92465619202022,
+   "place_url": "http://place.map.kakao.com/78995073",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "수원 행궁동 맛집 시큼한 묵은지 돼지고기찜에 김치말이국수 수라간",
+     "url": "https://www.youtube.com/watch?v=4GAesDa3IIc",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k8416853",
@@ -833,11 +775,18 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "성수역 성수족발 | 족발",
+     "url": "https://www.youtube.com/watch?v=Y2-FedQfIGU",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "대구여자의 성수 당일치기 vlog ☔️| 드디어 한정선 성공했어요 💦. 성수족발.베통.뉴뉴.서울 갈 때 마다 비가오네 🥵",
@@ -847,7 +796,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -876,7 +825,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -905,20 +854,20 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1754511299",
+   "id": "k1527467135",
    "area": "seongdong-seongsu",
-   "name": "한정선 성수본점",
-   "cat": "디저트카페",
-   "addr": "서울 성동구 연무장길 43-1",
-   "lat": 37.5429282542542,
-   "lng": 127.054178340067,
-   "place_url": "http://place.map.kakao.com/1754511299",
+   "name": "코코로반 성수본점",
+   "cat": "일식",
+   "addr": "서울 성동구 성수이로7가길 22-5",
+   "lat": 37.54211664956683,
+   "lng": 127.05569400554567,
+   "place_url": "http://place.map.kakao.com/1527467135",
    "good": null,
-   "emoji": "☕",
+   "emoji": "🍱",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -927,15 +876,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "친구랑 성수 브이로그 1편",
-     "url": "https://www.youtube.com/watch?v=yyW8ku0Cgpo",
-     "date": "2026-11-11",
+     "title": "성수동 가정식백반 맛집 코코로반 #성수역맛집 #성수맛집 #성수동핫플",
+     "url": "https://www.youtube.com/watch?v=VPyS5A1mZBQ",
+     "date": "2026-11-14",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-14"
+   "last": 2,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k26545925",
@@ -948,6 +897,27 @@
    "place_url": "http://place.map.kakao.com/26545925",
    "good": null,
    "emoji": "🍲",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k16983115",
+   "area": "jongno-gwanghwamun",
+   "name": "안주마을",
+   "cat": "호프,요리주점",
+   "addr": "서울 종로구 자하문로1길 3",
+   "lat": 37.576458094002795,
+   "lng": 126.97216738211803,
+   "place_url": "http://place.map.kakao.com/16983115",
+   "good": null,
+   "emoji": "🍶",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1051,6 +1021,27 @@
    "lat": 37.571193257636395,
    "lng": 126.97473438948012,
    "place_url": "http://place.map.kakao.com/15431872",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k19156993",
+   "area": "jongno-gwanghwamun",
+   "name": "서촌계단집",
+   "cat": "해물,생선",
+   "addr": "서울 종로구 자하문로1길 15",
+   "lat": 37.57641376785623,
+   "lng": 126.97142477329609,
+   "place_url": "http://place.map.kakao.com/19156993",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -1400,27 +1391,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k2053098478",
-   "area": "jongno-jonggak",
-   "name": "샤오바오우육면 종로본점",
-   "cat": "중국요리",
-   "addr": "서울 종로구 삼일대로17길 15",
-   "lat": 37.569077863910145,
-   "lng": 126.98662047168183,
-   "place_url": "http://place.map.kakao.com/2053098478",
-   "good": null,
-   "emoji": "🥟",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k1969790364",
    "area": "jongno-jonggak",
    "name": "미도갈비 종로직영점",
@@ -1442,16 +1412,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10311622",
+   "id": "k2053098478",
    "area": "jongno-jonggak",
-   "name": "참치공방 종각본",
-   "cat": "참치회",
-   "addr": "서울 종로구 종로9길 8",
-   "lat": 37.5707155796183,
-   "lng": 126.984238525274,
-   "place_url": "http://place.map.kakao.com/10311622",
+   "name": "샤오바오우육면 종로본점",
+   "cat": "중국요리",
+   "addr": "서울 종로구 삼일대로17길 15",
+   "lat": 37.569077863910145,
+   "lng": 126.98662047168183,
+   "place_url": "http://place.map.kakao.com/2053098478",
    "good": null,
-   "emoji": "🍱",
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1473,6 +1443,27 @@
    "place_url": "http://place.map.kakao.com/7818113",
    "good": null,
    "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10311622",
+   "area": "jongno-jonggak",
+   "name": "참치공방 종각본",
+   "cat": "참치회",
+   "addr": "서울 종로구 종로9길 8",
+   "lat": 37.5707155796183,
+   "lng": 126.984238525274,
+   "place_url": "http://place.map.kakao.com/10311622",
+   "good": null,
+   "emoji": "🍱",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -2177,6 +2168,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k1720883557",
+   "area": "jongno-hyehwa",
+   "name": "용가회전훠궈 대학로점",
+   "cat": "중국요리",
+   "addr": "서울 종로구 대학로12길 13",
+   "lat": 37.58269713018458,
+   "lng": 127.00238090296432,
+   "place_url": "http://place.map.kakao.com/1720883557",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-15"
+  },
+  {
    "id": "k1252440966",
    "area": "jongno-hyehwa",
    "name": "버거파크 혜화점",
@@ -2217,27 +2229,6 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1720883557",
-   "area": "jongno-hyehwa",
-   "name": "용가회전훠궈 대학로점",
-   "cat": "중국요리",
-   "addr": "서울 종로구 대학로12길 13",
-   "lat": 37.58269713018458,
-   "lng": 127.00238090296432,
-   "place_url": "http://place.map.kakao.com/1720883557",
-   "good": null,
-   "emoji": "🥟",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-15"
   },
   {
    "id": "k704583232",
@@ -2450,6 +2441,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k521777293",
+   "area": "jongno-seochon",
+   "name": "체부동수제비와보리밥",
+   "cat": "수제비",
+   "addr": "서울 종로구 자하문로5길 16",
+   "lat": 37.577791294773,
+   "lng": 126.971041606667,
+   "place_url": "http://place.map.kakao.com/521777293",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k24449603",
    "area": "jongno-seochon",
    "name": "이태리총각",
@@ -2460,6 +2472,27 @@
    "place_url": "http://place.map.kakao.com/24449603",
    "good": null,
    "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k16936957",
+   "area": "jongno-seochon",
+   "name": "대하식당",
+   "cat": "육류,고기",
+   "addr": "서울 종로구 자하문로7길 27",
+   "lat": 37.5789408251948,
+   "lng": 126.970484173659,
+   "place_url": "http://place.map.kakao.com/16936957",
+   "good": null,
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -2513,27 +2546,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k16936957",
-   "area": "jongno-seochon",
-   "name": "대하식당",
-   "cat": "육류,고기",
-   "addr": "서울 종로구 자하문로7길 27",
-   "lat": 37.5789408251948,
-   "lng": 126.970484173659,
-   "place_url": "http://place.map.kakao.com/16936957",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k1151300196",
    "area": "jongno-seochon",
    "name": "고치비",
@@ -2563,27 +2575,6 @@
    "lat": 37.58221195892894,
    "lng": 126.97267017402979,
    "place_url": "http://place.map.kakao.com/1429224581",
-   "good": null,
-   "emoji": "☕",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1508329235",
-   "area": "jongno-seochon",
-   "name": "스태픽스",
-   "cat": "카페",
-   "addr": "서울 종로구 사직로9길 22",
-   "lat": 37.5774769385374,
-   "lng": 126.967908167278,
-   "place_url": "http://place.map.kakao.com/1508329235",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -2786,14 +2777,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k400281849",
+   "id": "k138967530",
    "area": "mapo-hongdae",
-   "name": "우와 홍대본점",
+   "name": "스아게K",
    "cat": "일식",
-   "addr": "서울 마포구 와우산로21길 21-16",
-   "lat": 37.5516835548182,
-   "lng": 126.922172337916,
-   "place_url": "http://place.map.kakao.com/400281849",
+   "addr": "서울 마포구 와우산로29마길 27",
+   "lat": 37.55497750773826,
+   "lng": 126.92623520478044,
+   "place_url": "http://place.map.kakao.com/138967530",
    "good": null,
    "emoji": "🍱",
    "src": {
@@ -2807,14 +2798,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k138967530",
+   "id": "k400281849",
    "area": "mapo-hongdae",
-   "name": "스아게K",
+   "name": "우와 홍대본점",
    "cat": "일식",
-   "addr": "서울 마포구 와우산로29마길 27",
-   "lat": 37.55497750773826,
-   "lng": 126.92623520478044,
-   "place_url": "http://place.map.kakao.com/138967530",
+   "addr": "서울 마포구 와우산로21길 21-16",
+   "lat": 37.5516835548182,
+   "lng": 126.922172337916,
+   "place_url": "http://place.map.kakao.com/400281849",
    "good": null,
    "emoji": "🍱",
    "src": {
@@ -2975,14 +2966,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k953386352",
+   "id": "k2134411175",
    "area": "mapo-hongdae",
-   "name": "레드버튼 홍대점",
-   "cat": "레드버튼",
-   "addr": "서울 마포구 홍익로 19",
-   "lat": 37.5540084192114,
-   "lng": 126.922613551217,
-   "place_url": "http://place.map.kakao.com/953386352",
+   "name": "벌툰 봉화당 홍대입구역점",
+   "cat": "벌툰",
+   "addr": "서울 마포구 어울마당로 137",
+   "lat": 37.5564499530999,
+   "lng": 126.925146143059,
+   "place_url": "http://place.map.kakao.com/2134411175",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -2996,14 +2987,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k2134411175",
+   "id": "k953386352",
    "area": "mapo-hongdae",
-   "name": "벌툰 봉화당 홍대입구역점",
-   "cat": "벌툰",
-   "addr": "서울 마포구 어울마당로 137",
-   "lat": 37.5564499530999,
-   "lng": 126.925146143059,
-   "place_url": "http://place.map.kakao.com/2134411175",
+   "name": "레드버튼 홍대점",
+   "cat": "레드버튼",
+   "addr": "서울 마포구 홍익로 19",
+   "lat": 37.5540084192114,
+   "lng": 126.922613551217,
+   "place_url": "http://place.map.kakao.com/953386352",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -3038,27 +3029,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1479788174",
-   "area": "mapo-hongdae",
-   "name": "레드버튼 레이어드 홍대점",
-   "cat": "레드버튼",
-   "addr": "서울 마포구 홍익로3길 44",
-   "lat": 37.5526020758834,
-   "lng": 126.921422203806,
-   "place_url": "http://place.map.kakao.com/1479788174",
-   "good": null,
-   "emoji": "☕",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-15"
-  },
-  {
    "id": "k13623634",
    "area": "mapo-hongdae",
    "name": "히어로보드게임카페 홍대1호점",
@@ -3078,6 +3048,27 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k205320302",
+   "area": "mapo-hongdae",
+   "name": "히어로보드게임카페 홍대2호점",
+   "cat": "히어로보드게임카페",
+   "addr": "서울 마포구 홍익로6길 15",
+   "lat": 37.55534916196303,
+   "lng": 126.92270270334447,
+   "place_url": "http://place.map.kakao.com/205320302",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k396321384",

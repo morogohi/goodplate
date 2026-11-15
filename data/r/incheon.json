@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "incheon",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k8294851",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,8 +58,66 @@
     }
    ],
    "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15558943",
+   "area": "gaehang",
+   "name": "명월집",
+   "cat": "찌개,전골",
+   "addr": "인천 제물포구 신포로23번길 41",
+   "lat": 37.47206909472531,
+   "lng": 126.6227498137118,
+   "place_url": "http://place.map.kakao.com/15558943",
+   "good": null,
+   "emoji": "🥘",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "나이 드니까 입맛이 바뀌네요(Feat.빨래방)",
+     "url": "https://www.youtube.com/watch?v=4WzF6v_cfio",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
    "last": 2,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k22452229",
+   "area": "gaehang",
+   "name": "산동주방",
+   "cat": "중식",
+   "addr": "인천 제물포구 차이나타운로 38",
+   "lat": 37.4758732513476,
+   "lng": 126.619413729004,
+   "place_url": "http://place.map.kakao.com/22452229",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "차이나타운 당일치기 데이트코스",
+     "url": "https://www.youtube.com/watch?v=clORTO6I57s",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 8,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k632607580",
@@ -87,7 +145,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,7 +174,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -145,7 +203,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -243,27 +301,6 @@
    "place_url": "http://place.map.kakao.com/8986903",
    "good": null,
    "emoji": "🥟",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k15558943",
-   "area": "gaehang",
-   "name": "명월집",
-   "cat": "찌개,전골",
-   "addr": "인천 제물포구 신포로23번길 41",
-   "lat": 37.47206909472531,
-   "lng": 126.6227498137118,
-   "place_url": "http://place.map.kakao.com/15558943",
-   "good": null,
-   "emoji": "🥘",
    "src": {
     "yt": 0,
     "blog": 0,

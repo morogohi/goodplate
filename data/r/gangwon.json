@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k1545071550",
@@ -15,18 +15,11 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 3,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
-    {
-     "src": "yt",
-     "title": "강릉에서 줄 서서 먹는 그 길감자를 이제 성수에서도 맛볼 수 있다니! 🥔💛",
-     "url": "https://www.youtube.com/watch?v=cxjtnevRrII",
-     "date": "2026-11-11",
-     "sponsored": false
-    },
     {
      "src": "yt",
      "title": "강릉맛집 원데이코스 따라오세요|테라로사|강릉신라모노그램|강릉중앙시장|예닮곳간|참순찰떡방|강릉길감자|효주원",
@@ -43,7 +36,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -72,7 +65,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -101,7 +94,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -130,7 +123,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-15"
   },
   {
@@ -159,7 +152,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -188,36 +181,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1722163390",
-   "area": "gangneung",
-   "name": "강릉만복래닭강정",
-   "cat": "닭강정",
-   "addr": "강원특별자치도 강릉시 중앙시장2길 42",
-   "lat": 37.75315683748511,
-   "lng": 128.89939807025328,
-   "place_url": "http://place.map.kakao.com/1722163390",
-   "good": null,
-   "emoji": "🍽️",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "강릉 중앙시장 가면 무조건 사 오는 수제 닭강정 강릉만복래닭강정 포장 후기 #강릉중앙시장맛집",
-     "url": "https://www.youtube.com/watch?v=YXm8nt-Gb7A",
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 14,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -253,36 +217,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k9651486",
-   "area": "gangneung",
-   "name": "곱창집",
-   "cat": "곱창,막창",
-   "addr": "강원특별자치도 강릉시 율곡로 2795",
-   "lat": 37.754379888185,
-   "lng": 128.900756829111,
-   "place_url": "http://place.map.kakao.com/9651486",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "울산 42년 터줏대감 찐노포 곱창집 | #울산맛집 #울산맛집추천 #울산현지인맛집 #고또픽",
-     "url": "https://www.youtube.com/watch?v=ZyqQ5t1UYqM",
-     "date": "2026-11-01",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 14,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -325,7 +260,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {

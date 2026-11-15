@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k9797621",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 14,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,7 +116,36 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8453998",
+   "area": "seogwipo",
+   "name": "오는정김밥",
+   "cat": "분식",
+   "addr": "제주특별자치도 서귀포시 동문동로 2",
+   "lat": 33.2495955703083,
+   "lng": 126.567621058572,
+   "place_url": "http://place.map.kakao.com/8453998",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전국 3대 김밥! 서귀포 오는정 김밥 #shorts",
+     "url": "https://www.youtube.com/watch?v=Lup8bOG0mbc",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -351,16 +380,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1994899330",
+   "id": "k21477180",
    "area": "jeju-city",
-   "name": "동문올레수산",
-   "cat": "회",
-   "addr": "제주특별자치도 제주시 관덕로14길 10",
-   "lat": 33.512245732860485,
-   "lng": 126.52618168718375,
-   "place_url": "http://place.map.kakao.com/1994899330",
+   "name": "파도식당",
+   "cat": "국수",
+   "addr": "제주특별자치도 제주시 성지로 68-1",
+   "lat": 33.5113029327216,
+   "lng": 126.530513514467,
+   "place_url": "http://place.map.kakao.com/21477180",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -372,16 +401,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k21477180",
+   "id": "k1994899330",
    "area": "jeju-city",
-   "name": "파도식당",
-   "cat": "국수",
-   "addr": "제주특별자치도 제주시 성지로 68-1",
-   "lat": 33.5113029327216,
-   "lng": 126.530513514467,
-   "place_url": "http://place.map.kakao.com/21477180",
+   "name": "동문올레수산",
+   "cat": "회",
+   "addr": "제주특별자치도 제주시 관덕로14길 10",
+   "lat": 33.512245732860485,
+   "lng": 126.52618168718375,
+   "place_url": "http://place.map.kakao.com/1994899330",
    "good": null,
-   "emoji": "🍜",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -498,27 +527,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k8453998",
-   "area": "seogwipo",
-   "name": "오는정김밥",
-   "cat": "분식",
-   "addr": "제주특별자치도 서귀포시 동문동로 2",
-   "lat": 33.2495955703083,
-   "lng": 126.567621058572,
-   "place_url": "http://place.map.kakao.com/8453998",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k11733078",
    "area": "seogwipo",
    "name": "뽈살집 제주본점",
@@ -624,16 +632,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k12501703",
+   "id": "k1510813713",
    "area": "seogwipo",
-   "name": "천짓골",
-   "cat": "육류,고기",
-   "addr": "제주특별자치도 서귀포시 중앙로41번길 4",
-   "lat": 33.24823813411932,
-   "lng": 126.56130421983669,
-   "place_url": "http://place.map.kakao.com/12501703",
+   "name": "제주약수터 본점",
+   "cat": "호프,요리주점",
+   "addr": "제주특별자치도 서귀포시 중앙로 35",
+   "lat": 33.247751628065885,
+   "lng": 126.5616661224143,
+   "place_url": "http://place.map.kakao.com/1510813713",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🍶",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -645,16 +653,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1510813713",
+   "id": "k12501703",
    "area": "seogwipo",
-   "name": "제주약수터 본점",
-   "cat": "호프,요리주점",
-   "addr": "제주특별자치도 서귀포시 중앙로 35",
-   "lat": 33.247751628065885,
-   "lng": 126.5616661224143,
-   "place_url": "http://place.map.kakao.com/1510813713",
+   "name": "천짓골",
+   "cat": "육류,고기",
+   "addr": "제주특별자치도 서귀포시 중앙로41번길 4",
+   "lat": 33.24823813411932,
+   "lng": 126.56130421983669,
+   "place_url": "http://place.map.kakao.com/12501703",
    "good": null,
-   "emoji": "🍶",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,

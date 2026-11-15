@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k7970465",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,43 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1325528968",
-   "area": "suwon-haenggung",
-   "name": "로우파이브",
-   "cat": "양식",
-   "addr": "경기 수원시 팔달구 신풍로23번길 59",
-   "lat": 37.28369878840387,
-   "lng": 127.01193055298171,
-   "place_url": "http://place.map.kakao.com/1325528968",
-   "good": null,
-   "emoji": "🍝",
-   "src": {
-    "yt": 2,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "비주얼 폭발 수원 행궁동 양식 맛집, 통옥수수 피자 + 바지락 봉골레 + 아보카도 김치볶음밥 로우파이브 #행궁동맛집 #수원맛집",
-     "url": "https://www.youtube.com/watch?v=cQxl022VKXs",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "행궁동 1박2일, 둘째 날은 이 코스로 | 성곽길 아침 산책 → 옥상 테라스 → 점심 로우파이브",
-     "url": "https://www.youtube.com/watch?v=EUaKW2GhAfU",
-     "date": "2026-11-06",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -159,7 +123,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -195,7 +159,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -388,16 +352,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10745910",
+   "id": "k824778682",
    "area": "suwon-haenggung",
-   "name": "입주집",
-   "cat": "곱창,막창",
-   "addr": "경기 수원시 팔달구 팔달문로3번길 37",
-   "lat": 37.2793190247019,
-   "lng": 127.017630937299,
-   "place_url": "http://place.map.kakao.com/10745910",
+   "name": "얼티튜드",
+   "cat": "이탈리안",
+   "addr": "경기 수원시 팔달구 화서문로45번길 9",
+   "lat": 37.285699919136,
+   "lng": 127.012670627871,
+   "place_url": "http://place.map.kakao.com/824778682",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🍝",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -409,16 +373,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k824778682",
+   "id": "k10745910",
    "area": "suwon-haenggung",
-   "name": "얼티튜드",
-   "cat": "이탈리안",
-   "addr": "경기 수원시 팔달구 화서문로45번길 9",
-   "lat": 37.285699919136,
-   "lng": 127.012670627871,
-   "place_url": "http://place.map.kakao.com/824778682",
+   "name": "입주집",
+   "cat": "곱창,막창",
+   "addr": "경기 수원시 팔달구 팔달문로3번길 37",
+   "lat": 37.2793190247019,
+   "lng": 127.017630937299,
+   "place_url": "http://place.map.kakao.com/10745910",
    "good": null,
-   "emoji": "🍝",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,

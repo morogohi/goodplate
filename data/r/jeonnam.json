@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
+  {
+   "id": "k2073877553",
+   "area": "yeosu",
+   "name": "순이네 밥상",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 여수시 통제영5길 5",
+   "lat": 34.74053173570238,
+   "lng": 127.73549280838843,
+   "place_url": "http://place.map.kakao.com/2073877553",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "여수 게장백반 맛집 #여수순이네밥상 #여수맛집 #여수여행 #게장",
+     "url": "https://www.youtube.com/watch?v=jL_PZEfu9qQ",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k9967837",
    "area": "yeosu",
@@ -29,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +116,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,8 +145,37 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10553175",
+   "area": "yeosu",
+   "name": "순심원",
+   "cat": "중국요리",
+   "addr": "전남광주통합특별시 여수시 교동남1길 5-17",
+   "lat": 34.73980864714311,
+   "lng": 127.73447524994694,
+   "place_url": "http://place.map.kakao.com/10553175",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "sub)🍱맛있는 전라도 여행(광주-보성-여수) | 미미원, 궁전제과, 영미오리탕, 순심원, 삼대옥 | ACC, 대한다원, 여수세계섬박람회",
+     "url": "https://www.youtube.com/watch?v=YR1EtKfhgVY",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k1716648703",
@@ -145,7 +203,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -174,7 +232,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -203,8 +261,37 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1986258969",
+   "area": "yeosu",
+   "name": "삼대옥 본점",
+   "cat": "디저트카페",
+   "addr": "전남광주통합특별시 여수시 중앙로 73-1",
+   "lat": 34.7402470770611,
+   "lng": 127.735761091983,
+   "place_url": "http://place.map.kakao.com/1986258969",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "sub)🍱맛있는 전라도 여행(광주-보성-여수) | 미미원, 궁전제과, 영미오리탕, 순심원, 삼대옥 | ACC, 대한다원, 여수세계섬박람회",
+     "url": "https://www.youtube.com/watch?v=YR1EtKfhgVY",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k1580162918",
@@ -270,27 +357,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k2073877553",
-   "area": "yeosu",
-   "name": "순이네 밥상",
-   "cat": "한식",
-   "addr": "전남광주통합특별시 여수시 통제영5길 5",
-   "lat": 34.74053173570238,
-   "lng": 127.73549280838843,
-   "place_url": "http://place.map.kakao.com/2073877553",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k2089785035",
    "area": "yeosu",
    "name": "바다식탁",
@@ -333,16 +399,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k787357115",
+   "id": "k1862765385",
    "area": "yeosu",
-   "name": "노랑고래찹쌀꽈배기 여수중앙점",
-   "cat": "제과,베이커리",
-   "addr": "전남광주통합특별시 여수시 진남상가길 9",
-   "lat": 34.7413023767817,
-   "lng": 127.735799931138,
-   "place_url": "http://place.map.kakao.com/787357115",
+   "name": "여수 회포장전문점 여수찬 이순신광장 본점",
+   "cat": "회",
+   "addr": "전남광주통합특별시 여수시 이순신광장로 95-1",
+   "lat": 34.73922148483881,
+   "lng": 127.73662337388255,
+   "place_url": "http://place.map.kakao.com/1862765385",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -354,16 +420,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1862765385",
+   "id": "k787357115",
    "area": "yeosu",
-   "name": "여수 회포장전문점 여수찬 이순신광장 본점",
-   "cat": "회",
-   "addr": "전남광주통합특별시 여수시 이순신광장로 95-1",
-   "lat": 34.73922148483881,
-   "lng": 127.73662337388255,
-   "place_url": "http://place.map.kakao.com/1862765385",
+   "name": "노랑고래찹쌀꽈배기 여수중앙점",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 여수시 진남상가길 9",
+   "lat": 34.7413023767817,
+   "lng": 127.735799931138,
+   "place_url": "http://place.map.kakao.com/787357115",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,

@@ -1,6 +1,6 @@
 {
  "sample": false,
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "regions": {
   "seoul": {
    "name": "서울",
@@ -46,7 +46,7 @@
   },
   "busan": {
    "name": "부산",
-   "count": 43,
+   "count": 44,
    "good": 0,
    "areas": {
     "nampo": {
@@ -75,7 +75,7 @@
   },
   "incheon": {
    "name": "인천",
-   "count": 23,
+   "count": 24,
    "good": 0,
    "areas": {
     "gaehang": {
@@ -87,7 +87,7 @@
   },
   "gwangju": {
    "name": "광주",
-   "count": 22,
+   "count": 23,
    "good": 0,
    "areas": {
     "chungjang": {
@@ -99,7 +99,7 @@
   },
   "daejeon": {
    "name": "대전",
-   "count": 22,
+   "count": 23,
    "good": 0,
    "areas": {
     "eunhaeng": {
@@ -111,7 +111,7 @@
   },
   "ulsan": {
    "name": "울산",
-   "count": 21,
+   "count": 22,
    "good": 0,
    "areas": {
     "seongnam": {
@@ -135,7 +135,7 @@
   },
   "gyeonggi": {
    "name": "경기",
-   "count": 23,
+   "count": 22,
    "good": 0,
    "areas": {
     "suwon-haenggung": {
@@ -147,7 +147,7 @@
   },
   "gangwon": {
    "name": "강원",
-   "count": 28,
+   "count": 26,
    "good": 0,
    "areas": {
     "gangneung": {
@@ -195,7 +195,7 @@
   },
   "jeonnam": {
    "name": "전남",
-   "count": 23,
+   "count": 25,
    "good": 0,
    "areas": {
     "yeosu": {
@@ -207,7 +207,7 @@
   },
   "gyeongbuk": {
    "name": "경북",
-   "count": 23,
+   "count": 25,
    "good": 0,
    "areas": {
     "gyeongju": {
@@ -463,13 +463,14 @@
      "lat": 37.4743,
      "lng": 126.6215,
      "stay": 40,
-     "desc": "인천항이 내려다보이는 언덕"
+     "desc": "인천항이 내려다보이는 언덕",
+     "checked": true
     },
     {
      "t": "spot",
      "name": "신포국제시장",
-     "lat": 37.4718,
-     "lng": 126.6233,
+     "lat": 37.471369,
+     "lng": 126.627094,
      "stay": 40
     }
    ],
@@ -646,7 +647,8 @@
      "lat": 34.7307,
      "lng": 127.7397,
      "stay": 40,
-     "move": "bus"
+     "move": "bus",
+     "checked": true
     }
    ],
    "for": [
@@ -725,7 +727,8 @@
      "lat": 33.5163,
      "lng": 126.4975,
      "stay": 30,
-     "move": "bus"
+     "move": "bus",
+     "checked": true
     }
    ],
    "for": [

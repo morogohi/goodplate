@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k16725331",
@@ -29,8 +29,37 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 12,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1272151080",
+   "area": "seongnam",
+   "name": "단촛물1994",
+   "cat": "일식",
+   "addr": "울산 중구 새즈믄해거리 9",
+   "lat": 35.5554349594827,
+   "lng": 129.320201354985,
+   "place_url": "http://place.map.kakao.com/1272151080",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "​주말에도 1인 15,000원? 가성비 폭발 스시 맛집 '단촛물1994' ​#울산스시 #중앙동스시 #성남동스시 #성남동초밥 #성남동사시미 울산맛",
+     "url": "https://www.youtube.com/watch?v=Y5M1-pEd5nY",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k1086317267",
@@ -75,16 +104,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k465359772",
+   "id": "k10988644",
    "area": "seongnam",
-   "name": "손가",
-   "cat": "중국요리",
-   "addr": "울산 중구 문화의거리 14",
-   "lat": 35.5560075874303,
-   "lng": 129.321861915271,
-   "place_url": "http://place.map.kakao.com/465359772",
+   "name": "형제식당",
+   "cat": "찌개,전골",
+   "addr": "울산 중구 젊음의거리 68",
+   "lat": 35.55388147923333,
+   "lng": 129.32071890408648,
+   "place_url": "http://place.map.kakao.com/10988644",
    "good": null,
-   "emoji": "🥟",
+   "emoji": "🥘",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -96,16 +125,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10988644",
+   "id": "k465359772",
    "area": "seongnam",
-   "name": "형제식당",
-   "cat": "찌개,전골",
-   "addr": "울산 중구 젊음의거리 68",
-   "lat": 35.55388147923333,
-   "lng": 129.32071890408648,
-   "place_url": "http://place.map.kakao.com/10988644",
+   "name": "손가",
+   "cat": "중국요리",
+   "addr": "울산 중구 문화의거리 14",
+   "lat": 35.5560075874303,
+   "lng": 129.321861915271,
+   "place_url": "http://place.map.kakao.com/465359772",
    "good": null,
-   "emoji": "🥘",
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -159,6 +188,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k9399162",
+   "area": "seongnam",
+   "name": "조포닭발 본점",
+   "cat": "닭요리",
+   "addr": "울산 중구 중앙2길 20-1",
+   "lat": 35.55552619420307,
+   "lng": 129.32009592640722,
+   "place_url": "http://place.map.kakao.com/9399162",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k877069288",
    "area": "seongnam",
    "name": "덴푸라찬",
@@ -201,16 +251,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k9399162",
+   "id": "k1657182616",
    "area": "seongnam",
-   "name": "조포닭발 본점",
-   "cat": "닭요리",
-   "addr": "울산 중구 중앙2길 20-1",
-   "lat": 35.55552619420307,
-   "lng": 129.32009592640722,
-   "place_url": "http://place.map.kakao.com/9399162",
+   "name": "피자몰 울산점",
+   "cat": "피자몰",
+   "addr": "울산 중구 젊음의2거리 33",
+   "lat": 35.55318303473123,
+   "lng": 129.3203977511813,
+   "place_url": "http://place.map.kakao.com/1657182616",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🍕",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -232,27 +282,6 @@
    "place_url": "http://place.map.kakao.com/759598301",
    "good": null,
    "emoji": "🍜",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1657182616",
-   "area": "seongnam",
-   "name": "피자몰 울산점",
-   "cat": "피자몰",
-   "addr": "울산 중구 젊음의2거리 33",
-   "lat": 35.55318303473123,
-   "lng": 129.3203977511813,
-   "place_url": "http://place.map.kakao.com/1657182616",
-   "good": null,
-   "emoji": "🍕",
    "src": {
     "yt": 0,
     "blog": 0,

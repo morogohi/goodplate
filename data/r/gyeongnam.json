@@ -1,37 +1,8 @@
 {
  "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
-  {
-   "id": "k26396219",
-   "area": "tongyeong",
-   "name": "심가네해물짬뽕",
-   "cat": "중국요리",
-   "addr": "경남 통영시 새터길 74-4",
-   "lat": 34.84151649686873,
-   "lng": 128.4206253416037,
-   "place_url": "http://place.map.kakao.com/26396219",
-   "good": null,
-   "emoji": "🥟",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "[경남 통영] 가면 무조건인 맛집 3곳 #Shorts",
-     "url": "https://www.youtube.com/watch?v=pOOFQQOAJpE",
-     "date": "2026-11-04",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 11,
-   "first_seen": "2026-11-14"
-  },
   {
    "id": "k1620566882",
    "area": "tongyeong",
@@ -58,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -145,7 +116,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -174,7 +145,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-15"
   },
   {
@@ -209,6 +180,27 @@
    "place_url": "http://place.map.kakao.com/115499738",
    "good": null,
    "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26396219",
+   "area": "tongyeong",
+   "name": "심가네해물짬뽕",
+   "cat": "중국요리",
+   "addr": "경남 통영시 새터길 74-4",
+   "lat": 34.84151649686873,
+   "lng": 128.4206253416037,
+   "place_url": "http://place.map.kakao.com/26396219",
+   "good": null,
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -346,14 +338,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10445065",
+   "id": "k13618032",
    "area": "tongyeong",
-   "name": "산양식당",
-   "cat": "한식",
-   "addr": "경남 통영시 강구안길 29",
-   "lat": 34.844093120806825,
-   "lng": 128.42341913345885,
-   "place_url": "http://place.map.kakao.com/10445065",
+   "name": "통영동해식당",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 항남1길 36",
+   "lat": 34.84159280891259,
+   "lng": 128.42404184542343,
+   "place_url": "http://place.map.kakao.com/13618032",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -367,14 +359,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k13618032",
+   "id": "k10445065",
    "area": "tongyeong",
-   "name": "통영동해식당",
-   "cat": "해물,생선",
-   "addr": "경남 통영시 항남1길 36",
-   "lat": 34.84159280891259,
-   "lng": 128.42404184542343,
-   "place_url": "http://place.map.kakao.com/13618032",
+   "name": "산양식당",
+   "cat": "한식",
+   "addr": "경남 통영시 강구안길 29",
+   "lat": 34.844093120806825,
+   "lng": 128.42341913345885,
+   "place_url": "http://place.map.kakao.com/10445065",
    "good": null,
    "emoji": "🍚",
    "src": {

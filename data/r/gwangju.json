@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,8 +87,37 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1026203456",
+   "area": "chungjang",
+   "name": "한식경",
+   "cat": "퓨전요리",
+   "addr": "전남광주통합특별시 동구 동명로25번길 6-1",
+   "lat": 35.1516649792643,
+   "lng": 126.923107499159,
+   "place_url": "http://place.map.kakao.com/1026203456",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "경주보문단지 부모님과 방문 하기 좋은뷰맛집#경주보문단지맛집한식#경주맛집#향택별미원#경주여행맛집",
+     "url": "https://www.youtube.com/watch?v=T8ArTWsH5Q0",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k11701966",
@@ -196,6 +225,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k10343783",
+   "area": "chungjang",
+   "name": "맛삼",
+   "cat": "육류,고기",
+   "addr": "전남광주통합특별시 동구 서석로7번길 6-46",
+   "lat": 35.1461256826391,
+   "lng": 126.915681209725,
+   "place_url": "http://place.map.kakao.com/10343783",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k11834461",
    "area": "chungjang",
    "name": "예향식당",
@@ -217,14 +267,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10343783",
+   "id": "k356332807",
    "area": "chungjang",
-   "name": "맛삼",
-   "cat": "육류,고기",
-   "addr": "전남광주통합특별시 동구 서석로7번길 6-46",
-   "lat": 35.1461256826391,
-   "lng": 126.915681209725,
-   "place_url": "http://place.map.kakao.com/10343783",
+   "name": "육층집",
+   "cat": "삼겹살",
+   "addr": "전남광주통합특별시 동구 문화전당로35번길 16-4",
+   "lat": 35.14553209062234,
+   "lng": 126.91758028638935,
+   "place_url": "http://place.map.kakao.com/356332807",
    "good": null,
    "emoji": "🥩",
    "src": {
@@ -248,27 +298,6 @@
    "place_url": "http://place.map.kakao.com/451615583",
    "good": null,
    "emoji": "🥟",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k356332807",
-   "area": "chungjang",
-   "name": "육층집",
-   "cat": "삼겹살",
-   "addr": "전남광주통합특별시 동구 문화전당로35번길 16-4",
-   "lat": 35.14553209062234,
-   "lng": 126.91758028638935,
-   "place_url": "http://place.map.kakao.com/356332807",
-   "good": null,
-   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,

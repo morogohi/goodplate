@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k8629568",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -44,11 +44,25 @@
    "good": null,
    "emoji": "🍜",
    "src": {
-    "yt": 2,
+    "yt": 4,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "전주 여행 가면 무조건 들러야 하는필수 코스, #베테랑칼국수",
+     "url": "https://www.youtube.com/watch?v=PLDkxyE88Go",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
+     "url": "https://www.youtube.com/watch?v=GnksE71bVjw",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
@@ -61,6 +75,35 @@
      "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
      "url": "https://www.youtube.com/watch?v=8xaYRbkvryo",
      "date": "2026-11-05",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26808763",
+   "area": "jeonju-hanok",
+   "name": "풍년제과 본점",
+   "cat": "제과,베이커리",
+   "addr": "전북특별자치도 전주시 완산구 팔달로 141",
+   "lat": 35.815023896863046,
+   "lng": 127.14790236648302,
+   "place_url": "http://place.map.kakao.com/26808763",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "KOREA TRIP WEEK 2 🇰🇷 JEONJU | 전주한옥마을 | 풍년제과 | 한벽당 | 옛촌막걸리 | 전주왱이콩나물국밥 | 전주맛집 | 전",
+     "url": "https://www.youtube.com/watch?v=pDjNbLUyOTY",
+     "date": "2026-11-15",
      "sponsored": false
     }
    ],
@@ -94,7 +137,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -123,7 +166,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-15"
   },
   {
@@ -159,36 +202,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k10588760",
-   "area": "jeonju-hanok",
-   "name": "양반가",
-   "cat": "한정식",
-   "addr": "전북특별자치도 전주시 완산구 최명희길 30-2",
-   "lat": 35.8161454455038,
-   "lng": 127.151218504013,
-   "place_url": "http://place.map.kakao.com/10588760",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "전주한옥마을 여행 중 꼭 들러야 할 감성 한옥카페 🤎",
-     "url": "https://www.youtube.com/watch?v=fBJ5xO4ZYO4",
-     "date": "2026-11-07",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 8,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -203,11 +217,18 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "KOREA TRIP WEEK 2 🇰🇷 JEONJU | 전주한옥마을 | 풍년제과 | 한벽당 | 옛촌막걸리 | 전주왱이콩나물국밥 | 전주맛집 | 전",
+     "url": "https://www.youtube.com/watch?v=pDjNbLUyOTY",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "[vlog]1박2일 전주여행 🌳 | 또간집 맛집 • 또순이네 • 평화와평화• 전주수목원 • 한벽터널 •오짱 • 전주한옥마을• 현대옥 •플랫메이트",
@@ -217,7 +238,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -232,7 +253,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -243,10 +264,17 @@
      "url": "https://www.youtube.com/watch?v=ghIIPAbS2g0",
      "date": "2026-11-14",
      "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "한옥마을은 가는데 어딜가야할지 몰라서 방황하는 그대여..",
+     "url": "https://www.youtube.com/watch?v=P_ff_AScYwU",
+     "date": "2026-11-08",
+     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-15"
   },
   {
@@ -261,7 +289,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 4,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
@@ -282,22 +310,44 @@
     },
     {
      "src": "yt",
-     "title": "전주한옥마을카페 이르리",
-     "url": "https://www.youtube.com/watch?v=KSR-KwB4xGM",
-     "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "전주한옥마을 여행 중 꼭 들러야 할 감성 한옥카페 🤎",
-     "url": "https://www.youtube.com/watch?v=fBJ5xO4ZYO4",
-     "date": "2026-11-07",
+     "title": "#협찬 지금 전주라면 전주한옥마을 카페 카페이르리 방문해보세요 .",
+     "url": "https://www.youtube.com/watch?v=VNZqRgKKdXU",
+     "date": "2026-11-08",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k379587767",
+   "area": "jeonju-hanok",
+   "name": "더마시랑게",
+   "cat": "카페",
+   "addr": "전북특별자치도 전주시 완산구 전동성당길 88",
+   "lat": 35.8151219566208,
+   "lng": 127.148776695874,
+   "place_url": "http://place.map.kakao.com/379587767",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "한옥마을은 가는데 어딜가야할지 몰라서 방황하는 그대여..",
+     "url": "https://www.youtube.com/watch?v=P_ff_AScYwU",
+     "date": "2026-11-08",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 8,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k26615208",
@@ -331,27 +381,6 @@
    "place_url": "http://place.map.kakao.com/10186580",
    "good": null,
    "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k26808763",
-   "area": "jeonju-hanok",
-   "name": "풍년제과 본점",
-   "cat": "제과,베이커리",
-   "addr": "전북특별자치도 전주시 완산구 팔달로 141",
-   "lat": 35.815023896863046,
-   "lng": 127.14790236648302,
-   "place_url": "http://place.map.kakao.com/26808763",
-   "good": null,
-   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k10070964",
@@ -15,25 +15,11 @@
    "good": null,
    "emoji": "🍕",
    "src": {
-    "yt": 3,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
-    {
-     "src": "yt",
-     "title": "ASMR MUKBANG | [부산맛집] 이재모피자 김치볶음밥 & 제로콜라 | Lee Jae Mo Kimchi Fried Rice & Coke Z",
-     "url": "https://www.youtube.com/watch?v=cvhZLCoRGfU",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "이재모피자 본점 필수 추천 조합 #이재모피자 #부산맛집 #부산여행",
-     "url": "https://www.youtube.com/watch?v=qJ9UzaYW-4k",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
     {
      "src": "yt",
      "title": "가을🍂이 끝나기 전에 축제한번은 다녀와야죠~  / 차이나타운축제.자갈치시장축제",
@@ -43,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -86,7 +72,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -122,7 +108,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -151,7 +137,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -187,8 +173,124 @@
     }
    ],
    "kw": [],
+   "last": 3,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k23349477",
+   "area": "nampo",
+   "name": "스톤스트리트",
+   "cat": "패밀리레스토랑",
+   "addr": "부산 중구 용두산길 12",
+   "lat": 35.10183933074177,
+   "lng": 129.03128824435444,
+   "place_url": "http://place.map.kakao.com/23349477",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "남포동 십 년째 줄세우는 맛집 스톤스트리트 사장님이 오픈한 #에이디와이 리뉴얼 오픈 했어요!",
+     "url": "https://www.youtube.com/watch?v=-rTL9zWoQp4",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k9089301",
+   "area": "haeundae",
+   "name": "상국이네",
+   "cat": "분식",
+   "addr": "부산 해운대구 구남로41번길 40-1",
+   "lat": 35.162016169133,
+   "lng": 129.16287693095907,
+   "place_url": "http://place.map.kakao.com/9089301",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 해운대 떡볶이 맛집🍴🥢🍤🍢",
+     "url": "https://www.youtube.com/watch?v=hDKw0C-eKZo",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
    "last": 2,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15555120",
+   "area": "haeundae",
+   "name": "해운대가야밀면",
+   "cat": "국수",
+   "addr": "부산 해운대구 좌동순환로 27",
+   "lat": 35.1688354703383,
+   "lng": 129.166334485854,
+   "place_url": "http://place.map.kakao.com/15555120",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "해운대 가야밀면#부산 #부산여행맛집 #부산여행코스 #해운대 #해운대여행 #해운대해수욕장 #밀면 #밀면맛집 #냉면 #냉면맛집 #맛집 #점심  #로",
+     "url": "https://www.youtube.com/watch?v=2rgyq0QHSAk",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k156752169",
+   "area": "haeundae",
+   "name": "가야밀면",
+   "cat": "국수",
+   "addr": "부산 해운대구 우동1로20번길 74",
+   "lat": 35.16549688629881,
+   "lng": 129.16047587515158,
+   "place_url": "http://place.map.kakao.com/156752169",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "해운대 가야밀면#부산 #부산여행맛집 #부산여행코스 #해운대 #해운대여행 #해운대해수욕장 #밀면 #밀면맛집 #냉면 #냉면맛집 #맛집 #점심  #로",
+     "url": "https://www.youtube.com/watch?v=2rgyq0QHSAk",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k13561723",
@@ -216,37 +318,8 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-15"
-  },
-  {
-   "id": "k837267301",
-   "area": "haeundae",
-   "name": "해운대원조할매국밥",
-   "cat": "국밥",
-   "addr": "부산 해운대구 중동1로 40",
-   "lat": 35.1620187108888,
-   "lng": 129.163239118689,
-   "place_url": "http://place.map.kakao.com/837267301",
-   "good": null,
-   "emoji": "🍲",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "부산 해운대 원조할매국밥｜진짜 원조의 맛 Haeundae's Original Grandma's Korean Beef Soup 맛은 진국인데 가격",
-     "url": "https://www.youtube.com/watch?v=_vPmEsadcTk",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
    "last": 2,
-   "first_seen": "2026-11-14"
+   "first_seen": "2026-11-15"
   },
   {
    "id": "k11047533",
@@ -438,16 +511,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k11892204",
+   "id": "k14635584",
    "area": "nampo",
-   "name": "옥생관",
-   "cat": "중국요리",
-   "addr": "부산 중구 대청로 66",
-   "lat": 35.1028269851025,
-   "lng": 129.027038320854,
-   "place_url": "http://place.map.kakao.com/11892204",
+   "name": "홍가네양곱창",
+   "cat": "곱창,막창",
+   "addr": "부산 중구 자갈치로59번길 5-13",
+   "lat": 35.0977469426982,
+   "lng": 129.03032922936,
+   "place_url": "http://place.map.kakao.com/14635584",
    "good": null,
-   "emoji": "🥟",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -459,16 +532,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k14635584",
+   "id": "k11892204",
    "area": "nampo",
-   "name": "홍가네양곱창",
-   "cat": "곱창,막창",
-   "addr": "부산 중구 자갈치로59번길 5-13",
-   "lat": 35.0977469426982,
-   "lng": 129.03032922936,
-   "place_url": "http://place.map.kakao.com/14635584",
+   "name": "옥생관",
+   "cat": "중국요리",
+   "addr": "부산 중구 대청로 66",
+   "lat": 35.1028269851025,
+   "lng": 129.027038320854,
+   "place_url": "http://place.map.kakao.com/11892204",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -837,27 +910,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k9089301",
-   "area": "haeundae",
-   "name": "상국이네",
-   "cat": "분식",
-   "addr": "부산 해운대구 구남로41번길 40-1",
-   "lat": 35.162016169133,
-   "lng": 129.16287693095907,
-   "place_url": "http://place.map.kakao.com/9089301",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k8616462",
    "area": "haeundae",
    "name": "해운대기와집대구탕",
@@ -868,27 +920,6 @@
    "place_url": "http://place.map.kakao.com/8616462",
    "good": null,
    "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k15555120",
-   "area": "haeundae",
-   "name": "해운대가야밀면",
-   "cat": "국수",
-   "addr": "부산 해운대구 좌동순환로 27",
-   "lat": 35.1688354703383,
-   "lng": 129.166334485854,
-   "place_url": "http://place.map.kakao.com/15555120",
-   "good": null,
-   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,

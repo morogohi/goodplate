@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongbuk",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k9935399",
@@ -29,20 +29,20 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k19454026",
+   "id": "k1403302940",
    "area": "gyeongju",
-   "name": "시즈닝",
-   "cat": "양식",
-   "addr": "경북 경주시 첨성로99번길 25-2",
-   "lat": 35.835462997102,
-   "lng": 129.212437131226,
-   "place_url": "http://place.map.kakao.com/19454026",
+   "name": "단향회",
+   "cat": "한식",
+   "addr": "경북 경주시 첨성로81번길 28-1",
+   "lat": 35.8355702204743,
+   "lng": 129.211262751639,
+   "place_url": "http://place.map.kakao.com/1403302940",
    "good": null,
-   "emoji": "🍝",
+   "emoji": "🍚",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -51,15 +51,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "수원 행궁동 맛집 브뤼셀프라이 감자튀김에 토핑까지🍟 #shorts #수원화성행궁 #행궁동데이트",
-     "url": "https://www.youtube.com/watch?v=fI4hVxjagcQ",
-     "date": "2026-11-05",
+     "title": "비오는 날 경주 1박2일 여행 브이로그 #경주 #경주여행 #경주1박2일 #경주숙소 #황리단길 #황리단길맛집",
+     "url": "https://www.youtube.com/watch?v=iFYGDqYLMJw",
+     "date": "2026-11-06",
      "sponsored": false
     }
    ],
    "kw": [],
    "last": 10,
-   "first_seen": "2026-11-14"
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k1054251976",
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-15"
   },
   {
@@ -116,7 +116,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -145,18 +145,18 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-15"
   },
   {
-   "id": "k13101482",
+   "id": "k1225998161",
    "area": "gyeongju",
-   "name": "커피플레이스",
+   "name": "가봉반과",
    "cat": "카페",
-   "addr": "경북 경주시 중앙로 18",
-   "lat": 35.841436092258704,
-   "lng": 129.21179744929205,
-   "place_url": "http://place.map.kakao.com/13101482",
+   "addr": "경북 경주시 첨성로 61-7",
+   "lat": 35.83359804265305,
+   "lng": 129.2088024444157,
+   "place_url": "http://place.map.kakao.com/1225998161",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -167,15 +167,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "🇰🇷 먹으러 간 경주 당일치기 (ft. 운곡서원 은행나무)",
-     "url": "https://www.youtube.com/watch?v=ongJj8NMIHA",
-     "date": "2026-11-13",
+     "title": "#경주카페 #황리단길카페 #가봉반과 #경주디저트 #경주한옥카페",
+     "url": "https://www.youtube.com/watch?v=Zq9kAkXD9wc",
+     "date": "2026-11-08",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-14"
+   "last": 8,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k26519092",
@@ -346,6 +346,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k19454026",
+   "area": "gyeongju",
+   "name": "시즈닝",
+   "cat": "양식",
+   "addr": "경북 경주시 첨성로99번길 25-2",
+   "lat": 35.835462997102,
+   "lng": 129.212437131226,
+   "place_url": "http://place.map.kakao.com/19454026",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k1783751879",
    "area": "gyeongju",
    "name": "도미",
@@ -459,6 +480,27 @@
    "lat": 35.84188597162067,
    "lng": 129.2124683879669,
    "place_url": "http://place.map.kakao.com/213453321",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k13101482",
+   "area": "gyeongju",
+   "name": "커피플레이스",
+   "cat": "카페",
+   "addr": "경북 경주시 중앙로 18",
+   "lat": 35.841436092258704,
+   "lng": 129.21179744929205,
+   "place_url": "http://place.map.kakao.com/13101482",
    "good": null,
    "emoji": "☕",
    "src": {

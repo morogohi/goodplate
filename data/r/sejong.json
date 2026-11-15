@@ -1,37 +1,8 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
-  {
-   "id": "k9274802",
-   "area": "jochiwon",
-   "name": "왕천파닭 본점",
-   "cat": "치킨",
-   "addr": "세종특별자치시 조치원읍 조치원6길 13-12",
-   "lat": 36.6009123868065,
-   "lng": 127.30020175534877,
-   "place_url": "http://place.map.kakao.com/9274802",
-   "good": null,
-   "emoji": "🍗",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "조치원 시장 왕천파닭 본점… 파채랑 생마늘 조합 미쳤다 🍗",
-     "url": "https://www.youtube.com/watch?v=KuAkaVY1_aM",
-     "date": "2026-11-08",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 7,
-   "first_seen": "2026-11-14"
-  },
   {
    "id": "k240524940",
    "area": "jochiwon",
@@ -58,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -73,11 +44,25 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 20,
+    "yt": 19,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "[청주근교맛집.Vlog]돌아온 실패없는 청주근교맛집.vlog [조치원 옥천 괴산 대전]",
+     "url": "https://www.youtube.com/watch?v=jlUdDV5wwdw",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "조치원 순두부 맛집!!!김치전이냐 해물파전이냐? 고민 끝내주는 반반전!",
+     "url": "https://www.youtube.com/watch?v=c6e4npK9Q9U",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "순두부 먹으러 왔다가 반찬까지 싹 비우고 온 세종 조치원 맛집!",
@@ -118,20 +103,6 @@
      "title": "골목길안에 숨어 있는 오래된 여관의 반전 비밀 #맛집 #세종시맛집 #조치원맛집 #비밀",
      "url": "https://www.youtube.com/watch?v=WbmwyH0AmmI",
      "date": "2026-11-14",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "마늘소스 듬뿍 올라간 조치원 족발 맛집?! 🧄",
-     "url": "https://www.youtube.com/watch?v=8Tw7oLkrUhE",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "애견동반도 가능한 에그타르트 맛집 !",
-     "url": "https://www.youtube.com/watch?v=2N0frrNhx40",
-     "date": "2026-11-12",
      "sponsored": false
     }
    ],
@@ -192,6 +163,27 @@
    "place_url": "http://place.map.kakao.com/2044888581",
    "good": null,
    "emoji": "🍣",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9274802",
+   "area": "jochiwon",
+   "name": "왕천파닭 본점",
+   "cat": "치킨",
+   "addr": "세종특별자치시 조치원읍 조치원6길 13-12",
+   "lat": 36.6009123868065,
+   "lng": 127.30020175534877,
+   "place_url": "http://place.map.kakao.com/9274802",
+   "good": null,
+   "emoji": "🍗",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -266,16 +258,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10491478",
+   "id": "k27327527",
    "area": "jochiwon",
-   "name": "석기정부대찌개",
-   "cat": "찌개,전골",
-   "addr": "세종특별자치시 조치원읍 조치원3길 30-1",
-   "lat": 36.6028860911881,
-   "lng": 127.298683799339,
-   "place_url": "http://place.map.kakao.com/10491478",
+   "name": "신흥파닭",
+   "cat": "치킨",
+   "addr": "세종특별자치시 조치원읍 충현로 91",
+   "lat": 36.59670141670659,
+   "lng": 127.29549165110166,
+   "place_url": "http://place.map.kakao.com/27327527",
    "good": null,
-   "emoji": "🥘",
+   "emoji": "🍗",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -308,16 +300,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k27327527",
+   "id": "k10131511",
    "area": "jochiwon",
-   "name": "신흥파닭",
-   "cat": "치킨",
-   "addr": "세종특별자치시 조치원읍 충현로 91",
-   "lat": 36.59670141670659,
-   "lng": 127.29549165110166,
-   "place_url": "http://place.map.kakao.com/27327527",
+   "name": "거부장",
+   "cat": "육류,고기",
+   "addr": "세종특별자치시 조치원읍 조치원로 58-1",
+   "lat": 36.6021900011283,
+   "lng": 127.303129355693,
+   "place_url": "http://place.map.kakao.com/10131511",
    "good": null,
-   "emoji": "🍗",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -329,16 +321,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10131511",
+   "id": "k10491478",
    "area": "jochiwon",
-   "name": "거부장",
-   "cat": "육류,고기",
-   "addr": "세종특별자치시 조치원읍 조치원로 58-1",
-   "lat": 36.6021900011283,
-   "lng": 127.303129355693,
-   "place_url": "http://place.map.kakao.com/10131511",
+   "name": "석기정부대찌개",
+   "cat": "찌개,전골",
+   "addr": "세종특별자치시 조치원읍 조치원3길 30-1",
+   "lat": 36.6028860911881,
+   "lng": 127.298683799339,
+   "place_url": "http://place.map.kakao.com/10491478",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🥘",
    "src": {
     "yt": 0,
     "blog": 0,

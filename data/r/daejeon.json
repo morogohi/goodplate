@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-15T07:54+09:00",
+ "generated_at": "2026-11-16T06:05+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -15,16 +15,37 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 7,
+    "yt": 9,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
+     "title": "#사쿠사쿠 #대전맛집 #대전대흥동맛집 #대전텐동 #텐동맛집 #대전텐동맛집 #성심당근처맛집 #대흥동맛집 #대전빵지순례 #대전여행코스 #대전데이트",
+     "url": "https://www.youtube.com/watch?v=NMuwAB6loV0",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "대전 당일치기 🚗 #대전 #성심당 #맛집 #일상",
+     "url": "https://www.youtube.com/watch?v=aOHss4H4kmQ",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "대전여행🍞 성심당만 가면 아쉽지! 숨은 빵집부터 맛집까지 1박 2일 완벽코스🔥",
      "url": "https://www.youtube.com/watch?v=rhieFfQ2tLU",
      "date": "2026-11-13",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "#성심당근처맛집#대흥동맛집#달달한밤부엌",
+     "url": "https://www.youtube.com/watch?v=fH8xT8oeDtc",
+     "date": "2026-11-10",
      "sponsored": false
     },
     {
@@ -54,24 +75,10 @@
      "url": "https://www.youtube.com/watch?v=TXhmcUephJw",
      "date": "2026-11-02",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성심당 말고! 대전 사람들 단골 국밥 맛집 7곳 | 6,000원 순대국밥부터 24시 해장국까지",
-     "url": "https://www.youtube.com/watch?v=FgMcSnk2CQk",
-     "date": "2026-11-02",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성심당 직원분들 친절해     #대전 #성심당 #대전빵집 #대전맛집 #맛집 #맛집추천 #빵집 #빵집투어 #충남 #빵돌이",
-     "url": "https://www.youtube.com/watch?v=fsfZIdDWDDc",
-     "date": "2026-11-01",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -100,7 +107,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -129,7 +136,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -158,8 +165,37 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8331536",
+   "area": "eunhaeng",
+   "name": "만나 대흥본점",
+   "cat": "샤브샤브",
+   "addr": "대전 중구 대흥로 138",
+   "lat": 36.3238062267483,
+   "lng": 127.427325209896,
+   "place_url": "http://place.map.kakao.com/8331536",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#협찬대전 원도심 30년 전통 로컬맛집 만나 대흥본점에서 아내와 즐긴 수제떡갈비 상추쌈샤브 점심 한상!  ​#대전대흥동맛집 #대전은행동맛집 #중",
+     "url": "https://www.youtube.com/watch?v=fQIaN6-6Q7M",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k8570326",
@@ -173,11 +209,18 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 8,
+    "yt": 6,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "광고, 홍보 진짜 1도 없는 광화문 토박이 노포  (feat.황금정)",
+     "url": "https://www.youtube.com/watch?v=nF9jfKuIPY8",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "[문화PD] 수원 토박이가 알려주는 행궁동 맛집! 🍽️ 걸어서 즐기는 미식 여행",
@@ -201,30 +244,9 @@
     },
     {
      "src": "yt",
-     "title": "경주에서 푸짐한 갈치 한 상 즐기려면? 🐟부모님 모시고 가기 좋은 토박이식당 🤍#토박이식당 #경주맛집 #보문단지맛집 #경주한정식",
-     "url": "https://www.youtube.com/watch?v=4E9DOSNoQKc",
-     "date": "2026-11-13",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
      "title": "혜화에서 참치 머리고기 먹고 싶다면, 한돌참치 | 혜화 추천 맛집 #shorts",
      "url": "https://www.youtube.com/watch?v=iTVox7Kp9HI",
      "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "산더미 곱창 비주얼 좀 보고 가세요~ 남포동 맛집 \"대양곱창연탄구이\"",
-     "url": "https://www.youtube.com/watch?v=ZrSn2Wi6IBE",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "청주 토박이들은 여기 삼겹살 먹으러간다 #청주맛집",
-     "url": "https://www.youtube.com/watch?v=IWUeZolRAEQ",
-     "date": "2026-11-07",
      "sponsored": false
     },
     {
@@ -236,7 +258,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
