@@ -214,7 +214,8 @@
     "lat": 37.4743,
     "lng": 126.6215,
     "stay": 40,
-    "desc": "인천항이 내려다보이는 언덕"
+    "desc": "인천항이 내려다보이는 언덕",
+    "checked": true
    },
    {
     "t": "spot",
@@ -397,7 +398,8 @@
     "lat": 34.7307,
     "lng": 127.7397,
     "stay": 40,
-    "move": "bus"
+    "move": "bus",
+    "checked": true
    }
   ],
   "for": [
@@ -473,10 +475,11 @@
    {
     "t": "spot",
     "name": "용두암",
-    "lat": 33.51612,
-    "lng": 126.504397,
+    "lat": 33.5163,
+    "lng": 126.4975,
     "stay": 30,
-    "move": "bus"
+    "move": "bus",
+    "checked": true
    }
   ],
   "for": [

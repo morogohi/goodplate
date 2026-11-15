@@ -26,4 +26,4 @@ jobs:
           git config user.name "goodplate-bot"; git config user.email "goodplate-bot@users.noreply.github.com"
           git add store/
           git diff --cached --quiet || git commit -m "store: 실데이터 스크린샷"
-          git push
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

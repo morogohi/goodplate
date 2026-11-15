@@ -7,7 +7,7 @@
 환경변수: KAKAO_REST_KEY
 식사 슬롯(meal)은 '그 근처'라는 뜻이라 검증하지 않는다.
 """
-import json
+import json, re
 import os
 import sys
 from pathlib import Path
@@ -20,13 +20,18 @@ TOL_M = 250        # 이 거리 이상 차이 나면 '확인 필요'
 FIX_MAX_M = 3000   # 이보다 멀면 동명이인 장소일 수 있어 자동 수정하지 않음
 
 
+def same(n):
+    return re.sub(r"[\s·()]", "", n.split("·")[0])
+
+
 def lookup(name, sido_name, key):
     j = collect.get("https://dapi.kakao.com/v2/local/search/keyword.json",
                     headers={"Authorization": f"KakaoAK {key}"},
                     params={"query": f"{sido_name} {name.split('·')[0].strip()}", "size": 3})
     docs = j.get("documents", [])
-    # 관광명소(AT4)·문화시설(CT1)을 우선
-    docs.sort(key=lambda d: d.get("category_group_code") not in ("AT4", "CT1"))
+    # 이름이 정확히 같은 곳 → 관광명소(AT4)·문화시설(CT1) 순으로 우선
+    want = same(name)
+    docs.sort(key=lambda d: (same(d["place_name"]) != want, d.get("category_group_code") not in ("AT4", "CT1")))
     return docs[0] if docs else None
 
 
@@ -40,13 +45,18 @@ def main(fix=False):
         for s in c["stops"]:
             if s["t"] != "spot":
                 continue
+            if s.get("checked"):      # 사람이 지도에서 직접 확인한 좌표 — 건너뜀
+                rows.append((c["id"], s["name"], "직접 확인함", "", "OK"))
+                continue
             d = lookup(s["name"], sido, key)
             if not d:
                 rows.append((c["id"], s["name"], "검색 결과 없음", "", "확인 필요"))
                 continue
             lat, lng = float(d["y"]), float(d["x"])
             gap = collect.dist_m(s["lat"], s["lng"], lat, lng)
-            state = "OK" if gap < TOL_M else ("수정" if fix and gap < FIX_MAX_M else "확인 필요")
+            exact = same(d["place_name"]) == same(s["name"])
+            # 이름이 정확히 같을 때만 자동 수정 (예: '용두암' 검색에 '용두암해수랜드'가 나오면 고치지 않음)
+            state = "OK" if gap < TOL_M else ("수정" if fix and exact and gap < FIX_MAX_M else "확인 필요")
             if state == "수정":
                 s["lat"], s["lng"] = round(lat, 6), round(lng, 6)
                 changed += 1
