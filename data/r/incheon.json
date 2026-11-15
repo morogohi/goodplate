@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "incheon",
- "generated_at": "2026-11-16T06:05+09:00",
+ "generated_at": "2026-11-16T06:07+09:00",
  "stores": [
   {
    "id": "k8294851",
@@ -91,6 +91,52 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k8568222",
+   "area": "gaehang",
+   "name": "진흥각",
+   "cat": "중식",
+   "addr": "인천 제물포구 신포로23번길 20",
+   "lat": 37.471703414500226,
+   "lng": 126.62392055068015,
+   "place_url": "http://place.map.kakao.com/8568222",
+   "menu": "유니짜장",
+   "price": 6500,
+   "good": "price",
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k16825778",
+   "area": "gaehang",
+   "name": "일미정",
+   "cat": "한식",
+   "addr": "인천 제물포구 신포로23번길 5",
+   "lat": 37.4709624073995,
+   "lng": 126.624367400513,
+   "place_url": "http://place.map.kakao.com/16825778",
+   "menu": "불고기백반",
+   "price": 13000,
+   "good": "price",
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
    "id": "k22452229",
    "area": "gaehang",
    "name": "산동주방",
@@ -117,6 +163,52 @@
    ],
    "kw": [],
    "last": 8,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k7970062",
+   "area": "gaehang",
+   "name": "신신분식",
+   "cat": "분식",
+   "addr": "인천 제물포구 자유공원로27번길 1",
+   "lat": 37.475233737859,
+   "lng": 126.627963676981,
+   "place_url": "http://place.map.kakao.com/7970062",
+   "menu": "우동",
+   "price": 5500,
+   "good": "price",
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k27328777",
+   "area": "gaehang",
+   "name": "제이콥스핏제리아",
+   "cat": "피자",
+   "addr": "인천 제물포구 우현로45번길 29",
+   "lat": 37.4711419058517,
+   "lng": 126.626419408481,
+   "place_url": "http://place.map.kakao.com/27328777",
+   "menu": "마르게리타",
+   "price": 14000,
+   "good": "price",
+   "emoji": "🍕",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -205,6 +297,275 @@
    "kw": [],
    "last": 9,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1740221500",
+   "area": "gaehang",
+   "name": "인생역전",
+   "cat": "한식",
+   "addr": "인천 제물포구 우현로45번길 28-2",
+   "lat": 37.47128466627197,
+   "lng": 126.62654643963768,
+   "place_url": "http://place.map.kakao.com/1740221500",
+   "menu": null,
+   "price": null,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "맛집탐방~세종 조치원 '인생역전'(전집) #맛집#전집",
+     "url": "https://www.youtube.com/watch?v=TayFDkZIaN8",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1754882053",
+   "area": "gaehang",
+   "name": "복락만두",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 신포로27번길 49",
+   "lat": 37.4725646035517,
+   "lng": 126.622736018533,
+   "place_url": "http://place.map.kakao.com/1754882053",
+   "menu": "찐만두",
+   "price": 6000,
+   "emoji": "🥟",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1970444938",
+   "area": "gaehang",
+   "name": "진순두부",
+   "cat": "두부전문점",
+   "addr": "인천 제물포구 우현로35번길 24-3",
+   "lat": 37.4710224402467,
+   "lng": 126.625113199172,
+   "place_url": "http://place.map.kakao.com/1970444938",
+   "menu": "바지락순두부+솥밥",
+   "price": 10000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "소식은 무슨,  야무진 순두부 한 상!          #조치원역맛집 #조치원역밥집 #세종전통시장맛집 #고려대세종캠퍼스맛집 #조치원역점심",
+     "url": "https://www.youtube.com/watch?v=abfJrkxdKNY",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k10334313",
+   "area": "gaehang",
+   "name": "명진일식",
+   "cat": "일식집",
+   "addr": "인천 제물포구 신포로23번길 21",
+   "lat": 37.47157025262684,
+   "lng": 126.62369625604225,
+   "place_url": "http://place.map.kakao.com/10334313",
+   "menu": "한상차림(4인)",
+   "price": 53000,
+   "emoji": "🍱",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1325844214",
+   "area": "gaehang",
+   "name": "옹진찰밥",
+   "cat": "한식",
+   "addr": "인천 제물포구 제물량로306번길 45",
+   "lat": 37.4767569646385,
+   "lng": 126.6179644183,
+   "place_url": "http://place.map.kakao.com/1325844214",
+   "menu": "소라된장찌개",
+   "price": 8000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k12461772",
+   "area": "gaehang",
+   "name": "할매왕족발순대",
+   "cat": "족발,보쌈",
+   "addr": "인천 제물포구 우현로45번길 11",
+   "lat": 37.4711777248039,
+   "lng": 126.627490902081,
+   "place_url": "http://place.map.kakao.com/12461772",
+   "menu": "순대국밥",
+   "price": 9000,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k13271640",
+   "area": "gaehang",
+   "name": "신포화로구이",
+   "cat": "육류,고기",
+   "addr": "인천 제물포구 신포로27번길 16",
+   "lat": 37.47187099446521,
+   "lng": 126.62448494400752,
+   "place_url": "http://place.map.kakao.com/13271640",
+   "menu": "김치찌개",
+   "price": 7500,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k354822798",
+   "area": "gaehang",
+   "name": "새벽숯불가든",
+   "cat": "육류,고기",
+   "addr": "인천 제물포구 제물량로166번길 23",
+   "lat": 37.471151258669,
+   "lng": 126.62595813624,
+   "place_url": "http://place.map.kakao.com/354822798",
+   "menu": "방목흑돼지(400g)",
+   "price": 42000,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k8748168",
+   "area": "gaehang",
+   "name": "골목집",
+   "cat": "육류,고기",
+   "addr": "인천 제물포구 도원로7번길 8",
+   "lat": 37.46560592280318,
+   "lng": 126.63617267547043,
+   "place_url": "http://place.map.kakao.com/8748168",
+   "menu": "칼국수",
+   "price": 7000,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k17957440",
+   "area": "gaehang",
+   "name": "월미식당",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 월미로234번길 6",
+   "lat": 37.47537831834631,
+   "lng": 126.59889959434906,
+   "place_url": "http://place.map.kakao.com/17957440",
+   "menu": "짜장면",
+   "price": 7000,
+   "emoji": "🥟",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k15592009",
+   "area": "gaehang",
+   "name": "도래순",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 신포로15번길 68-1",
+   "lat": 37.4724334447243,
+   "lng": 126.621167579433,
+   "place_url": "http://place.map.kakao.com/15592009",
+   "menu": "짜장면",
+   "price": 7000,
+   "emoji": "🥟",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k9175466",
@@ -299,27 +660,6 @@
    "lat": 37.48015788135192,
    "lng": 126.62064469343873,
    "place_url": "http://place.map.kakao.com/8986903",
-   "good": null,
-   "emoji": "🥟",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8568222",
-   "area": "gaehang",
-   "name": "진흥각",
-   "cat": "중식",
-   "addr": "인천 제물포구 신포로23번길 20",
-   "lat": 37.471703414500226,
-   "lng": 126.62392055068015,
-   "place_url": "http://place.map.kakao.com/8568222",
    "good": null,
    "emoji": "🥟",
    "src": {

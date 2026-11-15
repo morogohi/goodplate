@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-16T06:05+09:00",
+ "generated_at": "2026-11-16T06:07+09:00",
  "stores": [
   {
    "id": "k16725331",
@@ -33,6 +33,52 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k8949415",
+   "area": "seongnam",
+   "name": "떡볶이가좋다",
+   "cat": "떡볶이",
+   "addr": "울산 중구 중앙시장길 2-7",
+   "lat": 35.55502263269829,
+   "lng": 129.32205402451626,
+   "place_url": "http://place.map.kakao.com/8949415",
+   "menu": "즉석떡볶이",
+   "price": 3000,
+   "good": "price",
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k9824690",
+   "area": "seongnam",
+   "name": "빠삐용베이커리",
+   "cat": "제과,베이커리",
+   "addr": "울산 중구 중앙길 91",
+   "lat": 35.55550920811952,
+   "lng": 129.31845029321227,
+   "place_url": "http://place.map.kakao.com/9824690",
+   "menu": "팥빵",
+   "price": 1900,
+   "good": "price",
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
    "id": "k1272151080",
    "area": "seongnam",
    "name": "단촛물1994",
@@ -59,6 +105,98 @@
    ],
    "kw": [],
    "last": 1,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k27383796",
+   "area": "seongnam",
+   "name": "할매칼국수",
+   "cat": "칼국수",
+   "addr": "울산 중구 중앙시장길 21-4",
+   "lat": 35.5553310792819,
+   "lng": 129.323628672933,
+   "place_url": "http://place.map.kakao.com/27383796",
+   "menu": "칼국수",
+   "price": 7000,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k674006001",
+   "area": "seongnam",
+   "name": "옥교국밥",
+   "cat": "국밥",
+   "addr": "울산 중구 중앙시장길 2-5",
+   "lat": 35.5551038702183,
+   "lng": 129.322140168949,
+   "place_url": "http://place.map.kakao.com/674006001",
+   "menu": "돼지국밥",
+   "price": 9000,
+   "emoji": "🍲",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1807615085",
+   "area": "seongnam",
+   "name": "태화식육식당",
+   "cat": "육류,고기",
+   "addr": "울산 중구 중앙시장길 21-3",
+   "lat": 35.5552641423362,
+   "lng": 129.323408417751,
+   "place_url": "http://place.map.kakao.com/1807615085",
+   "menu": "삼겹살(100g)",
+   "price": 4700,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k11543547",
+   "area": "seongnam",
+   "name": "유가냉면",
+   "cat": "냉면",
+   "addr": "울산 중구 먹자거리 12",
+   "lat": 35.554569948418376,
+   "lng": 129.32006063987467,
+   "place_url": "http://place.map.kakao.com/11543547",
+   "menu": "물냉면",
+   "price": 9000,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {

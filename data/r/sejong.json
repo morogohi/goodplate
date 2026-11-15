@@ -1,8 +1,31 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-16T06:05+09:00",
+ "generated_at": "2026-11-16T06:07+09:00",
  "stores": [
+  {
+   "id": "k21471276",
+   "area": "jochiwon",
+   "name": "오가네빵굼터",
+   "cat": "제과,베이커리",
+   "addr": "세종특별자치시 조치원읍 새내10길 28",
+   "lat": 36.60034728707361,
+   "lng": 127.29987769084097,
+   "place_url": "http://place.map.kakao.com/21471276",
+   "menu": "단팥빵",
+   "price": 800,
+   "good": "price",
+   "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
   {
    "id": "k240524940",
    "area": "jochiwon",
@@ -109,6 +132,221 @@
    "kw": [],
    "last": 1,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1067917238",
+   "area": "jochiwon",
+   "name": "임효진 안경공방",
+   "cat": "안경,렌즈",
+   "addr": "세종특별자치시 조치원읍 이화로 22",
+   "lat": 36.59317994056837,
+   "lng": 127.28768241499456,
+   "place_url": "http://place.map.kakao.com/1067917238",
+   "menu": "안경테",
+   "price": 10000,
+   "emoji": "🍽️",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k16129550",
+   "area": "jochiwon",
+   "name": "대솔식당",
+   "cat": "한식",
+   "addr": "세종특별자치시 조치원읍 조치원4길 13",
+   "lat": 36.60080039869707,
+   "lng": 127.29886575573741,
+   "place_url": "http://place.map.kakao.com/16129550",
+   "menu": "보리밥",
+   "price": 1800,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k19303054",
+   "area": "jochiwon",
+   "name": "삼성반점",
+   "cat": "중국요리",
+   "addr": "세종특별자치시 조치원읍 세종로 2394",
+   "lat": 36.60096023006824,
+   "lng": 127.2903477913646,
+   "place_url": "http://place.map.kakao.com/19303054",
+   "menu": "탕수육+짜장면",
+   "price": 15000,
+   "emoji": "🥟",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1868683244",
+   "area": "jochiwon",
+   "name": "만리장성",
+   "cat": "중국요리",
+   "addr": "세종특별자치시 조치원읍 충현로 91",
+   "lat": 36.596686103030805,
+   "lng": 127.29548935757192,
+   "place_url": "http://place.map.kakao.com/1868683244",
+   "menu": "짜장면",
+   "price": 6000,
+   "emoji": "🥟",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1434118676",
+   "area": "jochiwon",
+   "name": "6000냥돌솥추어탕",
+   "cat": "추어",
+   "addr": "세종특별자치시 조치원읍 새내10길 61",
+   "lat": 36.6008158424276,
+   "lng": 127.30167776839,
+   "place_url": "http://place.map.kakao.com/1434118676",
+   "menu": "돌솥추어탕",
+   "price": 7000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k14692380",
+   "area": "jochiwon",
+   "name": "시장감자탕",
+   "cat": "감자탕",
+   "addr": "세종특별자치시 조치원읍 조치원로 30-8",
+   "lat": 36.6011343492301,
+   "lng": 127.300089734423,
+   "place_url": "http://place.map.kakao.com/14692380",
+   "menu": "뼈해장국",
+   "price": 7000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k9963194",
+   "area": "jochiwon",
+   "name": "침산똥돼지",
+   "cat": "육류,고기",
+   "addr": "세종특별자치시 조치원읍 행복6길 40",
+   "lat": 36.606081239802,
+   "lng": 127.293724568744,
+   "place_url": "http://place.map.kakao.com/9963194",
+   "menu": "오삼불고기(점심특선)",
+   "price": 9000,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1233952909",
+   "area": "jochiwon",
+   "name": "옛날통닭",
+   "cat": "치킨",
+   "addr": "세종특별자치시 조치원읍 조치원6길 16",
+   "lat": 36.60092588703365,
+   "lng": 127.29949211260114,
+   "place_url": "http://place.map.kakao.com/1233952909",
+   "menu": "옛날통닭",
+   "price": 7500,
+   "emoji": "🍗",
+   "good": "price",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "대구 동성로 옛날통닭 3900원 신상 술집",
+     "url": "https://www.youtube.com/watch?v=kutzt_V5sFU",
+     "date": "2026-11-12",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 4,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k11287231",
+   "area": "jochiwon",
+   "name": "복조갈비",
+   "cat": "갈비",
+   "addr": "세종특별자치시 조치원읍 새내12길 51",
+   "lat": 36.60264585424239,
+   "lng": 127.30068794593616,
+   "place_url": "http://place.map.kakao.com/11287231",
+   "menu": "육개장",
+   "price": 8000,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k10332865",
