@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 root = Path(__file__).resolve().parent.parent
 idx = json.loads((root / "data/index.json").read_text(encoding="utf-8"))
-r = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in (root / "data/r").glob("*.json")}
+r = {}   # 가게 데이터는 data/r/*.json 에서 불러온다 (첫 화면을 가볍게: 지역·코스 목록만 내장)
 blob = json.dumps({"index": idx, "r": r}, ensure_ascii=False, separators=(",", ":"))
 h = (root / "app.html").read_text(encoding="utf-8")
 a = h.index("const SAMPLE=") + len("const SAMPLE=")

@@ -19,3 +19,4 @@ jobs:
           sleep 1
           python tests/e2e_regress.py http://localhost:8765
           python tests/e2e_map.py http://localhost:8765
+          python tests/e2e_auth.py http://localhost:8765

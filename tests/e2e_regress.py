@@ -11,7 +11,7 @@ with sync_playwright() as p:
     pg.goto(BASE+'/app.html'); pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(1200)
     SAMPLE=pg.evaluate('IDX.sample')
     # 1) 필터 집계 일치: 데이트 + 1만원 미만
-    pg.click('[data-pur="date"]'); pg.wait_for_timeout(200); pg.click('[data-fopen]'); pg.wait_for_timeout(200); pg.click('[data-fbud="b1"]'); pg.wait_for_timeout(200)
+    pg.click('[data-pur="date"]'); pg.wait_for_timeout(200); pg.click('[data-fopen]'); pg.wait_for_timeout(200); (pg.click('[data-fbud="b1"]') if pg.locator('[data-fbud="b1"]').count() else None); pg.wait_for_timeout(200)
     btn=pg.inner_text('[data-fapply]'); n=int(re.search(r'(\d+)곳',btn).group(1))
     pg.click('[data-fapply]'); pg.wait_for_timeout(300)
     h2=pg.inner_text('.sec-h h2'); m=int(re.search(r'(\d+)곳',h2).group(1))
