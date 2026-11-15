@@ -398,7 +398,7 @@ function storeRow(s){
     <div class="ph" style="background:${s.bg}">${s.last===0?'<span class="newb">NEW</span>':''}${s.emoji}</div>
     <div class="si"><div class="r1"><span class="nm">${esc(s.name)}</span>${s.d!=null?`<span class="ds">${fD(s.d)}</span>`:''}</div>
     <div class="mn">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>`:esc(s.addr||s.cat)}</div>
-    <div class="srcline">${s.src.yt+s.src.blog+s.src.insta===0?'<span>카카오맵 등록 가게 · 아직 언급 없음</span>':`<span><i style="color:var(--yt)">▶</i> ${s.src.yt}</span><span><i style="color:var(--blog)">B</i> ${s.src.blog}</span><span><i style="color:var(--insta)">◎</i> ${s.src.insta}</span>${s.last<99?`<span>· ${ago(s.last)} 언급</span>`:''}`}</div>
+    <div class="srcline">${s.src.yt+s.src.blog+s.src.insta===0?(s.good==='price'?'<span>지자체가 가격·위생·친절을 확인한 가게</span>':s.good?'<span>나눔에 참여하는 가게</span>':'<span>카카오맵 등록 가게 · 아직 언급 없음</span>'):`<span><i style="color:var(--yt)">▶</i> ${s.src.yt}</span><span><i style="color:var(--blog)">B</i> ${s.src.blog}</span><span><i style="color:var(--insta)">◎</i> ${s.src.insta}</span>${s.last<99?`<span>· ${ago(s.last)} 언급</span>`:''}`}</div>
     <div class="bds">${badges(s)}</div></div></button>`;
 }
 function miniCard(s){
