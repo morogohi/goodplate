@@ -955,7 +955,7 @@ async function route(){
   if(NATIVE){document.documentElement.classList.add('native');try{PL.StatusBar?.setStyle({style:'LIGHT'});PL.StatusBar?.setBackgroundColor?.({color:'#F6F4F0'});PL.SplashScreen?.hide()}catch(e){}}
   if(S.useGps)locate(true);
   // PWA: GitHub Pages 등 https 배포에서만 오프라인 캐시 사용 (미리보기 화면에선 조용히 건너뜀)
-  try{if(!NATIVE&&'serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{})}catch(e){}
+  try{if(!NATIVE&&'serviceWorker' in navigator&&location.protocol==='https:')(navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}),navigator.serviceWorker.controller&&navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!window.__swReloaded){window.__swReloaded=1;location.reload()}}))}catch(e){}
 })();
 </script>
 </body>
