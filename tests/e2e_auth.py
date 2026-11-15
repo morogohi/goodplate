@@ -18,7 +18,8 @@ window.supabase={createClient(){
   return{auth:{
     onAuthStateChange(f){subs.push(f)},
     async getSession(){return{data:{session:sess()}}},
-    async signInWithOAuth({provider}){window.__srv.rpc.push('oauth:'+provider);save();localStorage.setItem('cmj_auth','1');subs.forEach(f=>f('SIGNED_IN',{user:U}));return{error:null}},
+    async exchangeCodeForSession(code){window.__srv.rpc.push('exchange:'+code);save();localStorage.setItem('cmj_auth','1');subs.forEach(f=>f('SIGNED_IN',{user:U}));return{error:null}},
+    async signInWithOAuth({provider,options}){if(options&&options.skipBrowserRedirect){window.__srv.rpc.push('url:'+provider+':'+options.redirectTo);save();return{data:{url:'https://x.supabase.co/auth/v1/authorize?provider='+provider},error:null}}window.__srv.rpc.push('oauth:'+provider);save();localStorage.setItem('cmj_auth','1');subs.forEach(f=>f('SIGNED_IN',{user:U}));return{error:null}},
     async signOut(){localStorage.removeItem('cmj_auth');subs.forEach(f=>f('SIGNED_OUT',null));return{error:null}}},
    async rpc(n){window.__srv.rpc.push(n);if(n==='delete_my_account'){window.__srv.deleted=true;window.__srv.row=null}save();return{error:null}},
    from(){const q={select(){return q},eq(){return q},async maybeSingle(){return{data:window.__srv.row,error:null}},
@@ -93,6 +94,29 @@ with sync_playwright() as p:
     # --- 로그인 취소로 돌아온 경우 안내
     C=ctxA.new_page(); C.goto(BASE+'/app.html?error=access_denied'); C.wait_for_timeout(1500)
     ok('로그인 취소 안내 + 주소 정리', '취소' in C.inner_text('#toast') and 'error' not in C.url, C.url)
+    # --- 앱(안드로이드): 시스템 브라우저 + 딥링크
+    def native(plat):
+        return MOCK+"window.Capacitor={isNativePlatform:()=>true,getPlatform:()=>'%s',Plugins:{Browser:{open:async o=>{window.__opened=o.url},close:async()=>{window.__closed=1}},App:{addListener:(n,f)=>{window.__url=f}}}};"%plat
+    ctxN=b.new_context(viewport={'width':390,'height':844}); ctxN.add_init_script(native('android'))
+    N=ctxN.new_page(); N.on('pageerror',lambda e:errs.append('N '+str(e)))
+    N.goto(BASE+'/app.html'); N.evaluate('localStorage.clear();sessionStorage.clear()'); N.reload(); N.wait_for_timeout(1200)
+    N.evaluate("document.getElementById('acctBtn').click()"); N.wait_for_timeout(300)
+    ok('앱(안드로이드): 카카오·구글 버튼', N.locator('[data-login]').count()==2, N.inner_text('#sheet')[:80])
+    N.click('[data-login="google"]'); N.wait_for_timeout(800)
+    ok('앱: 시스템 브라우저로 열기 + 딥링크 주소', 'provider=google' in (N.evaluate('window.__opened') or '') and any('io.github.morogohi.goodplate://auth' in r for r in N.evaluate('window.__srv.rpc')))
+    N.evaluate("window.__url({url:'io.github.morogohi.goodplate://auth?code=abc123'})"); N.wait_for_timeout(2000)
+    ok('앱: 딥링크로 돌아오면 코드 교환·로그인', 'exchange:abc123' in N.evaluate('window.__srv.rpc') and N.evaluate('window.__closed')==1 and 'on' in (N.get_attribute('#acctBtn','class') or ''))
+    N.evaluate("closeSheet();window.__url({url:'io.github.morogohi.goodplate://auth?error=access_denied'})"); N.wait_for_timeout(500)
+    ok('앱: 취소하고 돌아오면 안내', '취소' in N.inner_text('#toast'))
+    # --- iOS: apple 미설정이면 로그인 숨김(지침 4.8), 설정되면 Apple 버튼
+    ctxI=b.new_context(viewport={'width':390,'height':844}); ctxI.add_init_script(native('ios'))
+    I=ctxI.new_page(); I.goto(BASE+'/app.html'); I.wait_for_timeout(1200)
+    I.evaluate("document.getElementById('acctBtn').click()"); I.wait_for_timeout(300)
+    ok('iOS: Apple 미설정이면 다음 업데이트 안내', I.locator('[data-login]').count()==0 and '다음 업데이트' in I.inner_text('#sheet'))
+    ctxI2=b.new_context(viewport={'width':390,'height':844}); ctxI2.add_init_script(native('ios').replace("providers:['kakao','google']","providers:['kakao','google','apple']"))
+    I2=ctxI2.new_page(); I2.goto(BASE+'/app.html'); I2.wait_for_timeout(1200)
+    I2.evaluate("document.getElementById('acctBtn').click()"); I2.wait_for_timeout(300)
+    ok('iOS: Apple 설정 시 Apple 버튼 맨 위', I2.locator('[data-login]').count()==3 and I2.locator('[data-login]').first.get_attribute('data-login')=='apple')
     ok('JS 오류 없음', not errs, errs[:3])
     b.close()
 for r in R: print(' | '.join(map(str,r)))

@@ -11,7 +11,7 @@
 2. **SQL Editor** → `docs/supabase-login.sql` 전체 붙여 넣고 Run
 3. **Authentication → URL Configuration**
    - Site URL: `https://morogohi.github.io/goodplate/app.html`
-   - Redirect URLs: `https://morogohi.github.io/goodplate/app.html`, `http://localhost:8765/app.html`(로컬 테스트용)
+   - Redirect URLs: `https://morogohi.github.io/goodplate/app.html`, `io.github.morogohi.goodplate://auth`(앱), `http://localhost:8765/app.html`(로컬 테스트용)
 4. **Project Settings → API**: `Project URL`, `anon public`(또는 publishable) 키를 복사 — **service_role 키는 절대 쓰지 않음**
 5. **Authentication → Providers → Callback URL** 복사 (`https://<프로젝트>.supabase.co/auth/v1/callback`)
 
@@ -46,6 +46,13 @@ supabaseAnonKey: 'eyJ... 또는 sb_publishable_...',
 - 절대 넣지 않는 값: service_role 키, 카카오·구글 Client Secret (Supabase 대시보드에만)
 - 탈퇴는 앱 안 계정 화면에서 바로 (`delete_my_account` → 계정·리스트 함께 삭제)
 
-## 앱(iOS·Android)
-구글은 앱 안 웹뷰 로그인을 막기 때문에 앱은 다음 단계에서 시스템 브라우저 + 딥링크(`io.github.morogohi.goodplate://auth`)로 지원합니다.
-iOS에 카카오·구글 로그인을 넣는 버전은 Apple 심사 지침 4.8에 따라 **Sign in with Apple**도 함께 넣어야 합니다.
+## 5. 앱(iOS·Android) 로그인
+앱은 시스템 브라우저(안드로이드 Custom Tabs, iOS Safari 창)로 로그인하고 `io.github.morogohi.goodplate://auth` 로 돌아옵니다 (구현 완료).
+- **안드로이드**: 1-3의 Redirect URLs에 앱 주소만 있으면 바로 동작. 카카오 플랫폼에 Android 등록은 필요 없음(웹 로그인 방식).
+- **iOS**: Apple 심사 지침 4.8 때문에 **Sign in with Apple을 켜야** 앱에 로그인 버튼이 보입니다 (안 켜면 '다음 업데이트' 안내만).
+  1. Apple Developer → Identifiers → `io.github.morogohi.goodplate` → **Sign In with Apple** 체크
+  2. Identifiers → **Services IDs** 추가 (예: `io.github.morogohi.goodplate.web`) → Sign In with Apple 설정: 도메인 `<프로젝트>.supabase.co`, Return URL = 1-5 Callback URL
+  3. Keys → 새 키(Sign in with Apple) → .p8 내려받기 · Key ID · Team ID 확인
+  4. Supabase → Providers → **Apple**: Client IDs = `io.github.morogohi.goodplate.web`, Secret Key는 Supabase 문서의 생성 도구로 .p8에서 만든 값 (**6개월마다 갱신 필요**)
+  5. `js/auth-config.js` 의 providers 에 `'apple'` 추가
+- 앱 새 버전(v 태그) 빌드 후 실제 기기에서 확인. 스토어 데이터 보안 설문도 바꿔야 함 (`docs/STORE.md` 4절).

@@ -5,5 +5,6 @@
 window.AUTH_CONFIG = {
   supabaseUrl: '',
   supabaseAnonKey: '',
+  // iOS 앱은 Apple 지침 4.8에 따라 'apple' 이 있어야 로그인이 보입니다 (docs/LOGIN.md 5단계). 웹·안드로이드는 카카오·구글만으로 동작.
   providers: ['kakao', 'google'],
 };
