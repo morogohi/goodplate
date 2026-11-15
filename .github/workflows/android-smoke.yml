@@ -6,6 +6,7 @@ on:
   push:
     branches: [main]
     paths: ["app.html", "android/**", "capacitor.config.json", "package.json", ".github/workflows/android-smoke.yml"]
+permissions: { contents: write }
 jobs:
   smoke:
     runs-on: ubuntu-latest
@@ -40,3 +41,11 @@ jobs:
           name: android-smoke-shots
           path: smoke/
           retention-days: 14
+      - name: 결과 화면을 smoke-results 브랜치에 저장 (최신 1회분만)
+        if: always()
+        run: |
+          [ -d smoke ] || exit 0
+          cd smoke && git init -q && git checkout -q -b smoke-results
+          git config user.name goodplate-bot; git config user.email goodplate-bot@users.noreply.github.com
+          git add -A && git commit -qm "smoke ${{ github.sha }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" smoke-results
