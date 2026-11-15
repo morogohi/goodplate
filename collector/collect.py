@@ -194,7 +194,8 @@ def resolve_datagokr(url):
         return url
     pk = m.group(1)
     page = S.get(url, timeout=30).text
-    dpk = re.search(r'data-(?:dpk|public-pk)="([^"]+)"', page)
+    dpk = (re.search(r'id="publicDataDetailPk"[^>]*value="([^"]+)"', page)       # 최신 파일 (페이지 기본)
+           or re.search(r'data-(?:dpk|public-pk)="([^"]+)"', page))
     if not dpk:
         raise requests.RequestException("상세 페이지에서 파일 식별자를 찾지 못함")
     j = S.get("https://www.data.go.kr/tcs/dss/selectFileDataDownload.do",
