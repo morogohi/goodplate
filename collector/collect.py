@@ -183,13 +183,37 @@ PRICE_COLS = ("가격", "가격1", "대표가격", "판매가격")
 GEOCACHE = HERE / "geocache.json"
 
 
+# 기본값: 공공데이터포털 「행정안전부_착한가격업소 현황」(전국, 분기 갱신). 파일 주소가 갱신 때마다 바뀌므로 상세 페이지에서 매번 찾아 내려받는다.
+GOODPRICE_DEFAULT = "https://www.data.go.kr/data/3045247/fileData.do"
+
+
+def resolve_datagokr(url):
+    """data.go.kr 파일데이터 상세 페이지 주소 → 실제 CSV 내려받기 주소"""
+    m = re.search(r"data\.go\.kr/data/(\d+)/fileData\.do", url)
+    if not m:
+        return url
+    pk = m.group(1)
+    page = S.get(url, timeout=30).text
+    dpk = re.search(r'data-(?:dpk|public-pk)="([^"]+)"', page)
+    if not dpk:
+        raise requests.RequestException("상세 페이지에서 파일 식별자를 찾지 못함")
+    j = S.get("https://www.data.go.kr/tcs/dss/selectFileDataDownload.do",
+              params={"recommendDataYn": "Y", "publicDataPk": pk, "publicDataDetailPk": dpk.group(1)}, timeout=30).json()
+    if not j.get("status"):
+        raise requests.RequestException("파일 정보 조회 실패")
+    print("[goodprice]", (j.get("dataSetFileDetailInfo") or {}).get("dataNm", ""))
+    return f"https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId={j['atchFileId']}&fileDetailSn={j['fileDetailSn']}"
+
+
 def fetch_goodprice():
-    """GOODPRICE_CSV_URL 이 있으면 착한가격업소 목록을 내려받아 goodprice.csv 로 저장 (UTF-8·CP949 모두 처리)"""
-    url = os.getenv("GOODPRICE_CSV_URL")
-    if not url:
+    """착한가격업소 목록을 내려받아 goodprice.csv 로 저장 (UTF-8·CP949 모두 처리). 실패하면 기존 파일 사용.
+    GOODPRICE_CSV_URL 로 다른 CSV 주소(또는 data.go.kr 상세 페이지)를 지정할 수 있고, 'off' 면 건너뜀."""
+    url = os.getenv("GOODPRICE_CSV_URL") or GOODPRICE_DEFAULT
+    if url == "off":
         return
     try:
-        r = S.get(url, timeout=60)
+        url = resolve_datagokr(url)
+        r = S.get(url, timeout=120)
         r.raise_for_status()
         raw = r.content
         for enc in ("utf-8-sig", "cp949"):
@@ -206,8 +230,11 @@ def fetch_goodprice():
             return
         (HERE / "goodprice.csv").write_text(text, encoding="utf-8")
         print(f"[goodprice] {len(text.splitlines()) - 1}행 내려받음")
-    except requests.RequestException as e:
+    except (requests.RequestException, ValueError, KeyError) as e:
         print("[goodprice] 내려받기 실패, 기존 파일 사용:", e)
+
+
+NONFOOD = re.compile(r"미용|이용|세탁|목욕|사우나|숙박|모텔|여관|호텔|펜션|PC|피씨|노래|당구|사진|안경|수선|세차|정비|헬스|체육|학원|약국|의원|수리|인쇄|꽃")
 
 
 def good_rows(rows):
@@ -216,12 +243,15 @@ def good_rows(rows):
     out = []
     for r in rows:
         name = (r.get("업소명") or r.get("상호") or "").strip()
-        if not name:
+        if not name or NONFOOD.search(r.get("업종") or ""):
             continue
         menu = next((r[c].strip() for c in MENU_COLS if r.get(c)), None)
         price = next((r[c] for c in PRICE_COLS if r.get(c)), None)
         price = int(re.sub(r"[^0-9]", "", price)) if price and re.sub(r"[^0-9]", "", price) else None
-        out.append({"name": name, "addr": (r.get("주소") or r.get("소재지") or "").strip(), "menu": menu, "price": price})
+        addr = (r.get("주소") or r.get("소재지") or r.get("도로명주소") or "").strip()
+        if r.get("시도") and not addr.startswith(r["시도"][:2]):
+            addr = f"{r['시도']} {r.get('시군', '')} {addr}".strip()
+        out.append({"name": name, "addr": addr, "menu": menu, "price": price})
     return out
 
 
@@ -233,9 +263,16 @@ def addr_ok(a, b):
     return len(ta & tb) >= 2
 
 
+_GIDX = {}
+
+
 def match_good(store, goods, sharing):
     k = norm(store["name"])
-    for g in goods:
+    if _GIDX.get("_src") is not goods:          # 이름 색인 (12,000곳 × 가게 수 반복 비교 방지)
+        _GIDX.clear(); _GIDX["_src"] = goods
+        for g in goods:
+            _GIDX.setdefault(norm(g["name"]), []).append(g)
+    for g in _GIDX.get(k, []):
         if norm(g["name"]) == k and addr_ok(g["addr"], store.get("addr", "")):
             if g["menu"] and not store.get("menu"):
                 store["menu"] = g["menu"]
@@ -253,12 +290,18 @@ def add_unmatched_goods(stores, goods, key):
     """카카오 반경 수집에 안 잡힌 착한가격업소를 주소로 찾아 서비스 지역(3km 안)이면 추가.
     좌표는 geocache.json 에 저장해 다음 날 다시 호출하지 않는다."""
     cache = json.loads(GEOCACHE.read_text(encoding="utf-8")) if GEOCACHE.exists() else {}
-    added = 0
-    for g in goods:
+    added, looked = 0, 0
+    budget = int(os.getenv("GEO_NEW_MAX", "3000"))   # 하루 새 조회 상한 — 나머지는 다음 날 이어서 (결과는 캐시)
+    words = {w for a in AREAS.values() for w in re.split(r"[\s·]+", a["name"]) if len(w) >= 2}
+    order = sorted(goods, key=lambda g: not any(w in g["addr"] for w in words))   # 서비스 지역 이름이 주소에 있는 곳 먼저
+    for g in order:
         if g.get("_matched"):
             continue
         ck = f"{g['name']}|{g['addr']}"
         if ck not in cache:
+            if looked >= budget:
+                continue
+            looked += 1
             q = f"{g['name']} {' '.join(g['addr'].split()[:2])}".strip()
             try:
                 j = get("https://dapi.kakao.com/v2/local/search/keyword.json",
@@ -282,6 +325,8 @@ def add_unmatched_goods(stores, goods, key):
                        "place_url": d["url"], "menu": g["menu"], "price": g["price"], "_good": "price"}
         added += 1
     GEOCACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    left = sum(1 for g in goods if not g.get("_matched") and f"{g['name']}|{g['addr']}" not in cache)
+    print(f"[goodprice] 새 좌표 조회 {looked}건 · 남은 {left}건 (다음 실행에 이어서)")
     return added
 
 
