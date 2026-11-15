@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-16T06:07+09:00",
+ "generated_at": "2026-11-16T06:31+09:00",
  "stores": [
   {
    "id": "k2073877553",
@@ -30,6 +30,35 @@
    ],
    "kw": [],
    "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9967837",
+   "area": "yeosu",
+   "name": "서울해장국",
+   "cat": "해장국",
+   "addr": "전남광주통합특별시 여수시 통제영5길 11",
+   "lat": 34.74099653867476,
+   "lng": 127.73569457430386,
+   "place_url": "http://place.map.kakao.com/9967837",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전현무계획에 소개된 동대문 맛집, 대화정 진짜해장국!",
+     "url": "https://www.youtube.com/watch?v=edqf2D6W93M",
+     "date": "2026-11-11",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -1322,27 +1351,6 @@
    "place_url": "http://place.map.kakao.com/9025490",
    "good": null,
    "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k9967837",
-   "area": "yeosu",
-   "name": "서울해장국",
-   "cat": "해장국",
-   "addr": "전남광주통합특별시 여수시 통제영5길 11",
-   "lat": 34.74099653867476,
-   "lng": 127.73569457430386,
-   "place_url": "http://place.map.kakao.com/9967837",
-   "good": null,
-   "emoji": "🍲",
    "src": {
     "yt": 0,
     "blog": 0,

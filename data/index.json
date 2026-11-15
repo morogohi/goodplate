@@ -1,6 +1,6 @@
 {
  "sample": false,
- "generated_at": "2026-11-16T06:07+09:00",
+ "generated_at": "2026-11-16T06:31+09:00",
  "regions": {
   "seoul": {
    "name": "서울",
@@ -46,8 +46,8 @@
   },
   "busan": {
    "name": "부산",
-   "count": 79,
-   "good": 35,
+   "count": 223,
+   "good": 179,
    "areas": {
     "nampo": {
      "name": "남포·자갈치",
@@ -63,8 +63,8 @@
   },
   "daegu": {
    "name": "대구",
-   "count": 42,
-   "good": 22,
+   "count": 159,
+   "good": 139,
    "areas": {
     "dongseongno": {
      "name": "동성로·근대골목",
@@ -75,8 +75,8 @@
   },
   "incheon": {
    "name": "인천",
-   "count": 38,
-   "good": 15,
+   "count": 87,
+   "good": 64,
    "areas": {
     "gaehang": {
      "name": "개항장·신포",
@@ -87,8 +87,8 @@
   },
   "gwangju": {
    "name": "광주",
-   "count": 59,
-   "good": 37,
+   "count": 116,
+   "good": 94,
    "areas": {
     "chungjang": {
      "name": "충장로·양림",
@@ -99,8 +99,8 @@
   },
   "daejeon": {
    "name": "대전",
-   "count": 43,
-   "good": 20,
+   "count": 142,
+   "good": 119,
    "areas": {
     "eunhaeng": {
      "name": "은행동·중앙시장",
@@ -111,8 +111,8 @@
   },
   "ulsan": {
    "name": "울산",
-   "count": 28,
-   "good": 6,
+   "count": 68,
+   "good": 46,
    "areas": {
     "seongnam": {
      "name": "성남동",
@@ -147,7 +147,7 @@
   },
   "gangwon": {
    "name": "강원",
-   "count": 59,
+   "count": 58,
    "good": 34,
    "areas": {
     "gangneung": {

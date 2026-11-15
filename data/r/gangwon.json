@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-16T06:07+09:00",
+ "generated_at": "2026-11-16T06:31+09:00",
  "stores": [
   {
    "id": "k1545071550",
@@ -142,35 +142,6 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k320564956",
-   "area": "gangneung",
-   "name": "포항물회",
-   "cat": "회",
-   "addr": "강원특별자치도 강릉시 동부시장3길 3",
-   "lat": 37.7583067673478,
-   "lng": 128.900135692912,
-   "place_url": "http://place.map.kakao.com/320564956",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "포항 물회 맛집 10곳, 바다 보며 시원한 한 그릇 #Shorts",
-     "url": "https://www.youtube.com/watch?v=_o4rafAON-o",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-15"
   },
   {
    "id": "k931854869",

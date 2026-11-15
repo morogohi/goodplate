@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-16T06:07+09:00",
+ "generated_at": "2026-11-16T06:31+09:00",
  "stores": [
   {
    "id": "k1620566882",
@@ -509,7 +509,7 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -519,13 +519,6 @@
      "title": "현지인이 찾는 통영 해물뚝배기 #통영맛집 #통영여행 #통영현지인맛집",
      "url": "https://www.youtube.com/watch?v=ZWkFY95u-tw",
      "date": "2026-11-05",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "통영 맛집 찾는다면 여기! 낙지볶음과 해물뚝배기 조합 미쳤다🔥 통영앤해물 커플세트 B#통영맛집 #통영항남동맛집 #통영해물뚝배기 #통영해물탕 #통",
-     "url": "https://www.youtube.com/watch?v=Hi1-kDKYZqo",
-     "date": "2026-11-04",
      "sponsored": false
     }
    ],

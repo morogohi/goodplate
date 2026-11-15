@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "seoul",
- "generated_at": "2026-11-16T06:07+09:00",
+ "generated_at": "2026-11-16T06:31+09:00",
  "stores": [
   {
    "id": "k21326655",
@@ -547,35 +547,6 @@
      "src": "yt",
      "title": "동녀들의 혜화 투어 VLOG #혜화 #혜화맛집 #혜화도담 #동국대 #학생 #대학로 #점령 #그녀들이떴다",
      "url": "https://www.youtube.com/watch?v=nhpoTa5EiYI",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8176347",
-   "area": "jongno-hyehwa",
-   "name": "혜화칼국수",
-   "cat": "칼국수",
-   "addr": "서울 종로구 창경궁로35길 13",
-   "lat": 37.586579253942794,
-   "lng": 127.00150300181788,
-   "place_url": "http://place.map.kakao.com/8176347",
-   "good": null,
-   "emoji": "🍜",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "서울칼국수맛집성북동 혜화칼국수집국시",
-     "url": "https://www.youtube.com/watch?v=tO6r-8b3-2A",
      "date": "2026-11-13",
      "sponsored": false
     }
@@ -10381,6 +10352,27 @@
    "place_url": "http://place.map.kakao.com/839397094",
    "good": null,
    "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8176347",
+   "area": "jongno-hyehwa",
+   "name": "혜화칼국수",
+   "cat": "칼국수",
+   "addr": "서울 종로구 창경궁로35길 13",
+   "lat": 37.586579253942794,
+   "lng": 127.00150300181788,
+   "place_url": "http://place.map.kakao.com/8176347",
+   "good": null,
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
