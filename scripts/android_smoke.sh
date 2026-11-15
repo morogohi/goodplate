@@ -24,7 +24,8 @@ cat $OUT/deeplink.txt; sleep 2; shot 05-deeplink
 grep -q "Status: ok" $OUT/deeplink.txt && echo "✅ 딥링크로 앱 열림" || { echo "❌ 딥링크 실패"; FAIL=1; }
 alive && echo "✅ 끝까지 실행 유지" || { echo "❌ 앱이 종료됨"; FAIL=1; }
 adb logcat -d > $OUT/logcat.txt
-grep -E "FATAL EXCEPTION" $OUT/logcat.txt | head -20 && { echo "❌ 네이티브 오류"; FAIL=1; }
-grep -E "Capacitor/Console.*(Uncaught|TypeError|ReferenceError|SyntaxError)" $OUT/logcat.txt | grep -v "injecting safe area CSS" | head -20 && { echo "❌ 화면 스크립트 오류"; FAIL=1; }
+if grep -q "FATAL EXCEPTION" $OUT/logcat.txt; then grep -A15 "FATAL EXCEPTION" $OUT/logcat.txt | head -30; echo "❌ 네이티브 오류"; FAIL=1; else echo "✅ 네이티브 오류 없음"; fi
+ERRS=$(grep -E "Capacitor/Console.*(Uncaught|TypeError|ReferenceError|SyntaxError)" $OUT/logcat.txt | grep -v "injecting safe area CSS")
+if [ -n "$ERRS" ]; then echo "$ERRS" | head -20; echo "❌ 화면 스크립트 오류"; FAIL=1; else echo "✅ 화면 스크립트 오류 없음"; fi
 grep -E "Capacitor/Console" $OUT/logcat.txt | tail -30 > $OUT/console.txt
 echo "결과: FAIL=$FAIL"; exit $FAIL

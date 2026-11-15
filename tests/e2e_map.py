@@ -11,7 +11,7 @@ with sync_playwright() as p:
     b=p.chromium.launch()
     # 1) 타일 정상
     pg=b.new_page(viewport={'width':390,'height':844}); errs=[]; pg.on('pageerror',lambda e:errs.append(str(e)))
-    pg.route('**/*basemaps.cartocdn.com/**',lambda r:r.fulfill(status=200,content_type='image/png',body=tile))
+    pg.route('**/tile.openstreetmap.org/**',lambda r:r.fulfill(status=200,content_type='image/png',body=tile))
     pg.goto(BASE+'/app.html#map'); pg.wait_for_timeout(2000)
     n_list=pg.locator('.list .store').count(); n_pin=pg.evaluate("[...document.querySelectorAll('.leaflet-marker-icon .lpin')].length+[...document.querySelectorAll('.leaflet-marker-icon .lclu')].reduce((a,e)=>a+ +e.textContent,0)")
     chk('실제 지도 표시', pg.locator('#lmap.leaflet-container').count()==1); chk('핀 수 = 목록 수', n_pin==n_list); chk('지도 출처 표기', 'OpenStreetMap' in pg.inner_text('.leaflet-control-attribution'))
@@ -28,13 +28,13 @@ with sync_playwright() as p:
     pg.keyboard.press('Escape'); chk('JS 오류 없음', not errs)
     # 2) 타일 차단 → 모식도
     pg2=b.new_page(viewport={'width':390,'height':844})
-    pg2.route('**/*basemaps.cartocdn.com/**',lambda r:r.abort())
+    pg2.route('**/tile.openstreetmap.org/**',lambda r:r.abort())
     pg2.goto(BASE+'/app.html#map'); pg2.wait_for_timeout(2500)
     chk('타일 차단 시 모식도 대체', pg2.locator('#mapBox svg').count()==1 and pg2.locator('#lmap').count()==0)
     b.close()
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':390,'height':844})
-    pg.route('**/*basemaps.cartocdn.com/**',lambda r:r.fulfill(status=200,content_type='image/png',body=tile))
+    pg.route('**/tile.openstreetmap.org/**',lambda r:r.fulfill(status=200,content_type='image/png',body=tile))
     pg.goto(BASE+'/app.html#map'); pg.wait_for_timeout(1500)
     pg.click('[data-fopen]'); pg.wait_for_timeout(400)
     top=pg.evaluate("(()=>{const b=document.querySelector('#sheet [data-pur=\"solo\"]').getBoundingClientRect();const el=document.elementFromPoint(b.x+b.width/2,b.y+b.height/2);return el.closest('#sheet')?'sheet':el.className})()")
