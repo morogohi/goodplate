@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k1620566882",
@@ -195,29 +195,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k10660994",
-   "area": "tongyeong",
-   "name": "MJ휘트니스",
-   "cat": "헬스클럽",
-   "addr": "경남 통영시 도남로 146",
-   "lat": 34.8297531791175,
-   "lng": 128.419880000516,
-   "place_url": "http://place.map.kakao.com/10660994",
-   "menu": "헬스(어른 1개월)",
-   "price": 70000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k9384903",
    "area": "tongyeong",
    "name": "장방식당",
@@ -252,29 +229,6 @@
    "menu": "생선구이",
    "price": 10000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k34603165",
-   "area": "tongyeong",
-   "name": "진우웰니스",
-   "cat": "헬스클럽",
-   "addr": "경남 통영시 무전8길 13-38",
-   "lat": 34.8580692352884,
-   "lng": 128.427841162736,
-   "place_url": "http://place.map.kakao.com/34603165",
-   "menu": "헬스료(어른)",
-   "price": 88000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -678,29 +632,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k156758105",
-   "area": "tongyeong",
-   "name": "몸짱필라테스",
-   "cat": "요가,필라테스",
-   "addr": "경남 통영시 무전6길 22-17",
-   "lat": 34.8587415650175,
-   "lng": 128.425694336757,
-   "place_url": "http://place.map.kakao.com/156758105",
-   "menu": "강습료",
-   "price": 50000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k9005812",
    "area": "tongyeong",
    "name": "밀보리베이커리",
@@ -1090,6 +1021,29 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1801654090",
+   "area": "tongyeong",
+   "name": "우정장어",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 동충3길 46",
+   "lat": 34.8408593037145,
+   "lng": 128.424028116881,
+   "place_url": "http://place.map.kakao.com/1801654090",
+   "menu": "장어국정식",
+   "price": 5000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k915869564",

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungnam",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k904041132",
@@ -15,7 +15,7 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -25,13 +25,6 @@
      "title": "공주 밤 디저트 맛집 추천",
      "url": "https://www.youtube.com/watch?v=F0o9bqY3DtE",
      "date": "2026-11-15",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "공주 여행 어디 가지?🌰 먹거리부터 공산성까지 당일치기 코스! #shrots #당일치기 #공주여행",
-     "url": "https://www.youtube.com/watch?v=ue5KVoT7_-c",
-     "date": "2026-11-09",
      "sponsored": false
     }
    ],
@@ -51,11 +44,18 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 6,
+    "yt": 4,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "공주 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=yjPlSL5VanU",
+     "date": "2026-11-17",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "공주 당일치기 맛집 3곳 | 이 코스면 끝! #공주여행 #공주맛집 #공주당일치기 #부자떡집 #알밤모찌",
@@ -76,31 +76,10 @@
      "url": "https://www.youtube.com/watch?v=StTsqBe2SoQ",
      "date": "2026-11-11",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "공주 여행 어디 가지?🌰 먹거리부터 공산성까지 당일치기 코스! #shrots #당일치기 #공주여행",
-     "url": "https://www.youtube.com/watch?v=ue5KVoT7_-c",
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "비 와도 완벽했던 공주 하루코스 #shorts",
-     "url": "https://www.youtube.com/watch?v=9vFj9ErbQu8",
-     "date": "2026-11-09",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "여기가 공주 부자떡집이예유",
-     "url": "https://www.youtube.com/watch?v=olnVq1w71yk",
-     "date": "2026-11-08",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 0,
    "first_seen": "2026-11-14"
   },
   {
@@ -115,11 +94,18 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "공주 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=yjPlSL5VanU",
+     "date": "2026-11-17",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "공주 시장정육점식당 죠지기 #맛집  #먹방 #허영만 #식객 #알밤육회 #육회비빔밥",
@@ -129,7 +115,36 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 0,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7931728",
+   "area": "gongju",
+   "name": "새이학가든",
+   "cat": "국밥",
+   "addr": "충남 공주시 금강공원길 15-2",
+   "lat": 36.46652740446001,
+   "lng": 127.12194623056884,
+   "place_url": "http://place.map.kakao.com/7931728",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "공주 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=yjPlSL5VanU",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 0,
    "first_seen": "2026-11-14"
   },
   {
@@ -185,16 +200,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1908737020",
+   "id": "k34892868",
    "area": "gongju",
-   "name": "꼬소미지지미",
-   "cat": "한식",
-   "addr": "충남 공주시 산성시장3길 98",
-   "lat": 36.4583859501524,
-   "lng": 127.1240296663,
-   "place_url": "http://place.map.kakao.com/1908737020",
+   "name": "정자방길",
+   "cat": "카페",
+   "addr": "충남 공주시 정자방1길 18-9",
+   "lat": 36.4656506051237,
+   "lng": 127.120137441266,
+   "place_url": "http://place.map.kakao.com/34892868",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "☕",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -203,15 +218,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "제가 한번 먹어보겠습니다. 공주맛집 꼬소미지지미",
-     "url": "https://www.youtube.com/watch?v=b2LLW4mHV8s",
-     "date": "2026-11-08",
+     "title": "공주밤낙지&정자방길 카페",
+     "url": "https://www.youtube.com/watch?v=ck4LCSK0ZHw",
+     "date": "2026-11-17",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 9,
-   "first_seen": "2026-11-14"
+   "last": 0,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k1150775416",
@@ -874,27 +889,6 @@
    "place_url": "http://place.map.kakao.com/8684887",
    "good": null,
    "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k7931728",
-   "area": "gongju",
-   "name": "새이학가든",
-   "cat": "국밥",
-   "addr": "충남 공주시 금강공원길 15-2",
-   "lat": 36.46652740446001,
-   "lng": 127.12194623056884,
-   "place_url": "http://place.map.kakao.com/7931728",
-   "good": null,
-   "emoji": "🍲",
    "src": {
     "yt": 0,
     "blog": 0,

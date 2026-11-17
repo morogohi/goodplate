@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k8606955",
@@ -891,21 +891,13 @@
    "emoji": "☕",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "나혼자 인천 당일치기⚓신포시장 맛집 l 차이나타운 카페 추천 l 인천맥주, 타르트야, 아키라 커피 l 인천 유나이티드 블루마켓",
-     "url": "https://www.youtube.com/watch?v=jb9MEp02p0M",
-     "date": "2026-11-03",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 14,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -920,29 +912,6 @@
    "menu": "에스프레소",
    "price": 3000,
    "emoji": "☕",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k10959056",
-   "area": "gangneung",
-   "name": "후지칼라 강릉점",
-   "cat": "사진관,포토스튜디오",
-   "addr": "강원특별자치도 강릉시 경강로 2069",
-   "lat": 37.7533727123409,
-   "lng": 128.893710245917,
-   "place_url": "http://place.map.kakao.com/10959056",
-   "menu": "사진촬영료",
-   "price": 15000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,

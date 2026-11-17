@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daegu",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k21227749",
@@ -85,6 +85,35 @@
    "first_seen": "2026-11-17"
   },
   {
+   "id": "k26886876",
+   "area": "dongseongno",
+   "name": "바스코",
+   "cat": "멕시칸,브라질",
+   "addr": "대구 중구 동성로4길 100",
+   "lat": 35.86919981911318,
+   "lng": 128.59975325909204,
+   "place_url": "http://place.map.kakao.com/26886876",
+   "good": null,
+   "emoji": "🍝",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "동성로 타코집인데 파스타가 MVP🍝 #대구 바스코",
+     "url": "https://www.youtube.com/watch?v=jOSXEOfRSPc",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 0,
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "k19512117",
    "area": "dongseongno",
    "name": "옛날국수",
@@ -106,35 +135,6 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k120347136",
-   "area": "dongseongno",
-   "name": "스구식탁 동성로본점",
-   "cat": "샤브샤브",
-   "addr": "대구 중구 동성로1길 25",
-   "lat": 35.86664466611501,
-   "lng": 128.59497348105742,
-   "place_url": "http://place.map.kakao.com/120347136",
-   "good": null,
-   "emoji": "🍽️",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "[즐기면] 샤부집소소 동성로, 국수방 동성로점, 스구식탁 동성로점 · 동성로 따끈한 국물 맛집 3곳 #Shorts",
-     "url": "https://www.youtube.com/watch?v=Et19NzsLHYU",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-14"
   },
   {
    "id": "k7873915",
@@ -851,29 +851,6 @@
    "menu": null,
    "price": null,
    "emoji": "🍜",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k578413071",
-   "area": "dongseongno",
-   "name": "대우식품",
-   "cat": "정육점",
-   "addr": "대구 서구 달서천로61안길 36",
-   "lat": 35.88556781151011,
-   "lng": 128.57214482616666,
-   "place_url": "http://place.map.kakao.com/578413071",
-   "menu": null,
-   "price": null,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -2505,7 +2482,7 @@
    "lng": 128.603152145921,
    "place_url": "http://place.map.kakao.com/16636701",
    "menu": "순살찜닭 2인분(350g)",
-   "price": 19000,
+   "price": 4800,
    "emoji": "🥩",
    "good": "price",
    "src": {
@@ -2668,29 +2645,6 @@
    "menu": "돼지국밥",
    "price": 8000,
    "emoji": "🍲",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k13052201",
-   "area": "dongseongno",
-   "name": "명가",
-   "cat": "약손명가",
-   "addr": "대구 중구 중앙대로 406-15",
-   "lat": 35.86941511340983,
-   "lng": 128.59467694338457,
-   "place_url": "http://place.map.kakao.com/13052201",
-   "menu": "된장비빔밥",
-   "price": 6000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -2965,7 +2919,7 @@
    "lng": 128.573222913235,
    "place_url": "http://place.map.kakao.com/1589359582",
    "menu": "돼지두루치기(2인분)",
-   "price": 19000,
+   "price": 4800,
    "emoji": "🍚",
    "good": "price",
    "src": {

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k8629568",
@@ -51,11 +51,18 @@
    "good": null,
    "emoji": "🍜",
    "src": {
-    "yt": 3,
+    "yt": 4,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "인천 꼭 가 볼 맛집 3곳 · 여수게장 · 남동어시장 · 베테랑종합어시장",
+     "url": "https://www.youtube.com/watch?v=Sa5xDUCb6fg",
+     "date": "2026-11-17",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "전주 여행 가면 무조건 들러야 하는필수 코스, #베테랑칼국수",
@@ -79,7 +86,36 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 0,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10186580",
+   "area": "jeonju-hanok",
+   "name": "조점례남문피순대",
+   "cat": "순대",
+   "addr": "전북특별자치도 전주시 완산구 풍남문2길 39",
+   "lat": 35.812624984628115,
+   "lng": 127.14696847356655,
+   "place_url": "http://place.map.kakao.com/10186580",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전주야장🍃전주 여행 2박 3일 완벽 코스｜한옥마을부터 객리단길 맛집·야장까지 총정리 | 조점례 남문피순대/ 남양집",
+     "url": "https://www.youtube.com/watch?v=ReH9F9JDX9o",
+     "date": "2026-11-11",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -311,29 +347,6 @@
    "menu": "김치찌개",
    "price": 8000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k16158505",
-   "area": "jeonju-hanok",
-   "name": "어머니손맛",
-   "cat": "사회복지단체",
-   "addr": "전북특별자치도 전주시 덕진구 용산1길 13",
-   "lat": 35.83514626264333,
-   "lng": 127.13084527041084,
-   "place_url": "http://place.map.kakao.com/16158505",
-   "menu": "백반",
-   "price": 7000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -893,27 +906,6 @@
    "place_url": "http://place.map.kakao.com/26615208",
    "good": null,
    "emoji": "🍲",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k10186580",
-   "area": "jeonju-hanok",
-   "name": "조점례남문피순대",
-   "cat": "순대",
-   "addr": "전북특별자치도 전주시 완산구 풍남문2길 39",
-   "lat": 35.812624984628115,
-   "lng": 127.14696847356655,
-   "place_url": "http://place.map.kakao.com/10186580",
-   "good": null,
-   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

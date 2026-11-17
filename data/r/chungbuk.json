@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungbuk",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k25042020",
@@ -369,29 +369,6 @@
    "menu": "아메리카노",
    "price": 2000,
    "emoji": "☕",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k19470844",
-   "area": "cheongju",
-   "name": "에덴",
-   "cat": "도시형생활주택",
-   "addr": "충북 청주시 서원구 사직대로 160",
-   "lat": 36.63481017794431,
-   "lng": 127.46500042645529,
-   "place_url": "http://place.map.kakao.com/19470844",
-   "menu": "돈가스",
-   "price": 10000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -1746,52 +1723,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k1791425190",
-   "area": "cheongju",
-   "name": "오빠네",
-   "cat": "생활용품점",
-   "addr": "충북 청주시 흥덕구 흥덕로180번길 78",
-   "lat": 36.6462832657556,
-   "lng": 127.479566749826,
-   "place_url": "http://place.map.kakao.com/1791425190",
-   "menu": "엣날햄버거",
-   "price": 4000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1252980113",
-   "area": "cheongju",
-   "name": "착한카 주식회사",
-   "cat": "자동차정비",
-   "addr": "충북 청주시 흥덕구 1순환로 406",
-   "lat": 36.65452368870285,
-   "lng": 127.47130815666591,
-   "place_url": "http://place.map.kakao.com/1252980113",
-   "menu": "엔진오일(소나타)",
-   "price": 43200,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k557878247",
    "area": "cheongju",
    "name": "풍년고을",
@@ -2077,7 +2008,7 @@
    "lng": 127.511590370912,
    "place_url": "http://place.map.kakao.com/25736070",
    "menu": "오리정식(4인)",
-   "price": 75000,
+   "price": 4700,
    "emoji": "🥩",
    "good": "price",
    "src": {

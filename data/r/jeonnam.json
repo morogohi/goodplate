@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k9025490",
@@ -73,7 +73,7 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -83,13 +83,6 @@
      "title": "전남워케이션 여수여행 숙성회맛집 희망선어 민어·병어·삼치의 진가를 경험한 선어회 참맛",
      "url": "https://www.youtube.com/watch?v=p2Vs2UUIsUA",
      "date": "2026-11-16",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "여수 이순신광장 맛집 골목 안 현지인 선어회 희망선어",
-     "url": "https://www.youtube.com/watch?v=Sw0C21tpg9s",
-     "date": "2026-11-14",
      "sponsored": false
     }
    ],
@@ -109,11 +102,18 @@
    "good": null,
    "emoji": "🥟",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "여수 교동 맛집 | 순심원 | 2시간 웨이팅 철판짜장 맛집 | 전남광주 여수시",
+     "url": "https://www.youtube.com/watch?v=FR3XjT5taPM",
+     "date": "2026-11-17",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "sub)🍱맛있는 전라도 여행(광주-보성-여수) | 미미원, 궁전제과, 영미오리탕, 순심원, 삼대옥 | ACC, 대한다원, 여수세계섬박람회",
@@ -123,7 +123,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 0,
    "first_seen": "2026-11-16"
   },
   {
@@ -140,14 +140,51 @@
    "good": "price",
    "emoji": "🍚",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#여수 #여행 #2박3일 #뚜벅이여행 1일차",
+     "url": "https://www.youtube.com/watch?v=vygdnz8QwGg",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 0,
    "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k2008954211",
+   "area": "yeosu",
+   "name": "소울라운지",
+   "cat": "칵테일바",
+   "addr": "전남광주통합특별시 여수시 이순신광장로 130",
+   "lat": 34.73804386410945,
+   "lng": 127.7380291576932,
+   "place_url": "http://place.map.kakao.com/2008954211",
+   "good": null,
+   "emoji": "🍶",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#여수 #여행 #2박3일 #뚜벅이여행 1일차",
+     "url": "https://www.youtube.com/watch?v=vygdnz8QwGg",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 0,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k1113161009",
@@ -257,7 +294,7 @@
    "lng": 127.71647075342776,
    "place_url": "http://place.map.kakao.com/1567593342",
    "menu": "샤브전골(2인)",
-   "price": 20000,
+   "price": 5000,
    "emoji": "🍜",
    "good": "price",
    "src": {
@@ -712,29 +749,6 @@
    "menu": "서대회",
    "price": 12000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1073516096",
-   "area": "yeosu",
-   "name": "맛자랑",
-   "cat": "김치판매",
-   "addr": "전남광주통합특별시 여수시 중앙로 94-2",
-   "lat": 34.7392059929765,
-   "lng": 127.737544839627,
-   "place_url": "http://place.map.kakao.com/1073516096",
-   "menu": "면팥죽",
-   "price": 8000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,

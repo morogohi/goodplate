@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -94,7 +94,7 @@
    "lng": 126.9185518139666,
    "place_url": "http://place.map.kakao.com/801242839",
    "menu": "주물럭쌈밥(2인이상)",
-   "price": 13000,
+   "price": 3200,
    "good": "price",
    "emoji": "🍚",
    "src": {
@@ -148,7 +148,7 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -158,13 +158,6 @@
      "title": "경주에서 밥맛 하나로 승부하는 한식 맛집?! 꽃게 된장찌개부터 직화불고기·돈까스까지 푸짐한 한상! #경주맛집 #경주한식 #경주여행 #나릿길 #경",
      "url": "https://www.youtube.com/watch?v=BA-_ucoRcFM",
      "date": "2026-11-16",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "경주보문단지 부모님과 방문 하기 좋은뷰맛집#경주보문단지맛집한식#경주맛집#향택별미원#경주여행맛집",
-     "url": "https://www.youtube.com/watch?v=T8ArTWsH5Q0",
-     "date": "2026-11-15",
      "sponsored": false
     }
    ],
@@ -702,75 +695,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k21316108",
-   "area": "chungjang",
-   "name": "특미참기름",
-   "cat": "식품판매",
-   "addr": "전남광주통합특별시 동구 제봉로17번길 13-6",
-   "lat": 35.13885904104242,
-   "lng": 126.92124537347402,
-   "place_url": "http://place.map.kakao.com/21316108",
-   "menu": "참기름(350ml)",
-   "price": 12000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1421292569",
-   "area": "chungjang",
-   "name": "투탑스짐휘트니스그랜드센트럴점",
-   "cat": "헬스클럽",
-   "addr": "전남광주통합특별시 동구 독립로 324",
-   "lat": 35.159337782644705,
-   "lng": 126.91433842859885,
-   "place_url": "http://place.map.kakao.com/1421292569",
-   "menu": "헬스1개월권",
-   "price": 70000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1131679325",
-   "area": "chungjang",
-   "name": "영광굴비",
-   "cat": "수산물판매",
-   "addr": "전남광주통합특별시 동구 제봉로17번길 12-13",
-   "lat": 35.13954394183759,
-   "lng": 126.92103842182689,
-   "place_url": "http://place.map.kakao.com/1131679325",
-   "menu": "부세굴비구이(2마리)",
-   "price": 12000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k904414757",
    "area": "chungjang",
    "name": "(유)디커피스토리",
@@ -1292,29 +1216,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k10427640",
-   "area": "chungjang",
-   "name": "정나눔이공업사",
-   "cat": "자동차정비",
-   "addr": "전남광주통합특별시 북구 용봉로 104",
-   "lat": 35.1722955841661,
-   "lng": 126.90801833672,
-   "place_url": "http://place.map.kakao.com/10427640",
-   "menu": "엔진오일교체료(소형)",
-   "price": 50000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k1525701535",
    "area": "chungjang",
    "name": "원보",
@@ -1508,11 +1409,11 @@
    "lng": 126.915299663255,
    "place_url": "http://place.map.kakao.com/10145752",
    "menu": "병어조림(2인)",
-   "price": 30000,
+   "price": 7500,
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -1521,13 +1422,6 @@
      "src": "yt",
      "title": "백종원의 골목식당 출연! 포항 칼국수 맛집 #포항맛집 #포항칼국수맛집 #국수이야기 #해초해물칼국수 #물가자미비빔국수 #포항여행",
      "url": "https://www.youtube.com/watch?v=C0fkPrhGO1Y",
-     "date": "2026-11-16",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "제주 연돈 돈까스 웨이팅 안하고 먹는방법 #연돈 #제주맛집#골목식당 #제주여행",
-     "url": "https://www.youtube.com/watch?v=dHCAw9qkU90",
      "date": "2026-11-16",
      "sponsored": false
     }
@@ -1836,29 +1730,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k1100424001",
-   "area": "chungjang",
-   "name": "은하",
-   "cat": "미용실",
-   "addr": "전남광주통합특별시 남구 봉선중앙로 48",
-   "lat": 35.1254402174906,
-   "lng": 126.911759525372,
-   "place_url": "http://place.map.kakao.com/1100424001",
-   "menu": "삼겹살",
-   "price": 15000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k26352906",
    "area": "chungjang",
    "name": "비원고기나라",
@@ -1916,29 +1787,6 @@
    "menu": "자장면",
    "price": 3500,
    "emoji": "🥟",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1507992555",
-   "area": "chungjang",
-   "name": "명보스튜디오",
-   "cat": "사진관,포토스튜디오",
-   "addr": "전남광주통합특별시 남구 용대로 133",
-   "lat": 35.12842641465373,
-   "lng": 126.91815048731299,
-   "place_url": "http://place.map.kakao.com/1507992555",
-   "menu": "반명함판",
-   "price": 18000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -2221,7 +2069,7 @@
    "lng": 126.92630148719647,
    "place_url": "http://place.map.kakao.com/18027040",
    "menu": "병어조림(2인)",
-   "price": 30000,
+   "price": 7500,
    "emoji": "🍶",
    "good": "price",
    "src": {

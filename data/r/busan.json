@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k10070964",
@@ -51,7 +51,7 @@
    "good": null,
    "emoji": "🍙",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -62,75 +62,10 @@
      "url": "https://www.youtube.com/watch?v=lvBMSKY8tZs",
      "date": "2026-11-14",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "부산 부평깡통시장 먹거리 10 [부평맷돌빈대떡, 대정양곱창, 진맛집, 산수갑산, 이가네떡볶이, 삼촌호떡, 장우손어묵, 시스루찐빵, 밀곳베이커리,",
-     "url": "https://www.youtube.com/watch?v=cbyK7KZw7Bw",
-     "date": "2026-11-14",
-     "sponsored": false
     }
    ],
    "kw": [],
    "last": 3,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8190288",
-   "area": "nampo",
-   "name": "개미집 본점",
-   "cat": "해물,생선",
-   "addr": "부산 중구 중구로30번길 21-1",
-   "lat": 35.10075509786033,
-   "lng": 129.03011216070587,
-   "place_url": "http://place.map.kakao.com/8190288",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "부산 낙곱새 맛집 개미집, 1972년 국제시장에서 시작된 이야기 🐙 #쇼츠",
-     "url": "https://www.youtube.com/watch?v=iAdeYd3Tt5E",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8916998",
-   "area": "nampo",
-   "name": "돌고래순두부",
-   "cat": "두부전문점",
-   "addr": "부산 중구 중구로40번길 15",
-   "lat": 35.101543047824954,
-   "lng": 129.0296086472138,
-   "place_url": "http://place.map.kakao.com/8916998",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "남포동 여행 돌고래 순두부 맛집",
-     "url": "https://www.youtube.com/watch?v=YPsHZ6LrEEE",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -163,43 +98,14 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k9089301",
+   "id": "k16722795",
    "area": "haeundae",
-   "name": "상국이네",
-   "cat": "분식",
-   "addr": "부산 해운대구 구남로41번길 40-1",
-   "lat": 35.162016169133,
-   "lng": 129.16287693095907,
-   "place_url": "http://place.map.kakao.com/9089301",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "부산 해운대 떡볶이 맛집🍴🥢🍤🍢",
-     "url": "https://www.youtube.com/watch?v=hDKw0C-eKZo",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k15555120",
-   "area": "haeundae",
-   "name": "해운대가야밀면",
+   "name": "해운대밀면",
    "cat": "국수",
-   "addr": "부산 해운대구 좌동순환로 27",
-   "lat": 35.1688354703383,
-   "lng": 129.166334485854,
-   "place_url": "http://place.map.kakao.com/15555120",
+   "addr": "부산 해운대구 중동2로10번길 21",
+   "lat": 35.1633626826793,
+   "lng": 129.165587939929,
+   "place_url": "http://place.map.kakao.com/16722795",
    "good": null,
    "emoji": "🍜",
    "src": {
@@ -210,14 +116,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "해운대 가야밀면#부산 #부산여행맛집 #부산여행코스 #해운대 #해운대여행 #해운대해수욕장 #밀면 #밀면맛집 #냉면 #냉면맛집 #맛집 #점심  #로",
-     "url": "https://www.youtube.com/watch?v=2rgyq0QHSAk",
-     "date": "2026-11-15",
+     "title": "가야밀면 해운대밀면맛집 우동밀면맛집 우동가야밀면",
+     "url": "https://www.youtube.com/watch?v=tSPzKlokTfE",
+     "date": "2026-11-17",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 0,
    "first_seen": "2026-11-14"
   },
   {
@@ -239,37 +145,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "해운대 가야밀면#부산 #부산여행맛집 #부산여행코스 #해운대 #해운대여행 #해운대해수욕장 #밀면 #밀면맛집 #냉면 #냉면맛집 #맛집 #점심  #로",
-     "url": "https://www.youtube.com/watch?v=2rgyq0QHSAk",
-     "date": "2026-11-15",
+     "title": "가야밀면 해운대밀면맛집 우동밀면맛집 우동가야밀면",
+     "url": "https://www.youtube.com/watch?v=tSPzKlokTfE",
+     "date": "2026-11-17",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k8066247",
-   "area": "nampo",
-   "name": "조은극장",
-   "cat": "공연장,연극극장",
-   "addr": "부산 중구 구덕로34번길 4",
-   "lat": 35.0983446569766,
-   "lng": 129.032304614623,
-   "place_url": "http://place.map.kakao.com/8066247",
-   "menu": "공연관람권(평일할인가)",
-   "price": 18000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
+   "last": 0,
    "first_seen": "2026-11-16"
   },
   {
@@ -445,29 +328,6 @@
    "menu": "에그샌드위치",
    "price": 4900,
    "emoji": "☕",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k827489818",
-   "area": "haeundae",
-   "name": "멍탕멍컷",
-   "cat": "반려동물미용",
-   "addr": "부산 해운대구 좌동순환로99번길 22",
-   "lat": 35.17640837634772,
-   "lng": 129.1670041095482,
-   "place_url": "http://place.map.kakao.com/827489818",
-   "menu": "목욕(3kg미만)",
-   "price": 20000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -672,29 +532,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k21446469",
-   "area": "nampo",
-   "name": "광화식품",
-   "cat": "두부",
-   "addr": "부산 서구 구덕로148번길 40",
-   "lat": 35.0980214015352,
-   "lng": 129.02291597118443,
-   "place_url": "http://place.map.kakao.com/21446469",
-   "menu": null,
-   "price": null,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k22733311",
    "area": "nampo",
    "name": "봉래밀면",
@@ -865,7 +702,7 @@
    "lng": 129.040937343432,
    "place_url": "http://place.map.kakao.com/11600929",
    "menu": "장어구이(2인)",
-   "price": 24000,
+   "price": 6000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -1040,29 +877,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k1849758226",
-   "area": "nampo",
-   "name": "아인당구장",
-   "cat": "당구장,포켓볼",
-   "addr": "부산 서구 천마로 232",
-   "lat": 35.09632786462858,
-   "lng": 129.02260548507002,
-   "place_url": "http://place.map.kakao.com/1849758226",
-   "menu": "게임료(10분)",
-   "price": 1000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k24120672",
    "area": "nampo",
    "name": "초량통닭",
@@ -1097,29 +911,6 @@
    "menu": "한우대창덮밥",
    "price": 10900,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k213074205",
-   "area": "nampo",
-   "name": "수풀림안마원",
-   "cat": "체형관리",
-   "addr": "부산 중구 중앙대로 80",
-   "lat": 35.10477713682128,
-   "lng": 129.0367125463772,
-   "place_url": "http://place.map.kakao.com/213074205",
-   "menu": "스페셜전신풀림 60분",
-   "price": 60000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -1904,21 +1695,13 @@
    "emoji": "🍶",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "여수술집 여수뒷골목포차",
-     "url": "https://www.youtube.com/watch?v=SfLVeBSmea0",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 3,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -2115,7 +1898,7 @@
    "lng": 129.027558942778,
    "place_url": "http://place.map.kakao.com/1732730821",
    "menu": "쪽갈비(2인분)",
-   "price": 26000,
+   "price": 6500,
    "emoji": "🥩",
    "good": "price",
    "src": {
@@ -2520,29 +2303,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k11313654",
-   "area": "nampo",
-   "name": "장군사진관",
-   "cat": "사진관,포토스튜디오",
-   "addr": "부산 동구 초량로 72",
-   "lat": 35.1201294513754,
-   "lng": 129.034999855946,
-   "place_url": "http://place.map.kakao.com/11313654",
-   "menu": "여권사진",
-   "price": 5000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k24661445",
    "area": "nampo",
    "name": "재성밀면",
@@ -2612,29 +2372,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k2066590158",
-   "area": "nampo",
-   "name": "폼나개",
-   "cat": "반려동물미용",
-   "addr": "부산 영도구 대교로14번길 28",
-   "lat": 35.0945605871202,
-   "lng": 129.044256370103,
-   "place_url": "http://place.map.kakao.com/2066590158",
-   "menu": "전체미용(소형견)",
-   "price": 30000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k23570470",
    "area": "nampo",
    "name": "앤스토리",
@@ -2669,29 +2406,6 @@
    "menu": "냉면",
    "price": 9000,
    "emoji": "🍙",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k737189467",
-   "area": "nampo",
-   "name": "송도대림 볼링센터",
-   "cat": "볼링장",
-   "addr": "부산 서구 충무대로 133",
-   "lat": 35.0815574183331,
-   "lng": 129.024341192065,
-   "place_url": "http://place.map.kakao.com/737189467",
-   "menu": "게임비",
-   "price": 3700,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -4058,13 +3772,21 @@
    "emoji": "🥩",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 야장 양곱창 맛집 #대정양곱창 #부산양곱창 #양곱창맛집 #양곱창 #남포동맛집 #부산야장",
+     "url": "https://www.youtube.com/watch?v=SULZxE2clPg",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 0,
    "first_seen": "2026-11-16"
   },
   {
@@ -4625,6 +4347,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k8190288",
+   "area": "nampo",
+   "name": "개미집 본점",
+   "cat": "해물,생선",
+   "addr": "부산 중구 중구로30번길 21-1",
+   "lat": 35.10075509786033,
+   "lng": 129.03011216070587,
+   "place_url": "http://place.map.kakao.com/8190288",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k14635584",
    "area": "nampo",
    "name": "홍가네양곱창",
@@ -4898,27 +4641,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k16722795",
-   "area": "haeundae",
-   "name": "해운대밀면",
-   "cat": "국수",
-   "addr": "부산 해운대구 중동2로10번길 21",
-   "lat": 35.1633626826793,
-   "lng": 129.165587939929,
-   "place_url": "http://place.map.kakao.com/16722795",
-   "good": null,
-   "emoji": "🍜",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k27535411",
    "area": "haeundae",
    "name": "해운대할매집",
@@ -5045,6 +4767,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k9089301",
+   "area": "haeundae",
+   "name": "상국이네",
+   "cat": "분식",
+   "addr": "부산 해운대구 구남로41번길 40-1",
+   "lat": 35.162016169133,
+   "lng": 129.16287693095907,
+   "place_url": "http://place.map.kakao.com/9089301",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k8616462",
    "area": "haeundae",
    "name": "해운대기와집대구탕",
@@ -5055,6 +4798,27 @@
    "place_url": "http://place.map.kakao.com/8616462",
    "good": null,
    "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15555120",
+   "area": "haeundae",
+   "name": "해운대가야밀면",
+   "cat": "국수",
+   "addr": "부산 해운대구 좌동순환로 27",
+   "lat": 35.1688354703383,
+   "lng": 129.166334485854,
+   "place_url": "http://place.map.kakao.com/15555120",
+   "good": null,
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,

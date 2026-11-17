@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k7970465",
@@ -211,29 +211,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k927305017",
-   "area": "suwon-haenggung",
-   "name": "록키당구장",
-   "cat": "당구장,포켓볼",
-   "addr": "경기 수원시 장안구 조원로 72",
-   "lat": 37.29985011759161,
-   "lng": 127.01739323165663,
-   "place_url": "http://place.map.kakao.com/927305017",
-   "menu": "중다이(10분)",
-   "price": 1800,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k2043194649",
    "area": "suwon-haenggung",
    "name": "예술가",
@@ -245,29 +222,6 @@
    "menu": "백반",
    "price": 6000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1388024983",
-   "area": "suwon-haenggung",
-   "name": "스타모터스",
-   "cat": "오토바이",
-   "addr": "경기 수원시 장안구 장안로7번길 18",
-   "lat": 37.2863852350199,
-   "lng": 127.005993680844,
-   "place_url": "http://place.map.kakao.com/1388024983",
-   "menu": "오토바이 엔진오일(50% 합성유)",
-   "price": 15000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -648,29 +602,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k1093146960",
-   "area": "suwon-haenggung",
-   "name": "제니스짐",
-   "cat": "헬스클럽",
-   "addr": "경기 수원시 팔달구 향교로3번길 21",
-   "lat": 37.26841323495793,
-   "lng": 127.00113306064749,
-   "place_url": "http://place.map.kakao.com/1093146960",
-   "menu": "헬스회원권(3개월)",
-   "price": 176000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k15527773",
    "area": "suwon-haenggung",
    "name": "가치있는밥상",
@@ -717,29 +648,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k721245152",
-   "area": "suwon-haenggung",
-   "name": "평동골프존",
-   "cat": "스크린골프연습장",
-   "addr": "경기 수원시 권선구 매송고색로 895-1",
-   "lat": 37.26041647992,
-   "lng": 126.99833158959517,
-   "place_url": "http://place.map.kakao.com/721245152",
-   "menu": "스크린 평일오전",
-   "price": 12000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k10469420",
    "area": "suwon-haenggung",
    "name": "부자치킨",
@@ -751,52 +659,6 @@
    "menu": "후라이드치킨",
    "price": 13000,
    "emoji": "🍗",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k819611581",
-   "area": "suwon-haenggung",
-   "name": "판앤펀(FaN&FuN)",
-   "cat": "미술,공예",
-   "addr": "경기 수원시 팔달구 행궁로 35",
-   "lat": 37.27946713437018,
-   "lng": 127.01518410508609,
-   "place_url": "http://place.map.kakao.com/819611581",
-   "menu": "빠른 캐리커쳐(흑백)",
-   "price": 5000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1734456714",
-   "area": "suwon-haenggung",
-   "name": "광교스카이홀루프탑파티룸",
-   "cat": "공간대여",
-   "addr": "경기 수원시 장안구 광교산로 160",
-   "lat": 37.3015410629982,
-   "lng": 127.031834352888,
-   "place_url": "http://place.map.kakao.com/1734456714",
-   "menu": "공간대여(낮타임평일)",
-   "price": 90000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -1016,29 +878,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k29107420",
-   "area": "suwon-haenggung",
-   "name": "펀픽스",
-   "cat": "휴대폰수리",
-   "addr": "경기 수원시 장안구 경수대로 965",
-   "lat": 37.3038428820532,
-   "lng": 127.004981037021,
-   "place_url": "http://place.map.kakao.com/29107420",
-   "menu": "iPhone15 후면유리 수리(정품인증)",
-   "price": 300000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k21230115",
    "area": "suwon-haenggung",
    "name": "광명수산 수원역점",
@@ -1154,29 +993,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k11433384",
-   "area": "suwon-haenggung",
-   "name": "새로나 스튜디오",
-   "cat": "사진관,포토스튜디오",
-   "addr": "경기 수원시 팔달구 덕영대로 899",
-   "lat": 37.268010474645,
-   "lng": 127.000207444825,
-   "place_url": "http://place.map.kakao.com/11433384",
-   "menu": "반명함사진(18매)",
-   "price": 15000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k1998167323",
    "area": "suwon-haenggung",
    "name": "도담칡냉면",
@@ -1188,52 +1004,6 @@
    "menu": "냉면",
    "price": 7000,
    "emoji": "🍜",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k18452461",
-   "area": "suwon-haenggung",
-   "name": "스튜디오 에이스",
-   "cat": "사진관,포토스튜디오",
-   "addr": "경기 수원시 권선구 세권로 135-1",
-   "lat": 37.2570270032086,
-   "lng": 127.019262513131,
-   "place_url": "http://place.map.kakao.com/18452461",
-   "menu": "디지털(4*6)인화 1매",
-   "price": 500,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k2129704731",
-   "area": "suwon-haenggung",
-   "name": "진이네강아지풀",
-   "cat": "반려동물미용",
-   "addr": "경기 수원시 영통구 에듀타운로 102",
-   "lat": 37.289923836627466,
-   "lng": 127.04600069309042,
-   "place_url": "http://place.map.kakao.com/2129704731",
-   "menu": "강아지 위탁목욕(~4kg)",
-   "price": 30000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -1533,29 +1303,6 @@
    "menu": "설렁탕",
    "price": 9000,
    "emoji": "🍲",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1293448070",
-   "area": "suwon-haenggung",
-   "name": "착한사진관",
-   "cat": "사진관,포토스튜디오",
-   "addr": "경기 수원시 팔달구 동말로 72",
-   "lat": 37.2785661408518,
-   "lng": 127.002500961218,
-   "place_url": "http://place.map.kakao.com/1293448070",
-   "menu": "인화",
-   "price": 500,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,

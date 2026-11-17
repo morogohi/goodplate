@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -15,7 +15,7 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 7,
+    "yt": 6,
     "blog": 0,
     "insta": 0
    },
@@ -60,13 +60,6 @@
      "title": "성심당 근처 역대급 포케 맛집 •• 🤍",
      "url": "https://www.youtube.com/watch?v=rqCZsVic6zI",
      "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성심당에서 빵만 사세요? 2층 피자세트 구성이 대박! 🍕 #대전맛집 #성심당",
-     "url": "https://www.youtube.com/watch?v=VjnnE_Kstx8",
-     "date": "2026-11-05",
      "sponsored": false
     }
    ],
@@ -136,7 +129,7 @@
    "lng": 127.430514205715,
    "place_url": "http://place.map.kakao.com/11130578",
    "menu": "오징어찌개(2인이상)",
-   "price": 7000,
+   "price": 1800,
    "good": "price",
    "emoji": "🥘",
    "src": {
@@ -159,7 +152,7 @@
    "lng": 127.422721989061,
    "place_url": "http://place.map.kakao.com/19489147",
    "menu": "샤브만두전골(2인이상)",
-   "price": 10000,
+   "price": 2500,
    "good": "price",
    "emoji": "🍙",
    "src": {
@@ -171,6 +164,35 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k23585179",
+   "area": "eunhaeng",
+   "name": "선화동소머리해장국 본점",
+   "cat": "해장국",
+   "addr": "대전 중구 선화로 128",
+   "lat": 36.330445858347986,
+   "lng": 127.42130043965959,
+   "place_url": "http://place.map.kakao.com/23585179",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "대전 선화동에 위치한 대전 찐 로컬 맛집 선화동소머리해장국집 입니다!",
+     "url": "https://www.youtube.com/watch?v=KfPQ3Uyu5Zg",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 0,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k11116260",
@@ -304,29 +326,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k498090778",
-   "area": "eunhaeng",
-   "name": "셀프사진관 포문스튜디오",
-   "cat": "대여사진관",
-   "addr": "대전 중구 중앙로170번길 28",
-   "lat": 36.3283898232657,
-   "lng": 127.429027500115,
-   "place_url": "http://place.map.kakao.com/498090778",
-   "menu": "사진촬영 1명 (인화 2매)",
-   "price": 20000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k994272662",
    "area": "eunhaeng",
    "name": "제일국수",
@@ -338,29 +337,6 @@
    "menu": "잔치국수",
    "price": 5000,
    "emoji": "🍜",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1225351969",
-   "area": "eunhaeng",
-   "name": "원네일보석",
-   "cat": "네일샵",
-   "addr": "대전 중구 대종로 509",
-   "lat": 36.32938350426839,
-   "lng": 127.42457355498749,
-   "place_url": "http://place.map.kakao.com/1225351969",
-   "menu": "손 젤네일",
-   "price": 29000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -407,29 +383,6 @@
    "menu": "만둣국",
    "price": 9000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k24371390",
-   "area": "eunhaeng",
-   "name": "천광당구클럽",
-   "cat": "당구장,포켓볼",
-   "addr": "대전 중구 대종로 315",
-   "lat": 36.31390852842376,
-   "lng": 127.43409480028012,
-   "place_url": "http://place.map.kakao.com/24371390",
-   "menu": "시간당",
-   "price": 6000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -681,7 +634,7 @@
    "lng": 127.417282891661,
    "place_url": "http://place.map.kakao.com/8570230",
    "menu": "풍미세트(김치찌개+제육볶음 2~3인)",
-   "price": 28000,
+   "price": 3100,
    "emoji": "🥩",
    "good": "price",
    "src": {
@@ -727,7 +680,7 @@
    "lng": 127.40671178122825,
    "place_url": "http://place.map.kakao.com/10339462",
    "menu": "제육볶음(2인)",
-   "price": 20000,
+   "price": 5000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -750,31 +703,8 @@
    "lng": 127.41111990857,
    "place_url": "http://place.map.kakao.com/8466342",
    "menu": "제육볶음(2인)",
-   "price": 22000,
+   "price": 5500,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k8797724",
-   "area": "eunhaeng",
-   "name": "기쁨꽃방",
-   "cat": "꽃집,꽃배달",
-   "addr": "대전 중구 선화로 8",
-   "lat": 36.32483898226846,
-   "lng": 127.41087414472733,
-   "place_url": "http://place.map.kakao.com/8797724",
-   "menu": "꽃 한송이",
-   "price": 3000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -798,29 +728,6 @@
    "menu": "설렁탕",
    "price": 7000,
    "emoji": "🥩",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k557240020",
-   "area": "eunhaeng",
-   "name": "국민당구장",
-   "cat": "당구장,포켓볼",
-   "addr": "대전 동구 동대전로 125",
-   "lat": 36.3335269277773,
-   "lng": 127.445181161976,
-   "place_url": "http://place.map.kakao.com/557240020",
-   "menu": "중대 1시간",
-   "price": 6000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -997,29 +904,6 @@
    "menu": "순대국밥",
    "price": 8000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k819081262",
-   "area": "eunhaeng",
-   "name": "사진나무파티룸스튜디오",
-   "cat": "모임공간",
-   "addr": "대전 중구 중앙로 124",
-   "lat": 36.3275353130851,
-   "lng": 127.423777249915,
-   "place_url": "http://place.map.kakao.com/819081262",
-   "menu": "증명사진",
-   "price": 15000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -1946,7 +1830,7 @@
    "lng": 127.423159977558,
    "place_url": "http://place.map.kakao.com/22017727",
    "menu": "백반(2인 이상)",
-   "price": 5000,
+   "price": 1200,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -2876,29 +2760,6 @@
    "menu": "치킨까스",
    "price": 6900,
    "emoji": "🍱",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k8973871",
-   "area": "eunhaeng",
-   "name": "동양전자",
-   "cat": "전기,전자",
-   "addr": "대전 동구 대전로797번길 9",
-   "lat": 36.33045691737071,
-   "lng": 127.43233553189104,
-   "place_url": "http://place.map.kakao.com/8973871",
-   "menu": "전자장비 수리비",
-   "price": 10000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,

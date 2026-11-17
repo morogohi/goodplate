@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k9797621",
@@ -51,11 +51,18 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "제주 동문시장 찰리공장 대왕 두바이 쫀득쿠키 솔직 후기 #제주카페 #Shorts",
+     "url": "https://www.youtube.com/watch?v=eboPw9xTva8",
+     "date": "2026-11-17",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "#제주여행 필수코스! #제주디저트 맛집 #찰리공장 #제주맛집추천",
@@ -65,7 +72,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 0,
    "first_seen": "2026-11-14"
   },
   {
@@ -236,29 +243,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k132883978",
-   "area": "jeju-city",
-   "name": "제주중고폰&제주아이폰수리",
-   "cat": "휴대폰수리",
-   "addr": "제주특별자치도 제주시 중앙로 202",
-   "lat": 33.50119941043841,
-   "lng": 126.52853841837022,
-   "place_url": "http://place.map.kakao.com/132883978",
-   "menu": "아이폰7 배터리",
-   "price": 30000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k361397904",
    "area": "jeju-city",
    "name": "영복갈비 도남점",
@@ -314,7 +298,7 @@
    "lng": 126.51961958039796,
    "place_url": "http://place.map.kakao.com/1570922473",
    "menu": "뼈없는 은갈치조림한상(2인)",
-   "price": 35000,
+   "price": 8800,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -360,31 +344,8 @@
    "lng": 126.51801717541025,
    "place_url": "http://place.map.kakao.com/1736645427",
    "menu": "모듬세트(4인)",
-   "price": 69000,
+   "price": 4300,
    "emoji": "🥩",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k9149934",
-   "area": "jeju-city",
-   "name": "소라탕",
-   "cat": "목욕탕,사우나",
-   "addr": "제주특별자치도 제주시 평전2길 17-1",
-   "lat": 33.5007611867944,
-   "lng": 126.51728631453,
-   "place_url": "http://place.map.kakao.com/9149934",
-   "menu": "어른",
-   "price": 7000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -995,29 +956,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k229268813",
-   "area": "jeju-city",
-   "name": "뛰니뛰니",
-   "cat": "키즈카페",
-   "addr": "제주특별자치도 제주시 연신로 76",
-   "lat": 33.4946840467826,
-   "lng": 126.548015372626,
-   "place_url": "http://place.map.kakao.com/229268813",
-   "menu": "어린이입장료",
-   "price": 6000,
-   "emoji": "☕",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k1730416924",
    "area": "jeju-city",
    "name": "라라양식당",
@@ -1041,29 +979,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k121523531",
-   "area": "jeju-city",
-   "name": "탑클래스스터디",
-   "cat": "스터디카페,스터디룸",
-   "addr": "제주특별자치도 제주시 동광로 108",
-   "lat": 33.505954046132,
-   "lng": 126.538984305889,
-   "place_url": "http://place.map.kakao.com/121523531",
-   "menu": "일일권(4시간)",
-   "price": 3500,
-   "emoji": "☕",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k1580481882",
    "area": "jeju-city",
    "name": "태산봉",
@@ -1075,29 +990,6 @@
    "menu": "해장국",
    "price": 10000,
    "emoji": "🍲",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k535363550",
-   "area": "jeju-city",
-   "name": "블루스튜디오",
-   "cat": "사진관,포토스튜디오",
-   "addr": "제주특별자치도 제주시 동문로 93",
-   "lat": 33.5140324191037,
-   "lng": 126.536598304863,
-   "place_url": "http://place.map.kakao.com/535363550",
-   "menu": null,
-   "price": null,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -1144,52 +1036,6 @@
    "menu": "고기 찐만두",
    "price": 6000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1613115371",
-   "area": "jeju-city",
-   "name": "옵데강",
-   "cat": "유흥주점",
-   "addr": "제주특별자치도 제주시 신산로 46",
-   "lat": 33.50939193562,
-   "lng": 126.532759241662,
-   "place_url": "http://place.map.kakao.com/1613115371",
-   "menu": "흑오겹",
-   "price": 20000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k20513224",
-   "area": "jeju-city",
-   "name": "고산동산",
-   "cat": "공영주차장",
-   "addr": "제주특별자치도 제주시 이도이동 1012-10",
-   "lat": 33.4956655301946,
-   "lng": 126.531415768481,
-   "place_url": "http://place.map.kakao.com/20513224",
-   "menu": "정식",
-   "price": 8000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -1284,13 +1130,21 @@
    "emoji": "🥐",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "공주시 빵빵빵 하우스",
+     "url": "https://www.youtube.com/watch?v=AlM0TMzOS08",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 0,
    "first_seen": "2026-11-16"
   },
   {
@@ -1777,29 +1631,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k75180675",
-   "area": "seogwipo",
-   "name": "정스터디카페",
-   "cat": "스터디카페,스터디룸",
-   "addr": "제주특별자치도 서귀포시 동홍서로 97-1",
-   "lat": 33.2576337800984,
-   "lng": 126.569491712571,
-   "place_url": "http://place.map.kakao.com/75180675",
-   "menu": "자유석 기간권(14일)",
-   "price": 60000,
-   "emoji": "☕",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k118636424",
    "area": "seogwipo",
    "name": "육회포차",
@@ -1903,29 +1734,6 @@
    "menu": "활어회코스A(1인)",
    "price": 40000,
    "emoji": "🍚",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k347073346",
-   "area": "jeju-city",
-   "name": "흑백컬러사진관",
-   "cat": "사진관,포토스튜디오",
-   "addr": "제주특별자치도 제주시 신성로13길 26",
-   "lat": 33.498013602761425,
-   "lng": 126.53007302630145,
-   "place_url": "http://place.map.kakao.com/347073346",
-   "menu": "가족사진2인(액자포함)",
-   "price": 120000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,
@@ -2043,21 +1851,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "제주 기사식당 맛집 현옥식당 #shorts",
-     "url": "https://www.youtube.com/watch?v=O18mv-B6kj0",
-     "date": "2026-11-15",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 2,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -2300,7 +2100,7 @@
    "lng": 126.521640978761,
    "place_url": "http://place.map.kakao.com/10457838",
    "menu": "정식(2인이상)",
-   "price": 8000,
+   "price": 2000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -2659,29 +2459,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k1913389910",
-   "area": "jeju-city",
-   "name": "제주사진공방",
-   "cat": "사진관,포토스튜디오",
-   "addr": "제주특별자치도 제주시 연신로 78",
-   "lat": 33.49457363550958,
-   "lng": 126.54814830475775,
-   "place_url": "http://place.map.kakao.com/1913389910",
-   "menu": "증명사진",
-   "price": 15000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "k752342333",
    "area": "jeju-city",
    "name": "다마내기",
@@ -2693,29 +2470,6 @@
    "menu": "중대 10분",
    "price": 1700,
    "emoji": "🍶",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k346612832",
-   "area": "seogwipo",
-   "name": "해바라기",
-   "cat": "찜질방",
-   "addr": "제주특별자치도 서귀포시 중앙로 55-1",
-   "lat": 33.2496702345853,
-   "lng": 126.561392568177,
-   "place_url": "http://place.map.kakao.com/346612832",
-   "menu": "두루치기",
-   "price": 10000,
-   "emoji": "🍽️",
    "good": "price",
    "src": {
     "yt": 0,

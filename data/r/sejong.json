@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-17T11:23+09:00",
+ "generated_at": "2026-11-17T22:10+09:00",
  "stores": [
   {
    "id": "k17822344",
@@ -96,7 +96,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 15,
+    "yt": 13,
     "blog": 0,
     "insta": 0
    },
@@ -161,29 +161,6 @@
    "kw": [],
    "last": 1,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1067917238",
-   "area": "jochiwon",
-   "name": "임효진 안경공방",
-   "cat": "안경,렌즈",
-   "addr": "세종특별자치시 조치원읍 이화로 22",
-   "lat": 36.59317994056837,
-   "lng": 127.28768241499456,
-   "place_url": "http://place.map.kakao.com/1067917238",
-   "menu": "안경테",
-   "price": 10000,
-   "emoji": "🍽️",
-   "good": "price",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
   },
   {
    "id": "k16129550",
