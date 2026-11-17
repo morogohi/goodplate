@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "incheon",
- "generated_at": "2026-11-17T22:15+09:00",
+ "generated_at": "2026-11-17T22:22+09:00",
  "stores": [
   {
    "id": "k9175466",
@@ -400,7 +400,8 @@
    "lng": 126.62369625604225,
    "place_url": "http://place.map.kakao.com/10334313",
    "menu": "한상차림(4인)",
-   "price": 13200,
+   "price": 53000,
+   "pp": 13200,
    "emoji": "🍱",
    "good": "price",
    "src": {
@@ -1159,7 +1160,8 @@
    "lng": 126.630977326065,
    "place_url": "http://place.map.kakao.com/8789113",
    "menu": "부대찌개(2인)",
-   "price": 9000,
+   "price": 18000,
+   "pp": 9000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -1320,7 +1322,8 @@
    "lng": 126.603913719503,
    "place_url": "http://place.map.kakao.com/26378588",
    "menu": "장어탕(2인분)",
-   "price": 13000,
+   "price": 26000,
+   "pp": 13000,
    "emoji": "🍚",
    "good": "price",
    "src": {

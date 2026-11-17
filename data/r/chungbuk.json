@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungbuk",
- "generated_at": "2026-11-17T22:15+09:00",
+ "generated_at": "2026-11-17T22:22+09:00",
  "stores": [
   {
    "id": "k25042020",
@@ -2008,7 +2008,8 @@
    "lng": 127.511590370912,
    "place_url": "http://place.map.kakao.com/25736070",
    "menu": "오리정식(4인)",
-   "price": 18800,
+   "price": 75000,
+   "pp": 18800,
    "emoji": "🥩",
    "good": "price",
    "src": {

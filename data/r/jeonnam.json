@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-17T22:15+09:00",
+ "generated_at": "2026-11-17T22:22+09:00",
  "stores": [
   {
    "id": "k9025490",
@@ -294,7 +294,8 @@
    "lng": 127.71647075342776,
    "place_url": "http://place.map.kakao.com/1567593342",
    "menu": "샤브전골(2인)",
-   "price": 10000,
+   "price": 20000,
+   "pp": 10000,
    "emoji": "🍜",
    "good": "price",
    "src": {

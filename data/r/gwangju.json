@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-17T22:15+09:00",
+ "generated_at": "2026-11-17T22:22+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -94,7 +94,8 @@
    "lng": 126.9185518139666,
    "place_url": "http://place.map.kakao.com/801242839",
    "menu": "주물럭쌈밥(2인이상)",
-   "price": 6500,
+   "price": 13000,
+   "pp": 6500,
    "good": "price",
    "emoji": "🍚",
    "src": {
@@ -1409,7 +1410,8 @@
    "lng": 126.915299663255,
    "place_url": "http://place.map.kakao.com/10145752",
    "menu": "병어조림(2인)",
-   "price": 15000,
+   "price": 30000,
+   "pp": 15000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -2069,7 +2071,8 @@
    "lng": 126.92630148719647,
    "place_url": "http://place.map.kakao.com/18027040",
    "menu": "병어조림(2인)",
-   "price": 15000,
+   "price": 30000,
+   "pp": 15000,
    "emoji": "🍶",
    "good": "price",
    "src": {

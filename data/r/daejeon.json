@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-17T22:15+09:00",
+ "generated_at": "2026-11-17T22:22+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -15,7 +15,7 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 6,
+    "yt": 7,
     "blog": 0,
     "insta": 0
    },
@@ -60,6 +60,13 @@
      "title": "성심당 근처 역대급 포케 맛집 •• 🤍",
      "url": "https://www.youtube.com/watch?v=rqCZsVic6zI",
      "date": "2026-11-07",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "성심당에서 빵만 사세요? 2층 피자세트 구성이 대박! 🍕 #대전맛집 #성심당",
+     "url": "https://www.youtube.com/watch?v=VjnnE_Kstx8",
+     "date": "2026-11-05",
      "sponsored": false
     }
    ],
@@ -129,7 +136,8 @@
    "lng": 127.430514205715,
    "place_url": "http://place.map.kakao.com/11130578",
    "menu": "오징어찌개(2인이상)",
-   "price": 3500,
+   "price": 7000,
+   "pp": 3500,
    "good": "price",
    "emoji": "🥘",
    "src": {
@@ -152,7 +160,8 @@
    "lng": 127.422721989061,
    "place_url": "http://place.map.kakao.com/19489147",
    "menu": "샤브만두전골(2인이상)",
-   "price": 5000,
+   "price": 10000,
+   "pp": 5000,
    "good": "price",
    "emoji": "🍙",
    "src": {
@@ -634,7 +643,8 @@
    "lng": 127.417282891661,
    "place_url": "http://place.map.kakao.com/8570230",
    "menu": "풍미세트(김치찌개+제육볶음 2~3인)",
-   "price": 9300,
+   "price": 28000,
+   "pp": 9300,
    "emoji": "🥩",
    "good": "price",
    "src": {
@@ -680,7 +690,8 @@
    "lng": 127.40671178122825,
    "place_url": "http://place.map.kakao.com/10339462",
    "menu": "제육볶음(2인)",
-   "price": 10000,
+   "price": 20000,
+   "pp": 10000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -703,7 +714,8 @@
    "lng": 127.41111990857,
    "place_url": "http://place.map.kakao.com/8466342",
    "menu": "제육볶음(2인)",
-   "price": 11000,
+   "price": 22000,
+   "pp": 11000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -1830,7 +1842,8 @@
    "lng": 127.423159977558,
    "place_url": "http://place.map.kakao.com/22017727",
    "menu": "백반(2인 이상)",
-   "price": 2500,
+   "price": 5000,
+   "pp": 2500,
    "emoji": "🍚",
    "good": "price",
    "src": {
