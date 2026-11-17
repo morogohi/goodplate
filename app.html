@@ -138,6 +138,7 @@ a{color:inherit}
 .map.real{height:320px}
 .map{isolation:isolate;z-index:0}  /* Leaflet 내부 z-index(400~1000)가 시트·내비 위로 올라오지 않게 */
 .map .leaflet-container{width:100%;height:100%;font-family:inherit;background:#EFEBE4}
+.pp{font-size:.86em;color:var(--sub,#6B7280);font-weight:500}
 .lclu{width:36px;height:36px;border-radius:50%;background:#E8613C;color:#fff;font-weight:800;font-size:14px;display:grid;place-items:center;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25);cursor:pointer}
 .lclu.g{background:#1F6F5C}
 .lpin{width:32px;height:32px;border-radius:50%;background:#fff;border:2.6px solid #E8613C;display:grid;place-items:center;font-size:16px;box-shadow:0 2px 6px rgba(0,0,0,.18);cursor:pointer}
@@ -286,7 +287,7 @@ const TASTE=[
 ];
 function classify(s){
   if(s._t)return s;
-  const txt=`${s.cat||''} ${s.menu||''} ${s.name||''}`, kw=(s.kw||[]).join(' '), p=s.price||0;
+  const txt=`${s.cat||''} ${s.menu||''} ${s.name||''}`, kw=(s.kw||[]).join(' '), p=s.pp||s.price||0;
   const has=re=>re.test(txt);
   const T=new Set(TASTE.filter(([,re])=>has(re)).map(([k])=>k));
   if(!T.size)T.add('한식');
@@ -306,7 +307,7 @@ const fActive=()=>!!(S.f.purpose||S.f.budget||S.f.tastes.length);
 function passF(s,f=S.f){
   classify(s);
   if(f.purpose&&!s._p.has(f.purpose))return false;
-  if(f.budget&&S.hasPrice!==false){const b=BUDGET.find(x=>x[0]===f.budget);if(!s.price||s.price<b[2]||s.price>b[3])return false}
+  if(f.budget&&S.hasPrice!==false){const b=BUDGET.find(x=>x[0]===f.budget);const pp=s.pp||s.price;if(!pp||pp<b[2]||pp>b[3])return false}
   if(f.tastes.length&&!f.tastes.some(t=>s._t.has(t)))return false;
   return true;
 }
@@ -398,13 +399,13 @@ function storeRow(s){
   return `<button class="store" data-store="${s.id}" data-sido="${s.sido}">
     <div class="ph" style="background:${s.bg}">${s.last===0?'<span class="newb">NEW</span>':''}${s.emoji}</div>
     <div class="si"><div class="r1"><span class="nm">${esc(s.name)}</span>${s.d!=null?`<span class="ds">${fD(s.d)}</span>`:''}</div>
-    <div class="mn">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>`:esc(s.addr||s.cat)}</div>
+    <div class="mn">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>${s.pp?` <span class="pp">1인 약 ${won(s.pp)}</span>`:''}`:esc(s.addr||s.cat)}</div>
     <div class="srcline">${s.src.yt+s.src.blog+s.src.insta===0?(s.good==='price'?'<span>지자체가 가격·위생·친절을 확인한 가게</span>':s.good?'<span>나눔에 참여하는 가게</span>':'<span>카카오맵 등록 가게 · 아직 언급 없음</span>'):`<span><i style="color:var(--yt)">▶</i> ${s.src.yt}</span><span><i style="color:var(--blog)">B</i> ${s.src.blog}</span><span><i style="color:var(--insta)">◎</i> ${s.src.insta}</span>${s.last<99?`<span>· ${ago(s.last)} 언급</span>`:''}`}</div>
     <div class="bds">${badges(s)}</div></div></button>`;
 }
 function miniCard(s){
   return `<button class="mcard" data-store="${s.id}" data-sido="${s.sido}"><div class="ph" style="background:${s.bg};border-radius:0">${s.last===0?'<span class="newb">NEW</span>':''}${s.emoji}</div>
-  <div class="in"><div class="nm">${esc(s.name)}</div><div class="sm">${s.price?esc(s.menu)+' · '+won(s.price):esc(s.cat)}</div><div class="bds">${s.good?`<span class="bd ${GOOD[s.good].cls}">${GOOD[s.good].label}</span>`:''}</div></div></button>`;
+  <div class="in"><div class="nm">${esc(s.name)}</div><div class="sm">${s.price?esc(s.menu)+' · '+won(s.price)+(s.pp?` (1인 약 ${won(s.pp)})`:''):esc(s.cat)}</div><div class="bds">${s.good?`<span class="bd ${GOOD[s.good].cls}">${GOOD[s.good].label}</span>`:''}</div></div></button>`;
 }
 function courseStats(c){
   let m=0,t=0;
@@ -677,7 +678,7 @@ async function storeSheet(id,sk){
   const d=sk===S.sido?dist(area(),s):null;
   openSheet(`<div class="dhead"><div class="ph" style="background:${s.bg||'#EDEBE6'}">${s.emoji}</div><div style="min-width:0"><h3>${esc(s.name)}</h3>
     <p class="note" style="margin-top:2px">${esc(s.cat||'')}${d!=null?` · ${esc(area().name)}에서 ${fD(d)}`:''}</p>
-    <div class="mn" style="margin-top:4px">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>`:esc(s.addr||'')}</div><div class="bds">${badges(s)}</div></div></div>
+    <div class="mn" style="margin-top:4px">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>${s.pp?` <span class="pp">1인 약 ${won(s.pp)}</span>`:''}`:esc(s.addr||'')}</div><div class="bds">${badges(s)}</div></div></div>
   ${IDX.sample?'<p class="note" style="background:#FFF7E6;border-radius:12px;padding:8px 12px">가상의 샘플 가게예요. 이름·가격·착한가게 배지·언급은 실제 정보가 아니에요.</p>':''}
   <div class="save3">${Object.entries(LIST).map(([k,l])=>`<button data-save="${k}" data-sid="${s.id}" data-ssido="${sk}" class="${S.saved[s.id]?.list===k?'on':''}">${l}</button>`).join('')}</div>
   ${s.kw.length?`<div class="box"><h4>사람들이 좋아하는 이유</h4><div class="kw">${s.kw.map(k=>`<span>${esc(k)}</span>`).join('')}</div></div>`:''}
@@ -786,7 +787,7 @@ function shareCourse(id){
       x.fillStyle='#16181D';x.font=(c.stops[i].t==='meal'?'700':'500')+' 38px "Noto Sans KR"';x.fillText(n,160,y)});
     brandFoot(x)},$('#cout'),`[착한맛자랑 여행코스] ${c.title}\n${names.map((n,i)=>`${i+1}. ${n}`).join('\n')}`);
 }
-const snap=s=>({name:s.name,emoji:s.emoji,cat:s.cat,menu:s.menu,price:s.price,lat:s.lat,lng:s.lng,good:s.good,sido:s.sido,bg:s.bg,addr:s.addr,place_url:s.place_url,src:s.src});
+const snap=s=>({name:s.name,emoji:s.emoji,cat:s.cat,menu:s.menu,price:s.price,pp:s.pp,lat:s.lat,lng:s.lng,good:s.good,sido:s.sido,bg:s.bg,addr:s.addr,place_url:s.place_url,src:s.src});
 
 
 /* ============ 로그인(카카오·구글, Supabase) · 내 리스트 동기화 — 선택 사항 ============

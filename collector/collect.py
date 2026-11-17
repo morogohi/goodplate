@@ -273,7 +273,8 @@ def good_rows(rows):
         addr = (r.get("주소") or r.get("소재지") or r.get("도로명주소") or "").strip()
         if r.get("시도") and not addr.startswith(r["시도"][:2]):
             addr = f"{r['시도']} {r.get('시군', '')} {addr}".strip()
-        out.append({"name": name, "addr": addr, "menu": menu, "price": per_person(menu, price)})
+        pp = per_person(menu, price)
+        out.append({"name": name, "addr": addr, "menu": menu, "price": price, "pp": pp if pp != price else None})
     return out
 
 
@@ -298,6 +299,10 @@ def match_good(store, goods, sharing):
         if norm(g["name"]) == k and addr_ok(g["addr"], store.get("addr", "")):
             if g["price"]:            # 착한가격업소 목록(지자체 확인 가격)이 기준 — 매번 최신 값으로 덮어씀
                 store["menu"], store["price"] = g["menu"] or store.get("menu"), g["price"]
+                if g.get("pp"):
+                    store["pp"] = g["pp"]           # 여러 명 메뉴의 1인 가격 (예산 필터용)
+                else:
+                    store.pop("pp", None)
             elif g["menu"] and not store.get("menu"):
                 store["menu"] = g["menu"]
             g["_matched"] = True
@@ -344,7 +349,8 @@ def add_unmatched_goods(stores, goods, key):
         cat = d["cat"].split(">")
         stores[sid] = {"id": sid, "area": ak, "name": g["name"], "cat": cat[-1].strip() if cat else "음식점",
                        "cat_full": d["cat"], "addr": d["addr"] or g["addr"], "lat": lat, "lng": lng,
-                       "place_url": d["url"], "menu": g["menu"], "price": g["price"], "_good": "price"}
+                       "place_url": d["url"], "menu": g["menu"], "price": g["price"], "_good": "price",
+                       **({"pp": g["pp"]} if g.get("pp") else {})}
         added += 1
     GEOCACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     left = sum(1 for g in goods if not g.get("_matched") and f"{g['name']}|{g['addr']}" not in cache)
