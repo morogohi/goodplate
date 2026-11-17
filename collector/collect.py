@@ -296,10 +296,10 @@ def match_good(store, goods, sharing):
             _GIDX.setdefault(norm(g["name"]), []).append(g)
     for g in _GIDX.get(k, []):
         if norm(g["name"]) == k and addr_ok(g["addr"], store.get("addr", "")):
-            if g["menu"] and not store.get("menu"):
+            if g["price"]:            # 착한가격업소 목록(지자체 확인 가격)이 기준 — 매번 최신 값으로 덮어씀
+                store["menu"], store["price"] = g["menu"] or store.get("menu"), g["price"]
+            elif g["menu"] and not store.get("menu"):
                 store["menu"] = g["menu"]
-            if g["price"] and not store.get("price"):
-                store["price"] = g["price"]
             g["_matched"] = True
             return "price"
     for row in sharing:     # 컬럼: 업소명 (선한영향력가게 등 협약 목록)
@@ -455,10 +455,7 @@ def select_stores(stores, naver):
 
 
 def write_outputs(keep, now, sample=False):
-    keep = [s for s in keep if is_food(s)]
-    for s in keep:                                   # 이전에 저장된 여러 명 메뉴 가격도 1인 기준으로
-        if s.get("price"):
-            s["price"] = per_person(s.get("menu"), s["price"])
+    keep = [s for s in keep if is_food(s)]          # 1인 가격 환산은 착한가격업소 목록을 읽을 때 한 번만 (good_rows)
     (DATA / "r").mkdir(parents=True, exist_ok=True)
     stamp = now.isoformat(timespec="minutes")
     counts, goods = {}, {}
