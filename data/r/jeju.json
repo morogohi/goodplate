@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k9797621",
@@ -15,11 +15,18 @@
    "good": null,
    "emoji": "🍜",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "제주도 동문시장 맛집 동진식당 #ELP01, #U22ULTRA #제주도 #동문시장맛집 #동진식당",
+     "url": "https://www.youtube.com/watch?v=1pNztXjYoQg",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "1965년부터! 제주 동문시장 고기국수 맛집 동진식당 #shorts",
@@ -29,65 +36,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k439308243",
-   "area": "jeju-city",
-   "name": "제주보말칼국수",
-   "cat": "칼국수",
-   "addr": "제주특별자치도 제주시 관덕로8길 40",
-   "lat": 33.50996108594127,
-   "lng": 126.52335708163123,
-   "place_url": "http://place.map.kakao.com/439308243",
-   "good": null,
-   "emoji": "🍜",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#제주도여행 #제주맛집추천 #신제주보말칼국수 #보말칼국수",
-     "url": "https://www.youtube.com/watch?v=ccua1jvb3Vg",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k22173396",
-   "area": "jeju-city",
-   "name": "오현불백",
-   "cat": "불고기,두루치기",
-   "addr": "제주특별자치도 제주시 성지로 58-2",
-   "lat": 33.51102542118467,
-   "lng": 126.52960985556567,
-   "place_url": "http://place.map.kakao.com/22173396",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#협찬 제주 동문시장 불백 맛집 오현불백 동문시장 본점",
-     "url": "https://www.youtube.com/watch?v=gz48iubn6lk",
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 14,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,7 +65,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -143,35 +92,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k8453998",
-   "area": "seogwipo",
-   "name": "오는정김밥",
-   "cat": "분식",
-   "addr": "제주특별자치도 서귀포시 동문동로 2",
-   "lat": 33.2495955703083,
-   "lng": 126.567621058572,
-   "place_url": "http://place.map.kakao.com/8453998",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "전국 3대 김밥! 서귀포 오는정 김밥 #shorts",
-     "url": "https://www.youtube.com/watch?v=Lup8bOG0mbc",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k11733078",
    "area": "seogwipo",
    "name": "뽈살집 제주본점",
@@ -193,6 +113,35 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8526214",
+   "area": "seogwipo",
+   "name": "용이식당",
+   "cat": "불고기,두루치기",
+   "addr": "제주특별자치도 서귀포시 중앙로79번길 9",
+   "lat": 33.2510816699144,
+   "lng": 126.560479828192,
+   "place_url": "http://place.map.kakao.com/8526214",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "용이식당 서귀동두루치기맛집 아랑조울거리맛집 서귀포시두루치기맛집",
+     "url": "https://www.youtube.com/watch?v=S-t2NAcL694",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 0,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k1701981130",
@@ -2094,13 +2043,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "제주 기사식당 맛집 현옥식당 #shorts",
+     "url": "https://www.youtube.com/watch?v=O18mv-B6kj0",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -2669,21 +2626,13 @@
    "emoji": "🍝",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "통영에서 꾸준히 사랑받는 돈까스 맛집 🐻'아빠곰양식당' 통영 현지인 맛집으로 추천해요 ❤️ #통영맛집 #통영여행 #통영 #통영현지인맛집 #통영언",
-     "url": "https://www.youtube.com/watch?v=hortnV7t5v0",
-     "date": "2026-11-05",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 11,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -3160,16 +3109,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k21461466",
+   "id": "k13325715",
    "area": "jeju-city",
-   "name": "금복식당",
-   "cat": "국수",
-   "addr": "제주특별자치도 제주시 동문로 16",
-   "lat": 33.512793021632994,
-   "lng": 126.52831410117405,
-   "place_url": "http://place.map.kakao.com/21461466",
+   "name": "정성듬뿍제주국",
+   "cat": "한식",
+   "addr": "제주특별자치도 제주시 무근성7길 16",
+   "lat": 33.51402680197489,
+   "lng": 126.5202026853259,
+   "place_url": "http://place.map.kakao.com/13325715",
    "good": null,
-   "emoji": "🍜",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -3181,16 +3130,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k13325715",
+   "id": "k21461466",
    "area": "jeju-city",
-   "name": "정성듬뿍제주국",
-   "cat": "한식",
-   "addr": "제주특별자치도 제주시 무근성7길 16",
-   "lat": 33.51402680197489,
-   "lng": 126.5202026853259,
-   "place_url": "http://place.map.kakao.com/13325715",
+   "name": "금복식당",
+   "cat": "국수",
+   "addr": "제주특별자치도 제주시 동문로 16",
+   "lat": 33.512793021632994,
+   "lng": 126.52831410117405,
+   "place_url": "http://place.map.kakao.com/21461466",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -3254,6 +3203,27 @@
    "place_url": "http://place.map.kakao.com/899155913",
    "good": null,
    "emoji": "🍽️",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k439308243",
+   "area": "jeju-city",
+   "name": "제주보말칼국수",
+   "cat": "칼국수",
+   "addr": "제주특별자치도 제주시 관덕로8길 40",
+   "lat": 33.50996108594127,
+   "lng": 126.52335708163123,
+   "place_url": "http://place.map.kakao.com/439308243",
+   "good": null,
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -3433,6 +3403,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k8453998",
+   "area": "seogwipo",
+   "name": "오는정김밥",
+   "cat": "분식",
+   "addr": "제주특별자치도 서귀포시 동문동로 2",
+   "lat": 33.2495955703083,
+   "lng": 126.567621058572,
+   "place_url": "http://place.map.kakao.com/8453998",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k21473782",
    "area": "seogwipo",
    "name": "다정이네 올레시장본점",
@@ -3601,14 +3592,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1626708928",
+   "id": "k1056381412",
    "area": "seogwipo",
-   "name": "모루쿠다 서귀포점",
-   "cat": "회",
-   "addr": "제주특별자치도 서귀포시 태평로431번길 32",
-   "lat": 33.248281462901666,
-   "lng": 126.56620250944731,
-   "place_url": "http://place.map.kakao.com/1626708928",
+   "name": "올레왕갈치 서귀포올레시장점",
+   "cat": "해물,생선",
+   "addr": "제주특별자치도 서귀포시 중앙로42번길 9",
+   "lat": 33.248513882010336,
+   "lng": 126.56279761463912,
+   "place_url": "http://place.map.kakao.com/1056381412",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -3622,14 +3613,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1056381412",
+   "id": "k1626708928",
    "area": "seogwipo",
-   "name": "올레왕갈치 서귀포올레시장점",
-   "cat": "해물,생선",
-   "addr": "제주특별자치도 서귀포시 중앙로42번길 9",
-   "lat": 33.248513882010336,
-   "lng": 126.56279761463912,
-   "place_url": "http://place.map.kakao.com/1056381412",
+   "name": "모루쿠다 서귀포점",
+   "cat": "회",
+   "addr": "제주특별자치도 서귀포시 태평로431번길 32",
+   "lat": 33.248281462901666,
+   "lng": 126.56620250944731,
+   "place_url": "http://place.map.kakao.com/1626708928",
    "good": null,
    "emoji": "🍚",
    "src": {

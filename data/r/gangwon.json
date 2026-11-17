@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
+  {
+   "id": "k8606955",
+   "area": "gangneung",
+   "name": "해성집",
+   "cat": "회",
+   "addr": "강원특별자치도 강릉시 금성로 21",
+   "lat": 37.7540157398762,
+   "lng": 128.898982081968,
+   "place_url": "http://place.map.kakao.com/8606955",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전지적 작가시점 강릉맛집-해성집",
+     "url": "https://www.youtube.com/watch?v=G_ms6F8G2sY",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k1545071550",
    "area": "gangneung",
@@ -15,7 +44,7 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -26,17 +55,10 @@
      "url": "https://www.youtube.com/watch?v=XpYpfk-TVow",
      "date": "2026-11-10",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "📍강릉길감자 본점 #강릉중앙시장 #강릉맛집 #강릉길감자",
-     "url": "https://www.youtube.com/watch?v=gChc_DGxT3Y",
-     "date": "2026-11-04",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -65,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -117,7 +139,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -169,7 +191,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -198,7 +220,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -234,7 +256,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -277,7 +299,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -883,7 +905,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 14,
    "first_seen": "2026-11-16"
   },
   {
@@ -1098,27 +1120,6 @@
    "place_url": "http://place.map.kakao.com/8793742",
    "good": null,
    "emoji": "🍜",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8606955",
-   "area": "gangneung",
-   "name": "해성집",
-   "cat": "회",
-   "addr": "강원특별자치도 강릉시 금성로 21",
-   "lat": 37.7540157398762,
-   "lng": 128.898982081968,
-   "place_url": "http://place.map.kakao.com/8606955",
-   "good": null,
-   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

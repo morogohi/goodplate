@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
+  {
+   "id": "k9025490",
+   "area": "yeosu",
+   "name": "복춘식당",
+   "cat": "아구",
+   "addr": "전남광주통합특별시 여수시 교동남1길 5-8",
+   "lat": 34.73956039618868,
+   "lng": 127.73408759400289,
+   "place_url": "http://place.map.kakao.com/9025490",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "여수 가면 성시경이 극찬한 아귀탕 찐맛집 #여수맛집 #교동맛집 #성시경",
+     "url": "https://www.youtube.com/watch?v=kFlyDflR-dk",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 0,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k2073877553",
    "area": "yeosu",
@@ -29,65 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k9967837",
-   "area": "yeosu",
-   "name": "서울해장국",
-   "cat": "해장국",
-   "addr": "전남광주통합특별시 여수시 통제영5길 11",
-   "lat": 34.74099653867476,
-   "lng": 127.73569457430386,
-   "place_url": "http://place.map.kakao.com/9967837",
-   "good": null,
-   "emoji": "🍲",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "전현무계획에 소개된 동대문 맛집, 대화정 진짜해장국!",
-     "url": "https://www.youtube.com/watch?v=edqf2D6W93M",
-     "date": "2026-11-11",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 5,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k26972508",
-   "area": "yeosu",
-   "name": "이순신수제버거",
-   "cat": "햄버거",
-   "addr": "전남광주통합특별시 여수시 중앙로 73",
-   "lat": 34.74022411692939,
-   "lng": 127.73568226727866,
-   "place_url": "http://place.map.kakao.com/26972508",
-   "good": null,
-   "emoji": "🍔",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#여수수제버거 #이순신광장맛집",
-     "url": "https://www.youtube.com/watch?v=a4yyEg7WPIU",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -102,11 +73,18 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "전남워케이션 여수여행 숙성회맛집 희망선어 민어·병어·삼치의 진가를 경험한 선어회 참맛",
+     "url": "https://www.youtube.com/watch?v=p2Vs2UUIsUA",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "여수 이순신광장 맛집 골목 안 현지인 선어회 희망선어",
@@ -116,36 +94,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1323696604",
-   "area": "yeosu",
-   "name": "구봉만두",
-   "cat": "분식",
-   "addr": "전남광주통합특별시 여수시 중앙로 77",
-   "lat": 34.7401723402292,
-   "lng": 127.736344627893,
-   "place_url": "http://place.map.kakao.com/1323696604",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#맛도리#여행#travel #맛집#맛도리#추천#맛집추천#여수#오동도#딸기모찌 #모찌#바다김밥#피타베이커스#명란바게트#광장국밥#국밥#돼지국밥#해장",
-     "url": "https://www.youtube.com/watch?v=-BvcO2smY3w",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -174,37 +123,8 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1716648703",
-   "area": "yeosu",
-   "name": "광장국밥",
-   "cat": "국밥",
-   "addr": "전남광주통합특별시 여수시 통제영5길 3",
-   "lat": 34.7403427758582,
-   "lng": 127.735437627658,
-   "place_url": "http://place.map.kakao.com/1716648703",
-   "good": null,
-   "emoji": "🍲",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#맛도리#여행#travel #맛집#맛도리#추천#맛집추천#여수#오동도#딸기모찌 #모찌#바다김밥#피타베이커스#명란바게트#광장국밥#국밥#돼지국밥#해장",
-     "url": "https://www.youtube.com/watch?v=-BvcO2smY3w",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
-   "first_seen": "2026-11-14"
   },
   {
    "id": "k1656022954",
@@ -217,87 +137,6 @@
    "place_url": "http://place.map.kakao.com/1656022954",
    "menu": "게장백반",
    "price": 13000,
-   "good": "price",
-   "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k2010383698",
-   "area": "yeosu",
-   "name": "아이스크림옥",
-   "cat": "아이스크림",
-   "addr": "전남광주통합특별시 여수시 이순신광장로 75",
-   "lat": 34.73933962869456,
-   "lng": 127.73542000292095,
-   "place_url": "http://place.map.kakao.com/2010383698",
-   "good": null,
-   "emoji": "🍽️",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "여수 이순신광장 수제젤라또 #아이스크림옥",
-     "url": "https://www.youtube.com/watch?v=gw4fjhqyv58",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1791603371",
-   "area": "yeosu",
-   "name": "피타베이커스",
-   "cat": "제과,베이커리",
-   "addr": "전남광주통합특별시 여수시 통제영5길 5",
-   "lat": 34.7405736856591,
-   "lng": 127.735412374744,
-   "place_url": "http://place.map.kakao.com/1791603371",
-   "good": null,
-   "emoji": "🥐",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#맛도리#여행#travel #맛집#맛도리#추천#맛집추천#여수#오동도#딸기모찌 #모찌#바다김밥#피타베이커스#명란바게트#광장국밥#국밥#돼지국밥#해장",
-     "url": "https://www.youtube.com/watch?v=-BvcO2smY3w",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k2020103934",
-   "area": "yeosu",
-   "name": "보물섬",
-   "cat": "해물,생선",
-   "addr": "전남광주통합특별시 여수시 하멜로 49",
-   "lat": 34.7398951057528,
-   "lng": 127.745466550011,
-   "place_url": "http://place.map.kakao.com/2020103934",
-   "menu": "전복죽",
-   "price": 14000,
    "good": "price",
    "emoji": "🍚",
    "src": {
@@ -334,6 +173,29 @@
    "first_seen": "2026-11-16"
   },
   {
+   "id": "k2020103934",
+   "area": "yeosu",
+   "name": "보물섬",
+   "cat": "해물,생선",
+   "addr": "전남광주통합특별시 여수시 하멜로 49",
+   "lat": 34.7398951057528,
+   "lng": 127.745466550011,
+   "place_url": "http://place.map.kakao.com/2020103934",
+   "menu": "전복죽",
+   "price": 14000,
+   "good": "price",
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
    "id": "k1986258969",
    "area": "yeosu",
    "name": "삼대옥 본점",
@@ -359,7 +221,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -413,7 +275,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-16"
   },
   {
@@ -453,13 +315,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "맛집투어 #인천맛집 #신포동 #뼈다구해장국 #전주식당 #먹방 #도가니 #우거지 #맛집 #챌린지 #쇼츠",
+     "url": "https://www.youtube.com/watch?v=Rx3ejHwQyqI",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -973,7 +843,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -1341,16 +1211,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k9025490",
+   "id": "k9967837",
    "area": "yeosu",
-   "name": "복춘식당",
-   "cat": "아구",
-   "addr": "전남광주통합특별시 여수시 교동남1길 5-8",
-   "lat": 34.73956039618868,
-   "lng": 127.73408759400289,
-   "place_url": "http://place.map.kakao.com/9025490",
+   "name": "서울해장국",
+   "cat": "해장국",
+   "addr": "전남광주통합특별시 여수시 통제영5길 11",
+   "lat": 34.74099653867476,
+   "lng": 127.73569457430386,
+   "place_url": "http://place.map.kakao.com/9967837",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍲",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1372,6 +1242,27 @@
    "place_url": "http://place.map.kakao.com/2089785035",
    "good": null,
    "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26972508",
+   "area": "yeosu",
+   "name": "이순신수제버거",
+   "cat": "햄버거",
+   "addr": "전남광주통합특별시 여수시 중앙로 73",
+   "lat": 34.74022411692939,
+   "lng": 127.73568226727866,
+   "place_url": "http://place.map.kakao.com/26972508",
+   "good": null,
+   "emoji": "🍔",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1435,6 +1326,27 @@
    "place_url": "http://place.map.kakao.com/787357115",
    "good": null,
    "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1323696604",
+   "area": "yeosu",
+   "name": "구봉만두",
+   "cat": "분식",
+   "addr": "전남광주통합특별시 여수시 중앙로 77",
+   "lat": 34.7401723402292,
+   "lng": 127.736344627893,
+   "place_url": "http://place.map.kakao.com/1323696604",
+   "good": null,
+   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,

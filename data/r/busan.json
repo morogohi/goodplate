@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k10070964",
@@ -15,11 +15,18 @@
    "good": null,
    "emoji": "🍕",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "내돈내산) 부산에 이재모가 있다면 조치원에 카티지가 있다..! 전화 100통해야 먹을 수 있는 집.. #카티지피자 #이재모피자 #조치원맛집 #청",
+     "url": "https://www.youtube.com/watch?v=tJ91EyhJOTo",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "가을🍂이 끝나기 전에 축제한번은 다녀와야죠~  / 차이나타운축제.자갈치시장축제",
@@ -29,7 +36,7 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -44,7 +51,7 @@
    "good": null,
    "emoji": "🍙",
    "src": {
-    "yt": 3,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -62,17 +69,10 @@
      "url": "https://www.youtube.com/watch?v=cbyK7KZw7Bw",
      "date": "2026-11-14",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "부산 깡통시장 맛집 이가네 떡볶이 #맛집 #부산맛집 #부산맛집추천 #깡통시장맛집 #부산깡통시장맛집 #부산떡볶이맛집 #shorts",
-     "url": "https://www.youtube.com/watch?v=joaHXZJ_kzY",
-     "date": "2026-11-12",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,18 +87,11 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
-    {
-     "src": "yt",
-     "title": "해운대역에서 걸어서 금방, 새벽에도 문 연 낙곱새집! 개미집 국제시장본점 내돈내산",
-     "url": "https://www.youtube.com/watch?v=TgHcqI52fx4",
-     "date": "2026-11-14",
-     "sponsored": false
-    },
     {
      "src": "yt",
      "title": "부산 낙곱새 맛집 개미집, 1972년 국제시장에서 시작된 이야기 🐙 #쇼츠",
@@ -108,36 +101,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8551576",
-   "area": "nampo",
-   "name": "이승학돈까스 본점",
-   "cat": "돈까스,우동",
-   "addr": "부산 중구 광복중앙로 12",
-   "lat": 35.10039174458834,
-   "lng": 129.03125232110978,
-   "place_url": "http://place.map.kakao.com/8551576",
-   "good": null,
-   "emoji": "🍱",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "부산 유명 경양식 돈까스 3곳 먹어봤습니다… 여러분의 원픽은?",
-     "url": "https://www.youtube.com/watch?v=ceMRmiEQ1HE",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -152,7 +116,7 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -163,17 +127,10 @@
      "url": "https://www.youtube.com/watch?v=YPsHZ6LrEEE",
      "date": "2026-11-13",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "오이소/보이소/사이소  추억의 맛을 찾아서 #남포동 #돌고래순두부 #자갈치시장 #꼼장어골목 #선지국밥 #시장맛집 #남포동맛집 #웹툰 #Short",
-     "url": "https://www.youtube.com/watch?v=8PeGGHMPmIs",
-     "date": "2026-11-13",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -202,7 +159,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -231,7 +188,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -260,7 +217,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -289,37 +246,8 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k13561723",
-   "area": "haeundae",
-   "name": "짱떡볶이",
-   "cat": "떡볶이",
-   "addr": "부산 해운대구 우동1로38번길 12",
-   "lat": 35.16526046731001,
-   "lng": 129.1583209514434,
-   "place_url": "http://place.map.kakao.com/13561723",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "재개발로 인해 옮긴 해운대 짱떡볶이 근황입니다",
-     "url": "https://www.youtube.com/watch?v=JTYE2OuyJag",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
    "last": 2,
-   "first_seen": "2026-11-15"
+   "first_seen": "2026-11-16"
   },
   {
    "id": "k8066247",
@@ -611,13 +539,21 @@
    "emoji": "🥩",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#여수청춘식당 #여수백반 #여수생선구이  #여수낙지꽃게탕 #여수생선구이 #여수맛집",
+     "url": "https://www.youtube.com/watch?v=5m66z5OCNxA",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1025,21 +961,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "소개팅장소 추천 #순천민과장 #새마을식당 #홍대맛집",
-     "url": "https://www.youtube.com/watch?v=brl00No6EsQ",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 3,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1990,7 +1918,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
   },
   {
@@ -2789,13 +2717,21 @@
    "emoji": "🍲",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#여수엑스포밥집 #여수엑스포맛집 #여수갈치조림 #여수가정식백반 #장수식당여수에서 여행하다 보면 화려한 맛집도 좋지만 가끔은 따뜻한 집밥 한 끼가",
+     "url": "https://www.youtube.com/watch?v=g0am9D2rBMs",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 0,
    "first_seen": "2026-11-16"
   },
   {
@@ -2904,13 +2840,21 @@
    "emoji": "🍙",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 남포동, 정부가 인정한 맛집 6곳 #shorts",
+     "url": "https://www.youtube.com/watch?v=Eno7cY6-S3Q",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -2941,7 +2885,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -3050,21 +2994,13 @@
    "emoji": "🥩",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "칠성시장의 맛집 칠성단골식당 #육중완 #전통시장 #시장투어",
-     "url": "https://www.youtube.com/watch?v=rcDayKvGyoE",
-     "date": "2026-11-13",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 3,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -3311,21 +3247,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "포항 물회 맛집 10곳, 바다 보며 시원한 한 그릇 #Shorts",
-     "url": "https://www.youtube.com/watch?v=_o4rafAON-o",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 2,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -3710,11 +3638,32 @@
    "emoji": "🥟",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 4,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "인천 차이나타운 신승반점 | 대기표 118번, 노른자 터뜨려 비비는 유니짜장",
+     "url": "https://www.youtube.com/watch?v=KFtBdNiCtYc",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "인천 차이나타운 홍두병 | 생활의 달인 홍두병, 겉바삭 속 진한 다크초코",
+     "url": "https://www.youtube.com/watch?v=aR0ZPtgapz0",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "홍대 중국집 맛집 동보성 매운유니짜장 맛있어요.",
+     "url": "https://www.youtube.com/watch?v=nJACh0KUVHA",
+     "date": "2026-11-15",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "차이나타운 당일치기 데이트코스",
@@ -3724,7 +3673,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -4270,21 +4219,13 @@
    "emoji": "🥐",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "유행이고 나발이고 예약조차 힘든 찹쌀떡 맛집 6개",
-     "url": "https://www.youtube.com/watch?v=rYI5iUB7-iY",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 2,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -4705,6 +4646,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k8551576",
+   "area": "nampo",
+   "name": "이승학돈까스 본점",
+   "cat": "돈까스,우동",
+   "addr": "부산 중구 광복중앙로 12",
+   "lat": 35.10039174458834,
+   "lng": 129.03125232110978,
+   "place_url": "http://place.map.kakao.com/8551576",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k11892204",
    "area": "nampo",
    "name": "옥생관",
@@ -4747,14 +4709,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k663990938",
+   "id": "k1049103144",
    "area": "nampo",
-   "name": "레귤러하우스 남포점",
+   "name": "탑플로어",
    "cat": "카페",
-   "addr": "부산 중구 중구로40번길 22",
-   "lat": 35.10138602575658,
-   "lng": 129.03010587785124,
-   "place_url": "http://place.map.kakao.com/663990938",
+   "addr": "부산 중구 구덕로48번길 4-1",
+   "lat": 35.09874211544656,
+   "lng": 129.03079690408575,
+   "place_url": "http://place.map.kakao.com/1049103144",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -4768,14 +4730,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1049103144",
+   "id": "k663990938",
    "area": "nampo",
-   "name": "탑플로어",
+   "name": "레귤러하우스 남포점",
    "cat": "카페",
-   "addr": "부산 중구 구덕로48번길 4-1",
-   "lat": 35.09874211544656,
-   "lng": 129.03079690408575,
-   "place_url": "http://place.map.kakao.com/1049103144",
+   "addr": "부산 중구 중구로40번길 22",
+   "lat": 35.10138602575658,
+   "lng": 129.03010587785124,
+   "place_url": "http://place.map.kakao.com/663990938",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -5167,14 +5129,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1538461447",
+   "id": "k285841321",
    "area": "haeundae",
-   "name": "오프온",
+   "name": "워킹홀리데이 해운대",
    "cat": "카페",
-   "addr": "부산 해운대구 우동1로38번길 12",
-   "lat": 35.165262131889264,
-   "lng": 129.1583286770982,
-   "place_url": "http://place.map.kakao.com/1538461447",
+   "addr": "부산 해운대구 해운대해변로 277",
+   "lat": 35.1598877813127,
+   "lng": 129.161558661074,
+   "place_url": "http://place.map.kakao.com/285841321",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -5188,14 +5150,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k285841321",
+   "id": "k1538461447",
    "area": "haeundae",
-   "name": "워킹홀리데이 해운대",
+   "name": "오프온",
    "cat": "카페",
-   "addr": "부산 해운대구 해운대해변로 277",
-   "lat": 35.1598877813127,
-   "lng": 129.161558661074,
-   "place_url": "http://place.map.kakao.com/285841321",
+   "addr": "부산 해운대구 우동1로38번길 12",
+   "lat": 35.165262131889264,
+   "lng": 129.1583286770982,
+   "place_url": "http://place.map.kakao.com/1538461447",
    "good": null,
    "emoji": "☕",
    "src": {

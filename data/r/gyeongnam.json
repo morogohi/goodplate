@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k1620566882",
@@ -17,21 +17,13 @@
    "good": "price",
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "현지인이 찾는 통영 해물뚝배기 #통영맛집 #통영여행 #통영현지인맛집",
-     "url": "https://www.youtube.com/watch?v=ZWkFY95u-tw",
-     "date": "2026-11-05",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 11,
+   "last": null,
    "first_seen": "2026-11-14"
   },
   {
@@ -60,7 +52,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -89,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -118,8 +110,37 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1795781560",
+   "area": "tongyeong",
+   "name": "커피니스트",
+   "cat": "카페",
+   "addr": "경남 통영시 통영해안로 368",
+   "lat": 34.8441211047653,
+   "lng": 128.427490857263,
+   "place_url": "http://place.map.kakao.com/1795781560",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "[통영] 칼국수랑 김밥 , 흑임자라떼 무야지 #통영 맛집 #통영 여행 #통영 행운분식 #통영 칼국수 맛집 #통영 김밥 맛집 #통영 커피니스트 #",
+     "url": "https://www.youtube.com/watch?v=DNubqJEIyKo",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k385457262",
@@ -140,14 +161,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "지난달 오픈한 성수 맛집·카페 총정리 📣",
+     "title": "8월 성수동 신상 총정리 📣",
      "url": "https://www.youtube.com/watch?v=poiM-46CMTo",
      "date": "2026-11-14",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-15"
   },
   {
@@ -509,21 +530,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "현지인이 찾는 통영 해물뚝배기 #통영맛집 #통영여행 #통영현지인맛집",
-     "url": "https://www.youtube.com/watch?v=ZWkFY95u-tw",
-     "date": "2026-11-05",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 11,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1268,14 +1281,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k13618032",
+   "id": "k10445065",
    "area": "tongyeong",
-   "name": "통영동해식당",
-   "cat": "해물,생선",
-   "addr": "경남 통영시 항남1길 36",
-   "lat": 34.84159280891259,
-   "lng": 128.42404184542343,
-   "place_url": "http://place.map.kakao.com/13618032",
+   "name": "산양식당",
+   "cat": "한식",
+   "addr": "경남 통영시 강구안길 29",
+   "lat": 34.844093120806825,
+   "lng": 128.42341913345885,
+   "place_url": "http://place.map.kakao.com/10445065",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -1289,14 +1302,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10445065",
+   "id": "k13618032",
    "area": "tongyeong",
-   "name": "산양식당",
-   "cat": "한식",
-   "addr": "경남 통영시 강구안길 29",
-   "lat": 34.844093120806825,
-   "lng": 128.42341913345885,
-   "place_url": "http://place.map.kakao.com/10445065",
+   "name": "통영동해식당",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 항남1길 36",
+   "lat": 34.84159280891259,
+   "lng": 128.42404184542343,
+   "place_url": "http://place.map.kakao.com/13618032",
    "good": null,
    "emoji": "🍚",
    "src": {

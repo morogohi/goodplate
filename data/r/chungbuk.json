@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungbuk",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k25042020",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,36 +116,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k277329364",
-   "area": "cheongju",
-   "name": "태그원",
-   "cat": "카페",
-   "addr": "충북 청주시 상당구 상당로115번길 36",
-   "lat": 36.63865923539273,
-   "lng": 127.48789903944926,
-   "place_url": "http://place.map.kakao.com/277329364",
-   "good": null,
-   "emoji": "☕",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#청주맛집 # 비케케가든테라스 #청주데이트 #청주성안길레스토랑 #청주크리스마스 #태그원",
-     "url": "https://www.youtube.com/watch?v=zTpPl9vRzxA",
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 14,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -254,13 +225,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "동성로 한우대창 파스타에 불닭육회양파쌈 조합..?💦 #빠레뜨한남 #동성로데이트 #동성로맛집 #대구맛집 #동성로핫플",
+     "url": "https://www.youtube.com/watch?v=Ls-iaGkYgIg",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 0,
    "first_seen": "2026-11-16"
   },
   {
@@ -1142,7 +1121,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -2319,16 +2298,16 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k9993446",
+   "id": "k293015499",
    "area": "cheongju",
-   "name": "쫄쫄호떡 중앙공원본점",
-   "cat": "분식",
-   "addr": "충북 청주시 상당구 상당로55번길 40-1",
-   "lat": 36.6329987740036,
-   "lng": 127.488454817828,
-   "place_url": "http://place.map.kakao.com/9993446",
+   "name": "흥흥제과 본점",
+   "cat": "제과,베이커리",
+   "addr": "충북 청주시 상당구 중앙로 5-3",
+   "lat": 36.6374676677056,
+   "lng": 127.488626150559,
+   "place_url": "http://place.map.kakao.com/293015499",
    "good": null,
-   "emoji": "🍙",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -2340,16 +2319,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k293015499",
+   "id": "k9993446",
    "area": "cheongju",
-   "name": "흥흥제과 본점",
-   "cat": "제과,베이커리",
-   "addr": "충북 청주시 상당구 중앙로 5-3",
-   "lat": 36.6374676677056,
-   "lng": 127.488626150559,
-   "place_url": "http://place.map.kakao.com/293015499",
+   "name": "쫄쫄호떡 중앙공원본점",
+   "cat": "분식",
+   "addr": "충북 청주시 상당구 상당로55번길 40-1",
+   "lat": 36.6329987740036,
+   "lng": 127.488454817828,
+   "place_url": "http://place.map.kakao.com/9993446",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -2382,16 +2361,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k8751538",
+   "id": "k17297647",
    "area": "cheongju",
-   "name": "원조고추만두국집",
-   "cat": "한식",
-   "addr": "충북 청주시 상당구 사직대로350번길 61",
-   "lat": 36.6338232452583,
-   "lng": 127.48648769754277,
-   "place_url": "http://place.map.kakao.com/8751538",
+   "name": "코끼리만두",
+   "cat": "분식",
+   "addr": "충북 청주시 상당구 남사로 133-5",
+   "lat": 36.6324413665017,
+   "lng": 127.489895855913,
+   "place_url": "http://place.map.kakao.com/17297647",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -2403,16 +2382,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k17297647",
+   "id": "k8751538",
    "area": "cheongju",
-   "name": "코끼리만두",
-   "cat": "분식",
-   "addr": "충북 청주시 상당구 남사로 133-5",
-   "lat": 36.6324413665017,
-   "lng": 127.489895855913,
-   "place_url": "http://place.map.kakao.com/17297647",
+   "name": "원조고추만두국집",
+   "cat": "한식",
+   "addr": "충북 청주시 상당구 사직대로350번길 61",
+   "lat": 36.6338232452583,
+   "lng": 127.48648769754277,
+   "place_url": "http://place.map.kakao.com/8751538",
    "good": null,
-   "emoji": "🍙",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

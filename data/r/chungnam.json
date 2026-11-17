@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungnam",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k904041132",
@@ -36,7 +36,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -100,7 +100,36 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7970877",
+   "area": "gongju",
+   "name": "시장정육점식당",
+   "cat": "육류,고기",
+   "addr": "충남 공주시 백미고을길 10-5",
+   "lat": 36.4658620323761,
+   "lng": 127.122253119496,
+   "place_url": "http://place.map.kakao.com/7970877",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "공주 시장정육점식당 죠지기 #맛집  #먹방 #허영만 #식객 #알밤육회 #육회비빔밥",
+     "url": "https://www.youtube.com/watch?v=w16x3zXD7uE",
+     "date": "2026-11-15",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -152,7 +181,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -181,7 +210,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -649,7 +678,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
   },
   {
@@ -856,27 +885,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k7970877",
-   "area": "gongju",
-   "name": "시장정육점식당",
-   "cat": "육류,고기",
-   "addr": "충남 공주시 백미고을길 10-5",
-   "lat": 36.4658620323761,
-   "lng": 127.122253119496,
-   "place_url": "http://place.map.kakao.com/7970877",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k7931728",
    "area": "gongju",
    "name": "새이학가든",
@@ -919,14 +927,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1825916113",
+   "id": "k27252729",
    "area": "gongju",
-   "name": "촌정선곤드레밥",
-   "cat": "한정식",
-   "addr": "충남 공주시 백미고을길 14-1",
-   "lat": 36.46557773076439,
-   "lng": 127.12179747246054,
-   "place_url": "http://place.map.kakao.com/1825916113",
+   "name": "개성집",
+   "cat": "해물,생선",
+   "addr": "충남 공주시 미나리3길 6-5",
+   "lat": 36.4634790865989,
+   "lng": 127.122517136226,
+   "place_url": "http://place.map.kakao.com/27252729",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -940,14 +948,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k27252729",
+   "id": "k1825916113",
    "area": "gongju",
-   "name": "개성집",
-   "cat": "해물,생선",
-   "addr": "충남 공주시 미나리3길 6-5",
-   "lat": 36.4634790865989,
-   "lng": 127.122517136226,
-   "place_url": "http://place.map.kakao.com/27252729",
+   "name": "촌정선곤드레밥",
+   "cat": "한정식",
+   "addr": "충남 공주시 백미고을길 14-1",
+   "lat": 36.46557773076439,
+   "lng": 127.12179747246054,
+   "place_url": "http://place.map.kakao.com/1825916113",
    "good": null,
    "emoji": "🍚",
    "src": {

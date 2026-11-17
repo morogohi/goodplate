@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
+  {
+   "id": "k434306603",
+   "area": "seongnam",
+   "name": "부기타이",
+   "cat": "태국음식",
+   "addr": "울산 중구 중앙3길 17",
+   "lat": 35.5546330525174,
+   "lng": 129.316639891552,
+   "place_url": "http://place.map.kakao.com/434306603",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "울산 태국맛집 부가타이",
+     "url": "https://www.youtube.com/watch?v=qhA0FSRQ9ds",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k16725331",
    "area": "seongnam",
@@ -29,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -104,7 +133,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -903,21 +932,13 @@
    "emoji": "🍲",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "성심당 말고! 대전 사람들 단골 국밥 맛집 7곳 | 6,000원 순대국밥부터 24시 해장국까지",
-     "url": "https://www.youtube.com/watch?v=FgMcSnk2CQk",
-     "date": "2026-11-02",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 14,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1128,6 +1149,282 @@
    "first_seen": "2026-11-16"
   },
   {
+   "id": "k2118356372",
+   "area": "seongnam",
+   "name": "하나네족발추어탕",
+   "cat": "족발,보쌈",
+   "addr": "울산 남구 수암로189번길 21-2",
+   "lat": 35.528948585445,
+   "lng": 129.327523421844,
+   "place_url": "http://place.map.kakao.com/2118356372",
+   "menu": "추어탕",
+   "price": 7000,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k24891734",
+   "area": "seongnam",
+   "name": "모두랑국수먹는날",
+   "cat": "국수",
+   "addr": "울산 남구 수암로54번길 17",
+   "lat": 35.52926619810877,
+   "lng": 129.31383342851086,
+   "place_url": "http://place.map.kakao.com/24891734",
+   "menu": "국수",
+   "price": 5000,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k122517306",
+   "area": "seongnam",
+   "name": "태화장터칼국수",
+   "cat": "칼국수",
+   "addr": "울산 중구 화진길 11-4",
+   "lat": 35.5552065624748,
+   "lng": 129.308540966005,
+   "place_url": "http://place.map.kakao.com/122517306",
+   "menu": "들깨칼국수",
+   "price": 8000,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k15976565",
+   "area": "seongnam",
+   "name": "할머니손칼국시",
+   "cat": "국수",
+   "addr": "울산 중구 화진4길 20",
+   "lat": 35.5559141552573,
+   "lng": 129.307727659957,
+   "place_url": "http://place.map.kakao.com/15976565",
+   "menu": "칼국수",
+   "price": 6000,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k2084108530",
+   "area": "seongnam",
+   "name": "엄마네뷔페",
+   "cat": "한식뷔페",
+   "addr": "울산 중구 당산4길 22",
+   "lat": 35.5537039147243,
+   "lng": 129.310592841924,
+   "place_url": "http://place.map.kakao.com/2084108530",
+   "menu": "정식",
+   "price": 7000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k16259546",
+   "area": "seongnam",
+   "name": "수다라",
+   "cat": "칼국수",
+   "addr": "울산 중구 서원1길 3",
+   "lat": 35.5632546266748,
+   "lng": 129.335299602533,
+   "place_url": "http://place.map.kakao.com/16259546",
+   "menu": "칼국수",
+   "price": 6000,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k15811004",
+   "area": "seongnam",
+   "name": "노르쇠핑",
+   "cat": "제과,베이커리",
+   "addr": "울산 중구 태화로 136",
+   "lat": 35.55315258004271,
+   "lng": 129.29090525134333,
+   "place_url": "http://place.map.kakao.com/15811004",
+   "menu": "단팥빵",
+   "price": 1500,
+   "emoji": "🥐",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k21546439",
+   "area": "seongnam",
+   "name": "옛날가마솥보리밥",
+   "cat": "한식",
+   "addr": "울산 남구 월평로37번길 3",
+   "lat": 35.54161987570196,
+   "lng": 129.30945885919712,
+   "place_url": "http://place.map.kakao.com/21546439",
+   "menu": "보리밥",
+   "price": 8000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k21696931",
+   "area": "seongnam",
+   "name": "소문난 고추장불고기 국밥",
+   "cat": "국밥",
+   "addr": "울산 남구 월평로37번길 3",
+   "lat": 35.5416191018078,
+   "lng": 129.309452222269,
+   "place_url": "http://place.map.kakao.com/21696931",
+   "menu": "돼지국밥",
+   "price": 8000,
+   "emoji": "🍲",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k17936822",
+   "area": "seongnam",
+   "name": "만추",
+   "cat": "해물,생선",
+   "addr": "울산 남구 돋질로239번길 4-4",
+   "lat": 35.5434953383908,
+   "lng": 129.331251316418,
+   "place_url": "http://place.map.kakao.com/17936822",
+   "menu": "낙지볶음",
+   "price": 9000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k21230707",
+   "area": "seongnam",
+   "name": "경북식당",
+   "cat": "한식",
+   "addr": "울산 남구 돋질로145번길 38-25",
+   "lat": 35.5440794726946,
+   "lng": 129.32134146071,
+   "place_url": "http://place.map.kakao.com/21230707",
+   "menu": "정식",
+   "price": 7000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k23641367",
+   "area": "seongnam",
+   "name": "산동만두",
+   "cat": "중국요리",
+   "addr": "울산 남구 신정로40번길 8-1",
+   "lat": 35.5357014423281,
+   "lng": 129.322929878151,
+   "place_url": "http://place.map.kakao.com/23641367",
+   "menu": "자장면",
+   "price": 5000,
+   "emoji": "🥟",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "k1086317267",
    "area": "seongnam",
    "name": "명장스시",
@@ -1233,16 +1530,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k434306603",
+   "id": "k877069288",
    "area": "seongnam",
-   "name": "부기타이",
-   "cat": "태국음식",
-   "addr": "울산 중구 중앙3길 17",
-   "lat": 35.5546330525174,
-   "lng": 129.316639891552,
-   "place_url": "http://place.map.kakao.com/434306603",
+   "name": "덴푸라찬",
+   "cat": "일식집",
+   "addr": "울산 중구 젊음의1거리 5",
+   "lat": 35.5533702773854,
+   "lng": 129.31872166386,
+   "place_url": "http://place.map.kakao.com/877069288",
    "good": null,
-   "emoji": "🍲",
+   "emoji": "🍱",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1264,27 +1561,6 @@
    "place_url": "http://place.map.kakao.com/9399162",
    "good": null,
    "emoji": "🥩",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k877069288",
-   "area": "seongnam",
-   "name": "덴푸라찬",
-   "cat": "일식집",
-   "addr": "울산 중구 젊음의1거리 5",
-   "lat": 35.5533702773854,
-   "lng": 129.31872166386,
-   "place_url": "http://place.map.kakao.com/877069288",
-   "good": null,
-   "emoji": "🍱",
    "src": {
     "yt": 0,
     "blog": 0,

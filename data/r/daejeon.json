@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -15,11 +15,18 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 9,
+    "yt": 7,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "대전 1박 2일 완벽 코스! 맛집·카페·숙소까지(정리본/지도 리스트 공유 🗺️)",
+     "url": "https://www.youtube.com/watch?v=nmQRKcoR09g",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "#사쿠사쿠 #대전맛집 #대전대흥동맛집 #대전텐동 #텐동맛집 #대전텐동맛집 #성심당근처맛집 #대흥동맛집 #대전빵지순례 #대전여행코스 #대전데이트",
@@ -61,20 +68,6 @@
      "url": "https://www.youtube.com/watch?v=VjnnE_Kstx8",
      "date": "2026-11-05",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "대전역·은행동 하루 코스 🥐 성심당 아침부터 스카이로드 야경까지 7곳 | SEOUL TRIP & TASTE",
-     "url": "https://www.youtube.com/watch?v=x9KHJKb8i08",
-     "date": "2026-11-03",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "돌아온 대전맛집 투어 🥐 두부두루치기 1티어, 아자자야채치킨, 성심당 우동야, 칼국수 맛집, 스시 맛집, 꿈돌이 가득한 카페투어까지…⭐️",
-     "url": "https://www.youtube.com/watch?v=TXhmcUephJw",
-     "date": "2026-11-02",
-     "sponsored": false
     }
    ],
    "kw": [],
@@ -107,7 +100,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -205,7 +198,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -234,7 +227,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
   },
   {
@@ -249,7 +242,7 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 6,
+    "yt": 4,
     "blog": 0,
     "insta": 0
    },
@@ -270,20 +263,6 @@
     },
     {
      "src": "yt",
-     "title": "금액대별 인플루언서.. 누구 쓰고 싶으세요?ㅋㅋㅋ 갈치와 찌개가 너무너무 맛있는 경주 토박이식당 들렸는데요. 32년동안 갈치...",
-     "url": "https://www.youtube.com/watch?v=R9-JgOqudVw",
-     "date": "2026-11-14",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "금액대별 인플루언서ㅋㅋ",
-     "url": "https://www.youtube.com/watch?v=x1H-QSYAFEw",
-     "date": "2026-11-14",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
      "title": "혜화에서 참치 머리고기 먹고 싶다면, 한돌참치 | 혜화 추천 맛집 #shorts",
      "url": "https://www.youtube.com/watch?v=iTVox7Kp9HI",
      "date": "2026-11-12",
@@ -298,7 +277,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -1003,7 +982,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-16"
   },
   {
@@ -1402,7 +1381,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-16"
   },
   {
@@ -2238,7 +2217,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-16"
   },
   {
@@ -3001,6 +2980,75 @@
    "first_seen": "2026-11-16"
   },
   {
+   "id": "k572382328",
+   "area": "eunhaeng",
+   "name": "만족",
+   "cat": "기대만족",
+   "addr": "대전 동구 동대전로 116",
+   "lat": 36.3324559258453,
+   "lng": 127.445048097754,
+   "place_url": "http://place.map.kakao.com/572382328",
+   "menu": "왕족발",
+   "price": 25000,
+   "emoji": "🥩",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k1934534270",
+   "area": "eunhaeng",
+   "name": "고향보리밥",
+   "cat": "한식",
+   "addr": "대전 중구 보문산공원로 524-2",
+   "lat": 36.3145570835571,
+   "lng": 127.424134588237,
+   "place_url": "http://place.map.kakao.com/1934534270",
+   "menu": "청국장백반",
+   "price": 7000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k16112839",
+   "area": "eunhaeng",
+   "name": "미소칼국수",
+   "cat": "칼국수",
+   "addr": "대전 중구 유천로132번길 27",
+   "lat": 36.3246356734816,
+   "lng": 127.396899886386,
+   "place_url": "http://place.map.kakao.com/16112839",
+   "menu": "황태칼국수",
+   "price": 7000,
+   "emoji": "🍜",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "k1834095519",
    "area": "eunhaeng",
    "name": "성심당 케익부띠끄 본점",
@@ -3043,16 +3091,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k12468740",
+   "id": "k21537026",
    "area": "eunhaeng",
-   "name": "진로집",
-   "cat": "불고기,두루치기",
-   "addr": "대전 중구 중교로 45-5",
-   "lat": 36.3258521835256,
-   "lng": 127.424716995185,
-   "place_url": "http://place.map.kakao.com/12468740",
+   "name": "성심당 대전역점",
+   "cat": "제과,베이커리",
+   "addr": "대전 동구 중앙로 215",
+   "lat": 36.332217306511836,
+   "lng": 127.4337196562067,
+   "place_url": "http://place.map.kakao.com/21537026",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -3064,16 +3112,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k21537026",
+   "id": "k12468740",
    "area": "eunhaeng",
-   "name": "성심당 대전역점",
-   "cat": "제과,베이커리",
-   "addr": "대전 동구 중앙로 215",
-   "lat": 36.332217306511836,
-   "lng": 127.4337196562067,
-   "place_url": "http://place.map.kakao.com/21537026",
+   "name": "진로집",
+   "cat": "불고기,두루치기",
+   "addr": "대전 중구 중교로 45-5",
+   "lat": 36.3258521835256,
+   "lng": 127.424716995185,
+   "place_url": "http://place.map.kakao.com/12468740",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,

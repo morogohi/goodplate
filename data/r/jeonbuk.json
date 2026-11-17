@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k8629568",
@@ -15,11 +15,18 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "전주 한옥마을 맛집 나물 가득한 전주비빔밥 한국집",
+     "url": "https://www.youtube.com/watch?v=ezhCXQVpwtE",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "[공식 인증 맛집 티어] 전주 한옥마을 맛집 10곳 가족회관·성미당·한국집 (26년 11월 기준) #shorts",
@@ -29,7 +36,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -44,7 +51,7 @@
    "good": null,
    "emoji": "🍜",
    "src": {
-    "yt": 4,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
@@ -69,17 +76,10 @@
      "url": "https://www.youtube.com/watch?v=PMro7fMyOZ4",
      "date": "2026-11-14",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
-     "url": "https://www.youtube.com/watch?v=8xaYRbkvryo",
-     "date": "2026-11-05",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -108,7 +108,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -137,7 +137,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -166,7 +166,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-15"
   },
   {
@@ -181,7 +181,7 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -192,17 +192,10 @@
      "url": "https://www.youtube.com/watch?v=r5Az3bJeKGs",
      "date": "2026-11-11",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "KR sub） 全州2泊3日Mini Vlog | 日韓友達旅 韓屋ステイ 人気店 한국친구 한옥마을 한옥숙서 맛집추천",
-     "url": "https://www.youtube.com/watch?v=LI_H4FTO4Mw",
-     "date": "2026-11-08",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -238,7 +231,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -253,7 +246,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -264,17 +257,10 @@
      "url": "https://www.youtube.com/watch?v=ghIIPAbS2g0",
      "date": "2026-11-14",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "한옥마을은 가는데 어딜가야할지 몰라서 방황하는 그대여..",
-     "url": "https://www.youtube.com/watch?v=P_ff_AScYwU",
-     "date": "2026-11-08",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-15"
   },
   {
@@ -310,37 +296,8 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k379587767",
-   "area": "jeonju-hanok",
-   "name": "더마시랑게",
-   "cat": "카페",
-   "addr": "전북특별자치도 전주시 완산구 전동성당길 88",
-   "lat": 35.8151219566208,
-   "lng": 127.148776695874,
-   "place_url": "http://place.map.kakao.com/379587767",
-   "good": null,
-   "emoji": "☕",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "한옥마을은 가는데 어딜가야할지 몰라서 방황하는 그대여..",
-     "url": "https://www.youtube.com/watch?v=P_ff_AScYwU",
-     "date": "2026-11-08",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 8,
-   "first_seen": "2026-11-16"
   },
   {
    "id": "k1693205200",
@@ -669,7 +626,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-16"
   },
   {
@@ -847,21 +804,13 @@
    "emoji": "🍱",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "해운대 왕돈까스 7,500원 실화냐? 부산 사투리로 먹어봤다 아이가 🍴 #해운대맛집",
-     "url": "https://www.youtube.com/watch?v=Ntz0VR-d010",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 2,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1102,16 +1051,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k21272064",
+   "id": "k8865570",
    "area": "jeonju-hanok",
-   "name": "PNB풍년제과 한옥마을점",
-   "cat": "제과,베이커리",
-   "addr": "전북특별자치도 전주시 완산구 은행로 61",
-   "lat": 35.8145680759458,
-   "lng": 127.152773476512,
-   "place_url": "http://place.map.kakao.com/21272064",
+   "name": "대보장",
+   "cat": "중국요리",
+   "addr": "전북특별자치도 전주시 완산구 전라감영4길 3",
+   "lat": 35.815750447641385,
+   "lng": 127.14483089508765,
+   "place_url": "http://place.map.kakao.com/8865570",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1123,16 +1072,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k8865570",
+   "id": "k21272064",
    "area": "jeonju-hanok",
-   "name": "대보장",
-   "cat": "중국요리",
-   "addr": "전북특별자치도 전주시 완산구 전라감영4길 3",
-   "lat": 35.815750447641385,
-   "lng": 127.14483089508765,
-   "place_url": "http://place.map.kakao.com/8865570",
+   "name": "PNB풍년제과 한옥마을점",
+   "cat": "제과,베이커리",
+   "addr": "전북특별자치도 전주시 완산구 은행로 61",
+   "lat": 35.8145680759458,
+   "lng": 127.152773476512,
+   "place_url": "http://place.map.kakao.com/21272064",
    "good": null,
-   "emoji": "🥟",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,

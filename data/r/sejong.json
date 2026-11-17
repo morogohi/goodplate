@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
+  {
+   "id": "k17822344",
+   "area": "jochiwon",
+   "name": "카티지피자",
+   "cat": "피자",
+   "addr": "세종특별자치시 조치원읍 행복12길 9-13",
+   "lat": 36.604143030943,
+   "lng": 127.293301444376,
+   "place_url": "http://place.map.kakao.com/17822344",
+   "good": null,
+   "emoji": "🍕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "내돈내산) 부산에 이재모가 있다면 조치원에 카티지가 있다..! 전화 100통해야 먹을 수 있는 집.. #카티지피자 #이재모피자 #조치원맛집 #청",
+     "url": "https://www.youtube.com/watch?v=tJ91EyhJOTo",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k21471276",
    "area": "jochiwon",
@@ -52,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -67,14 +96,28 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 19,
+    "yt": 15,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "[청주근교맛집.Vlog]돌아온 실패없는 청주근교맛집.vlog [조치원 옥천 괴산 대전]",
+     "title": "내돈내산) 부산에 이재모가 있다면 조치원에 카티지가 있다..! 전화 100통해야 먹을 수 있는 집.. #카티지피자 #이재모피자 #조치원맛집 #청",
+     "url": "https://www.youtube.com/watch?v=tJ91EyhJOTo",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "탕수육 맛집 세종 조치원",
+     "url": "https://www.youtube.com/watch?v=1aTiBhOcyqQ",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "[청주근교맛집.Vlog]청주 근교에서 뭐 먹지?! 재방문1000% 실패없는 청주근교맛집 | 조치원 옥천 괴산 대전",
      "url": "https://www.youtube.com/watch?v=jlUdDV5wwdw",
      "date": "2026-11-15",
      "sponsored": false
@@ -111,20 +154,6 @@
      "src": "yt",
      "title": "조치원에서 순두부 한 그릇 시켰는데, 순두부보다 상이 먼저 꽉 찼어요🔥",
      "url": "https://www.youtube.com/watch?v=-kFDpWnC5Hg",
-     "date": "2026-11-14",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "맛집탐방~세종 조치원 '인생역전'(전집) #맛집#전집",
-     "url": "https://www.youtube.com/watch?v=TayFDkZIaN8",
-     "date": "2026-11-14",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "골목길안에 숨어 있는 오래된 여관의 반전 비밀 #맛집 #세종시맛집 #조치원맛집 #비밀",
-     "url": "https://www.youtube.com/watch?v=WbmwyH0AmmI",
      "date": "2026-11-14",
      "sponsored": false
     }
@@ -308,21 +337,13 @@
    "emoji": "🍗",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "대구 동성로 옛날통닭 3900원 신상 술집",
-     "url": "https://www.youtube.com/watch?v=kutzt_V5sFU",
-     "date": "2026-11-12",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 4,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -347,6 +368,29 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k17821870",
+   "area": "jochiwon",
+   "name": "뜸복골우렁쌈밥",
+   "cat": "쌈밥",
+   "addr": "세종특별자치시 연서면 대첩로 200",
+   "lat": 36.593704816055,
+   "lng": 127.274907683977,
+   "place_url": "http://place.map.kakao.com/17821870",
+   "menu": "우렁쌈밥",
+   "price": 11000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k10332865",
@@ -475,27 +519,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k17822344",
-   "area": "jochiwon",
-   "name": "카티지피자",
-   "cat": "피자",
-   "addr": "세종특별자치시 조치원읍 행복12길 9-13",
-   "lat": 36.604143030943,
-   "lng": 127.293301444376,
-   "place_url": "http://place.map.kakao.com/17822344",
-   "good": null,
-   "emoji": "🍕",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k27327527",
    "area": "jochiwon",
    "name": "신흥파닭",
@@ -580,6 +603,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k380251220",
+   "area": "jochiwon",
+   "name": "덕윤당",
+   "cat": "일식",
+   "addr": "세종특별자치시 조치원읍 으뜸길 197",
+   "lat": 36.6003224731373,
+   "lng": 127.296830959003,
+   "place_url": "http://place.map.kakao.com/380251220",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k27056232",
    "area": "jochiwon",
    "name": "그대랑닭갈비",
@@ -632,27 +676,6 @@
    "place_url": "http://place.map.kakao.com/9682953",
    "good": null,
    "emoji": "🥩",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k380251220",
-   "area": "jochiwon",
-   "name": "덕윤당",
-   "cat": "일식",
-   "addr": "세종특별자치시 조치원읍 으뜸길 197",
-   "lat": 36.6003224731373,
-   "lng": 127.296830959003,
-   "place_url": "http://place.map.kakao.com/380251220",
-   "good": null,
-   "emoji": "🍱",
    "src": {
     "yt": 0,
     "blog": 0,

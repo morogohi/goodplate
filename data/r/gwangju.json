@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -81,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -133,7 +133,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -148,11 +148,18 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "경주에서 밥맛 하나로 승부하는 한식 맛집?! 꽃게 된장찌개부터 직화불고기·돈까스까지 푸짐한 한상! #경주맛집 #경주한식 #경주여행 #나릿길 #경",
+     "url": "https://www.youtube.com/watch?v=BA-_ucoRcFM",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "경주보문단지 부모님과 방문 하기 좋은뷰맛집#경주보문단지맛집한식#경주맛집#향택별미원#경주여행맛집",
@@ -915,7 +922,7 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -926,10 +933,17 @@
      "url": "https://www.youtube.com/watch?v=W_dByI0b9IA",
      "date": "2026-11-15",
      "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "7월의 강릉🌊 2박 3일 여행 vlog ⋆˚✿˖° 사계절탕수육•강릉 맛집🍽️•묵호 등대그집•경포대해수욕장•헌팅썰💗•이모네생선찜",
+     "url": "https://www.youtube.com/watch?v=cNFFjvDLtPA",
+     "date": "2026-11-15",
+     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -1498,13 +1512,28 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "백종원의 골목식당 출연! 포항 칼국수 맛집 #포항맛집 #포항칼국수맛집 #국수이야기 #해초해물칼국수 #물가자미비빔국수 #포항여행",
+     "url": "https://www.youtube.com/watch?v=C0fkPrhGO1Y",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "제주 연돈 돈까스 웨이팅 안하고 먹는방법 #연돈 #제주맛집#골목식당 #제주여행",
+     "url": "https://www.youtube.com/watch?v=dHCAw9qkU90",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -2027,13 +2056,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "2026년 11월 16일",
+     "url": "https://www.youtube.com/watch?v=7NPsUbzZU9s",
+     "date": "2026-11-16",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -2479,16 +2516,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k780171077",
+   "id": "k939386167",
    "area": "chungjang",
-   "name": "행복한담벼락",
-   "cat": "한식",
-   "addr": "전남광주통합특별시 동구 서석로85번길 2",
-   "lat": 35.1496118611524,
-   "lng": 126.920594113887,
-   "place_url": "http://place.map.kakao.com/780171077",
+   "name": "베비에르 문화의전당점",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 동구 서석로 36",
+   "lat": 35.1461594034484,
+   "lng": 126.91752917416,
+   "place_url": "http://place.map.kakao.com/939386167",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -2500,16 +2537,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k939386167",
+   "id": "k780171077",
    "area": "chungjang",
-   "name": "베비에르 문화의전당점",
-   "cat": "제과,베이커리",
-   "addr": "전남광주통합특별시 동구 서석로 36",
-   "lat": 35.1461594034484,
-   "lng": 126.91752917416,
-   "place_url": "http://place.map.kakao.com/939386167",
+   "name": "행복한담벼락",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 동구 서석로85번길 2",
+   "lat": 35.1496118611524,
+   "lng": 126.920594113887,
+   "place_url": "http://place.map.kakao.com/780171077",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

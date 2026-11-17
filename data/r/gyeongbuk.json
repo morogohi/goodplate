@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongbuk",
- "generated_at": "2026-11-16T06:31+09:00",
+ "generated_at": "2026-11-17T11:23+09:00",
  "stores": [
   {
    "id": "k9935399",
@@ -29,37 +29,8 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1403302940",
-   "area": "gyeongju",
-   "name": "단향회",
-   "cat": "한식",
-   "addr": "경북 경주시 첨성로81번길 28-1",
-   "lat": 35.8355702204743,
-   "lng": 129.211262751639,
-   "place_url": "http://place.map.kakao.com/1403302940",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "비오는 날 경주 1박2일 여행 브이로그 #경주 #경주여행 #경주1박2일 #경주숙소 #황리단길 #황리단길맛집",
-     "url": "https://www.youtube.com/watch?v=iFYGDqYLMJw",
-     "date": "2026-11-06",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 10,
-   "first_seen": "2026-11-16"
   },
   {
    "id": "k1054251976",
@@ -87,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-15"
   },
   {
@@ -116,37 +87,8 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k938842256",
-   "area": "gyeongju",
-   "name": "경주황리단길 쌀십원빵",
-   "cat": "제과,베이커리",
-   "addr": "경북 경주시 포석로 1044",
-   "lat": 35.8339898830629,
-   "lng": 129.209543611865,
-   "place_url": "http://place.map.kakao.com/938842256",
-   "good": null,
-   "emoji": "🥐",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "경주 십원빵은 할배셰프가 맛집❤️ #경주십원빵 #경주황리단길쌀십원빵 #경주십원빵할아버지",
-     "url": "https://www.youtube.com/watch?v=RQwd88w0mHM",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-15"
   },
   {
    "id": "k1225998161",
@@ -174,7 +116,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-16"
   },
   {
@@ -697,16 +639,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k26348190",
+   "id": "k9959009",
    "area": "gyeongju",
-   "name": "최영화빵",
-   "cat": "제과,베이커리",
-   "addr": "경북 경주시 북정로 6-1",
-   "lat": 35.841572474144975,
-   "lng": 129.21534906906183,
-   "place_url": "http://place.map.kakao.com/26348190",
+   "name": "경주원조콩국",
+   "cat": "한식",
+   "addr": "경북 경주시 첨성로 113",
+   "lat": 35.83345287503942,
+   "lng": 129.21472931242565,
+   "place_url": "http://place.map.kakao.com/9959009",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -718,16 +660,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k9959009",
+   "id": "k26348190",
    "area": "gyeongju",
-   "name": "경주원조콩국",
-   "cat": "한식",
-   "addr": "경북 경주시 첨성로 113",
-   "lat": 35.83345287503942,
-   "lng": 129.21472931242565,
-   "place_url": "http://place.map.kakao.com/9959009",
+   "name": "최영화빵",
+   "cat": "제과,베이커리",
+   "addr": "경북 경주시 북정로 6-1",
+   "lat": 35.841572474144975,
+   "lng": 129.21534906906183,
+   "place_url": "http://place.map.kakao.com/26348190",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -781,16 +723,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1783751879",
+   "id": "k1012514158",
    "area": "gyeongju",
-   "name": "도미",
-   "cat": "양식",
-   "addr": "경북 경주시 중앙로 10",
-   "lat": 35.8407626996026,
-   "lng": 129.211765466849,
-   "place_url": "http://place.map.kakao.com/1783751879",
+   "name": "최영화빵 황리단점",
+   "cat": "제과,베이커리",
+   "addr": "경북 경주시 포석로1095번길 2",
+   "lat": 35.83896493598476,
+   "lng": 129.2097679453888,
+   "place_url": "http://place.map.kakao.com/1012514158",
    "good": null,
-   "emoji": "🍝",
+   "emoji": "🥐",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -802,16 +744,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1012514158",
+   "id": "k1783751879",
    "area": "gyeongju",
-   "name": "최영화빵 황리단점",
-   "cat": "제과,베이커리",
-   "addr": "경북 경주시 포석로1095번길 2",
-   "lat": 35.83896493598476,
-   "lng": 129.2097679453888,
-   "place_url": "http://place.map.kakao.com/1012514158",
+   "name": "도미",
+   "cat": "양식",
+   "addr": "경북 경주시 중앙로 10",
+   "lat": 35.8407626996026,
+   "lng": 129.211765466849,
+   "place_url": "http://place.map.kakao.com/1783751879",
    "good": null,
-   "emoji": "🥐",
+   "emoji": "🍝",
    "src": {
     "yt": 0,
     "blog": 0,
