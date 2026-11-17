@@ -235,7 +235,26 @@ def fetch_goodprice():
         print("[goodprice] 내려받기 실패, 기존 파일 사용:", e)
 
 
-NONFOOD = re.compile(r"미용|이용|세탁|목욕|사우나|숙박|모텔|여관|호텔|펜션|PC|피씨|노래|당구|사진|안경|수선|세차|정비|헬스|체육|학원|약국|의원|수리|인쇄|꽃")
+NONFOOD = re.compile(r"미용|이용|세탁|목욕|사우나|숙박|모텔|여관|호텔|펜션|PC|피씨|노래|당구|사진|안경|수선|세차|정비|헬스|체육|학원|약국|의원|수리|인쇄|꽃|필라테스|요가|피트니스|휘트니스|스포츠|볼링|탁구|골프|수영|태권도|댄스|네일|피부|마사지|빨래|코인|스튜디오|문구|철물|열쇠|부동산|서비스업")
+# 메뉴명으로 걸러냄 (업종 칸이 '기타'로 돼 있어도 헬스·강습 등은 제외)
+NONFOOD_MENU = re.compile(r"헬스|필라테스|요가|강습|수강|이용료|입장료|회원권|커트|컷트|파마|염색|세탁|드라이클리닝|목욕|숙박|1박|PT\b")
+
+
+def per_person(menu, price):
+    """'한상차림(4인)'·'2인분' 같은 여러 명 메뉴는 1인 가격으로 환산 (예산 필터·표시용)"""
+    if not menu or not price:
+        return price
+    m = re.search(r"(\d+)\s*인(?:분|상|세트)?", menu)
+    n = int(m.group(1)) if m else 1
+    return round(price / n / 100) * 100 if 2 <= n <= 10 else price
+
+
+def is_food(store):
+    """음식점·카페가 아닌 가게(헬스장·미용실 등)를 마지막에 한 번 더 거름"""
+    full = store.get("cat_full") or ""
+    if full and not full.startswith("음식점"):
+        return False
+    return not (NONFOOD.search(store.get("cat") or "") or NONFOOD_MENU.search(store.get("menu") or ""))
 
 
 def good_rows(rows):
@@ -246,13 +265,15 @@ def good_rows(rows):
         name = (r.get("업소명") or r.get("상호") or "").strip()
         if not name or NONFOOD.search(r.get("업종") or ""):
             continue
+        if NONFOOD_MENU.search(" ".join(str(r.get(c) or "") for c in MENU_COLS)):
+            continue
         menu = next((r[c].strip() for c in MENU_COLS if r.get(c)), None)
         price = next((r[c] for c in PRICE_COLS if r.get(c)), None)
         price = int(re.sub(r"[^0-9]", "", price)) if price and re.sub(r"[^0-9]", "", price) else None
         addr = (r.get("주소") or r.get("소재지") or r.get("도로명주소") or "").strip()
         if r.get("시도") and not addr.startswith(r["시도"][:2]):
             addr = f"{r['시도']} {r.get('시군', '')} {addr}".strip()
-        out.append({"name": name, "addr": addr, "menu": menu, "price": price})
+        out.append({"name": name, "addr": addr, "menu": menu, "price": per_person(menu, price)})
     return out
 
 
@@ -313,7 +334,7 @@ def add_unmatched_goods(stores, goods, key):
             cache[ck] = d and {"id": d["id"], "x": d["x"], "y": d["y"], "cat": d.get("category_name", ""),
                                "url": d.get("place_url"), "addr": d.get("road_address_name") or d.get("address_name", "")}
         d = cache[ck]
-        if not d:
+        if not d or not d["cat"].startswith("음식점"):     # 카카오 분류가 음식점·카페가 아니면 제외 (헬스장 등)
             continue
         lat, lng = float(d["y"]), float(d["x"])
         ak, dm = min(((k, dist_m(a["lat"], a["lng"], lat, lng)) for k, a in AREAS.items()), key=lambda t: t[1])
@@ -434,6 +455,10 @@ def select_stores(stores, naver):
 
 
 def write_outputs(keep, now, sample=False):
+    keep = [s for s in keep if is_food(s)]
+    for s in keep:                                   # 이전에 저장된 여러 명 메뉴 가격도 1인 기준으로
+        if s.get("price"):
+            s["price"] = per_person(s.get("menu"), s["price"])
     (DATA / "r").mkdir(parents=True, exist_ok=True)
     stamp = now.isoformat(timespec="minutes")
     counts, goods = {}, {}
