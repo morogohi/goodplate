@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-17T22:10+09:00",
+ "generated_at": "2026-11-17T22:15+09:00",
  "stores": [
   {
    "id": "k17822344",
@@ -96,7 +96,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 13,
+    "yt": 14,
     "blog": 0,
     "insta": 0
    },

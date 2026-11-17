@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongbuk",
- "generated_at": "2026-11-17T22:10+09:00",
+ "generated_at": "2026-11-17T22:15+09:00",
  "stores": [
   {
    "id": "k9935399",
@@ -175,7 +175,7 @@
    "lng": 129.211875768786,
    "place_url": "http://place.map.kakao.com/15573811",
    "menu": "오삼불고기(밥 포함) ※2인 이상",
-   "price": 2800,
+   "price": 5500,
    "emoji": "🍚",
    "good": "price",
    "src": {

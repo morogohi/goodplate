@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-17T22:10+09:00",
+ "generated_at": "2026-11-17T22:15+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -129,7 +129,7 @@
    "lng": 127.430514205715,
    "place_url": "http://place.map.kakao.com/11130578",
    "menu": "오징어찌개(2인이상)",
-   "price": 1800,
+   "price": 3500,
    "good": "price",
    "emoji": "🥘",
    "src": {
@@ -152,7 +152,7 @@
    "lng": 127.422721989061,
    "place_url": "http://place.map.kakao.com/19489147",
    "menu": "샤브만두전골(2인이상)",
-   "price": 2500,
+   "price": 5000,
    "good": "price",
    "emoji": "🍙",
    "src": {
@@ -634,7 +634,7 @@
    "lng": 127.417282891661,
    "place_url": "http://place.map.kakao.com/8570230",
    "menu": "풍미세트(김치찌개+제육볶음 2~3인)",
-   "price": 3100,
+   "price": 9300,
    "emoji": "🥩",
    "good": "price",
    "src": {
@@ -680,7 +680,7 @@
    "lng": 127.40671178122825,
    "place_url": "http://place.map.kakao.com/10339462",
    "menu": "제육볶음(2인)",
-   "price": 5000,
+   "price": 10000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -703,7 +703,7 @@
    "lng": 127.41111990857,
    "place_url": "http://place.map.kakao.com/8466342",
    "menu": "제육볶음(2인)",
-   "price": 5500,
+   "price": 11000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -1830,7 +1830,7 @@
    "lng": 127.423159977558,
    "place_url": "http://place.map.kakao.com/22017727",
    "menu": "백반(2인 이상)",
-   "price": 1200,
+   "price": 2500,
    "emoji": "🍚",
    "good": "price",
    "src": {

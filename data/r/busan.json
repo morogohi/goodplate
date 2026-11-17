@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-17T22:10+09:00",
+ "generated_at": "2026-11-17T22:15+09:00",
  "stores": [
   {
    "id": "k10070964",
@@ -702,7 +702,7 @@
    "lng": 129.040937343432,
    "place_url": "http://place.map.kakao.com/11600929",
    "menu": "장어구이(2인)",
-   "price": 6000,
+   "price": 12000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -1898,7 +1898,7 @@
    "lng": 129.027558942778,
    "place_url": "http://place.map.kakao.com/1732730821",
    "menu": "쪽갈비(2인분)",
-   "price": 6500,
+   "price": 13000,
    "emoji": "🥩",
    "good": "price",
    "src": {

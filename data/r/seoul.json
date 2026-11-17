@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "seoul",
- "generated_at": "2026-11-17T22:10+09:00",
+ "generated_at": "2026-11-17T22:15+09:00",
  "stores": [
   {
    "id": "k21326655",
@@ -3033,7 +3033,7 @@
    "lng": 126.982699314428,
    "place_url": "http://place.map.kakao.com/373074764",
    "menu": "서울풍경정식(제육뚝불고등어조림된장찌개)(점심2인이상)",
-   "price": 4000,
+   "price": 8000,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -6016,7 +6016,7 @@
    "lng": 127.018474500426,
    "place_url": "http://place.map.kakao.com/15722405",
    "menu": "김치찌개2인분",
-   "price": 4000,
+   "price": 8000,
    "emoji": "🥘",
    "good": "price",
    "src": {

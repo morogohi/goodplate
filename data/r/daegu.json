@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daegu",
- "generated_at": "2026-11-17T22:10+09:00",
+ "generated_at": "2026-11-17T22:15+09:00",
  "stores": [
   {
    "id": "k21227749",
@@ -2482,7 +2482,7 @@
    "lng": 128.603152145921,
    "place_url": "http://place.map.kakao.com/16636701",
    "menu": "순살찜닭 2인분(350g)",
-   "price": 4800,
+   "price": 9500,
    "emoji": "🥩",
    "good": "price",
    "src": {
@@ -2919,7 +2919,7 @@
    "lng": 128.573222913235,
    "place_url": "http://place.map.kakao.com/1589359582",
    "menu": "돼지두루치기(2인분)",
-   "price": 4800,
+   "price": 9500,
    "emoji": "🍚",
    "good": "price",
    "src": {

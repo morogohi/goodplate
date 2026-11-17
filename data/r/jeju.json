@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-17T22:10+09:00",
+ "generated_at": "2026-11-17T22:15+09:00",
  "stores": [
   {
    "id": "k9797621",
@@ -298,7 +298,7 @@
    "lng": 126.51961958039796,
    "place_url": "http://place.map.kakao.com/1570922473",
    "menu": "뼈없는 은갈치조림한상(2인)",
-   "price": 8800,
+   "price": 17500,
    "emoji": "🍚",
    "good": "price",
    "src": {
@@ -344,7 +344,7 @@
    "lng": 126.51801717541025,
    "place_url": "http://place.map.kakao.com/1736645427",
    "menu": "모듬세트(4인)",
-   "price": 4300,
+   "price": 17200,
    "emoji": "🥩",
    "good": "price",
    "src": {
@@ -2100,7 +2100,7 @@
    "lng": 126.521640978761,
    "place_url": "http://place.map.kakao.com/10457838",
    "menu": "정식(2인이상)",
-   "price": 2000,
+   "price": 4000,
    "emoji": "🍚",
    "good": "price",
    "src": {
