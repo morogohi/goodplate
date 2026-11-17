@@ -43,7 +43,7 @@ with sync_playwright() as p:
     # Google Play 그래픽 이미지 1024x500
     pg=b.new_page(viewport={'width':1024,'height':500})
     pg.set_content("""<html><body style="margin:0;width:1024px;height:500px;background:#F6F4F0;font-family:'Noto Sans KR',sans-serif;display:flex;align-items:center;gap:40px;padding:0 70px;box-sizing:border-box">
-    <svg width="150" height="150" viewBox="0 0 32 32"><rect width="32" height="32" rx="9" fill="#1F6F5C"/><path d="M9 23c0-8 5.5-13.5 14.5-13.5C22.5 18.5 17 23 9 23z" fill="#fff"/><path d="M9 23l8-8" stroke="#1F6F5C" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <svg width="150" height="150" viewBox="0 0 1024 1024"><rect width="1024" height="1024" rx="230" fill="#1F6F5C"/><path d="M512 872 C430 768 278 628 278 446 A234 234 0 1 1 746 446 C746 628 594 768 512 872 Z" fill="#FFFFFF"/><path d="M346 452 H678 A166 150 0 0 1 346 452 Z" fill="#E8613C"/><path d="M378 452 A134 112 0 0 1 646 452 Z" fill="#F3E3C6"/><path d="M520 344 C540 290 600 262 652 268 C648 322 604 362 548 364 Z" fill="#1F6F5C"/><path d="M528 360 L600 300" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/></svg>
     <div><div style="font-size:64px;font-weight:800;letter-spacing:-3px;color:#16181D">착한맛자랑</div><div style="font-size:30px;color:#1F6F5C;font-weight:700;margin-top:6px">착한 한 끼로 떠나는 우리 동네 여행</div><div style="font-size:22px;color:#7E818A;margin-top:10px">전국 착한가게 · 맛집 · 여행코스 | 무료 공익 서비스</div></div></body></html>""")
     pg.screenshot(path=str(ROOT/'store/feature-graphic.png'))
     b.close()
