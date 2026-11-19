@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k17822344",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -81,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -101,6 +101,13 @@
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "조치원 숨겨진 백반 맛집🍚#한솥식당#조치원맛집 #청주근교맛집 #청주맛집 #맛집소개유투버",
+     "url": "https://www.youtube.com/watch?v=y3fSLZ1htj0",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "내돈내산) 부산에 이재모가 있다면 조치원에 카티지가 있다..! 전화 100통해야 먹을 수 있는 집.. #카티지피자 #이재모피자 #조치원맛집 #청",
@@ -147,13 +154,6 @@
      "src": "yt",
      "title": "소식은 무슨,  야무진 순두부 한 상!          #조치원역맛집 #조치원역밥집 #세종전통시장맛집 #고려대세종캠퍼스맛집 #조치원역점심",
      "url": "https://www.youtube.com/watch?v=abfJrkxdKNY",
-     "date": "2026-11-14",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "조치원에서 순두부 한 그릇 시켰는데, 순두부보다 상이 먼저 꽉 찼어요🔥",
-     "url": "https://www.youtube.com/watch?v=-kFDpWnC5Hg",
      "date": "2026-11-14",
      "sponsored": false
     }
@@ -580,16 +580,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k380251220",
+   "id": "k172618246",
    "area": "jochiwon",
-   "name": "덕윤당",
-   "cat": "일식",
-   "addr": "세종특별자치시 조치원읍 으뜸길 197",
-   "lat": 36.6003224731373,
-   "lng": 127.296830959003,
-   "place_url": "http://place.map.kakao.com/380251220",
+   "name": "양평칼국수",
+   "cat": "칼국수",
+   "addr": "세종특별자치시 조치원읍 침산로 4",
+   "lat": 36.6009956869649,
+   "lng": 127.290589332594,
+   "place_url": "http://place.map.kakao.com/172618246",
    "good": null,
-   "emoji": "🍱",
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -622,16 +622,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k172618246",
+   "id": "k380251220",
    "area": "jochiwon",
-   "name": "양평칼국수",
-   "cat": "칼국수",
-   "addr": "세종특별자치시 조치원읍 침산로 4",
-   "lat": 36.6009956869649,
-   "lng": 127.290589332594,
-   "place_url": "http://place.map.kakao.com/172618246",
+   "name": "덕윤당",
+   "cat": "일식",
+   "addr": "세종특별자치시 조치원읍 으뜸길 197",
+   "lat": 36.6003224731373,
+   "lng": 127.296830959003,
+   "place_url": "http://place.map.kakao.com/380251220",
    "good": null,
-   "emoji": "🍜",
+   "emoji": "🍱",
    "src": {
     "yt": 0,
     "blog": 0,

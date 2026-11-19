@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungnam",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k904041132",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -44,11 +44,18 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 4,
+    "yt": 5,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "#공주여행 #공주맛집 #공산성 #피탕김탕 #부자떡집",
+     "url": "https://www.youtube.com/watch?v=6u4eUGNouoI",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "공주 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
@@ -79,7 +86,7 @@
     }
    ],
    "kw": [],
-   "last": 0,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -115,7 +122,7 @@
     }
    ],
    "kw": [],
-   "last": 0,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -144,7 +151,7 @@
     }
    ],
    "kw": [],
-   "last": 0,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -196,7 +203,7 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -225,7 +232,7 @@
     }
    ],
    "kw": [],
-   "last": 0,
+   "last": 2,
    "first_seen": "2026-11-17"
   },
   {
@@ -679,11 +686,18 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "#경주여행  #양동마을가을여행 #은행나무가있는풍경 #유네스코세계문화유산 #경주가볼만한곳 #한옥 #초가집 #가을여행 # #경주맛집 #경주여행코스 ",
+     "url": "https://www.youtube.com/watch?v=p7XOmvG7UFI",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "차가운 줄 알았는데? 따뜻하게 비벼 먹는 공주 비빔칼국수",
@@ -693,7 +707,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -921,14 +935,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k27252729",
+   "id": "k1825916113",
    "area": "gongju",
-   "name": "개성집",
-   "cat": "해물,생선",
-   "addr": "충남 공주시 미나리3길 6-5",
-   "lat": 36.4634790865989,
-   "lng": 127.122517136226,
-   "place_url": "http://place.map.kakao.com/27252729",
+   "name": "촌정선곤드레밥",
+   "cat": "한정식",
+   "addr": "충남 공주시 백미고을길 14-1",
+   "lat": 36.46557773076439,
+   "lng": 127.12179747246054,
+   "place_url": "http://place.map.kakao.com/1825916113",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -942,14 +956,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1825916113",
+   "id": "k27252729",
    "area": "gongju",
-   "name": "촌정선곤드레밥",
-   "cat": "한정식",
-   "addr": "충남 공주시 백미고을길 14-1",
-   "lat": 36.46557773076439,
-   "lng": 127.12179747246054,
-   "place_url": "http://place.map.kakao.com/1825916113",
+   "name": "개성집",
+   "cat": "해물,생선",
+   "addr": "충남 공주시 미나리3길 6-5",
+   "lat": 36.4634790865989,
+   "lng": 127.122517136226,
+   "place_url": "http://place.map.kakao.com/27252729",
    "good": null,
    "emoji": "🍚",
    "src": {

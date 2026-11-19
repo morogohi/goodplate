@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "incheon",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k9175466",
@@ -15,11 +15,18 @@
    "good": null,
    "emoji": "🥟",
    "src": {
-    "yt": 2,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "인천 개항장 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=Ux0R-b4ZAHE",
+     "date": "2026-11-17",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "인천 차이나타운 신승반점 | 대기표 118번, 노른자 터뜨려 비비는 유니짜장",
@@ -36,7 +43,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -51,11 +58,18 @@
    "good": null,
    "emoji": "🥟",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "인천 개항장 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=Ux0R-b4ZAHE",
+     "date": "2026-11-17",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "공갈빵 사러 들어갔다 양손 가득 들고나온 이유? 인천 차이나타운 구구만다복 솔직후기",
@@ -65,7 +79,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -94,7 +108,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -109,21 +123,28 @@
    "good": null,
    "emoji": "🥘",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
-     "title": "나이 드니까 입맛이 바뀌네요(Feat.빨래방)",
+     "title": "#인천맛집 #인천맛집추천 #인천노포맛집#신포동맛집#김치찌게맛집",
+     "url": "https://www.youtube.com/watch?v=PkkKafMHXRU",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "입맛을 사로잡는 찐노포 백반 모음(Feat.빨래방)",
      "url": "https://www.youtube.com/watch?v=4WzF6v_cfio",
      "date": "2026-11-14",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -147,6 +168,64 @@
    "mentions": [],
    "kw": [],
    "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9433427",
+   "area": "gaehang",
+   "name": "태화원",
+   "cat": "중국요리",
+   "addr": "인천 제물포구 차이나타운로59번길 10",
+   "lat": 37.47402887194698,
+   "lng": 126.61856842488434,
+   "place_url": "http://place.map.kakao.com/9433427",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "인천 개항장 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=Ux0R-b4ZAHE",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k7983810",
+   "area": "gaehang",
+   "name": "십리향",
+   "cat": "간식",
+   "addr": "인천 제물포구 차이나타운로 50-2",
+   "lat": 37.47509288652362,
+   "lng": 126.6188252967364,
+   "place_url": "http://place.map.kakao.com/7983810",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "인천 개항장 한 끼, 메뉴로 고르는 맛집 10곳 #Shorts",
+     "url": "https://www.youtube.com/watch?v=Ux0R-b4ZAHE",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -198,7 +277,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 11,
    "first_seen": "2026-11-16"
   },
   {
@@ -273,7 +352,7 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -302,7 +381,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 12,
    "first_seen": "2026-11-14"
   },
   {
@@ -333,7 +412,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 5,
    "first_seen": "2026-11-16"
   },
   {
@@ -387,7 +466,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 5,
    "first_seen": "2026-11-16"
   },
   {
@@ -1257,13 +1336,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "해운대에 24시 자연산 회마트가 있다고?🐟",
+     "url": "https://www.youtube.com/watch?v=rOTIMmk87IU",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1672,48 +1759,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k9433427",
-   "area": "gaehang",
-   "name": "태화원",
-   "cat": "중국요리",
-   "addr": "인천 제물포구 차이나타운로59번길 10",
-   "lat": 37.47402887194698,
-   "lng": 126.61856842488434,
-   "place_url": "http://place.map.kakao.com/9433427",
-   "good": null,
-   "emoji": "🥟",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k7983810",
-   "area": "gaehang",
-   "name": "십리향",
-   "cat": "간식",
-   "addr": "인천 제물포구 차이나타운로 50-2",
-   "lat": 37.47509288652362,
-   "lng": 126.6188252967364,
-   "place_url": "http://place.map.kakao.com/7983810",
-   "good": null,
-   "emoji": "🍽️",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k1079632374",
    "area": "gaehang",
    "name": "온센 신포점",
@@ -1840,14 +1885,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1191336831",
+   "id": "k765416512",
    "area": "gaehang",
-   "name": "관동오리진",
+   "name": "위크엔드 라운지 자유공원점",
    "cat": "카페",
-   "addr": "인천 제물포구 신포로27번길 96",
-   "lat": 37.47384187360243,
-   "lng": 126.62065513927418,
-   "place_url": "http://place.map.kakao.com/1191336831",
+   "addr": "인천 제물포구 송학로 63",
+   "lat": 37.4748490028739,
+   "lng": 126.624827286032,
+   "place_url": "http://place.map.kakao.com/765416512",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -1861,14 +1906,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k765416512",
+   "id": "k1191336831",
    "area": "gaehang",
-   "name": "위크엔드 라운지 자유공원점",
+   "name": "관동오리진",
    "cat": "카페",
-   "addr": "인천 제물포구 송학로 63",
-   "lat": 37.4748490028739,
-   "lng": 126.624827286032,
-   "place_url": "http://place.map.kakao.com/765416512",
+   "addr": "인천 제물포구 신포로27번길 96",
+   "lat": 37.47384187360243,
+   "lng": 126.62065513927418,
+   "place_url": "http://place.map.kakao.com/1191336831",
    "good": null,
    "emoji": "☕",
    "src": {

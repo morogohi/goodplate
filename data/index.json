@@ -1,10 +1,10 @@
 {
  "sample": false,
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "regions": {
   "seoul": {
    "name": "서울",
-   "count": 478,
+   "count": 482,
    "good": 327,
    "areas": {
     "jongno-gwanghwamun": {
@@ -46,7 +46,7 @@
   },
   "busan": {
    "name": "부산",
-   "count": 213,
+   "count": 212,
    "good": 171,
    "areas": {
     "nampo": {
@@ -111,7 +111,7 @@
   },
   "ulsan": {
    "name": "울산",
-   "count": 80,
+   "count": 79,
    "good": 58,
    "areas": {
     "seongnam": {
@@ -147,7 +147,7 @@
   },
   "gangwon": {
    "name": "강원",
-   "count": 57,
+   "count": 58,
    "good": 33,
    "areas": {
     "gangneung": {
@@ -183,7 +183,7 @@
   },
   "jeonbuk": {
    "name": "전북",
-   "count": 49,
+   "count": 48,
    "good": 24,
    "areas": {
     "jeonju-hanok": {
@@ -195,8 +195,8 @@
   },
   "jeonnam": {
    "name": "전남",
-   "count": 65,
-   "good": 42,
+   "count": 63,
+   "good": 41,
    "areas": {
     "yeosu": {
      "name": "여수 이순신광장",
@@ -219,7 +219,7 @@
   },
   "gyeongnam": {
    "name": "경남",
-   "count": 61,
+   "count": 62,
    "good": 39,
    "areas": {
     "tongyeong": {
@@ -231,7 +231,7 @@
   },
   "jeju": {
    "name": "제주",
-   "count": 156,
+   "count": 159,
    "good": 115,
    "areas": {
     "jeju-city": {

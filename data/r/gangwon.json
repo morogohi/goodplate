@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k8606955",
@@ -22,14 +22,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "전지적 작가시점 강릉맛집-해성집",
+     "title": "전지적 작가시점 강릉맛집-4 해성집",
      "url": "https://www.youtube.com/watch?v=G_ms6F8G2sY",
      "date": "2026-11-16",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 12,
    "first_seen": "2026-11-14"
   },
   {
@@ -139,7 +139,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -156,13 +156,21 @@
    "good": "price",
    "emoji": "🍜",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "삼천 원으로 한 끼, 아직 되는 시장 식당 세 곳 #shorts",
+     "url": "https://www.youtube.com/watch?v=LjhTa8K-cM8",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -191,8 +199,37 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 9,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1467066954",
+   "area": "gangneung",
+   "name": "원조소문난무침회",
+   "cat": "회",
+   "addr": "강원특별자치도 강릉시 중앙시장1길 17",
+   "lat": 37.7538155388737,
+   "lng": 128.899386550543,
+   "place_url": "http://place.map.kakao.com/1467066954",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "속초갔는데 이 매장 앞에만 사람이 바글바글 #원조소문난무침회",
+     "url": "https://www.youtube.com/watch?v=utit3mf8Nz0",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-19"
   },
   {
    "id": "k10665079",
@@ -220,7 +257,7 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -256,7 +293,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -299,7 +336,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -891,13 +928,21 @@
    "emoji": "☕",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부산 해운대 청사포 카페 어디까지 가봤어? 지금 여기가 가장 유명한 오션뷰 카페인데 #콘라떼 #해운대",
+     "url": "https://www.youtube.com/watch?v=_kljuyIC3jg",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1121,16 +1166,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k112760187",
+   "id": "k9072806",
    "area": "gangneung",
-   "name": "강릉꼬막집 독도네본점",
-   "cat": "한식",
-   "addr": "강원특별자치도 강릉시 옥천로 47",
-   "lat": 37.75934295376065,
-   "lng": 128.90045722247197,
-   "place_url": "http://place.map.kakao.com/112760187",
+   "name": "벌집",
+   "cat": "국수",
+   "addr": "강원특별자치도 강릉시 경강로2069번길 15",
+   "lat": 37.75449507584071,
+   "lng": 128.8928187004322,
+   "place_url": "http://place.map.kakao.com/9072806",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1142,16 +1187,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k9072806",
+   "id": "k112760187",
    "area": "gangneung",
-   "name": "벌집",
-   "cat": "국수",
-   "addr": "강원특별자치도 강릉시 경강로2069번길 15",
-   "lat": 37.75449507584071,
-   "lng": 128.8928187004322,
-   "place_url": "http://place.map.kakao.com/9072806",
+   "name": "강릉꼬막집 독도네본점",
+   "cat": "한식",
+   "addr": "강원특별자치도 강릉시 옥천로 47",
+   "lat": 37.75934295376065,
+   "lng": 128.90045722247197,
+   "place_url": "http://place.map.kakao.com/112760187",
    "good": null,
-   "emoji": "🍜",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

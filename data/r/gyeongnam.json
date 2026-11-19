@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k1620566882",
@@ -24,35 +24,6 @@
    "mentions": [],
    "kw": [],
    "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k10468843",
-   "area": "tongyeong",
-   "name": "부일식당",
-   "cat": "복어",
-   "addr": "경남 통영시 서호시장길 45",
-   "lat": 34.84122401826879,
-   "lng": 128.42050990154388,
-   "place_url": "http://place.map.kakao.com/10468843",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "맛집VLOG)전국 해산물 원산지 통영으로~! 다찌집 완벽성공🍣부일식당+미정해물탕+몸과마음+토담실비+통영원조호떡+피엘씨치킨+한산섬식당+카페녘+백만",
-     "url": "https://www.youtube.com/watch?v=T4UEn11QJDk",
-     "date": "2026-11-10",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -81,7 +52,36 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 9,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k10468843",
+   "area": "tongyeong",
+   "name": "부일식당",
+   "cat": "복어",
+   "addr": "경남 통영시 서호시장길 45",
+   "lat": 34.84122401826879,
+   "lng": 128.42050990154388,
+   "place_url": "http://place.map.kakao.com/10468843",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "맛집VLOG)전국 해산물 원산지 통영으로~! 다찌집 완벽성공🍣부일식당+미정해물탕+몸과마음+토담실비+통영원조호떡+피엘씨치킨+한산섬식당+카페녘+백만",
+     "url": "https://www.youtube.com/watch?v=T4UEn11QJDk",
+     "date": "2026-11-10",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -110,8 +110,37 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 6,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26452059",
+   "area": "tongyeong",
+   "name": "통영밥상갯벌",
+   "cat": "한정식",
+   "addr": "경남 통영시 동충4길 4",
+   "lat": 34.8407704041385,
+   "lng": 128.42176584706,
+   "place_url": "http://place.map.kakao.com/26452059",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "통영에서 굴 한상 제대로 즐기기! 굴 요리 5종에 서비스 굴꼬치까지! 1인 3만 원에 이 정도 한상이라니, 통영에서 기억에 남을 한 끼였어요. ",
+     "url": "https://www.youtube.com/watch?v=MwJSCyXHH9M",
+     "date": "2026-11-17",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-19"
   },
   {
    "id": "k1795781560",
@@ -139,7 +168,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 3,
    "first_seen": "2026-11-17"
   },
   {
@@ -168,7 +197,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 5,
    "first_seen": "2026-11-15"
   },
   {
@@ -323,13 +352,21 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "🍜 통영 북신동 맛집 '오늘도칼국수'보리밥 무한리필이라 강된장과 나물을 넣어 슥슥 비벼 먹는 재미까지! #통영맛집 #통영 #통영현지인맛집 #통영",
+     "url": "https://www.youtube.com/watch?v=md_wTrIAe2I",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1235,14 +1272,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10445065",
+   "id": "k13618032",
    "area": "tongyeong",
-   "name": "산양식당",
-   "cat": "한식",
-   "addr": "경남 통영시 강구안길 29",
-   "lat": 34.844093120806825,
-   "lng": 128.42341913345885,
-   "place_url": "http://place.map.kakao.com/10445065",
+   "name": "통영동해식당",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 항남1길 36",
+   "lat": 34.84159280891259,
+   "lng": 128.42404184542343,
+   "place_url": "http://place.map.kakao.com/13618032",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -1256,14 +1293,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k13618032",
+   "id": "k10445065",
    "area": "tongyeong",
-   "name": "통영동해식당",
-   "cat": "해물,생선",
-   "addr": "경남 통영시 항남1길 36",
-   "lat": 34.84159280891259,
-   "lng": 128.42404184542343,
-   "place_url": "http://place.map.kakao.com/13618032",
+   "name": "산양식당",
+   "cat": "한식",
+   "addr": "경남 통영시 강구안길 29",
+   "lat": 34.844093120806825,
+   "lng": 128.42341913345885,
+   "place_url": "http://place.map.kakao.com/10445065",
    "good": null,
    "emoji": "🍚",
    "src": {

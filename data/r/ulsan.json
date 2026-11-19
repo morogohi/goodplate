@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k434306603",
@@ -29,36 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k16725331",
-   "area": "seongnam",
-   "name": "계원닭집",
-   "cat": "치킨",
-   "addr": "울산 중구 젊음의거리 110",
-   "lat": 35.5543808556256,
-   "lng": 129.323561542307,
-   "place_url": "http://place.map.kakao.com/16725331",
-   "good": null,
-   "emoji": "🍗",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "이게 한 마리라고요?! 진정한 노포맛집 시장통닭 #먹스타그램 #맛집 #부산북구",
-     "url": "https://www.youtube.com/watch?v=wrobHXSrPbQ",
-     "date": "2026-11-04",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 13,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -112,7 +83,7 @@
    "area": "seongnam",
    "name": "단촛물1994",
    "cat": "일식",
-   "addr": "울산 중구 새즈믄해거리 9",
+   "addr": "울산 중구 성남동 93-2",
    "lat": 35.5554349594827,
    "lng": 129.320201354985,
    "place_url": "http://place.map.kakao.com/1272151080",
@@ -133,7 +104,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 4,
    "first_seen": "2026-11-16"
   },
   {
@@ -840,13 +811,21 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "경주 황리단길 맛있는 식사와 쌀십원빵을 한곳에서 해결",
+     "url": "https://www.youtube.com/watch?v=FIwU8KpWUBM",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1467,16 +1446,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10988644",
+   "id": "k465359772",
    "area": "seongnam",
-   "name": "형제식당",
-   "cat": "찌개,전골",
-   "addr": "울산 중구 젊음의거리 68",
-   "lat": 35.55388147923333,
-   "lng": 129.32071890408648,
-   "place_url": "http://place.map.kakao.com/10988644",
+   "name": "손가",
+   "cat": "중국요리",
+   "addr": "울산 중구 문화의거리 14",
+   "lat": 35.5560075874303,
+   "lng": 129.321861915271,
+   "place_url": "http://place.map.kakao.com/465359772",
    "good": null,
-   "emoji": "🥘",
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1488,16 +1467,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k465359772",
+   "id": "k10988644",
    "area": "seongnam",
-   "name": "손가",
-   "cat": "중국요리",
-   "addr": "울산 중구 문화의거리 14",
-   "lat": 35.5560075874303,
-   "lng": 129.321861915271,
-   "place_url": "http://place.map.kakao.com/465359772",
+   "name": "형제식당",
+   "cat": "찌개,전골",
+   "addr": "울산 중구 젊음의거리 68",
+   "lat": 35.55388147923333,
+   "lng": 129.32071890408648,
+   "place_url": "http://place.map.kakao.com/10988644",
    "good": null,
-   "emoji": "🥟",
+   "emoji": "🥘",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1593,16 +1572,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1657182616",
+   "id": "k759598301",
    "area": "seongnam",
-   "name": "피자몰 울산점",
-   "cat": "피자몰",
-   "addr": "울산 중구 젊음의2거리 33",
-   "lat": 35.55318303473123,
-   "lng": 129.3203977511813,
-   "place_url": "http://place.map.kakao.com/1657182616",
+   "name": "심야라멘트럭 울산 성남동점",
+   "cat": "일본식라면",
+   "addr": "울산 중구 중앙1길 7",
+   "lat": 35.55617198691309,
+   "lng": 129.3198289581801,
+   "place_url": "http://place.map.kakao.com/759598301",
    "good": null,
-   "emoji": "🍕",
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1614,16 +1593,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k759598301",
+   "id": "k1657182616",
    "area": "seongnam",
-   "name": "심야라멘트럭 울산 성남동점",
-   "cat": "일본식라면",
-   "addr": "울산 중구 중앙1길 7",
-   "lat": 35.55617198691309,
-   "lng": 129.3198289581801,
-   "place_url": "http://place.map.kakao.com/759598301",
+   "name": "피자몰 울산점",
+   "cat": "피자몰",
+   "addr": "울산 중구 젊음의2거리 33",
+   "lat": 35.55318303473123,
+   "lng": 129.3203977511813,
+   "place_url": "http://place.map.kakao.com/1657182616",
    "good": null,
-   "emoji": "🍜",
+   "emoji": "🍕",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1698,14 +1677,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k26094293",
+   "id": "k11573307",
    "area": "seongnam",
-   "name": "더스위트타이",
-   "cat": "동남아음식",
-   "addr": "울산 중구 중앙길 113",
-   "lat": 35.5557811248839,
-   "lng": 129.319725068358,
-   "place_url": "http://place.map.kakao.com/26094293",
+   "name": "나마스까르",
+   "cat": "인도음식",
+   "addr": "울산 중구 젊음의거리 40-3",
+   "lat": 35.5534167959794,
+   "lng": 129.318973297587,
+   "place_url": "http://place.map.kakao.com/11573307",
    "good": null,
    "emoji": "🍲",
    "src": {
@@ -1716,7 +1695,7 @@
    "mentions": [],
    "kw": [],
    "last": null,
-   "first_seen": "2026-11-14"
+   "first_seen": "2026-11-19"
   },
   {
    "id": "k1218048641",

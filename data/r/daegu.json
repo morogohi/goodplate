@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "daegu",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
+  {
+   "id": "k930928466",
+   "area": "dongseongno",
+   "name": "태산만두 본점",
+   "cat": "분식",
+   "addr": "대구 중구 달구벌대로 2109-32",
+   "lat": 35.86671145934624,
+   "lng": 128.59401496566406,
+   "place_url": "http://place.map.kakao.com/930928466",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "동성로 데이트 코스로 딱인 신상 베트남 맛집 찾았슨 +리뷰이벤트로 생코코넛아이스크림 1개 제공  #포홈 #동성로맛집 #동성로쌀국수 #대구베트남맛",
+     "url": "https://www.youtube.com/watch?v=VdPsc2uHzG4",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k21227749",
    "area": "dongseongno",
@@ -22,14 +51,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "대구까지 가서도 국밥. 그 남자의 #소울푸드 #맛집소개유투버 #맛집 #따로국밥 #국일따로국밥 #대구맛집",
-     "url": "https://www.youtube.com/watch?v=QJV5O_4hxPA",
-     "date": "2026-11-14",
+     "title": "\"1946년부터 80년 이어온 전설의 해장국?! 소고기 선지 특 따로국밥에 토렴 따로국수\" 🥣 대구 '국일따로국밥' 🍜 #노포맛집 #대구맛집",
+     "url": "https://www.youtube.com/watch?v=gw90AJ5n14c",
+     "date": "2026-11-17",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -54,35 +83,6 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k1905739385",
-   "area": "dongseongno",
-   "name": "걸리버막창 종로점",
-   "cat": "곱창,막창",
-   "addr": "대구 중구 종로 45-1",
-   "lat": 35.869841023384,
-   "lng": 128.591236731839,
-   "place_url": "http://place.map.kakao.com/1905739385",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "먹으러 갔다가 반해버린 도시✨ 혼자 대구 1박 2일ㅣ맛집, 알찬 루트 공유",
-     "url": "https://www.youtube.com/watch?v=sFWAb6EO3bA",
-     "date": "2026-11-15",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-17"
   },
   {
    "id": "k26886876",
@@ -110,8 +110,37 @@
     }
    ],
    "kw": [],
-   "last": 0,
+   "last": 2,
    "first_seen": "2026-11-17"
+  },
+  {
+   "id": "k27454688",
+   "area": "dongseongno",
+   "name": "거송갈비찜",
+   "cat": "갈비",
+   "addr": "대구 중구 남성로 40",
+   "lat": 35.867377958826225,
+   "lng": 128.59098266288095,
+   "place_url": "http://place.map.kakao.com/27454688",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "뼈가 쏙 빠지는 소갈비찜｜해운대 달맞이길 거송갈비찜",
+     "url": "https://www.youtube.com/watch?v=7439ENlNMfQ",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-19"
   },
   {
    "id": "k19512117",
@@ -148,7 +177,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -159,17 +188,10 @@
      "url": "https://www.youtube.com/watch?v=ouFkObnTozc",
      "date": "2026-11-15",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "대구 미도다방 쌍화차 100년 맛집",
-     "url": "https://www.youtube.com/watch?v=bSzq0dMPT-4",
-     "date": "2026-11-15",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 4,
    "first_seen": "2026-11-17"
   },
   {
@@ -3290,27 +3312,6 @@
    "place_url": "http://place.map.kakao.com/15380037",
    "good": null,
    "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k930928466",
-   "area": "dongseongno",
-   "name": "태산만두 본점",
-   "cat": "분식",
-   "addr": "대구 중구 달구벌대로 2109-32",
-   "lat": 35.86671145934624,
-   "lng": 128.59401496566406,
-   "place_url": "http://place.map.kakao.com/930928466",
-   "good": null,
-   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,

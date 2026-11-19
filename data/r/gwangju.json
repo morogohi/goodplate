@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -81,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -134,7 +134,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -156,9 +156,9 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "경주에서 밥맛 하나로 승부하는 한식 맛집?! 꽃게 된장찌개부터 직화불고기·돈까스까지 푸짐한 한상! #경주맛집 #경주한식 #경주여행 #나릿길 #경",
-     "url": "https://www.youtube.com/watch?v=BA-_ucoRcFM",
-     "date": "2026-11-16",
+     "title": "경주 황리단길 맛있는 식사와 쌀십원빵을 한곳에서 해결",
+     "url": "https://www.youtube.com/watch?v=FIwU8KpWUBM",
+     "date": "2026-11-18",
      "sponsored": false
     }
    ],
@@ -868,7 +868,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 4,
    "first_seen": "2026-11-16"
   },
   {
@@ -1415,21 +1415,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "백종원의 골목식당 출연! 포항 칼국수 맛집 #포항맛집 #포항칼국수맛집 #국수이야기 #해초해물칼국수 #물가자미비빔국수 #포항여행",
-     "url": "https://www.youtube.com/watch?v=C0fkPrhGO1Y",
-     "date": "2026-11-16",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 1,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1906,11 +1898,18 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "경주 가면 필수💡한우육회물회 & 육회비빔밥 🤤 #경주맛집 #경주함양집 #한우물회 #shorts",
+     "url": "https://www.youtube.com/watch?v=ZjqbQmTlU7M",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "2026년 11월 16일",

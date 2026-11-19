@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -22,6 +22,27 @@
    "mentions": [
     {
      "src": "yt",
+     "title": "\"성심당을 서울 광화문에서?!\"…'빵지순례' 맛집 한자리 'K-베이커리' 축제｜지금 이 쇼츠",
+     "url": "https://www.youtube.com/watch?v=10o3KGVgNQw",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "\"성심당부터 전국 빵 맛집까지! 광화문 빵지순례 제대로 즐기기!\" 2026 K-베이커리 페스티벌 in 광화문에 다녀왔습니다! 드므쌤의 행복한 하",
+     "url": "https://www.youtube.com/watch?v=RRx_Y3E9A2s",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "소녀시대 유리님 제주 빵집부터 제주도 맛집 투어 5곳 #제일성심당 #보령제과 #제주도맛집 #제주살이 #소녀시대유리 #나혼산 #제주도여행",
+     "url": "https://www.youtube.com/watch?v=J3QUtjskBsI",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "대전 1박 2일 완벽 코스! 맛집·카페·숙소까지(정리본/지도 리스트 공유 🗺️)",
      "url": "https://www.youtube.com/watch?v=nmQRKcoR09g",
      "date": "2026-11-16",
@@ -31,13 +52,6 @@
      "src": "yt",
      "title": "#사쿠사쿠 #대전맛집 #대전대흥동맛집 #대전텐동 #텐동맛집 #대전텐동맛집 #성심당근처맛집 #대흥동맛집 #대전빵지순례 #대전여행코스 #대전데이트",
      "url": "https://www.youtube.com/watch?v=NMuwAB6loV0",
-     "date": "2026-11-15",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "대전 당일치기 🚗 #대전 #성심당 #맛집 #일상",
-     "url": "https://www.youtube.com/watch?v=aOHss4H4kmQ",
      "date": "2026-11-15",
      "sponsored": false
     },
@@ -53,20 +67,6 @@
      "title": "#성심당근처맛집#대흥동맛집#달달한밤부엌",
      "url": "https://www.youtube.com/watch?v=fH8xT8oeDtc",
      "date": "2026-11-10",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성심당 근처 역대급 포케 맛집 •• 🤍",
-     "url": "https://www.youtube.com/watch?v=rqCZsVic6zI",
-     "date": "2026-11-07",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성심당에서 빵만 사세요? 2층 피자세트 구성이 대박! 🍕 #대전맛집 #성심당",
-     "url": "https://www.youtube.com/watch?v=VjnnE_Kstx8",
-     "date": "2026-11-05",
      "sponsored": false
     }
    ],
@@ -100,7 +100,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -200,7 +200,7 @@
     }
    ],
    "kw": [],
-   "last": 0,
+   "last": 2,
    "first_seen": "2026-11-17"
   },
   {
@@ -215,11 +215,18 @@
    "good": null,
    "emoji": "🍜",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "since 1961  대전 칼국수 맛집 #맛집소개유투버 #cat",
+     "url": "https://www.youtube.com/watch?v=kz9HuaEnWgU",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "#대전맛집#신도칼국수#먹는행복#맛있는추억",
@@ -229,7 +236,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -258,7 +265,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 5,
    "first_seen": "2026-11-16"
   },
   {
@@ -273,7 +280,7 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 4,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -291,24 +298,10 @@
      "url": "https://www.youtube.com/watch?v=d7meSoZu8EM",
      "date": "2026-11-14",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "혜화에서 참치 머리고기 먹고 싶다면, 한돌참치 | 혜화 추천 맛집 #shorts",
-     "url": "https://www.youtube.com/watch?v=iTVox7Kp9HI",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "[그냥해!은] 부산 토박이 김혜은이 남포동 갈때마다 들리는 찐단골 꼼장어집 최초 공개(feat. 양곱창거리)",
-     "url": "https://www.youtube.com/watch?v=cfo820YY96o",
-     "date": "2026-11-04",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -901,7 +894,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 8,
    "first_seen": "2026-11-16"
   },
   {
@@ -1277,7 +1270,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 8,
    "first_seen": "2026-11-16"
   },
   {
@@ -2100,21 +2093,13 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "강릉중앙시장 장칼국수 옹심이맛집 뚝방국수 중앙시장3길37-2 주차장 네비검색은 강릉중앙시장제1공영주차장#강릉여행#강릉맛집#강릉중앙시장맛집#강릉뚝",
-     "url": "https://www.youtube.com/watch?v=NApir5B3_Jk",
-     "date": "2026-11-06",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 11,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -3154,27 +3139,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10542619",
-   "area": "eunhaeng",
-   "name": "미소본가스마일칼국수",
-   "cat": "칼국수",
-   "addr": "대전 중구 보문로230번길 82",
-   "lat": 36.3244773424123,
-   "lng": 127.427146232981,
-   "place_url": "http://place.map.kakao.com/10542619",
-   "good": null,
-   "emoji": "🍜",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k10594540",
    "area": "eunhaeng",
    "name": "아저씨돈까스",
@@ -3194,6 +3158,27 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8038484",
+   "area": "eunhaeng",
+   "name": "월산본가",
+   "cat": "갈비",
+   "addr": "대전 중구 대종로 455",
+   "lat": 36.32529611567417,
+   "lng": 127.42750930525692,
+   "place_url": "http://place.map.kakao.com/8038484",
+   "good": null,
+   "emoji": "🥩",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-19"
   },
   {
    "id": "k457559512",

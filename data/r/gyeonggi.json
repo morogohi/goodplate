@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-17T22:22+09:00",
+ "generated_at": "2026-11-19T10:01+09:00",
  "stores": [
   {
    "id": "k7970465",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -69,21 +69,13 @@
    "good": "price",
    "emoji": "🍜",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "수원 행궁동 무려 57년된 노포 칼국수집 대왕칼국수",
-     "url": "https://www.youtube.com/watch?v=3HA5uLhpjMQ",
-     "date": "2026-11-08",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 9,
+   "last": null,
    "first_seen": "2026-11-14"
   },
   {
@@ -112,7 +104,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -150,7 +142,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 3,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -168,17 +160,10 @@
      "url": "https://www.youtube.com/watch?v=y0OM30sTuCI",
      "date": "2026-11-11",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "✶ 행궁동 VLOG ✶ 츄플러스 I 브리셀프라이 I 행궁동분좋카 I 행궁동맛집 I 행궁동코스 I 행궁동코스추천",
-     "url": "https://www.youtube.com/watch?v=RKgY_rL37Cw",
-     "date": "2026-11-08",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -207,7 +192,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -1121,7 +1106,7 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -1132,17 +1117,10 @@
      "url": "https://www.youtube.com/watch?v=fw1-D8SGyT0",
      "date": "2026-11-06",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "강릉중앙시장 장칼국수 옹심이맛집 뚝방국수 중앙시장3길37-2 주차장 네비검색은 강릉중앙시장제1공영주차장#강릉여행#강릉맛집#강릉중앙시장맛집#강릉뚝",
-     "url": "https://www.youtube.com/watch?v=NApir5B3_Jk",
-     "date": "2026-11-06",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 13,
    "first_seen": "2026-11-16"
   },
   {
@@ -1274,21 +1252,13 @@
    "emoji": "🍲",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "해운대 국밥은 여기서 끝냈다 🍲 오래국밥",
-     "url": "https://www.youtube.com/watch?v=SM-jm9k4hzk",
-     "date": "2026-11-16",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 1,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1650,21 +1620,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "짬뽕인데 면이 없다고?! 경주 남정부일기사식당 먹고 남산까지!",
-     "url": "https://www.youtube.com/watch?v=81MLbD4v2RU",
-     "date": "2026-11-16",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 1,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1754,16 +1716,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1102998606",
+   "id": "k406816688",
    "area": "suwon-haenggung",
-   "name": "송연",
-   "cat": "한식",
-   "addr": "경기 수원시 팔달구 신풍로23번길 28",
-   "lat": 37.28363826131574,
-   "lng": 127.01340212746284,
-   "place_url": "http://place.map.kakao.com/1102998606",
+   "name": "진미통닭",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 정조로800번길 21",
+   "lat": 37.2796604471175,
+   "lng": 127.018105732851,
+   "place_url": "http://place.map.kakao.com/406816688",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍗",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1775,16 +1737,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k406816688",
+   "id": "k1102998606",
    "area": "suwon-haenggung",
-   "name": "진미통닭",
-   "cat": "치킨",
-   "addr": "경기 수원시 팔달구 정조로800번길 21",
-   "lat": 37.2796604471175,
-   "lng": 127.018105732851,
-   "place_url": "http://place.map.kakao.com/406816688",
+   "name": "송연",
+   "cat": "한식",
+   "addr": "경기 수원시 팔달구 신풍로23번길 28",
+   "lat": 37.28363826131574,
+   "lng": 127.01340212746284,
+   "place_url": "http://place.map.kakao.com/1102998606",
    "good": null,
-   "emoji": "🍗",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1859,16 +1821,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10745910",
+   "id": "k824778682",
    "area": "suwon-haenggung",
-   "name": "입주집",
-   "cat": "곱창,막창",
-   "addr": "경기 수원시 팔달구 팔달문로3번길 37",
-   "lat": 37.2793190247019,
-   "lng": 127.017630937299,
-   "place_url": "http://place.map.kakao.com/10745910",
+   "name": "얼티튜드",
+   "cat": "이탈리안",
+   "addr": "경기 수원시 팔달구 화서문로45번길 9",
+   "lat": 37.285699919136,
+   "lng": 127.012670627871,
+   "place_url": "http://place.map.kakao.com/824778682",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🍝",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1880,16 +1842,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k824778682",
+   "id": "k10745910",
    "area": "suwon-haenggung",
-   "name": "얼티튜드",
-   "cat": "이탈리안",
-   "addr": "경기 수원시 팔달구 화서문로45번길 9",
-   "lat": 37.285699919136,
-   "lng": 127.012670627871,
-   "place_url": "http://place.map.kakao.com/824778682",
+   "name": "입주집",
+   "cat": "곱창,막창",
+   "addr": "경기 수원시 팔달구 팔달문로3번길 37",
+   "lat": 37.2793190247019,
+   "lng": 127.017630937299,
+   "place_url": "http://place.map.kakao.com/10745910",
    "good": null,
-   "emoji": "🍝",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1922,16 +1884,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k26018235",
+   "id": "k10340916",
    "area": "suwon-haenggung",
-   "name": "돌판짜장 짜마",
-   "cat": "중식",
-   "addr": "경기 수원시 팔달구 화서문로 39",
-   "lat": 37.28524673710904,
-   "lng": 127.01228601484969,
-   "place_url": "http://place.map.kakao.com/26018235",
+   "name": "매향통닭",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 수원천로 317",
+   "lat": 37.281680610781045,
+   "lng": 127.01788971346272,
+   "place_url": "http://place.map.kakao.com/10340916",
    "good": null,
-   "emoji": "🥟",
+   "emoji": "🍗",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1943,16 +1905,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10340916",
+   "id": "k26018235",
    "area": "suwon-haenggung",
-   "name": "매향통닭",
-   "cat": "치킨",
-   "addr": "경기 수원시 팔달구 수원천로 317",
-   "lat": 37.281680610781045,
-   "lng": 127.01788971346272,
-   "place_url": "http://place.map.kakao.com/10340916",
+   "name": "돌판짜장 짜마",
+   "cat": "중식",
+   "addr": "경기 수원시 팔달구 화서문로 39",
+   "lat": 37.28524673710904,
+   "lng": 127.01228601484969,
+   "place_url": "http://place.map.kakao.com/26018235",
    "good": null,
-   "emoji": "🍗",
+   "emoji": "🥟",
    "src": {
     "yt": 0,
     "blog": 0,
