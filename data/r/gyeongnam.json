@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongnam",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k1620566882",
@@ -52,7 +52,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -81,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -110,7 +110,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -125,11 +125,18 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "통영에서 굴요리 한상 제대로 먹고 왔어요!🦪굴꼬치부터 굴버터구이, 굴솥밥까지 전부 맛있었던 곳😋#통영밥상갯벌 #통영맛집 #통영굴요리 #통영여행 ",
+     "url": "https://www.youtube.com/watch?v=pN1OyNZZhWM",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "통영에서 굴 한상 제대로 즐기기! 굴 요리 5종에 서비스 굴꼬치까지! 1인 3만 원에 이 정도 한상이라니, 통영에서 기억에 남을 한 끼였어요. ",
@@ -139,7 +146,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 1,
    "first_seen": "2026-11-19"
   },
   {
@@ -168,37 +175,8 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-17"
-  },
-  {
-   "id": "k385457262",
-   "area": "tongyeong",
-   "name": "카페오픈",
-   "cat": "카페",
-   "addr": "경남 통영시 남망공원길 3",
-   "lat": 34.8431935607586,
-   "lng": 128.427115166007,
-   "place_url": "http://place.map.kakao.com/385457262",
-   "good": null,
-   "emoji": "☕",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "8월 성수동 신상 총정리 📣",
-     "url": "https://www.youtube.com/watch?v=poiM-46CMTo",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 5,
-   "first_seen": "2026-11-15"
   },
   {
    "id": "k19052174",
@@ -366,7 +344,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -1272,14 +1250,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k13618032",
+   "id": "k10445065",
    "area": "tongyeong",
-   "name": "통영동해식당",
-   "cat": "해물,생선",
-   "addr": "경남 통영시 항남1길 36",
-   "lat": 34.84159280891259,
-   "lng": 128.42404184542343,
-   "place_url": "http://place.map.kakao.com/13618032",
+   "name": "산양식당",
+   "cat": "한식",
+   "addr": "경남 통영시 강구안길 29",
+   "lat": 34.844093120806825,
+   "lng": 128.42341913345885,
+   "place_url": "http://place.map.kakao.com/10445065",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -1293,14 +1271,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10445065",
+   "id": "k13618032",
    "area": "tongyeong",
-   "name": "산양식당",
-   "cat": "한식",
-   "addr": "경남 통영시 강구안길 29",
-   "lat": 34.844093120806825,
-   "lng": 128.42341913345885,
-   "place_url": "http://place.map.kakao.com/10445065",
+   "name": "통영동해식당",
+   "cat": "해물,생선",
+   "addr": "경남 통영시 항남1길 36",
+   "lat": 34.84159280891259,
+   "lng": 128.42404184542343,
+   "place_url": "http://place.map.kakao.com/13618032",
    "good": null,
    "emoji": "🍚",
    "src": {

@@ -1,6 +1,6 @@
 {
  "sample": false,
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "regions": {
   "seoul": {
    "name": "서울",
@@ -46,7 +46,7 @@
   },
   "busan": {
    "name": "부산",
-   "count": 212,
+   "count": 213,
    "good": 171,
    "areas": {
     "nampo": {
@@ -63,7 +63,7 @@
   },
   "daegu": {
    "name": "대구",
-   "count": 159,
+   "count": 158,
    "good": 137,
    "areas": {
     "dongseongno": {
@@ -75,7 +75,7 @@
   },
   "incheon": {
    "name": "인천",
-   "count": 80,
+   "count": 81,
    "good": 58,
    "areas": {
     "gaehang": {
@@ -123,7 +123,7 @@
   },
   "sejong": {
    "name": "세종",
-   "count": 31,
+   "count": 30,
    "good": 10,
    "areas": {
     "jochiwon": {
@@ -147,7 +147,7 @@
   },
   "gangwon": {
    "name": "강원",
-   "count": 58,
+   "count": 57,
    "good": 33,
    "areas": {
     "gangneung": {
@@ -183,7 +183,7 @@
   },
   "jeonbuk": {
    "name": "전북",
-   "count": 48,
+   "count": 47,
    "good": 24,
    "areas": {
     "jeonju-hanok": {
@@ -195,8 +195,8 @@
   },
   "jeonnam": {
    "name": "전남",
-   "count": 63,
-   "good": 41,
+   "count": 64,
+   "good": 42,
    "areas": {
     "yeosu": {
      "name": "여수 이순신광장",
@@ -219,7 +219,7 @@
   },
   "gyeongnam": {
    "name": "경남",
-   "count": 62,
+   "count": 61,
    "good": 39,
    "areas": {
     "tongyeong": {

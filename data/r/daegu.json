@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daegu",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k930928466",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -110,7 +110,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-17"
   },
   {
@@ -139,7 +139,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-19"
   },
   {
@@ -164,35 +164,6 @@
    "kw": [],
    "last": null,
    "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k7873915",
-   "area": "dongseongno",
-   "name": "미도다방",
-   "cat": "다방",
-   "addr": "대구 중구 진골목길 14",
-   "lat": 35.8680482963436,
-   "lng": 128.592691061827,
-   "place_url": "http://place.map.kakao.com/7873915",
-   "good": null,
-   "emoji": "☕",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "대구 미도다방 쌍화차 맛집",
-     "url": "https://www.youtube.com/watch?v=ouFkObnTozc",
-     "date": "2026-11-15",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 4,
-   "first_seen": "2026-11-17"
   },
   {
    "id": "k1229693640",
@@ -2900,13 +2871,21 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "전현무계획에 이어 경주 계획 들깨 칼국수 #들깨칼국수#전현무#경주맛집",
+     "url": "https://www.youtube.com/watch?v=p7W7PGyKJC4",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {

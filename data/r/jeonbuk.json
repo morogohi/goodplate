@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k8629568",
@@ -36,7 +36,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -100,7 +100,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -129,7 +129,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -158,7 +158,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -187,7 +187,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-15"
   },
   {
@@ -202,7 +202,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -213,17 +213,10 @@
      "url": "https://www.youtube.com/watch?v=pDjNbLUyOTY",
      "date": "2026-11-15",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "[vlog]1박2일 전주여행 🌳 | 또간집 맛집 • 또순이네 • 평화와평화• 전주수목원 • 한벽터널 •오짱 • 전주한옥마을• 현대옥 •플랫메이트",
-     "url": "https://www.youtube.com/watch?v=9ahbnOka2XE",
-     "date": "2026-11-12",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -252,44 +245,8 @@
     }
    ],
    "kw": [],
-   "last": 5,
-   "first_seen": "2026-11-15"
-  },
-  {
-   "id": "k1712272678",
-   "area": "jeonju-hanok",
-   "name": "이르리",
-   "cat": "디저트카페",
-   "addr": "전북특별자치도 전주시 완산구 은행로 69",
-   "lat": 35.813796504416764,
-   "lng": 127.15284613383284,
-   "place_url": "http://place.map.kakao.com/1712272678",
-   "good": null,
-   "emoji": "☕",
-   "src": {
-    "yt": 2,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "전주한옥마을카페 중 제일 넓은 한옥카페, 이르리 가봤습니더",
-     "url": "https://www.youtube.com/watch?v=CHOLGbeiT3A",
-     "date": "2026-11-13",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "전주한옥마을에서 가장 넓은 한옥카페 이르리 무화과크로플 디저트 맛집",
-     "url": "https://www.youtube.com/watch?v=Du7x7ujHpHw",
-     "date": "2026-11-12",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
    "last": 6,
-   "first_seen": "2026-11-14"
+   "first_seen": "2026-11-15"
   },
   {
    "id": "k1693205200",
@@ -595,7 +552,7 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 12,
    "first_seen": "2026-11-16"
   },
   {

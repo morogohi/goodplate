@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 12,
    "first_seen": "2026-11-14"
   },
   {
@@ -81,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -134,7 +134,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -149,16 +149,30 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 1,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
+     "title": "경주 불국사 가는길 보문단지 한식맛집 #맛자랑",
+     "url": "https://www.youtube.com/watch?v=JiAvu8nT4CI",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "경주 황리단길 맛있는 식사와 쌀십원빵을 한곳에서 해결",
      "url": "https://www.youtube.com/watch?v=FIwU8KpWUBM",
      "date": "2026-11-18",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "경주 황리단길 애견동반가능한 퓨전한식! 경주여행시 반려견도 함께해요 #경주 #경주여행 #경주황리단길 #경주애견동반식당 #경주한식",
+     "url": "https://www.youtube.com/watch?v=QrPJ-6ahiSc",
+     "date": "2026-11-14",
      "sponsored": false
     }
    ],
@@ -847,11 +861,18 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "사계절 내내 걷기 좋은 인사동 나들이, 인사동 골목길 맛집&카페투어 12 #인사동맛집#인사동카페#인사동나들이",
+     "url": "https://www.youtube.com/watch?v=ZYu1HJQxd10",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "#연꽃명소 #연꽃축제 #공주연꽃 #메타세쿼이아길 #초록초록 #산책맛집정안생태공원 #생태공원 #메타세콰이어 #shorts",
@@ -868,7 +889,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1919,7 +1940,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {

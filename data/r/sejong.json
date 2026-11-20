@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k17822344",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -56,35 +56,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k240524940",
-   "area": "jochiwon",
-   "name": "세종감자탕",
-   "cat": "감자탕",
-   "addr": "세종특별자치시 조치원읍 장안길 7",
-   "lat": 36.6003216928876,
-   "lng": 127.300379403744,
-   "place_url": "http://place.map.kakao.com/240524940",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "@삶 #삼겹살 #맛집 #먹방 #꼬마철학자 #유튜버 #세종감자탕 #긍정적 #끌어당김의법칙",
-     "url": "https://www.youtube.com/watch?v=O2OasXkJ9NM",
-     "date": "2026-11-10",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 9,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k574541126",
    "area": "jochiwon",
    "name": "조치원ㄱ",
@@ -96,7 +67,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 13,
+    "yt": 14,
     "blog": 0,
     "insta": 0
    },
@@ -159,7 +130,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -538,16 +509,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10131511",
+   "id": "k10491478",
    "area": "jochiwon",
-   "name": "거부장",
-   "cat": "육류,고기",
-   "addr": "세종특별자치시 조치원읍 조치원로 58-1",
-   "lat": 36.6021900011283,
-   "lng": 127.303129355693,
-   "place_url": "http://place.map.kakao.com/10131511",
+   "name": "석기정부대찌개",
+   "cat": "찌개,전골",
+   "addr": "세종특별자치시 조치원읍 조치원3길 30-1",
+   "lat": 36.6028860911881,
+   "lng": 127.298683799339,
+   "place_url": "http://place.map.kakao.com/10491478",
    "good": null,
-   "emoji": "🥩",
+   "emoji": "🥘",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -559,16 +530,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k10491478",
+   "id": "k10131511",
    "area": "jochiwon",
-   "name": "석기정부대찌개",
-   "cat": "찌개,전골",
-   "addr": "세종특별자치시 조치원읍 조치원3길 30-1",
-   "lat": 36.6028860911881,
-   "lng": 127.298683799339,
-   "place_url": "http://place.map.kakao.com/10491478",
+   "name": "거부장",
+   "cat": "육류,고기",
+   "addr": "세종특별자치시 조치원읍 조치원로 58-1",
+   "lat": 36.6021900011283,
+   "lng": 127.303129355693,
+   "place_url": "http://place.map.kakao.com/10131511",
    "good": null,
-   "emoji": "🥘",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,

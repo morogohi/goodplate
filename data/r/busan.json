@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "busan",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k10070964",
@@ -20,6 +20,13 @@
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "[부산여행] 맛집, 이재모피자, 신발원, 본전돼지국밥, 차이나타운 거리",
+     "url": "https://www.youtube.com/watch?v=oCKrfwQ3f5k",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "이재모피자 크러스트 고민 끝! 햄치즈 반반으로 두 가지 맛 한 번에",
@@ -47,17 +54,39 @@
      "url": "https://www.youtube.com/watch?v=tJ91EyhJOTo",
      "date": "2026-11-16",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "가을🍂이 끝나기 전에 축제한번은 다녀와야죠~  / 차이나타운축제.자갈치시장축제",
-     "url": "https://www.youtube.com/watch?v=ncqZ__S_iKk",
-     "date": "2026-11-05",
-     "sponsored": false
     }
    ],
    "kw": [],
    "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k20204736",
+   "area": "nampo",
+   "name": "이가네떡볶이 본점",
+   "cat": "떡볶이",
+   "addr": "부산 중구 부평1길 48",
+   "lat": 35.1014825667343,
+   "lng": 129.02595233473696,
+   "place_url": "http://place.map.kakao.com/20204736",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "경주 여행 브이로그) 1박2일 경주여행🍂👩🏻‍❤️‍💋‍👨🏻| 오아르미술관,십원빵,녹음제과 성공,술술방앗간,이가네떡볶이,다인매운등갈비찜",
+     "url": "https://www.youtube.com/watch?v=TQ6TjUoJzQc",
+     "date": "2026-11-13",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -86,18 +115,47 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k25038747",
+   "id": "k1901662463",
+   "area": "nampo",
+   "name": "톤쇼우 남포점",
+   "cat": "돈까스,우동",
+   "addr": "부산 중구 광복중앙로24번길 9",
+   "lat": 35.1020348398812,
+   "lng": 129.031183440277,
+   "place_url": "http://place.map.kakao.com/1901662463",
+   "good": null,
+   "emoji": "🍱",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "오픈런했는데 2시간 대기? 톤쇼우 남포점",
+     "url": "https://www.youtube.com/watch?v=qSWVNreNp4U",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "k8149130",
    "area": "haeundae",
-   "name": "거대갈비",
+   "name": "해운대암소갈비집",
    "cat": "갈비",
-   "addr": "부산 해운대구 달맞이길 22",
-   "lat": 35.16155611368559,
-   "lng": 129.16693583295233,
-   "place_url": "http://place.map.kakao.com/25038747",
+   "addr": "부산 해운대구 해운대해변로 333",
+   "lat": 35.163113604157466,
+   "lng": 129.16646470006606,
+   "place_url": "http://place.map.kakao.com/8149130",
    "good": null,
    "emoji": "🥩",
    "src": {
@@ -108,9 +166,38 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "숯불에 굽고 돌판에 수북하게! 부산 해운대 거대갈비 점심특선 🥩",
-     "url": "https://www.youtube.com/watch?v=SxTlR-aFql8",
-     "date": "2026-11-18",
+     "title": "⭐️1인분68,000원 갈비 후기 #부산맛집 #부산여행",
+     "url": "https://www.youtube.com/watch?v=dfBxsiBP_Mo",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k16722795",
+   "area": "haeundae",
+   "name": "해운대밀면",
+   "cat": "국수",
+   "addr": "부산 해운대구 중동2로10번길 21",
+   "lat": 35.1633626826793,
+   "lng": 129.165587939929,
+   "place_url": "http://place.map.kakao.com/16722795",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "밀면을 시켰는데 소스는 냉면 소스였습니다 | 부산 해운대 밀면+만두 #Shorts",
+     "url": "https://www.youtube.com/watch?v=cEef3kMHMmk",
+     "date": "2026-11-19",
      "sponsored": false
     }
    ],
@@ -362,7 +449,7 @@
    "emoji": "🥩",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -373,17 +460,10 @@
      "url": "https://www.youtube.com/watch?v=zhLB0iUG868",
      "date": "2026-11-17",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "#여수청춘식당 #여수백반 #여수생선구이  #여수낙지꽃게탕 #여수생선구이 #여수맛집",
-     "url": "https://www.youtube.com/watch?v=5m66z5OCNxA",
-     "date": "2026-11-16",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
   },
   {
@@ -2403,21 +2483,13 @@
    "emoji": "🍲",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#여수엑스포밥집 #여수엑스포맛집 #여수갈치조림 #여수가정식백반 #장수식당여수에서 여행하다 보면 화려한 맛집도 좋지만 가끔은 따뜻한 집밥 한 끼가",
-     "url": "https://www.youtube.com/watch?v=g0am9D2rBMs",
-     "date": "2026-11-17",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 2,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -2540,7 +2612,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-16"
   },
   {
@@ -3316,7 +3388,7 @@
    "emoji": "🥟",
    "good": "price",
    "src": {
-    "yt": 4,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
@@ -3337,13 +3409,6 @@
     },
     {
      "src": "yt",
-     "title": "홍대 중국집 맛집 동보성 매운유니짜장 맛있어요.",
-     "url": "https://www.youtube.com/watch?v=nJACh0KUVHA",
-     "date": "2026-11-15",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
      "title": "차이나타운 당일치기 데이트코스",
      "url": "https://www.youtube.com/watch?v=clORTO6I57s",
      "date": "2026-11-08",
@@ -3351,7 +3416,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-16"
   },
   {
@@ -3736,11 +3801,18 @@
    "emoji": "🥩",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "로타리양곱창 9번집😋 #부산양곱창 #부산맛집 #부산여행 #로타리양곱창",
+     "url": "https://www.youtube.com/watch?v=B6A93wNuG4o",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "부산 야장 양곱창 맛집 #대정양곱창 #부산양곱창 #양곱창맛집 #양곱창 #남포동맛집 #부산야장",
@@ -3997,13 +4069,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "먹고도 수입산인 줄 몰랐던 불고기 | 인천 신포동 불고기 맛집 일미정",
+     "url": "https://www.youtube.com/watch?v=4jCNjx2xS84",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 0,
    "first_seen": "2026-11-16"
   },
   {
@@ -4248,27 +4328,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k20204736",
-   "area": "nampo",
-   "name": "이가네떡볶이 본점",
-   "cat": "떡볶이",
-   "addr": "부산 중구 부평1길 48",
-   "lat": 35.1014825667343,
-   "lng": 129.02595233473696,
-   "place_url": "http://place.map.kakao.com/20204736",
-   "good": null,
-   "emoji": "🍙",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k8201472",
    "area": "nampo",
    "name": "김해식당",
@@ -4374,16 +4433,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k8551576",
+   "id": "k172952055",
    "area": "nampo",
-   "name": "이승학돈까스 본점",
-   "cat": "돈까스,우동",
-   "addr": "부산 중구 광복중앙로 12",
-   "lat": 35.10039174458834,
-   "lng": 129.03125232110978,
-   "place_url": "http://place.map.kakao.com/8551576",
+   "name": "일미밀면",
+   "cat": "국수",
+   "addr": "부산 중구 대청로99번길 3",
+   "lat": 35.1031580763687,
+   "lng": 129.030731015057,
+   "place_url": "http://place.map.kakao.com/172952055",
    "good": null,
-   "emoji": "🍱",
+   "emoji": "🍜",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -4392,7 +4451,7 @@
    "mentions": [],
    "kw": [],
    "last": null,
-   "first_seen": "2026-11-14"
+   "first_seen": "2026-11-20"
   },
   {
    "id": "k11892204",
@@ -4542,27 +4601,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k8149130",
-   "area": "haeundae",
-   "name": "해운대암소갈비집",
-   "cat": "갈비",
-   "addr": "부산 해운대구 해운대해변로 333",
-   "lat": 35.163113604157466,
-   "lng": 129.16646470006606,
-   "place_url": "http://place.map.kakao.com/8149130",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k977177107",
    "area": "haeundae",
    "name": "해목",
@@ -4584,16 +4622,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k20522414",
+   "id": "k25038747",
    "area": "haeundae",
-   "name": "빨간떡볶이",
-   "cat": "떡볶이",
-   "addr": "부산 해운대구 우동1로20번길 74",
-   "lat": 35.16553238654025,
-   "lng": 129.160506443788,
-   "place_url": "http://place.map.kakao.com/20522414",
+   "name": "거대갈비",
+   "cat": "갈비",
+   "addr": "부산 해운대구 달맞이길 22",
+   "lat": 35.16155611368559,
+   "lng": 129.16693583295233,
+   "place_url": "http://place.map.kakao.com/25038747",
    "good": null,
-   "emoji": "🍙",
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -4605,16 +4643,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k16722795",
+   "id": "k20522414",
    "area": "haeundae",
-   "name": "해운대밀면",
-   "cat": "국수",
-   "addr": "부산 해운대구 중동2로10번길 21",
-   "lat": 35.1633626826793,
-   "lng": 129.165587939929,
-   "place_url": "http://place.map.kakao.com/16722795",
+   "name": "빨간떡볶이",
+   "cat": "떡볶이",
+   "addr": "부산 해운대구 우동1로20번길 74",
+   "lat": 35.16553238654025,
+   "lng": 129.160506443788,
+   "place_url": "http://place.map.kakao.com/20522414",
    "good": null,
-   "emoji": "🍜",
+   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,

@@ -1,8 +1,66 @@
 {
  "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
+  {
+   "id": "k2085896456",
+   "area": "yeosu",
+   "name": "여수당",
+   "cat": "제과,베이커리",
+   "addr": "전남광주통합특별시 여수시 중앙로 72",
+   "lat": 34.73989892574248,
+   "lng": 127.73534852194733,
+   "place_url": "http://place.map.kakao.com/2085896456",
+   "good": null,
+   "emoji": "🥐",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#여수여행 #2박3일 #뚜벅이여행 2일차",
+     "url": "https://www.youtube.com/watch?v=TczCYK7bd1A",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k2073877553",
+   "area": "yeosu",
+   "name": "순이네 밥상",
+   "cat": "한식",
+   "addr": "전남광주통합특별시 여수시 통제영5길 5",
+   "lat": 34.74053173570238,
+   "lng": 127.73549280838843,
+   "place_url": "http://place.map.kakao.com/2073877553",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#여수가족여행 중 맛집 #여수순이네밥상 맛이 있지만 화장실런 했습니다요",
+     "url": "https://www.youtube.com/watch?v=wURCqoTmNdo",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k26972508",
    "area": "yeosu",
@@ -29,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -51,15 +109,44 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "여수 교동 맛집 | 순심원 | 2시간 웨이팅 철판짜장 맛집 | 전남광주 여수시",
-     "url": "https://www.youtube.com/watch?v=FR3XjT5taPM",
+     "title": "여수 교동 순심원 #맛집 #shortvideo  #short #쇼츠 #중식맛집  #철판짜장맛집 #여수맛집 #순심원 #여수아이와갈만한식당 #foo",
+     "url": "https://www.youtube.com/watch?v=T5P1ZCagZMo",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k2008954211",
+   "area": "yeosu",
+   "name": "소울라운지",
+   "cat": "칵테일바",
+   "addr": "전남광주통합특별시 여수시 이순신광장로 130",
+   "lat": 34.73804386410945,
+   "lng": 127.7380291576932,
+   "place_url": "http://place.map.kakao.com/2008954211",
+   "good": null,
+   "emoji": "🍶",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "#여수여행 #2박3일 #뚜벅이여행 1일차",
+     "url": "https://www.youtube.com/watch?v=vygdnz8QwGg",
      "date": "2026-11-17",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-16"
+   "last": 3,
+   "first_seen": "2026-11-17"
   },
   {
    "id": "k1656022954",
@@ -89,37 +176,8 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k2008954211",
-   "area": "yeosu",
-   "name": "소울라운지",
-   "cat": "칵테일바",
-   "addr": "전남광주통합특별시 여수시 이순신광장로 130",
-   "lat": 34.73804386410945,
-   "lng": 127.7380291576932,
-   "place_url": "http://place.map.kakao.com/2008954211",
-   "good": null,
-   "emoji": "🍶",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#여수여행 #2박3일 #뚜벅이여행 1일차",
-     "url": "https://www.youtube.com/watch?v=vygdnz8QwGg",
-     "date": "2026-11-17",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-17"
   },
   {
    "id": "k1113161009",
@@ -155,29 +213,6 @@
    "place_url": "http://place.map.kakao.com/2020103934",
    "menu": "전복죽",
    "price": 14000,
-   "good": "price",
-   "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k1603614393",
-   "area": "yeosu",
-   "name": "광장서대회",
-   "cat": "회",
-   "addr": "전남광주통합특별시 여수시 이순신광장로 196",
-   "lat": 34.738689347350444,
-   "lng": 127.74453193919125,
-   "place_url": "http://place.map.kakao.com/1603614393",
-   "menu": "서대회(1인)",
-   "price": 10000,
    "good": "price",
    "emoji": "🍚",
    "src": {
@@ -242,7 +277,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-16"
   },
   {
@@ -296,7 +331,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-16"
   },
   {
@@ -447,6 +482,52 @@
    "lng": 127.709493015213,
    "place_url": "http://place.map.kakao.com/8378251",
    "menu": "고등어쌈밥",
+   "price": 10000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "k1723130305",
+   "area": "yeosu",
+   "name": "광장서대회(이순신광장점)",
+   "cat": "회",
+   "addr": "전남광주통합특별시 여수시 이순신광장로 129",
+   "lat": 34.7382395793927,
+   "lng": 127.738456752304,
+   "place_url": "http://place.map.kakao.com/1723130305",
+   "menu": "서대회(1인)",
+   "price": 10000,
+   "emoji": "🍚",
+   "good": "price",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "k1603614393",
+   "area": "yeosu",
+   "name": "광장서대회",
+   "cat": "회",
+   "addr": "전남광주통합특별시 여수시 이순신광장로 196",
+   "lat": 34.738689347350444,
+   "lng": 127.74453193919125,
+   "place_url": "http://place.map.kakao.com/1603614393",
+   "menu": "서대회(1인)",
    "price": 10000,
    "emoji": "🍚",
    "good": "price",
@@ -1080,27 +1161,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k2085896456",
-   "area": "yeosu",
-   "name": "여수당",
-   "cat": "제과,베이커리",
-   "addr": "전남광주통합특별시 여수시 중앙로 72",
-   "lat": 34.73989892574248,
-   "lng": 127.73534852194733,
-   "place_url": "http://place.map.kakao.com/2085896456",
-   "good": null,
-   "emoji": "🥐",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k9025490",
    "area": "yeosu",
    "name": "복춘식당",
@@ -1109,27 +1169,6 @@
    "lat": 34.73956039618868,
    "lng": 127.73408759400289,
    "place_url": "http://place.map.kakao.com/9025490",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k2073877553",
-   "area": "yeosu",
-   "name": "순이네 밥상",
-   "cat": "한식",
-   "addr": "전남광주통합특별시 여수시 통제영5길 5",
-   "lat": 34.74053173570238,
-   "lng": 127.73549280838843,
-   "place_url": "http://place.map.kakao.com/2073877553",
    "good": null,
    "emoji": "🍚",
    "src": {

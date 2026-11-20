@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -15,15 +15,29 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 7,
+    "yt": 9,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
     {
      "src": "yt",
+     "title": "광화문 빵축제 현장대기 1700명 뚫은 썰~‼️#광화문빵축제 #광화문광장 #서울맛집",
+     "url": "https://www.youtube.com/watch?v=Y9SzYKfFxR4",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "\"성심당을 서울 광화문에서?!\"…'빵지순례' 맛집 한자리 'K-베이커리' 축제｜지금 이 쇼츠",
      "url": "https://www.youtube.com/watch?v=10o3KGVgNQw",
+     "date": "2026-11-18",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "\"성심당을 서울 광화문에서?!\"…'빵지순례' 맛집 한자리 'K-베이커리' 축제 #JTBC #Shorts",
+     "url": "https://www.youtube.com/watch?v=eBlTAlcgiLA",
      "date": "2026-11-18",
      "sponsored": false
     },
@@ -36,23 +50,23 @@
     },
     {
      "src": "yt",
-     "title": "소녀시대 유리님 제주 빵집부터 제주도 맛집 투어 5곳 #제일성심당 #보령제과 #제주도맛집 #제주살이 #소녀시대유리 #나혼산 #제주도여행",
-     "url": "https://www.youtube.com/watch?v=J3QUtjskBsI",
-     "date": "2026-11-18",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "대전 1박 2일 완벽 코스! 맛집·카페·숙소까지(정리본/지도 리스트 공유 🗺️)",
-     "url": "https://www.youtube.com/watch?v=nmQRKcoR09g",
-     "date": "2026-11-16",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
      "title": "#사쿠사쿠 #대전맛집 #대전대흥동맛집 #대전텐동 #텐동맛집 #대전텐동맛집 #성심당근처맛집 #대흥동맛집 #대전빵지순례 #대전여행코스 #대전데이트",
      "url": "https://www.youtube.com/watch?v=NMuwAB6loV0",
      "date": "2026-11-15",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "대전 원도심 맛집 티어 (공식 인증만) 성심당·진로집·신도칼국수 #shorts",
+     "url": "https://www.youtube.com/watch?v=jLP2rbZSD-U",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "성심당 광화문 빵축제 18일부터 사흘, 패스트패스 없어도 될까",
+     "url": "https://www.youtube.com/watch?v=hY8fPqZcsBY",
+     "date": "2026-11-13",
      "sponsored": false
     },
     {
@@ -61,13 +75,6 @@
      "url": "https://www.youtube.com/watch?v=rhieFfQ2tLU",
      "date": "2026-11-13",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "#성심당근처맛집#대흥동맛집#달달한밤부엌",
-     "url": "https://www.youtube.com/watch?v=fH8xT8oeDtc",
-     "date": "2026-11-10",
-     "sponsored": false
     }
    ],
    "kw": [],
@@ -75,16 +82,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k8209640",
+   "id": "k12468740",
    "area": "eunhaeng",
-   "name": "광천식당",
-   "cat": "한식",
-   "addr": "대전 중구 대종로505번길 29",
-   "lat": 36.3286714374113,
-   "lng": 127.423596296507,
-   "place_url": "http://place.map.kakao.com/8209640",
+   "name": "진로집",
+   "cat": "불고기,두루치기",
+   "addr": "대전 중구 중교로 45-5",
+   "lat": 36.3258521835256,
+   "lng": 127.424716995185,
+   "place_url": "http://place.map.kakao.com/12468740",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🥩",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -93,14 +100,14 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "(저장•공유) 대전맛집+광천식당+2인주문꿀팁",
-     "url": "https://www.youtube.com/watch?v=HY44YR4B6jo",
-     "date": "2026-11-08",
+     "title": "대전 원도심 맛집 티어 (공식 인증만) 성심당·진로집·신도칼국수 #shorts",
+     "url": "https://www.youtube.com/watch?v=jLP2rbZSD-U",
+     "date": "2026-11-14",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -200,7 +207,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-17"
   },
   {
@@ -215,7 +222,7 @@
    "good": null,
    "emoji": "🍜",
    "src": {
-    "yt": 2,
+    "yt": 4,
     "blog": 0,
     "insta": 0
    },
@@ -229,14 +236,28 @@
     },
     {
      "src": "yt",
-     "title": "#대전맛집#신도칼국수#먹는행복#맛있는추억",
-     "url": "https://www.youtube.com/watch?v=n9VsuRb5kL8",
-     "date": "2026-11-08",
+     "title": "대전 맛집 신도칼국수",
+     "url": "https://www.youtube.com/watch?v=wfBkShrnc14",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "대전 맛집 신도칼국수 | 칼국수 맛집 #Shorts",
+     "url": "https://www.youtube.com/watch?v=8vVgMr6S_4U",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "대전 원도심 맛집 티어 (공식 인증만) 성심당·진로집·신도칼국수 #shorts",
+     "url": "https://www.youtube.com/watch?v=jLP2rbZSD-U",
+     "date": "2026-11-14",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -265,7 +286,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-16"
   },
   {
@@ -280,11 +301,18 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 2,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "우동부터 아구수육까지! 부산 기장 맛집 5곳",
+     "url": "https://www.youtube.com/watch?v=jR_sQCf_qHc",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "광고, 홍보 진짜 1도 없는 광화문 토박이 노포  (feat.황금정)",
@@ -301,7 +329,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -873,7 +901,7 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -884,17 +912,10 @@
      "url": "https://www.youtube.com/watch?v=mkfBSDAWlRA",
      "date": "2026-11-11",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "공주 여행 | 공주 신관동 맛집 | 날도 추운데 뜨끈한 전골 어때?",
-     "url": "https://www.youtube.com/watch?v=AH9y-WETpTE",
-     "date": "2026-11-11",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-16"
   },
   {
@@ -1270,7 +1291,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-16"
   },
   {
@@ -2929,6 +2950,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k8209640",
+   "area": "eunhaeng",
+   "name": "광천식당",
+   "cat": "한식",
+   "addr": "대전 중구 대종로505번길 29",
+   "lat": 36.3286714374113,
+   "lng": 127.423596296507,
+   "place_url": "http://place.map.kakao.com/8209640",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k10983353",
    "area": "eunhaeng",
    "name": "현대식당",
@@ -2960,27 +3002,6 @@
    "place_url": "http://place.map.kakao.com/21537026",
    "good": null,
    "emoji": "🥐",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k12468740",
-   "area": "eunhaeng",
-   "name": "진로집",
-   "cat": "불고기,두루치기",
-   "addr": "대전 중구 중교로 45-5",
-   "lat": 36.3258521835256,
-   "lng": 127.424716995185,
-   "place_url": "http://place.map.kakao.com/12468740",
-   "good": null,
-   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,

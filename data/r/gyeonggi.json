@@ -1,37 +1,8 @@
 {
  "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
-  {
-   "id": "k7970465",
-   "area": "suwon-haenggung",
-   "name": "수원만두",
-   "cat": "중식",
-   "addr": "경기 수원시 팔달구 창룡대로8번길 6",
-   "lat": 37.28152659783932,
-   "lng": 127.0174555436597,
-   "place_url": "http://place.map.kakao.com/7970465",
-   "good": null,
-   "emoji": "🥟",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "수원 행궁동 수원만두 Suwon Mandu, Haenggung-dong, Suwon #수원만두 #군만두 #단단탕면 #행궁동맛집 #맛집한입",
-     "url": "https://www.youtube.com/watch?v=hfEvR-robEY",
-     "date": "2026-11-09",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 10,
-   "first_seen": "2026-11-14"
-  },
   {
    "id": "k293730624",
    "area": "suwon-haenggung",
@@ -104,7 +75,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -163,7 +134,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -192,7 +163,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -485,13 +456,21 @@
    "emoji": "☕",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "🍂 가을에 가기 좋은 서울 종로 데이트 코스 추천｜맛집부터 카페, 야경까지!",
+     "url": "https://www.youtube.com/watch?v=Yp2BRTZ355o",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1106,21 +1085,13 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#강릉맛집추천 #강릉맛집 #강릉중앙시장맛집추천 #강릉중앙시장맛집 #강릉시장맛집추천 #강릉장칼국수맛집추천 #강릉장칼국수맛집 #강릉장칼국수 #강릉옹",
-     "url": "https://www.youtube.com/watch?v=fw1-D8SGyT0",
-     "date": "2026-11-06",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 13,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1252,13 +1223,21 @@
    "emoji": "🍲",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "1962년 시작한 해운대 국밥 맛집^^♡♡올때 마다 느끼는건 맛있다^^♡만원의 행복^^~이얼마나 기뿌지아니한가~~오늘도 수고하셨습니다~굿밤되세용",
+     "url": "https://www.youtube.com/watch?v=VLypC-_zmQE",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -1653,6 +1632,27 @@
    "first_seen": "2026-11-16"
   },
   {
+   "id": "k7970465",
+   "area": "suwon-haenggung",
+   "name": "수원만두",
+   "cat": "중식",
+   "addr": "경기 수원시 팔달구 창룡대로8번길 6",
+   "lat": 37.28152659783932,
+   "lng": 127.0174555436597,
+   "place_url": "http://place.map.kakao.com/7970465",
+   "good": null,
+   "emoji": "🥟",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k8022147",
    "area": "suwon-haenggung",
    "name": "용성통닭 본점",
@@ -1716,16 +1716,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k406816688",
+   "id": "k1102998606",
    "area": "suwon-haenggung",
-   "name": "진미통닭",
-   "cat": "치킨",
-   "addr": "경기 수원시 팔달구 정조로800번길 21",
-   "lat": 37.2796604471175,
-   "lng": 127.018105732851,
-   "place_url": "http://place.map.kakao.com/406816688",
+   "name": "송연",
+   "cat": "한식",
+   "addr": "경기 수원시 팔달구 신풍로23번길 28",
+   "lat": 37.28363826131574,
+   "lng": 127.01340212746284,
+   "place_url": "http://place.map.kakao.com/1102998606",
    "good": null,
-   "emoji": "🍗",
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -1737,16 +1737,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1102998606",
+   "id": "k406816688",
    "area": "suwon-haenggung",
-   "name": "송연",
-   "cat": "한식",
-   "addr": "경기 수원시 팔달구 신풍로23번길 28",
-   "lat": 37.28363826131574,
-   "lng": 127.01340212746284,
-   "place_url": "http://place.map.kakao.com/1102998606",
+   "name": "진미통닭",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 정조로800번길 21",
+   "lat": 37.2796604471175,
+   "lng": 127.018105732851,
+   "place_url": "http://place.map.kakao.com/406816688",
    "good": null,
-   "emoji": "🍚",
+   "emoji": "🍗",
    "src": {
     "yt": 0,
     "blog": 0,

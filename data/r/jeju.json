@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k9797621",
@@ -36,37 +36,8 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k20807210",
-   "area": "jeju-city",
-   "name": "송림반점",
-   "cat": "중국요리",
-   "addr": "제주특별자치도 제주시 관덕로 2-1",
-   "lat": 33.51242200759344,
-   "lng": 126.51974657990965,
-   "place_url": "http://place.map.kakao.com/20807210",
-   "good": null,
-   "emoji": "🥟",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "제주 도민이 찾는 제주시 짬뽕 맛집 TOP5 🍜🔥 #Shorts",
-     "url": "https://www.youtube.com/watch?v=KSnRYpj-RvQ",
-     "date": "2026-11-17",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-19"
   },
   {
    "id": "k473694684",
@@ -101,7 +72,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -128,16 +99,16 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k151574163",
+   "id": "k10336266",
    "area": "jeju-city",
-   "name": "카페성지",
-   "cat": "커피전문점",
-   "addr": "제주특별자치도 제주시 성지로 10",
-   "lat": 33.5096866847796,
-   "lng": 126.524682398666,
-   "place_url": "http://place.map.kakao.com/151574163",
+   "name": "명동손칼국수",
+   "cat": "칼국수",
+   "addr": "제주특별자치도 제주시 중앙로15길 5",
+   "lat": 33.51068002385676,
+   "lng": 126.52439175259539,
+   "place_url": "http://place.map.kakao.com/10336266",
    "good": null,
-   "emoji": "☕",
+   "emoji": "🍜",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -146,15 +117,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "내돈내산 제주 커피 찐맛집 #제주카페",
-     "url": "https://www.youtube.com/watch?v=jZQvk_bYwQ0",
-     "date": "2026-11-18",
+     "title": "명동손칼국수 #제주동문시장",
+     "url": "https://www.youtube.com/watch?v=w1K0h43e20g",
+     "date": "2026-11-10",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-19"
+   "last": 10,
+   "first_seen": "2026-11-20"
   },
   {
    "id": "k11733078",
@@ -205,6 +176,35 @@
     }
    ],
    "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k11291724",
+   "area": "seogwipo",
+   "name": "마농치킨 본점",
+   "cat": "치킨",
+   "addr": "제주특별자치도 서귀포시 중앙로48번길 14-1",
+   "lat": 33.2491295705844,
+   "lng": 126.563275283204,
+   "place_url": "http://place.map.kakao.com/11291724",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "제주 서귀포 서귀동 올레시장 한라통닭 마농치킨 마늘치킨 닭강정 [제주도 로컬 현지인 맛집] Korea jeju travel trip food f",
+     "url": "https://www.youtube.com/watch?v=iFie9QyFh4c",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
    "last": 1,
    "first_seen": "2026-11-14"
   },
@@ -234,7 +234,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-19"
   },
   {
@@ -261,6 +261,35 @@
    "first_seen": "2026-11-16"
   },
   {
+   "id": "k1049393948",
+   "area": "seogwipo",
+   "name": "메밀꽃치킨",
+   "cat": "치킨",
+   "addr": "제주특별자치도 서귀포시 중앙로48번길 17-1",
+   "lat": 33.2494223567601,
+   "lng": 126.563462687428,
+   "place_url": "http://place.map.kakao.com/1049393948",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "부부 제주여행 브이로그 | 꽁빵부부의 제주 서쪽-남쪽 2박 3일🍊| 찐맛집부터 알찬 제주코스 공유⭐️행복밀•경성수산•메밀꽃치킨(서귀포올레시장)•",
+     "url": "https://www.youtube.com/watch?v=_f-0zh53h4Y",
+     "date": "2026-11-18",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 2,
+   "first_seen": "2026-11-20"
+  },
+  {
    "id": "k25816147",
    "area": "seogwipo",
    "name": "파시랑",
@@ -272,11 +301,18 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "#제주도 #서귀포 #맛집 #제주 서귀포에서 만난 인생 단팥죽, '파시랑' 🥣✨​인위적인 단맛 없이 100% 국내산 팥을 푹 끓여내 깊고 진한 풍",
+     "url": "https://www.youtube.com/watch?v=N4q9PeXHv0A",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "KOREA TRIP WEEK 2 🇰🇷 JEJU | 서귀포맛집 | 제주도러닝 | 고기국수 | 올레시장 | 할머니떡집 귤모찌 | 깡촌흑돼지 | 바다",
@@ -1262,7 +1298,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
   },
   {
@@ -2775,13 +2811,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "지인이 추천한 제주시 현지인 맛집💛 고등어회가 맛있는 집",
+     "url": "https://www.youtube.com/watch?v=9lGGa6XuP4Q",
+     "date": "2026-11-19",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -2982,6 +3026,27 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "k10777503",
+   "area": "jeju-city",
+   "name": "진아떡집",
+   "cat": "떡,한과",
+   "addr": "제주특별자치도 제주시 동문로4길 7-1",
+   "lat": 33.51240994774403,
+   "lng": 126.52834093483106,
+   "place_url": "http://place.map.kakao.com/10777503",
+   "good": null,
+   "emoji": "🍽️",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "k13325715",
    "area": "jeju-city",
    "name": "정성듬뿍제주국",
@@ -3013,27 +3078,6 @@
    "place_url": "http://place.map.kakao.com/21461466",
    "good": null,
    "emoji": "🍜",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k10777503",
-   "area": "jeju-city",
-   "name": "진아떡집",
-   "cat": "떡,한과",
-   "addr": "제주특별자치도 제주시 동문로4길 7-1",
-   "lat": 33.51240994774403,
-   "lng": 126.52834093483106,
-   "place_url": "http://place.map.kakao.com/10777503",
-   "good": null,
-   "emoji": "🍽️",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -3108,27 +3152,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k21477180",
-   "area": "jeju-city",
-   "name": "파도식당",
-   "cat": "국수",
-   "addr": "제주특별자치도 제주시 성지로 68-1",
-   "lat": 33.5113029327216,
-   "lng": 126.530513514467,
-   "place_url": "http://place.map.kakao.com/21477180",
-   "good": null,
-   "emoji": "🍜",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "k1994899330",
    "area": "jeju-city",
    "name": "동문올레수산",
@@ -3158,6 +3181,27 @@
    "lat": 33.50996108594127,
    "lng": 126.52335708163123,
    "place_url": "http://place.map.kakao.com/439308243",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k21477180",
+   "area": "jeju-city",
+   "name": "파도식당",
+   "cat": "국수",
+   "addr": "제주특별자치도 제주시 성지로 68-1",
+   "lat": 33.5113029327216,
+   "lng": 126.530513514467,
+   "place_url": "http://place.map.kakao.com/21477180",
    "good": null,
    "emoji": "🍜",
    "src": {
@@ -3507,16 +3551,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k11291724",
+   "id": "k27559019",
    "area": "seogwipo",
-   "name": "마농치킨 본점",
-   "cat": "치킨",
-   "addr": "제주특별자치도 서귀포시 중앙로48번길 14-1",
-   "lat": 33.2491295705844,
-   "lng": 126.563275283204,
-   "place_url": "http://place.map.kakao.com/11291724",
+   "name": "88버거",
+   "cat": "햄버거",
+   "addr": "제주특별자치도 서귀포시 동문로 63",
+   "lat": 33.2492440116698,
+   "lng": 126.567124885703,
+   "place_url": "http://place.map.kakao.com/27559019",
    "good": null,
-   "emoji": "🍗",
+   "emoji": "🍔",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -3525,28 +3569,7 @@
    "mentions": [],
    "kw": [],
    "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k11600257",
-   "area": "seogwipo",
-   "name": "쌍둥이횟집",
-   "cat": "회",
-   "addr": "제주특별자치도 서귀포시 중정로62번길 14",
-   "lat": 33.2465677180323,
-   "lng": 126.562927484565,
-   "place_url": "http://place.map.kakao.com/11600257",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
+   "first_seen": "2026-11-20"
   },
   {
    "id": "k321650416",

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungnam",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k904041132",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -51,6 +51,13 @@
    "mentions": [
     {
      "src": "yt",
+     "title": "공주 부자떡집 호박설기 시식평 웨이팅해서 먹을 맛?!",
+     "url": "https://www.youtube.com/watch?v=0odeV17svw8",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "#공주여행 #공주맛집 #공산성 #피탕김탕 #부자떡집",
      "url": "https://www.youtube.com/watch?v=6u4eUGNouoI",
      "date": "2026-11-18",
@@ -67,13 +74,6 @@
      "src": "yt",
      "title": "공주 당일치기 맛집 3곳 | 이 코스면 끝! #공주여행 #공주맛집 #공주당일치기 #부자떡집 #알밤모찌",
      "url": "https://www.youtube.com/watch?v=3NQTwS2_pCA",
-     "date": "2026-11-12",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "공주.밤모찌.시루떡.유명 떡집.",
-     "url": "https://www.youtube.com/watch?v=knrMdzjhuNM",
      "date": "2026-11-12",
      "sponsored": false
     },
@@ -122,7 +122,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -151,7 +151,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -178,14 +178,14 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k57028650",
+   "id": "k1908737020",
    "area": "gongju",
-   "name": "개미식당",
+   "name": "꼬소미지지미",
    "cat": "한식",
-   "addr": "충남 공주시 산성시장5길 78-2",
-   "lat": 36.4596320859881,
-   "lng": 127.12332770544833,
-   "place_url": "http://place.map.kakao.com/57028650",
+   "addr": "충남 공주시 산성시장3길 98",
+   "lat": 36.4583859501524,
+   "lng": 127.1240296663,
+   "place_url": "http://place.map.kakao.com/1908737020",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -196,15 +196,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "#강릉맛집추천 #강릉맛집 #강릉중앙시장맛집추천 #강릉중앙시장맛집 #강릉시장맛집추천 #강릉장칼국수맛집추천 #강릉장칼국수맛집 #강릉장칼국수 #강릉옹",
-     "url": "https://www.youtube.com/watch?v=fw1-D8SGyT0",
-     "date": "2026-11-06",
+     "title": "공주 꼬소미지지미 피자육전 등장!",
+     "url": "https://www.youtube.com/watch?v=R-jd7RyQwbM",
+     "date": "2026-11-19",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 13,
-   "first_seen": "2026-11-14"
+   "last": 1,
+   "first_seen": "2026-11-20"
   },
   {
    "id": "k34892868",
@@ -232,7 +232,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-17"
   },
   {
@@ -686,11 +686,18 @@
    "emoji": "🍜",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "#경주여행 #양동마을 #가을풍경 #경주가볼만한곳 #경주여행코스 #가을여행지 #국내여행 #유네스코세계문화유산 # #경주시 #경주맛집 #Gyeong",
+     "url": "https://www.youtube.com/watch?v=9HIJoPHUXOc",
+     "date": "2026-11-19",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "#경주여행  #양동마을가을여행 #은행나무가있는풍경 #유네스코세계문화유산 #경주가볼만한곳 #한옥 #초가집 #가을여행 # #경주맛집 #경주여행코스 ",
@@ -935,14 +942,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1825916113",
+   "id": "k27252729",
    "area": "gongju",
-   "name": "촌정선곤드레밥",
-   "cat": "한정식",
-   "addr": "충남 공주시 백미고을길 14-1",
-   "lat": 36.46557773076439,
-   "lng": 127.12179747246054,
-   "place_url": "http://place.map.kakao.com/1825916113",
+   "name": "개성집",
+   "cat": "해물,생선",
+   "addr": "충남 공주시 미나리3길 6-5",
+   "lat": 36.4634790865989,
+   "lng": 127.122517136226,
+   "place_url": "http://place.map.kakao.com/27252729",
    "good": null,
    "emoji": "🍚",
    "src": {
@@ -956,14 +963,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k27252729",
+   "id": "k1825916113",
    "area": "gongju",
-   "name": "개성집",
-   "cat": "해물,생선",
-   "addr": "충남 공주시 미나리3길 6-5",
-   "lat": 36.4634790865989,
-   "lng": 127.122517136226,
-   "place_url": "http://place.map.kakao.com/27252729",
+   "name": "촌정선곤드레밥",
+   "cat": "한정식",
+   "addr": "충남 공주시 백미고을길 14-1",
+   "lat": 36.46557773076439,
+   "lng": 127.12179747246054,
+   "place_url": "http://place.map.kakao.com/1825916113",
    "good": null,
    "emoji": "🍚",
    "src": {

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "incheon",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k9175466",
@@ -43,7 +43,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
    "good": null,
    "emoji": "🥟",
    "src": {
-    "yt": 2,
+    "yt": 3,
     "blog": 0,
     "insta": 0
    },
@@ -72,6 +72,13 @@
     },
     {
      "src": "yt",
+     "title": "인천 차이나타운 만다복 백년짜장 탕수육",
+     "url": "https://www.youtube.com/watch?v=udJm-PgDn8k",
+     "date": "2026-11-13",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "공갈빵 사러 들어갔다 양손 가득 들고나온 이유? 인천 차이나타운 구구만다복 솔직후기",
      "url": "https://www.youtube.com/watch?v=-CFIbgvqvBY",
      "date": "2026-11-07",
@@ -79,7 +86,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -108,7 +115,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -144,7 +151,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -182,7 +189,7 @@
    "good": null,
    "emoji": "🥟",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -193,10 +200,17 @@
      "url": "https://www.youtube.com/watch?v=Ux0R-b4ZAHE",
      "date": "2026-11-17",
      "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "인천 나들이vlog_짜장면이 먹고 싶다면 지금 차이나타운으로🚙",
+     "url": "https://www.youtube.com/watch?v=ycwMUrdmfTo",
+     "date": "2026-11-07",
+     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -225,7 +239,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -277,7 +291,7 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 12,
    "first_seen": "2026-11-16"
   },
   {
@@ -338,11 +352,18 @@
    "good": null,
    "emoji": "🍗",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "1993년부터 이어온 변치 않는 바삭함, 신포야채치킨 ✨ #치킨 #닭강정 #신포시장 #맛집 #신포동 #food #chicken#인천맛집 #동인천",
+     "url": "https://www.youtube.com/watch?v=0AG0fsBV1OU",
+     "date": "2026-11-14",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "포야채치킨에 오시면 이 3가지는 꼭 드셔보셔야 합니다. 🥢 #치킨 #닭강정 #신포시장 #맛집 #신포동 #chicken #food #먹방 #촌닭 ",
@@ -352,7 +373,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -381,8 +402,37 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k1661649534",
+   "area": "gaehang",
+   "name": "가배차관",
+   "cat": "카페",
+   "addr": "인천 제물포구 차이나타운로 46-1",
+   "lat": 37.47536886585154,
+   "lng": 126.61918905254285,
+   "place_url": "http://place.map.kakao.com/1661649534",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "인천 나들이vlog_짜장면이 먹고 싶다면 지금 차이나타운으로🚙",
+     "url": "https://www.youtube.com/watch?v=ycwMUrdmfTo",
+     "date": "2026-11-07",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 13,
+   "first_seen": "2026-11-20"
   },
   {
    "id": "k1740221500",
@@ -412,7 +462,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-16"
   },
   {
@@ -466,7 +516,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-16"
   },
   {
@@ -1336,21 +1386,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "해운대에 24시 자연산 회마트가 있다고?🐟",
-     "url": "https://www.youtube.com/watch?v=rOTIMmk87IU",
-     "date": "2026-11-18",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 1,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {

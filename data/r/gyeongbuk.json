@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongbuk",
- "generated_at": "2026-11-19T10:01+09:00",
+ "generated_at": "2026-11-20T10:06+09:00",
  "stores": [
   {
    "id": "k9935399",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-15"
   },
   {
@@ -116,20 +116,20 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1225998161",
+   "id": "k2068966961",
    "area": "gyeongju",
-   "name": "가봉반과",
-   "cat": "카페",
-   "addr": "경북 경주시 첨성로 61-7",
-   "lat": 35.83359804265305,
-   "lng": 129.2088024444157,
-   "place_url": "http://place.map.kakao.com/1225998161",
+   "name": "다인매운등갈비찜",
+   "cat": "갈비",
+   "addr": "경북 경주시 원화로181번길 25",
+   "lat": 35.836208802411534,
+   "lng": 129.2172403463257,
+   "place_url": "http://place.map.kakao.com/2068966961",
    "good": null,
-   "emoji": "☕",
+   "emoji": "🥩",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -138,15 +138,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "#경주카페 #황리단길카페 #가봉반과 #경주디저트 #경주한옥카페",
-     "url": "https://www.youtube.com/watch?v=Zq9kAkXD9wc",
-     "date": "2026-11-08",
+     "title": "경주 여행 브이로그) 1박2일 경주여행🍂👩🏻‍❤️‍💋‍👨🏻| 오아르미술관,십원빵,녹음제과 성공,술술방앗간,이가네떡볶이,다인매운등갈비찜",
+     "url": "https://www.youtube.com/watch?v=TQ6TjUoJzQc",
+     "date": "2026-11-13",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 11,
-   "first_seen": "2026-11-16"
+   "last": 7,
+   "first_seen": "2026-11-20"
   },
   {
    "id": "k1499647703",
