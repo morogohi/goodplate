@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonbuk",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k8629568",
@@ -15,7 +15,7 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -26,17 +26,10 @@
      "url": "https://www.youtube.com/watch?v=ezhCXQVpwtE",
      "date": "2026-11-16",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "[공식 인증 맛집 티어] 전주 한옥마을 맛집 10곳 가족회관·성미당·한국집 (26년 11월 기준) #shorts",
-     "url": "https://www.youtube.com/watch?v=x0qKg8yXZqc",
-     "date": "2026-11-14",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,6 +51,13 @@
    "mentions": [
     {
      "src": "yt",
+     "title": "국내 여행 | 전주여행 2박 3일 코스 | 가을 단풍 명소 | 내장산, 전주한옥마을, 전동떡갈비, 카페이르다, 베테랑칼국수, 다정집",
+     "url": "https://www.youtube.com/watch?v=iim0Vr-4RIk",
+     "date": "2026-11-20",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "전주 베테랑칼국수, 원래 여학교 앞 작은 분식집이었다고? 🍜 #쇼츠",
      "url": "https://www.youtube.com/watch?v=EOUPGWfp7kM",
      "date": "2026-11-18",
@@ -68,13 +68,6 @@
      "title": "🎣 통영희영호 &한나호🍽️ 선상 맛집 · 뷔페 제공🐙 돌문어 손맛 제대로!🌊 즐기는 낚시, 힐링 낚시💯 초보부터 베테랑까지 누구나!📍 통영 희영",
      "url": "https://www.youtube.com/watch?v=4VPPwGuKdk8",
      "date": "2026-11-18",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "인천 꼭 가 볼 맛집 3곳 · 여수게장 · 남동어시장 · 베테랑종합어시장",
-     "url": "https://www.youtube.com/watch?v=Sa5xDUCb6fg",
-     "date": "2026-11-17",
      "sponsored": false
     },
     {
@@ -100,7 +93,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -129,66 +122,8 @@
     }
    ],
    "kw": [],
-   "last": 5,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8676321",
-   "area": "jeonju-hanok",
-   "name": "가족회관",
-   "cat": "한식",
-   "addr": "전북특별자치도 전주시 완산구 전라감영5길 17",
-   "lat": 35.81708744597352,
-   "lng": 127.14596642351144,
-   "place_url": "http://place.map.kakao.com/8676321",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "[공식 인증 맛집 티어] 전주 한옥마을 맛집 10곳 가족회관·성미당·한국집 (26년 11월 기준) #shorts",
-     "url": "https://www.youtube.com/watch?v=x0qKg8yXZqc",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
    "last": 6,
    "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8374461",
-   "area": "jeonju-hanok",
-   "name": "성미당 본점",
-   "cat": "한식",
-   "addr": "전북특별자치도 전주시 완산구 전라감영5길 19-9",
-   "lat": 35.817338709177285,
-   "lng": 127.14537820060865,
-   "place_url": "http://place.map.kakao.com/8374461",
-   "good": null,
-   "emoji": "🍚",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "[공식 인증 맛집 티어] 전주 한옥마을 맛집 10곳 가족회관·성미당·한국집 (26년 11월 기준) #shorts",
-     "url": "https://www.youtube.com/watch?v=x0qKg8yXZqc",
-     "date": "2026-11-14",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 6,
-   "first_seen": "2026-11-15"
   },
   {
    "id": "k1851904708",
@@ -216,7 +151,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-14"
   },
   {
@@ -245,7 +180,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-15"
   },
   {
@@ -552,7 +487,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-16"
   },
   {
@@ -882,6 +817,27 @@
    "place_url": "http://place.map.kakao.com/15658928",
    "good": null,
    "emoji": "🥐",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k8676321",
+   "area": "jeonju-hanok",
+   "name": "가족회관",
+   "cat": "한식",
+   "addr": "전북특별자치도 전주시 완산구 전라감영5길 17",
+   "lat": 35.81708744597352,
+   "lng": 127.14596642351144,
+   "place_url": "http://place.map.kakao.com/8676321",
+   "good": null,
+   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

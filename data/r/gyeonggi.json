@@ -1,8 +1,37 @@
 {
  "sample": false,
  "sido": "gyeonggi",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
+  {
+   "id": "k406816688",
+   "area": "suwon-haenggung",
+   "name": "진미통닭",
+   "cat": "치킨",
+   "addr": "경기 수원시 팔달구 정조로800번길 21",
+   "lat": 37.2796604471175,
+   "lng": 127.018105732851,
+   "place_url": "http://place.map.kakao.com/406816688",
+   "good": null,
+   "emoji": "🍗",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "(저장/공유)🍗 수원까지 치킨 먹으러 다시 가고 싶어짐..",
+     "url": "https://www.youtube.com/watch?v=O5mYBHiMvNI",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "k293730624",
    "area": "suwon-haenggung",
@@ -75,7 +104,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-14"
   },
   {
@@ -134,7 +163,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -163,7 +192,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -470,7 +499,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -1237,7 +1266,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -1726,27 +1755,6 @@
    "place_url": "http://place.map.kakao.com/1102998606",
    "good": null,
    "emoji": "🍚",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k406816688",
-   "area": "suwon-haenggung",
-   "name": "진미통닭",
-   "cat": "치킨",
-   "addr": "경기 수원시 팔달구 정조로800번길 21",
-   "lat": 37.2796604471175,
-   "lng": 127.018105732851,
-   "place_url": "http://place.map.kakao.com/406816688",
-   "good": null,
-   "emoji": "🍗",
    "src": {
     "yt": 0,
     "blog": 0,

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gyeongbuk",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k9935399",
@@ -29,7 +29,43 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k9959009",
+   "area": "gyeongju",
+   "name": "경주원조콩국",
+   "cat": "한식",
+   "addr": "경북 경주시 첨성로 113",
+   "lat": 35.83345287503942,
+   "lng": 129.21472931242565,
+   "place_url": "http://place.map.kakao.com/9959009",
+   "good": null,
+   "emoji": "🍚",
+   "src": {
+    "yt": 2,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "[경주 맛집] 2013년부터 블루리본 선정! 경주 원조콩국에서 만난 특별한 콩 요리를 맛보다!!!😋🍴",
+     "url": "https://www.youtube.com/watch?v=lqxGNq81OGQ",
+     "date": "2026-11-20",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "#경주원조콩국 #경주여행 #경주 #경주맛집",
+     "url": "https://www.youtube.com/watch?v=9W7e7BEbHy8",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +94,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,8 +123,37 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-15"
+  },
+  {
+   "id": "k7831539",
+   "area": "gyeongju",
+   "name": "도솔마을",
+   "cat": "국수",
+   "addr": "경북 경주시 손효자길 8-13",
+   "lat": 35.8370273627774,
+   "lng": 129.211254517902,
+   "place_url": "http://place.map.kakao.com/7831539",
+   "good": null,
+   "emoji": "🍜",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "경주 대릉원 천마총, 140년 한옥 도솔마을의 수리산 정식과 교동집밥 맥적구이 #경주여행 #황리단길",
+     "url": "https://www.youtube.com/watch?v=7OyHmaot3Dk",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-21"
   },
   {
    "id": "k492784484",
@@ -116,7 +181,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -145,7 +210,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-20"
   },
   {
@@ -658,27 +723,6 @@
    "place_url": "http://place.map.kakao.com/21474812",
    "good": null,
    "emoji": "🍜",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k9959009",
-   "area": "gyeongju",
-   "name": "경주원조콩국",
-   "cat": "한식",
-   "addr": "경북 경주시 첨성로 113",
-   "lat": 35.83345287503942,
-   "lng": 129.21472931242565,
-   "place_url": "http://place.map.kakao.com/9959009",
-   "good": null,
-   "emoji": "🍚",
    "src": {
     "yt": 0,
     "blog": 0,

@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "chungbuk",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k25042020",
@@ -29,20 +29,20 @@
     }
    ],
    "kw": [],
-   "last": 11,
+   "last": 12,
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k257656419",
+   "id": "k1187410911",
    "area": "cheongju",
-   "name": "올드타운클럽",
-   "cat": "아시아음식",
-   "addr": "충북 청주시 상당구 상당로55번길 40-1",
-   "lat": 36.63312143433475,
-   "lng": 127.48842875792829,
-   "place_url": "http://place.map.kakao.com/257656419",
+   "name": "버니스",
+   "cat": "패밀리레스토랑",
+   "addr": "충북 청주시 상당구 상당로91번길 7-7",
+   "lat": 36.6359934209362,
+   "lng": 127.489942941963,
+   "place_url": "http://place.map.kakao.com/1187410911",
    "good": null,
-   "emoji": "🍲",
+   "emoji": "🍽️",
    "src": {
     "yt": 1,
     "blog": 0,
@@ -51,44 +51,15 @@
    "mentions": [
     {
      "src": "yt",
-     "title": "성안길 웨이팅 맛집, 줄 설 가치가 있을까? #청주맛집",
-     "url": "https://www.youtube.com/watch?v=Un_GG0ReJ-o",
-     "date": "2026-11-06",
+     "title": "청주 성안길 돈가스 찐맛집 🍽️",
+     "url": "https://www.youtube.com/watch?v=--OwhB5madE",
+     "date": "2026-11-20",
      "sponsored": false
     }
    ],
    "kw": [],
-   "last": 14,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8104039",
-   "area": "cheongju",
-   "name": "육거리춘천닭갈비",
-   "cat": "닭요리",
-   "addr": "충북 청주시 상당구 상당로29번길 17-2",
-   "lat": 36.630891869867,
-   "lng": 127.4897876588,
-   "place_url": "http://place.map.kakao.com/8104039",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "40년동안 단일메뉴로 승부보는 노포닭갈비집 #청주맛집 #청주시내맛집 #청주술집 #청주고기집 #청주갈매기살 #성안길데이트 #성안길고기집 #청주시상",
-     "url": "https://www.youtube.com/watch?v=OSYpgZeMlYU",
-     "date": "2026-11-06",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 14,
-   "first_seen": "2026-11-14"
+   "last": 1,
+   "first_seen": "2026-11-21"
   },
   {
    "id": "k876446141",
@@ -116,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -225,21 +196,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "동성로 한우대창 파스타에 불닭육회양파쌈 조합..?💦 #빠레뜨한남 #동성로데이트 #동성로맛집 #대구맛집 #동성로핫플",
-     "url": "https://www.youtube.com/watch?v=Ls-iaGkYgIg",
-     "date": "2026-11-17",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 3,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -1751,13 +1714,21 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "점심시간엔 줄부터 서야 하는 명동 맛집🔥 명동교자 웨이팅 필수!",
+     "url": "https://www.youtube.com/watch?v=DogCBjgBFCI",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -2379,6 +2350,27 @@
    "place_url": "http://place.map.kakao.com/1621058095",
    "good": null,
    "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k257656419",
+   "area": "cheongju",
+   "name": "올드타운클럽",
+   "cat": "아시아음식",
+   "addr": "충북 청주시 상당구 상당로55번길 40-1",
+   "lat": 36.63312143433475,
+   "lng": 127.48842875792829,
+   "place_url": "http://place.map.kakao.com/257656419",
+   "good": null,
+   "emoji": "🍲",
    "src": {
     "yt": 0,
     "blog": 0,

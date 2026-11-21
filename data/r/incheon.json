@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "incheon",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k9175466",
@@ -43,7 +43,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -86,7 +86,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -115,7 +115,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -151,7 +151,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -210,7 +210,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -239,7 +239,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -291,7 +291,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-16"
   },
   {
@@ -352,7 +352,7 @@
    "good": null,
    "emoji": "🍗",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -363,17 +363,10 @@
      "url": "https://www.youtube.com/watch?v=0AG0fsBV1OU",
      "date": "2026-11-14",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "포야채치킨에 오시면 이 3가지는 꼭 드셔보셔야 합니다. 🥢 #치킨 #닭강정 #신포시장 #맛집 #신포동 #chicken #food #먹방 #촌닭 ",
-     "url": "https://www.youtube.com/watch?v=cGcsKEt3VI8",
-     "date": "2026-11-06",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -402,7 +395,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 14,
    "first_seen": "2026-11-14"
   },
   {
@@ -431,7 +424,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 14,
    "first_seen": "2026-11-20"
   },
   {
@@ -462,7 +455,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-16"
   },
   {
@@ -516,7 +509,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-16"
   },
   {

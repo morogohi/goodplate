@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeonnam",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k2085896456",
@@ -15,11 +15,18 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "전라도 여수 1박2일 간단여행 코스 총정리",
+     "url": "https://www.youtube.com/watch?v=y3jGZq2t2Lo",
+     "date": "2026-11-20",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "#여수여행 #2박3일 #뚜벅이여행 2일차",
@@ -44,11 +51,18 @@
    "good": null,
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "여수 여행 필수코스 BEST 5🔥 갈치조림·게장 맛집부터 이순신광장·수산시장까지! #여수여행 #여수맛집 이순신광장",
+     "url": "https://www.youtube.com/watch?v=Xi1eBzZn8jE",
+     "date": "2026-11-20",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "#여수가족여행 중 맛집 #여수순이네밥상 맛이 있지만 화장실런 했습니다요",
@@ -59,35 +73,6 @@
    ],
    "kw": [],
    "last": 1,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k26972508",
-   "area": "yeosu",
-   "name": "이순신수제버거",
-   "cat": "햄버거",
-   "addr": "전남광주통합특별시 여수시 중앙로 73",
-   "lat": 34.74022411692939,
-   "lng": 127.73568226727866,
-   "place_url": "http://place.map.kakao.com/26972508",
-   "good": null,
-   "emoji": "🍔",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "여수 이순신광장 맛집 이순신수제버거 갓마요버거 #여수맛집 #이순신광장먹거리 #여수여행",
-     "url": "https://www.youtube.com/watch?v=Zwo5QiGQkPU",
-     "date": "2026-11-18",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -116,37 +101,8 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
-  },
-  {
-   "id": "k2008954211",
-   "area": "yeosu",
-   "name": "소울라운지",
-   "cat": "칵테일바",
-   "addr": "전남광주통합특별시 여수시 이순신광장로 130",
-   "lat": 34.73804386410945,
-   "lng": 127.7380291576932,
-   "place_url": "http://place.map.kakao.com/2008954211",
-   "good": null,
-   "emoji": "🍶",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#여수여행 #2박3일 #뚜벅이여행 1일차",
-     "url": "https://www.youtube.com/watch?v=vygdnz8QwGg",
-     "date": "2026-11-17",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 3,
-   "first_seen": "2026-11-17"
   },
   {
    "id": "k1656022954",
@@ -162,21 +118,13 @@
    "good": "price",
    "emoji": "🍚",
    "src": {
-    "yt": 1,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "#여수여행 #2박3일 #뚜벅이여행 1일차",
-     "url": "https://www.youtube.com/watch?v=vygdnz8QwGg",
-     "date": "2026-11-17",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 3,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {
@@ -216,13 +164,21 @@
    "good": "price",
    "emoji": "🍚",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "여수 여행가서 여수밤바다~낭만포차 즐기고 왔어유🎵 #맛집 #여수",
+     "url": "https://www.youtube.com/watch?v=95wyhE0AK-w",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -277,7 +233,7 @@
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-16"
   },
   {
@@ -331,7 +287,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-16"
   },
   {
@@ -1213,6 +1169,27 @@
    "place_url": "http://place.map.kakao.com/2089785035",
    "good": null,
    "emoji": "🍝",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k26972508",
+   "area": "yeosu",
+   "name": "이순신수제버거",
+   "cat": "햄버거",
+   "addr": "전남광주통합특별시 여수시 중앙로 73",
+   "lat": 34.74022411692939,
+   "lng": 127.73568226727866,
+   "place_url": "http://place.map.kakao.com/26972508",
+   "good": null,
+   "emoji": "🍔",
    "src": {
     "yt": 0,
     "blog": 0,

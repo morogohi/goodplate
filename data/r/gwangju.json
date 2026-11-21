@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gwangju",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k10575386",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -81,7 +81,7 @@
     }
    ],
    "kw": [],
-   "last": 8,
+   "last": 9,
    "first_seen": "2026-11-14"
   },
   {
@@ -134,7 +134,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -149,11 +149,18 @@
    "good": null,
    "emoji": "🍽️",
    "src": {
-    "yt": 3,
+    "yt": 4,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "경주 황리단길에서 부모님과 식사하기 좋은 전망 좋은 한정식 맛집#한다솥경주점#황리단길맛집#경주여행#경주한식#경주황리단길",
+     "url": "https://www.youtube.com/watch?v=wWpqW394sOo",
+     "date": "2026-11-20",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "경주 불국사 가는길 보문단지 한식맛집 #맛자랑",
@@ -889,7 +896,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -1919,28 +1926,13 @@
    "emoji": "🍚",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 0,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "경주 가면 필수💡한우육회물회 & 육회비빔밥 🤤 #경주맛집 #경주함양집 #한우물회 #shorts",
-     "url": "https://www.youtube.com/watch?v=ZjqbQmTlU7M",
-     "date": "2026-11-18",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "2026년 11월 16일",
-     "url": "https://www.youtube.com/watch?v=7NPsUbzZU9s",
-     "date": "2026-11-16",
-     "sponsored": false
-    }
-   ],
+   "mentions": [],
    "kw": [],
-   "last": 2,
+   "last": null,
    "first_seen": "2026-11-16"
   },
   {

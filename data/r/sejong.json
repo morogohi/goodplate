@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "sejong",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k17822344",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -67,7 +67,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 14,
+    "yt": 13,
     "blog": 0,
     "insta": 0
    },
@@ -130,7 +130,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -285,13 +285,21 @@
    "emoji": "🍗",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "읍성옛날통닭#경주맛집",
+     "url": "https://www.youtube.com/watch?v=I4E0prUbPl0",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -656,14 +664,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1267882546",
+   "id": "k1306382678",
    "area": "jochiwon",
-   "name": "화양연화",
-   "cat": "카페",
-   "addr": "세종특별자치시 조치원읍 으뜸길 131",
-   "lat": 36.5973941838279,
-   "lng": 127.297387471895,
-   "place_url": "http://place.map.kakao.com/1267882546",
+   "name": "메가MGC커피 조치원역점",
+   "cat": "메가MGC커피",
+   "addr": "세종특별자치시 조치원읍 조치원로 6-1",
+   "lat": 36.601070067618146,
+   "lng": 127.29733340463399,
+   "place_url": "http://place.map.kakao.com/1306382678",
    "good": null,
    "emoji": "☕",
    "src": {
@@ -677,14 +685,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k1306382678",
+   "id": "k1267882546",
    "area": "jochiwon",
-   "name": "메가MGC커피 조치원역점",
-   "cat": "메가MGC커피",
-   "addr": "세종특별자치시 조치원읍 조치원로 6-1",
-   "lat": 36.601070067618146,
-   "lng": 127.29733340463399,
-   "place_url": "http://place.map.kakao.com/1306382678",
+   "name": "화양연화",
+   "cat": "카페",
+   "addr": "세종특별자치시 조치원읍 으뜸길 131",
+   "lat": 36.5973941838279,
+   "lng": 127.297387471895,
+   "place_url": "http://place.map.kakao.com/1267882546",
    "good": null,
    "emoji": "☕",
    "src": {

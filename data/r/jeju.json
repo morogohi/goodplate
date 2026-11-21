@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "jeju",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k9797621",
@@ -36,7 +36,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -72,7 +72,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-14"
   },
   {
@@ -124,8 +124,66 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-20"
+  },
+  {
+   "id": "k151574163",
+   "area": "jeju-city",
+   "name": "카페성지",
+   "cat": "커피전문점",
+   "addr": "제주특별자치도 제주시 성지로 10",
+   "lat": 33.5096866847796,
+   "lng": 126.524682398666,
+   "place_url": "http://place.map.kakao.com/151574163",
+   "good": null,
+   "emoji": "☕",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "제주 커피 찐으로 맛있는 곳입니다.. #제주맛집 #제주카페",
+     "url": "https://www.youtube.com/watch?v=_B0xYeisie8",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "k8453998",
+   "area": "seogwipo",
+   "name": "오는정김밥",
+   "cat": "분식",
+   "addr": "제주특별자치도 서귀포시 동문동로 2",
+   "lat": 33.2495955703083,
+   "lng": 126.567621058572,
+   "place_url": "http://place.map.kakao.com/8453998",
+   "good": null,
+   "emoji": "🍙",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "제주도여행 제주도맛집 오는정김밥 평점4.6점 #맛집 #맛집소개유투버 #food",
+     "url": "https://www.youtube.com/watch?v=ZKTiFrFwpzw",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 1,
+   "first_seen": "2026-11-14"
   },
   {
    "id": "k11733078",
@@ -148,35 +206,6 @@
    "mentions": [],
    "kw": [],
    "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k25448888",
-   "area": "seogwipo",
-   "name": "흑돼지BBQ",
-   "cat": "육류,고기",
-   "addr": "제주특별자치도 서귀포시 태평로353번길 7",
-   "lat": 33.24682757900611,
-   "lng": 126.55965878651736,
-   "place_url": "http://place.map.kakao.com/25448888",
-   "good": null,
-   "emoji": "🥩",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "제주도 올레장 흑돼지BBQ 여기 예약하고 가세요 #맛집 #맛집소개유투버 #제주도여행",
-     "url": "https://www.youtube.com/watch?v=ppbYTtSesnw",
-     "date": "2026-11-18",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
    "first_seen": "2026-11-14"
   },
   {
@@ -205,37 +234,8 @@
     }
    ],
    "kw": [],
-   "last": 1,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k10927446",
-   "area": "seogwipo",
-   "name": "할머니떡집",
-   "cat": "떡,한과",
-   "addr": "제주특별자치도 서귀포시 중앙로42번길 24",
-   "lat": 33.2485917786588,
-   "lng": 126.56418362155,
-   "place_url": "http://place.map.kakao.com/10927446",
-   "good": null,
-   "emoji": "🍽️",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "KOREA TRIP WEEK 2 🇰🇷 JEJU | 서귀포맛집 | 제주도러닝 | 고기국수 | 올레시장 | 할머니떡집 귤모찌 | 깡촌흑돼지 | 바다",
-     "url": "https://www.youtube.com/watch?v=p7h5WE0lQt0",
-     "date": "2026-11-18",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
    "last": 2,
-   "first_seen": "2026-11-19"
+   "first_seen": "2026-11-14"
   },
   {
    "id": "k1701981130",
@@ -261,35 +261,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "k1049393948",
-   "area": "seogwipo",
-   "name": "메밀꽃치킨",
-   "cat": "치킨",
-   "addr": "제주특별자치도 서귀포시 중앙로48번길 17-1",
-   "lat": 33.2494223567601,
-   "lng": 126.563462687428,
-   "place_url": "http://place.map.kakao.com/1049393948",
-   "good": null,
-   "emoji": "🍗",
-   "src": {
-    "yt": 1,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [
-    {
-     "src": "yt",
-     "title": "부부 제주여행 브이로그 | 꽁빵부부의 제주 서쪽-남쪽 2박 3일🍊| 찐맛집부터 알찬 제주코스 공유⭐️행복밀•경성수산•메밀꽃치킨(서귀포올레시장)•",
-     "url": "https://www.youtube.com/watch?v=_f-0zh53h4Y",
-     "date": "2026-11-18",
-     "sponsored": false
-    }
-   ],
-   "kw": [],
-   "last": 2,
-   "first_seen": "2026-11-20"
-  },
-  {
    "id": "k25816147",
    "area": "seogwipo",
    "name": "파시랑",
@@ -301,7 +272,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -312,17 +283,10 @@
      "url": "https://www.youtube.com/watch?v=N4q9PeXHv0A",
      "date": "2026-11-19",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "KOREA TRIP WEEK 2 🇰🇷 JEJU | 서귀포맛집 | 제주도러닝 | 고기국수 | 올레시장 | 할머니떡집 귤모찌 | 깡촌흑돼지 | 바다",
-     "url": "https://www.youtube.com/watch?v=p7h5WE0lQt0",
-     "date": "2026-11-18",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-19"
   },
   {
@@ -1298,7 +1262,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-16"
   },
   {
@@ -1936,13 +1900,21 @@
    "emoji": "🥩",
    "good": "price",
    "src": {
-    "yt": 0,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
-   "mentions": [],
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "이런 곳이 진짜 도민 맛집이지!",
+     "url": "https://www.youtube.com/watch?v=0Il7UIlJjWY",
+     "date": "2026-11-20",
+     "sponsored": false
+    }
+   ],
    "kw": [],
-   "last": null,
+   "last": 1,
    "first_seen": "2026-11-16"
   },
   {
@@ -2825,7 +2797,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {
@@ -3173,14 +3145,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k439308243",
+   "id": "k21477180",
    "area": "jeju-city",
-   "name": "제주보말칼국수",
-   "cat": "칼국수",
-   "addr": "제주특별자치도 제주시 관덕로8길 40",
-   "lat": 33.50996108594127,
-   "lng": 126.52335708163123,
-   "place_url": "http://place.map.kakao.com/439308243",
+   "name": "파도식당",
+   "cat": "국수",
+   "addr": "제주특별자치도 제주시 성지로 68-1",
+   "lat": 33.5113029327216,
+   "lng": 126.530513514467,
+   "place_url": "http://place.map.kakao.com/21477180",
    "good": null,
    "emoji": "🍜",
    "src": {
@@ -3194,14 +3166,14 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "k21477180",
+   "id": "k439308243",
    "area": "jeju-city",
-   "name": "파도식당",
-   "cat": "국수",
-   "addr": "제주특별자치도 제주시 성지로 68-1",
-   "lat": 33.5113029327216,
-   "lng": 126.530513514467,
-   "place_url": "http://place.map.kakao.com/21477180",
+   "name": "제주보말칼국수",
+   "cat": "칼국수",
+   "addr": "제주특별자치도 제주시 관덕로8길 40",
+   "lat": 33.50996108594127,
+   "lng": 126.52335708163123,
+   "place_url": "http://place.map.kakao.com/439308243",
    "good": null,
    "emoji": "🍜",
    "src": {
@@ -3309,27 +3281,6 @@
    "place_url": "http://place.map.kakao.com/572274077",
    "good": null,
    "emoji": "☕",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k8453998",
-   "area": "seogwipo",
-   "name": "오는정김밥",
-   "cat": "분식",
-   "addr": "제주특별자치도 서귀포시 동문동로 2",
-   "lat": 33.2495955703083,
-   "lng": 126.567621058572,
-   "place_url": "http://place.map.kakao.com/8453998",
-   "good": null,
-   "emoji": "🍙",
    "src": {
     "yt": 0,
     "blog": 0,
@@ -3519,6 +3470,27 @@
    "place_url": "http://place.map.kakao.com/1626708928",
    "good": null,
    "emoji": "🍚",
+   "src": {
+    "yt": 0,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [],
+   "kw": [],
+   "last": null,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k25448888",
+   "area": "seogwipo",
+   "name": "흑돼지BBQ",
+   "cat": "육류,고기",
+   "addr": "제주특별자치도 서귀포시 태평로353번길 7",
+   "lat": 33.24682757900611,
+   "lng": 126.55965878651736,
+   "place_url": "http://place.map.kakao.com/25448888",
+   "good": null,
+   "emoji": "🥩",
    "src": {
     "yt": 0,
     "blog": 0,

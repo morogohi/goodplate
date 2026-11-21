@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "ulsan",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k434306603",
@@ -29,7 +29,36 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "k15778287",
+   "area": "seongnam",
+   "name": "봉계돼지국밥",
+   "cat": "국밥",
+   "addr": "울산 중구 중앙길 91-2",
+   "lat": 35.5557387485943,
+   "lng": 129.3180875196623,
+   "place_url": "http://place.map.kakao.com/15778287",
+   "good": null,
+   "emoji": "🍲",
+   "src": {
+    "yt": 1,
+    "blog": 0,
+    "insta": 0
+   },
+   "mentions": [
+    {
+     "src": "yt",
+     "title": "울산 성남동 봉계돼지국밥",
+     "url": "https://www.youtube.com/watch?v=wZoa7yMywzQ",
+     "date": "2026-11-14",
+     "sponsored": false
+    }
+   ],
+   "kw": [],
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -104,7 +133,7 @@
     }
    ],
    "kw": [],
-   "last": 5,
+   "last": 6,
    "first_seen": "2026-11-16"
   },
   {
@@ -825,7 +854,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
   },
   {
@@ -1643,27 +1672,6 @@
    "lat": 35.5546972286728,
    "lng": 129.319861424973,
    "place_url": "http://place.map.kakao.com/8215648",
-   "good": null,
-   "emoji": "🍲",
-   "src": {
-    "yt": 0,
-    "blog": 0,
-    "insta": 0
-   },
-   "mentions": [],
-   "kw": [],
-   "last": null,
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "k15778287",
-   "area": "seongnam",
-   "name": "봉계돼지국밥",
-   "cat": "국밥",
-   "addr": "울산 중구 중앙길 91-2",
-   "lat": 35.5557387485943,
-   "lng": 129.3180875196623,
-   "place_url": "http://place.map.kakao.com/15778287",
    "good": null,
    "emoji": "🍲",
    "src": {

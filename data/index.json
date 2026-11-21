@@ -1,6 +1,6 @@
 {
  "sample": false,
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "regions": {
   "seoul": {
    "name": "서울",
@@ -63,7 +63,7 @@
   },
   "daegu": {
    "name": "대구",
-   "count": 158,
+   "count": 156,
    "good": 137,
    "areas": {
     "dongseongno": {
@@ -183,7 +183,7 @@
   },
   "jeonbuk": {
    "name": "전북",
-   "count": 47,
+   "count": 46,
    "good": 24,
    "areas": {
     "jeonju-hanok": {
@@ -195,7 +195,7 @@
   },
   "jeonnam": {
    "name": "전남",
-   "count": 64,
+   "count": 63,
    "good": 42,
    "areas": {
     "yeosu": {
@@ -207,7 +207,7 @@
   },
   "gyeongbuk": {
    "name": "경북",
-   "count": 41,
+   "count": 42,
    "good": 18,
    "areas": {
     "gyeongju": {
@@ -219,7 +219,7 @@
   },
   "gyeongnam": {
    "name": "경남",
-   "count": 61,
+   "count": 62,
    "good": 39,
    "areas": {
     "tongyeong": {
@@ -231,7 +231,7 @@
   },
   "jeju": {
    "name": "제주",
-   "count": 159,
+   "count": 158,
    "good": 115,
    "areas": {
     "jeju-city": {

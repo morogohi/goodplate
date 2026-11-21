@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "gangwon",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k8606955",
@@ -29,7 +29,7 @@
     }
    ],
    "kw": [],
-   "last": 4,
+   "last": 5,
    "first_seen": "2026-11-14"
   },
   {
@@ -58,7 +58,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -87,7 +87,7 @@
     }
    ],
    "kw": [],
-   "last": 13,
+   "last": 14,
    "first_seen": "2026-11-14"
   },
   {
@@ -139,7 +139,7 @@
     }
    ],
    "kw": [],
-   "last": 12,
+   "last": 13,
    "first_seen": "2026-11-14"
   },
   {
@@ -170,7 +170,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-16"
   },
   {
@@ -199,7 +199,7 @@
     }
    ],
    "kw": [],
-   "last": 10,
+   "last": 11,
    "first_seen": "2026-11-14"
   },
   {
@@ -228,7 +228,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-19"
   },
   {
@@ -264,7 +264,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -279,7 +279,7 @@
    "good": null,
    "emoji": "☕",
    "src": {
-    "yt": 3,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
@@ -297,17 +297,10 @@
      "url": "https://www.youtube.com/watch?v=9PiICxKVWz0",
      "date": "2026-11-11",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "“저는 여기 갑니다” 사장님이 알려주는 강릉 저녁 맛집",
-     "url": "https://www.youtube.com/watch?v=jj94y8xnIu8",
-     "date": "2026-11-06",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 7,
+   "last": 8,
    "first_seen": "2026-11-14"
   },
   {
@@ -899,7 +892,7 @@
    "emoji": "☕",
    "good": "price",
    "src": {
-    "yt": 2,
+    "yt": 1,
     "blog": 0,
     "insta": 0
    },
@@ -910,17 +903,10 @@
      "url": "https://www.youtube.com/watch?v=ZYu1HJQxd10",
      "date": "2026-11-19",
      "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "부산 해운대 청사포 카페 어디까지 가봤어? 지금 여기가 가장 유명한 오션뷰 카페인데 #콘라떼 #해운대",
-     "url": "https://www.youtube.com/watch?v=_kljuyIC3jg",
-     "date": "2026-11-18",
-     "sponsored": false
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 2,
    "first_seen": "2026-11-16"
   },
   {

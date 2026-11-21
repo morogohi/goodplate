@@ -1,7 +1,7 @@
 {
  "sample": false,
  "sido": "daejeon",
- "generated_at": "2026-11-20T10:06+09:00",
+ "generated_at": "2026-11-21T09:41+09:00",
  "stores": [
   {
    "id": "k17733090",
@@ -15,11 +15,25 @@
    "good": null,
    "emoji": "🥐",
    "src": {
-    "yt": 9,
+    "yt": 12,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
+    {
+     "src": "yt",
+     "title": "광화문 빵축제 성심당 공략법 #광화문빵페스티벌 #성심당 #광화문맛집",
+     "url": "https://www.youtube.com/watch?v=jKfqrTPf2IQ",
+     "date": "2026-11-20",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
+     "title": "대전빵투어 성심당,하레하레,장인약과 맛집투어",
+     "url": "https://www.youtube.com/watch?v=aJ2o1tPYbA0",
+     "date": "2026-11-20",
+     "sponsored": false
+    },
     {
      "src": "yt",
      "title": "광화문 빵축제 현장대기 1700명 뚫은 썰~‼️#광화문빵축제 #광화문광장 #서울맛집",
@@ -50,30 +64,16 @@
     },
     {
      "src": "yt",
+     "title": "대전 1박 2일 완벽 코스! 맛집·카페·숙소까지(정리본/지도 리스트 공유 🗺️)",
+     "url": "https://www.youtube.com/watch?v=nmQRKcoR09g",
+     "date": "2026-11-16",
+     "sponsored": false
+    },
+    {
+     "src": "yt",
      "title": "#사쿠사쿠 #대전맛집 #대전대흥동맛집 #대전텐동 #텐동맛집 #대전텐동맛집 #성심당근처맛집 #대흥동맛집 #대전빵지순례 #대전여행코스 #대전데이트",
      "url": "https://www.youtube.com/watch?v=NMuwAB6loV0",
      "date": "2026-11-15",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "대전 원도심 맛집 티어 (공식 인증만) 성심당·진로집·신도칼국수 #shorts",
-     "url": "https://www.youtube.com/watch?v=jLP2rbZSD-U",
-     "date": "2026-11-14",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "성심당 광화문 빵축제 18일부터 사흘, 패스트패스 없어도 될까",
-     "url": "https://www.youtube.com/watch?v=hY8fPqZcsBY",
-     "date": "2026-11-13",
-     "sponsored": false
-    },
-    {
-     "src": "yt",
-     "title": "대전여행🍞 성심당만 가면 아쉽지! 숨은 빵집부터 맛집까지 1박 2일 완벽코스🔥",
-     "url": "https://www.youtube.com/watch?v=rhieFfQ2tLU",
-     "date": "2026-11-13",
      "sponsored": false
     }
    ],
@@ -107,7 +107,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -207,7 +207,7 @@
     }
    ],
    "kw": [],
-   "last": 3,
+   "last": 4,
    "first_seen": "2026-11-17"
   },
   {
@@ -257,7 +257,7 @@
     }
    ],
    "kw": [],
-   "last": 2,
+   "last": 3,
    "first_seen": "2026-11-14"
   },
   {
@@ -286,7 +286,7 @@
     }
    ],
    "kw": [],
-   "last": 6,
+   "last": 7,
    "first_seen": "2026-11-16"
   },
   {
@@ -301,18 +301,11 @@
    "good": null,
    "emoji": "🥩",
    "src": {
-    "yt": 3,
+    "yt": 2,
     "blog": 0,
     "insta": 0
    },
    "mentions": [
-    {
-     "src": "yt",
-     "title": "우동부터 아구수육까지! 부산 기장 맛집 5곳",
-     "url": "https://www.youtube.com/watch?v=jR_sQCf_qHc",
-     "date": "2026-11-19",
-     "sponsored": false
-    },
     {
      "src": "yt",
      "title": "광고, 홍보 진짜 1도 없는 광화문 토박이 노포  (feat.황금정)",
@@ -329,7 +322,7 @@
     }
    ],
    "kw": [],
-   "last": 1,
+   "last": 7,
    "first_seen": "2026-11-14"
   },
   {
@@ -915,7 +908,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-16"
   },
   {
@@ -1291,7 +1284,7 @@
     }
    ],
    "kw": [],
-   "last": 9,
+   "last": 10,
    "first_seen": "2026-11-16"
   },
   {
