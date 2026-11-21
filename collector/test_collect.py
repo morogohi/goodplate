@@ -80,6 +80,18 @@ def run():
     assert st2["테스트국밥 종로점"]["src"]["yt"] == 1 and "rank" not in st2["조용한식당"], "유튜브 유지·내부 순위 필드 제거"
     assert "골목카페" in st2 and st2["골목카페"]["emoji"] == "☕" and "_code" not in st2["골목카페"], "카페(CE7) 수집"
     collect.load_csv = real_csv
+    # 공익 성과 기록·안전장치
+    hist = json.loads((tmp / "history.json").read_text(encoding="utf-8"))
+    assert hist and hist[-1]["stores"] >= 1 and "good_by_sido" in hist[-1], "날짜별 지표 기록"
+    assert len({h["d"] for h in hist}) == len(hist), "같은 날은 한 줄만"
+    collect.previous_total = lambda: 1000            # 지난번 1,000곳 → 이번 몇 곳뿐이면 덮어쓰기 중단
+    try:
+        collect.write_outputs([], collect.datetime.now(collect.KST) if hasattr(collect, "KST") else __import__("datetime").datetime.now())
+        raise AssertionError("급감 시 중단해야 함")
+    except SystemExit as e:
+        assert "급감" in str(e)
+    assert collect.per_person("한상차림(4인)", 53000) == 13200 and collect.per_person("백반", 8000) == 8000, "1인 가격"
+    assert not collect.is_food({"cat": "헬스클럽", "menu": "헬스 1개월"}) and collect.is_food({"cat": "한식", "menu": "백반"}), "음식점만"
     print("ALL PASS", s["src"], s["kw"], s["price"], g["name"])
 
 

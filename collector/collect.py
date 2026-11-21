@@ -460,8 +460,42 @@ def select_stores(stores, naver):
     return out
 
 
+def previous_total():
+    """지난 실행에서 저장한 전체 가게 수 (안전장치 비교용)"""
+    n = 0
+    for f in (DATA / "r").glob("*.json"):
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+            n += 0 if d.get("sample") else len(d.get("stores", []))
+        except (OSError, ValueError):
+            pass
+    return n
+
+
+def record_history(keep, now):
+    """공익 성과 지표: 날짜별 가게·착한가게·가격·카페·영상 언급 수를 data/history.json 에 1년치 기록"""
+    by = {}
+    for s in keep:
+        sk = AREAS[s["area"]]["sido"]
+        by[sk] = by.get(sk, 0) + (1 if s.get("good") else 0)
+    row = {"d": now.strftime("%Y-%m-%d"), "stores": len(keep),
+           "good": sum(1 for s in keep if s.get("good")),
+           "price": sum(1 for s in keep if s.get("price")),
+           "cafe": sum(1 for s in keep if re.search(r"카페|커피|디저트|베이커리|제과", s.get("cat") or "")),
+           "yt": sum(1 for s in keep if (s.get("src") or {}).get("yt")),
+           "areas": len({s["area"] for s in keep}), "good_by_sido": by}
+    hist_f = DATA / "history.json"
+    hist = json.loads(hist_f.read_text(encoding="utf-8")) if hist_f.exists() else []
+    hist = [h for h in hist if h.get("d") != row["d"]] + [row]
+    hist_f.write_text(json.dumps(sorted(hist, key=lambda h: h["d"])[-400:], ensure_ascii=False), encoding="utf-8")
+
+
 def write_outputs(keep, now, sample=False):
     keep = [s for s in keep if is_food(s)]          # 1인 가격 환산은 착한가격업소 목록을 읽을 때 한 번만 (good_rows)
+    # 안전장치: API 장애·한도 초과로 가게가 갑자기 30% 넘게 줄면 기존 데이터를 덮어쓰지 않고 멈춤 (워크플로 실패로 알림)
+    prev = previous_total()
+    if not sample and prev >= 200 and len(keep) < prev * 0.7 and os.getenv("ALLOW_DROP") != "1":
+        raise SystemExit(f"[guard] 가게 수 급감 {prev} → {len(keep)} — 기존 데이터 유지. 의도한 변경이면 ALLOW_DROP=1 로 다시 실행")
     (DATA / "r").mkdir(parents=True, exist_ok=True)
     stamp = now.isoformat(timespec="minutes")
     counts, goods = {}, {}
@@ -481,6 +515,8 @@ def write_outputs(keep, now, sample=False):
         "courses": COURSES,
     }
     (DATA / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
+    if not sample:
+        record_history(keep, now)
     print(f"[done] {len(keep)}곳 · {len(counts)}개 시도 → {DATA}")
 
 

@@ -139,6 +139,7 @@ a{color:inherit}
 .map{isolation:isolate;z-index:0}  /* Leaflet 내부 z-index(400~1000)가 시트·내비 위로 올라오지 않게 */
 .map .leaflet-container{width:100%;height:100%;font-family:inherit;background:#EFEBE4}
 .pp{font-size:.86em;color:var(--sub,#6B7280);font-weight:500}
+.helpful{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 18px 0;padding:12px 14px;background:var(--surface);border-radius:14px;box-shadow:var(--sh);font-size:14px;font-weight:600}
 .lclu{width:36px;height:36px;border-radius:50%;background:#E8613C;color:#fff;font-weight:800;font-size:14px;display:grid;place-items:center;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25);cursor:pointer}
 .lclu.g{background:#1F6F5C}
 .lpin{width:32px;height:32px;border-radius:50%;background:#fff;border:2.6px solid #E8613C;display:grid;place-items:center;font-size:16px;box-shadow:0 2px 6px rgba(0,0,0,.18);cursor:pointer}
@@ -364,7 +365,7 @@ function locate(silent){
     let done=false;const fail=()=>{if(done)return;done=true;if(!silent)toast('위치 권한이 없어요. 지역을 골라 주세요');S.useGps=false;persist();res(false)};
     setTimeout(fail,9000);
     try{getPos().then(async p=>{
-      if(done)return;done=true;
+      if(done)return;done=true;Stat.hit('gps',true);
       const me={lat:p.coords.latitude,lng:p.coords.longitude};
       let best=null;for(const [sk,r] of Object.entries(IDX.regions))for(const [ak,a] of Object.entries(r.areas)){const d=dist(me,a);if(!best||d<best.d)best={sk,ak,d}}
       S.sido=best.sk;S.area=best.ak;S.stores=await loadSido(S.sido);S.hasPrice=S.stores.some(s=>s.price);
@@ -475,7 +476,7 @@ function vHome(){
     <section class="sec"><div class="sec-h"><div><h2>전국 착한 여행코스</h2><p>지역 맛집과 걷기 좋은 길을 함께</p></div><button class="more" data-tab="course">전체 ›</button></div>
     <div class="hscroll">${other.slice(0,6).map(x=>courseCard(x)).join('')}</div></section>
     ${collectBar()}
-    <div class="foot"><b>착한맛자랑은 이렇게 운영해요</b>손님과 가게 모두 무료입니다. 광고 순위는 없습니다. 유튜브·블로그 원문은 복사하지 않고 링크로 연결해 만든 사람에게 조회수가 돌아가게 합니다. 협찬 표기가 있는 글은 따로 표시합니다. 위치는 기기에서만 계산합니다.</div>`}`;
+    <div class="foot"><b>착한맛자랑은 이렇게 운영해요</b>손님과 가게 모두 무료입니다. 광고 순위는 없습니다. 유튜브 원문은 복사하지 않고 링크로 연결해 만든 사람에게 조회수가 돌아가게 합니다. 협찬 표기가 있는 글은 따로 표시합니다. 위치는 기기에서만 계산합니다.<br><span style="font-size:12px">데이터 출처: 착한가격업소 — 행정안전부 「착한가격업소 현황」(공공데이터포털, 공공누리 제1유형) · 가게 정보 — 카카오 로컬 · 영상 — YouTube<br>운영 ${OPERATOR} · <a href="mailto:${CONTACT}" style="color:inherit">${CONTACT}</a> · <a href="impact.html" style="color:inherit">운영 지표</a> · <button class="mini" data-suggest style="display:inline">가게 제보하기</button></span></div>`}`;
 }
 function purRow(){return `<div class="pur">${PURPOSE.map(([k,e,l])=>`<button class="${S.f.purpose===k?'on':''}" data-pur="${k}"><em>${e}</em>${l}</button>`).join('')}</div>`}
 function filterSheet(){
@@ -625,7 +626,8 @@ function vList(){
     body=items.length?`<div class="pad list">${items.map(s=>storeRow(s)+(S.memos[s.id]?`<p class="note" style="margin:-2px 6px 4px">📝 ${esc(S.memos[s.id])}</p>`:'')).join('')}</div>`:`<div class="empty">「${LIST[S.listTab]}」에 담은 가게가 없어요.<br>가게를 눌러 담아 보세요.</div>`;
   }
   return `<section class="hero" style="padding-bottom:14px"><div class="eyebrow"><i></i>이 기기에 저장돼요</div><h1 style="font-size:24px">내 맛집 리스트</h1></section>
-  <div class="seg">${Object.entries(LIST).map(([k,l])=>`<button class="${S.listTab===k?'on':''}" data-ltab="${k}">${l.replace(' 싶어요','')} ${cnt(k)}</button>`).join('')}<button class="${S.listTab==='course'?'on':''}" data-ltab="course">코스 ${S.courses.length}</button></div>${body}`;
+  <div class="seg">${Object.entries(LIST).map(([k,l])=>`<button class="${S.listTab===k?'on':''}" data-ltab="${k}">${l.replace(' 싶어요','')} ${cnt(k)}</button>`).join('')}<button class="${S.listTab==='course'?'on':''}" data-ltab="course">코스 ${S.courses.length}</button></div>${body}
+  <div class="pad"><div class="box" style="text-align:center"><h4>찾는 가게가 없나요?</h4><p class="note" style="margin:0 0 10px">소개하고 싶은 착한가게·동네 맛집을 알려 주세요.</p><button class="btn ghost" data-suggest>가게 제보하기</button></div></div>`;
 }
 let draft={photo:null,storeId:null,reasons:[],text:''};
 function vBrag(){
@@ -675,7 +677,7 @@ async function storeSheet(id,sk){
   const arr=await loadSido(sk);let s=arr.find(x=>x.id===id);
   if(!s&&S.saved[id])s={...S.saved[id].snap,id,src:{yt:0,blog:0,insta:0},mentions:[],kw:[],last:99};
   if(!s)return;
-  const d=sk===S.sido?dist(area(),s):null;
+  const d=sk===S.sido?dist(area(),s):null;Stat.hit('store_open');
   openSheet(`<div class="dhead"><div class="ph" style="background:${s.bg||'#EDEBE6'}">${s.emoji}</div><div style="min-width:0"><h3>${esc(s.name)}</h3>
     <p class="note" style="margin-top:2px">${esc(s.cat||'')}${d!=null?` · ${esc(area().name)}에서 ${fD(d)}`:''}</p>
     <div class="mn" style="margin-top:4px">${s.price?`${esc(s.menu)} <b>${won(s.price)}</b>${s.pp?` <span class="pp">1인 약 ${won(s.pp)}</span>`:''}`:esc(s.addr||'')}</div><div class="bds">${badges(s)}</div></div></div>
@@ -685,14 +687,14 @@ async function storeSheet(id,sk){
   <div class="box"><h4>최근 언급 ${s.mentions.length}건</h4>${s.mentions.map(m=>`<div class="men"><span class="s" style="color:${SRC[m.src].c}">${SRC[m.src].n}</span><span class="t">${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)} ↗</a>`:esc(m.title)}${m.sponsored?' <span class="bd spon">협찬</span>':''}</span><span class="a">${ago(m.ago)}</span></div>`).join('')||'<p class="note">아직 언급이 없어요</p>'}
   <p class="note">${IDX.sample?'가상의 샘플 제목이에요. 실제 수집 데이터에선 누르면 원문으로 이동해요.':'원문은 저장하지 않고 링크로 연결해요.'}</p></div>
   ${s.good==='share'?`<div class="box" style="background:var(--share-soft);box-shadow:none"><h4 style="color:var(--share)">나눔 실천 가게</h4><p class="note" style="margin:0">결식아동 식사 나눔 등에 참여하는 가게예요. 아동 이용 안내는 전문 플랫폼으로 연결합니다.</p></div>`:''}
-  <a class="mini" style="display:inline-flex;margin-top:10px" target="_blank" rel="noopener" href="https://github.com/morogohi/goodplate/issues/new?title=${encodeURIComponent('[정보 수정] '+s.name)}&body=${encodeURIComponent(`가게: ${s.name}\n가게 ID: ${s.id}\n지역: ${IDX.regions[sk]?.name||''} ${IDX.regions[sk]?.areas[s.area]?.name||''}\n주소: ${s.addr||''}\n\n무엇이 다른가요? (예: 폐업, 가격 변경, 착한가게 지정·해제, 위치 오류)\n- `)}">✎ 정보가 달라요 · 수정 요청</a>
+  <button class="mini" style="display:inline-flex;margin-top:10px" data-report="${esc(s.id)}" data-rsido="${sk}">정보가 달라요 · 수정 요청</button>
   <div class="box"><h4>내 메모</h4><input type="text" id="memo" data-mid="${s.id}" placeholder="예: 다음엔 수제비도 먹어보기" value="${esc(S.memos[s.id]||'')}"></div>
   <div style="display:flex;gap:8px;margin-top:14px"><a class="btn ghost" href="${esc(s.place_url||kmap(s.name))}" target="_blank" rel="noopener">지도에서 보기</a><button class="btn brand" data-gobrag="${s.id}" data-bsido="${sk}">이 가게 뽐내기</button></div>`);
   $('#memo').addEventListener('change',e=>{const v=e.target.value.trim();v?S.memos[s.id]=v:delete S.memos[s.id];persist();toast('메모를 저장했어요')});
 }
 const courseCand={};  // 'courseId:슬롯번호' → 후보 가게 id 목록 (교체 순서)
 async function openCourse(id){
-  const c=IDX.courses.find(x=>x.id===id),arr=await loadSido(c.sido),st=courseStats(c);
+  const c=IDX.courses.find(x=>x.id===id),arr=await loadSido(c.sido),st=courseStats(c);Stat.hit('course_open');
   const meals=c.stops.map((s,i)=>{if(s.t!=='meal')return null;
     let cand=arr.map(x=>({...x,d:dist(s,x)})).filter(x=>x.d<=900);
     const CAFE=/카페|디저트|베이커리|제과|아이스크림|젤라또|빙수|커피|차$|떡,한과/;
@@ -728,6 +730,7 @@ async function openCourse(id){
   <div class="route">${routeSvg}</div><div class="tl">${steps}</div>
   <p class="note" style="margin:6px 18px 0">관광지 좌표는 근사값이에요. 이동 시간은 직선거리로 계산한 예상치예요.</p>
   <div class="pad out" id="cout"></div>
+  <div class="helpful" id="helpful"><span>이 코스, 도움이 됐나요?</span><button class="chip" data-helpful="yes">👍 도움돼요</button><button class="chip" data-helpful="no">👎 아쉬워요</button></div>
   <div class="bottombar"><button class="btn ghost sm" data-savecourse="${c.id}">${savedC?'★ 저장됨':'☆ 저장'}</button><button class="btn brand" data-sharecourse="${c.id}">코스 공유 카드</button></div>`;
   const pg=$('#page'),was=pg.classList.contains('open');
   pg.dataset.course=c.id;pg.classList.add('open');pg.removeAttribute('inert');pg.setAttribute('aria-hidden','false');
@@ -753,7 +756,7 @@ function bindBrag(){
   $('#bStore')?.addEventListener('change',e=>draft.storeId=e.target.value);
   $('#bText').addEventListener('input',e=>draft.text=e.target.value);
   $('#photo').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{draft.photo=r.result;render()};r.readAsDataURL(f)});
-  $('#mkCard').addEventListener('click',()=>{
+  $('#mkCard').addEventListener('click',()=>{Stat.hit('share');
     const s=S.stores.find(x=>x.id===draft.storeId);if(!s)return;
     if(!draft.reasons.length&&!draft.text.trim())return toast('좋아하는 이유를 골라 주세요');
     const tags=draft.reasons.map(r=>'#'+r.replace(/\s/g,'')).join(' ');
@@ -774,7 +777,7 @@ function bindBrag(){
     persist();toast('뽐내기 완료 · 응원 배지 +1');const bn=$('#bragN');if(bn)bn.textContent=S.brags.length;
   });
 }
-function shareCourse(id){
+function shareCourse(id){Stat.hit('share');
   const c=IDX.courses.find(x=>x.id===id),arr=CACHE[c.sido]||[];
   const names=c.stops.map((s,i)=>{if(s.t!=='meal')return s.name;const el=document.querySelector(`[data-swap="${c.id}:${i}"]`)?.closest('.scard')?.querySelector('.pick .nm');const p=el?el.textContent:'';return `${s.name.split('·')[0].trim()} · ${p||'근처 착한가게'}`});
   cardImg(x=>{x.fillStyle='#F6F4F0';x.fillRect(0,0,1080,1350);
@@ -951,12 +954,72 @@ function acctSheet(){
       ${delStep?`<div class="box" style="background:#FDECEA;box-shadow:none"><h4 style="color:#C0392B">정말 탈퇴할까요?</h4><p class="note" style="margin:0">계정과 서버에 백업된 리스트가 바로 지워져요. 이 기기의 리스트는 그대로 남아요.</p>
         <div style="display:flex;gap:8px;margin-top:10px"><button class="btn ghost sm" data-delcancel>취소</button><button class="btn" data-delconfirm style="background:#C0392B">탈퇴하기</button></div></div>`
       :'<button class="danger" data-delask>회원 탈퇴</button>'}`}
+  body+=`<div class="box" style="margin-top:16px"><h4>익명 이용 통계</h4><p class="note" style="margin:0 0 8px">서비스 개선을 위해 '하루 방문 수·코스 열람 수' 같은 <b>횟수만</b> 보내요. 이름·위치·기기 정보는 보내지 않아요.${Stat.dnt()?' 브라우저의 추적 거부 설정이 켜져 있어 보내지 않고 있어요.':''}</p>
+    <button class="chip ${Stat.off()?'':'on'}" data-statset="${Stat.off()?'on':'off'}" aria-pressed="${!Stat.off()}">${Stat.off()?'꺼짐 · 켜기':'켜짐 · 끄기'}</button></div>
+    <p class="note">문의·제보: <a href="mailto:${CONTACT}" style="color:var(--brand)">${CONTACT}</a> · 운영 ${OPERATOR}</p>`;
   openSheet(`<div class="h3">${u?'내 계정':'로그인'}</div>${body}`);$('#sheet').dataset.kind='acct';
+}
+
+
+/* ============ 제보·의견 · 익명 이용 집계 ============
+ * 사업화 방안의 '사용자 피드백으로 기준을 정한다'·'지표로 판단한다'를 공익 서비스 방식으로:
+ *  - 제보: 로그인 서버가 설정돼 있으면 익명으로 바로 접수(reports), 아니면 메일 앱으로
+ *  - 집계: 사용자 ID·위치 없이 '날짜별 횟수'만 (방문·재방문·코스 열기 등). 끄기 가능, 브라우저 추적 거부 설정 존중 */
+const CONTACT='support.um09@gmail.com', OPERATOR='운명연구소';
+const Stat=(()=>{
+  const K='cmj_stat',ALLOWED=['dau','new','d1','d7','d30','store_open','course_open','course_yes','course_no','share','filter','gps','report','suggest'];
+  let st;try{st=JSON.parse(localStorage.getItem(K))||{}}catch(e){st={}}
+  const save=()=>{try{localStorage.setItem(K,JSON.stringify(st))}catch(e){}};
+  const dnt=()=>navigator.globalPrivacyControl===true||navigator.doNotTrack==='1'||window.doNotTrack==='1';
+  const on=()=>st.off!==true&&!dnt();
+  const today=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
+  const days=(a,b)=>Math.round((Date.parse(b)-Date.parse(a))/864e5);
+  let q=[],timer=0,sentOnce={};
+  async function flush(){const items=q;q=[];if(!items.length||!on()||!Auth.ready())return;
+    try{const c=await Auth.client();if(c)await c.rpc('bump_many',{keys:items})}catch(e){}}
+  function hit(k,once){if(!ALLOWED.includes(k)||!on())return;if(once){if(sentOnce[k])return;sentOnce[k]=1}
+    q.push(k);clearTimeout(timer);timer=setTimeout(flush,2500)}
+  // 하루 첫 방문: 방문자 수(dau)·신규(new)·첫 방문 후 1/7/30일째 재방문(d1/d7/d30) — 날짜는 이 기기에만 저장
+  function daily(){const t=today();if(st.last===t)return;
+    if(!st.first){st.first=t;hit('new')}
+    const n=days(st.first,t);if(n===1)hit('d1');if(n===7)hit('d7');if(n===30)hit('d30');
+    hit('dau');st.last=t;save()}
+  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flush()});
+  return{hit,daily,on,dnt,set:v=>{st.off=!v;save()},off:()=>st.off===true};
+})();
+const REPORT=[['price','가격·메뉴가 달라요'],['closed','문을 닫았어요'],['place','위치·주소가 달라요'],['good','착한가게 표시가 틀려요'],['other','기타']];
+let repKind='';
+function reportSheet(id,sk){
+  const s=id?(CACHE[sk]||[]).find(x=>x.id===id)||(S.saved[id]&&{...S.saved[id].snap,id}):null;repKind=s?'':'suggest';
+  const head=s?`<div class="h3">정보 수정 요청</div><p class="note" style="margin-top:0"><b>${esc(s.name)}</b> — 알려 주시면 확인해서 고쳐요. 이름·연락처 같은 개인정보는 적지 말아 주세요.</p>
+    <div class="kw" role="group" aria-label="무엇이 다른가요">${REPORT.map(([k,l])=>`<button class="chip" data-rk="${k}" aria-pressed="false">${l}</button>`).join('')}</div>`
+   :`<div class="h3">가게 제보하기</div><p class="note" style="margin-top:0">소개하고 싶은 착한가게나 동네 맛집이 있나요? 가게 이름과 지역, 추천 이유를 알려 주세요.</p>
+    <label class="note" for="repName" style="display:block;margin:8px 0 4px">가게 이름·지역</label><input type="text" id="repName" maxlength="60" placeholder="예: 종로 ○○분식">`;
+  openSheet(head+`<label class="note" for="repTxt" style="display:block;margin:10px 0 4px">${s?'자세한 내용 (선택)':'추천 이유 (선택)'}</label>
+  <textarea id="repTxt" maxlength="300" rows="3" style="width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;padding:10px;font:inherit" placeholder="${s?'예: 김치찌개 8,000원 → 9,000원으로 올랐어요':'예: 칼국수 7,000원, 사장님이 친절해요'}"></textarea>
+  <button class="btn brand" data-repsend="${s?esc(s.id):''}" data-rsido="${esc(sk||S.sido)}" style="width:100%;margin-top:12px">보내기</button>
+  <p class="note">${Auth.ready()?'익명으로 접수돼요.':'메일 앱이 열려요 ('+CONTACT+'). '}처리 결과는 다음 날 새벽 업데이트 이후 반영돼요.</p>`);
+  $('#sheet').dataset.kind='report';
+}
+async function sendReport(id,sk){
+  const s=id?(CACHE[sk]||[]).find(x=>x.id===id)||(S.saved[id]&&{...S.saved[id].snap,id}):null;
+  const txt=($('#repTxt')?.value||'').trim().slice(0,300),name=($('#repName')?.value||'').trim().slice(0,60);
+  if(s&&!repKind)return toast('무엇이 다른지 골라 주세요');
+  if(!s&&!name)return toast('가게 이름과 지역을 적어 주세요');
+  const row={kind:s?repKind:'suggest',store_id:s?String(s.id).slice(0,40):null,store_name:(s?s.name:name).slice(0,60),sido:sk||S.sido,body:txt};
+  if(Auth.ready()){try{const c=await Auth.client();if(c){const {error}=await c.from('reports').insert(row);
+      if(!error){Stat.hit(s?'report':'suggest');closeSheet();return toast('고마워요! 확인 후 반영할게요')}}}catch(e){}}
+  const label=s?(REPORT.find(r=>r[0]===repKind)||['',''])[1]:'가게 제보';
+  const subj=`[착한맛자랑] ${label} — ${row.store_name}`;
+  const body=`${s?`가게: ${s.name}\n가게 ID: ${s.id}\n지역: ${IDX.regions[row.sido]?.name||row.sido}\n문제: ${label}`:`가게·지역: ${name}`}\n\n${txt}\n\n(착한맛자랑 앱에서 보냄)`;
+  Stat.hit(s?'report':'suggest');closeSheet();
+  const url=`mailto:${CONTACT}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
+  (window.__mailHook||(u=>{location.href=u}))(url);
 }
 
 /* ============ 이벤트 ============ */
 document.addEventListener('click',async e=>{
-  const t=e.target.closest('[data-login],[data-logout],[data-syncnow],[data-delask],[data-delcancel],[data-delconfirm],[data-closesheet],[data-wide],[data-gps],[data-pur],[data-fopen],[data-fbud],[data-ftaste],[data-fapply],[data-fclear],[data-cpur],[data-tab],[data-good],[data-radius],[data-sort],[data-scope],[data-ltab],[data-reason],[data-pick],[data-area],[data-save],[data-gobrag],[data-course],[data-closepage],[data-swap],[data-savecourse],[data-sharecourse],[data-store]');
+  const t=e.target.closest('[data-report],[data-rk],[data-repsend],[data-suggest],[data-helpful],[data-statset],[data-login],[data-logout],[data-syncnow],[data-delask],[data-delcancel],[data-delconfirm],[data-closesheet],[data-wide],[data-gps],[data-pur],[data-fopen],[data-fbud],[data-ftaste],[data-fapply],[data-fclear],[data-cpur],[data-tab],[data-good],[data-radius],[data-sort],[data-scope],[data-ltab],[data-reason],[data-pick],[data-area],[data-save],[data-gobrag],[data-course],[data-closepage],[data-swap],[data-savecourse],[data-sharecourse],[data-store]');
   if(!t)return;const d=t.dataset;
   if(d.tab){S.tab=d.tab;closePage();closeSheet();render();scrollTo(0,0)}
   else if('good' in d){S.goodOnly=!S.goodOnly;render()}
@@ -983,6 +1046,12 @@ document.addEventListener('click',async e=>{
   else if('delask' in d){delStep=1;acctSheet()}
   else if('delcancel' in d){delStep=0;acctSheet()}
   else if('delconfirm' in d){t.disabled=true;const ok=await Auth.deleteAccount();delStep=0;closeSheet();toast(ok?'탈퇴했어요 · 서버의 계정과 리스트를 지웠어요':'탈퇴하지 못했어요. 잠시 후 다시 시도해 주세요')}
+  else if(d.report)reportSheet(d.report,d.rsido);
+  else if('suggest' in d)reportSheet(null,S.sido);
+  else if(d.rk){repKind=d.rk;document.querySelectorAll('[data-rk]').forEach(b=>{const on=b===t;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)})}
+  else if('repsend' in d){t.disabled=true;await sendReport(d.repsend,d.rsido);t.disabled=false}
+  else if(d.helpful){Stat.hit(d.helpful==='yes'?'course_yes':'course_no');const hb=$('#helpful');if(hb)hb.innerHTML=`<span>${d.helpful==='yes'?'고마워요! 더 좋은 코스를 만들게요 🙌':'알려 주셔서 고마워요. 어떤 점이 아쉬웠는지 '}</span>${d.helpful==='yes'?'':'<button class="chip" data-suggest>의견 보내기</button>'}`}
+  else if(d.statset){Stat.set(d.statset==='on');acctSheet()}
   else if('closesheet' in d)closeSheet();
   else if('wide' in d){S.wide=!S.wide;render()}
   else if('gps' in d){toast('위치를 확인하는 중…');await locate(false)}
@@ -990,7 +1059,7 @@ document.addEventListener('click',async e=>{
   else if('fopen' in d)filterSheet();
   else if(d.fbud){S.f.budget=S.f.budget===d.fbud?null:d.fbud;persist();filterSheet();render()}
   else if(d.ftaste){const i=S.f.tastes.indexOf(d.ftaste);i<0?S.f.tastes.push(d.ftaste):S.f.tastes.splice(i,1);persist();filterSheet();render()}
-  else if('fapply' in d){closeSheet();if(S.tab!=='map'&&S.tab!=='home')S.tab='home';render();scrollTo(0,0)}
+  else if('fapply' in d){Stat.hit('filter');closeSheet();if(S.tab!=='map'&&S.tab!=='home')S.tab='home';render();scrollTo(0,0)}
   else if('fclear' in d){S.f={purpose:null,budget:null,tastes:[]};persist();if($('#sheet').classList.contains('open'))filterSheet();render()}
   else if(d.cpur!==undefined){S.coursePur=d.cpur||null;render()}
   else if(d.store)storeSheet(d.store,d.sido);
@@ -1014,6 +1083,7 @@ async function route(){
   route();addEventListener('hashchange',route);
   if(NATIVE){document.documentElement.classList.add('native');try{PL.StatusBar?.setStyle({style:'LIGHT'});PL.StatusBar?.setBackgroundColor?.({color:'#F6F4F0'});PL.SplashScreen?.hide()}catch(e){}}
   if(S.useGps)locate(true);
+  Stat.daily();
   // PWA: GitHub Pages 등 https 배포에서만 오프라인 캐시 사용 (미리보기 화면에선 조용히 건너뜀)
   try{if(!NATIVE&&'serviceWorker' in navigator&&location.protocol==='https:')(navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}),navigator.serviceWorker.controller&&navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!window.__swReloaded){window.__swReloaded=1;location.reload()}}))}catch(e){}
 })();

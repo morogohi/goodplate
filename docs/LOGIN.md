@@ -41,6 +41,12 @@ supabaseAnonKey: 'eyJ... 또는 sb_publishable_...',
 ```
 배포 후 서비스 화면 오른쪽 위 👤 → 카카오/구글로 시작하기 → 저장한 가게가 다른 기기에서 보이면 완료.
 
+## 제보·익명 이용 집계 (같은 SQL로 함께 켜짐)
+- `docs/supabase-login.sql` 을 실행하면 `reports`(가게 정보 수정 요청·제보, 익명 접수)와 `daily_stats`(날짜별 횟수) 테이블도 만들어져요.
+- 설정 전: 제보는 메일 앱(support.um09@gmail.com)으로 열리고, 이용 집계는 보내지 않아요.
+- 설정 후: 제보는 Supabase **Table Editor → reports** 에서 확인(앱에서는 읽을 수 없음), 이용 지표는 https://morogohi.github.io/goodplate/impact.html 에 자동으로 나타나요.
+- 처리한 제보는 `status` 를 `done`/`rejected` 로 바꾸고, 1년 지난 건 지워 주세요 (개인정보처리방침 약속).
+
 ## 보안 원칙
 - 코드·채팅에 넣어도 되는 값: Project URL, anon/publishable 키 (공개용, 데이터는 행 단위 보안 규칙으로 보호)
 - 절대 넣지 않는 값: service_role 키, 카카오·구글 Client Secret (Supabase 대시보드에만)

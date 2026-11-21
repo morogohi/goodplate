@@ -24,7 +24,7 @@ with sync_playwright() as p:
         if pg.evaluate("document.querySelector('#sheet').classList.contains('open')"): pg.keyboard.press('Escape'); pg.wait_for_timeout(200)
     pg.locator('.leaflet-marker-icon:has(.lpin)').last.dispatch_event('click'); pg.wait_for_timeout(500)
     chk('핀 누르면 가게 상세', pg.evaluate("document.querySelector('#sheet').classList.contains('open')"))
-    chk('정보 수정 요청 링크', bool(pg.get_attribute('#sheet a.mini[href*="issues/new"]','href')))
+    chk('정보 수정 요청 버튼', pg.locator('#sheet [data-report]').count()==1)
     pg.keyboard.press('Escape'); chk('JS 오류 없음', not errs)
     # 2) 타일 차단 → 모식도
     pg2=b.new_page(viewport={'width':390,'height':844})

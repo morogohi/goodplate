@@ -21,7 +21,7 @@ window.supabase={createClient(){
     async exchangeCodeForSession(code){window.__srv.rpc.push('exchange:'+code);save();localStorage.setItem('cmj_auth','1');subs.forEach(f=>f('SIGNED_IN',{user:U}));return{error:null}},
     async signInWithOAuth({provider,options}){if(options&&options.skipBrowserRedirect){window.__srv.rpc.push('url:'+provider+':'+options.redirectTo);save();return{data:{url:'https://x.supabase.co/auth/v1/authorize?provider='+provider},error:null}}window.__srv.rpc.push('oauth:'+provider);save();localStorage.setItem('cmj_auth','1');subs.forEach(f=>f('SIGNED_IN',{user:U}));return{error:null}},
     async signOut(){localStorage.removeItem('cmj_auth');subs.forEach(f=>f('SIGNED_OUT',null));return{error:null}}},
-   async rpc(n){window.__srv.rpc.push(n);if(n==='delete_my_account'){window.__srv.deleted=true;window.__srv.row=null}save();return{error:null}},
+   async rpc(n){if(n==='bump_many')return{error:null};  /* 익명 집계는 이 테스트 대상 아님 */window.__srv.rpc.push(n);if(n==='delete_my_account'){window.__srv.deleted=true;window.__srv.row=null}save();return{error:null}},
    from(){const q={select(){return q},eq(){return q},async maybeSingle(){return{data:window.__srv.row,error:null}},
      async upsert(r){window.__srv.row={doc:r.doc};save();return{error:null}}};return q}};
 }};

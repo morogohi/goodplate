@@ -21,3 +21,4 @@ jobs:
           python tests/e2e_map.py http://localhost:8765
           python tests/e2e_auth.py http://localhost:8765
           python tests/e2e_kakao.py http://localhost:8765
+          python tests/e2e_feedback.py http://localhost:8765

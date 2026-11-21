@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>운영 지표 — 착한맛자랑</title>
+<meta name="description" content="착한맛자랑이 소개하는 착한가게 수, 데이터 갱신 현황, 익명 이용 통계를 공개합니다.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<script src="js/auth-config.js"></script>
+<style>
+:root{--bg:#F6F4F0;--surface:#FFFFFF;--ink:#16181D;--ink2:#3A3D45;--sub:#5C5F66;--line:#E4E0D8;--brand:#1F6F5C;--good:#0F8A6C;--all:#E8613C;--grid:#ECE8E1}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',system-ui,sans-serif;line-height:1.6}
+a{color:var(--brand)}
+.wrap{max-width:960px;margin:0 auto;padding:28px 20px 64px}
+header{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+header svg{width:32px;height:32px}
+header a{text-decoration:none;color:var(--ink);font-weight:800;font-size:17px}
+h1{font-size:30px;line-height:1.3;margin:22px 0 6px;letter-spacing:-.5px}
+.lead{color:var(--ink2);margin:0 0 22px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:18px}
+.tile{background:var(--surface);border-radius:16px;padding:16px 18px;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.tile b{display:block;font-size:26px;font-weight:800;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.tile span{font-size:13px;color:var(--sub)}
+.tile small{display:block;font-size:12px;color:var(--sub);margin-top:2px}
+.card{background:var(--surface);border-radius:18px;padding:20px;margin-top:16px;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.card h2{font-size:18px;margin:0 0 2px}
+.card .sub{font-size:13px;color:var(--sub);margin:0 0 12px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin-bottom:6px}
+.legend i{display:inline-block;width:12px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.chart{position:relative;width:100%}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:#fff;font-size:12px;padding:6px 9px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-110%);opacity:0;transition:opacity .1s}
+.tip.on{opacity:1}
+details{margin-top:10px;font-size:13px}
+summary{cursor:pointer;color:var(--sub)}
+table{border-collapse:collapse;width:100%;margin-top:8px;font-variant-numeric:tabular-nums}
+th,td{text-align:right;padding:5px 8px;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+.empty{background:#FBFAF7;border:1px dashed var(--line);border-radius:14px;padding:16px;color:var(--ink2);font-size:14px}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:8px}
+.rules div{font-size:14px;color:var(--ink2)}
+.rules b{color:var(--ink);display:block}
+footer{margin-top:28px;font-size:13px;color:var(--sub)}
+@media (prefers-color-scheme:dark){:root{--bg:#121417;--surface:#1B1E23;--ink:#EDEBE6;--ink2:#C9C6BF;--sub:#9A9CA3;--line:#2C3037;--good:#3BB38F;--all:#F07A57;--grid:#262A30}.tip{background:#EDEBE6;color:#121417}.empty{background:#16191D}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="260" fill="#1F6F5C"/><path d="M512 872 C430 768 278 628 278 446 A234 234 0 1 1 746 446 C746 628 594 768 512 872 Z" fill="#fff"/><path d="M346 452 H678 A166 150 0 0 1 346 452 Z" fill="#E8613C"/><path d="M378 452 A134 112 0 0 1 646 452 Z" fill="#F3E3C6"/></svg><a href="./">착한맛자랑</a></header>
+<h1>운영 지표</h1>
+<p class="lead">착한맛자랑은 수익을 내지 않는 공익 서비스예요. 대신 얼마나 많은 착한가게를, 얼마나 최신으로 소개하고 있는지, 그리고 실제로 쓰이고 있는지를 숫자로 공개해요.</p>
+
+<div class="tiles" id="tiles" aria-live="polite"></div>
+
+<section class="card" aria-labelledby="h-trend">
+  <h2 id="h-trend">소개하는 가게 추이</h2>
+  <p class="sub">매일 새벽 자동 수집 후 기록 · 착한가게 = 지자체 지정 착한가격업소 + 나눔가게</p>
+  <div class="legend"><span><i style="background:var(--all)"></i>전체 가게</span><span><i style="background:var(--good)"></i>착한가게</span></div>
+  <div class="chart" id="trend"></div>
+  <details><summary>표로 보기</summary><div id="trendTable"></div></details>
+</section>
+
+<section class="card" aria-labelledby="h-sido">
+  <h2 id="h-sido">시도별 착한가게</h2>
+  <p class="sub" id="sidoSub">최근 수집 기준</p>
+  <div class="chart" id="sido"></div>
+  <details><summary>표로 보기</summary><div id="sidoTable"></div></details>
+</section>
+
+<section class="card" aria-labelledby="h-use">
+  <h2 id="h-use">이용 지표 (최근 30일)</h2>
+  <p class="sub">이름·위치·기기 정보 없이 날짜별 횟수만 집계해요</p>
+  <div id="use"></div>
+</section>
+
+<section class="card" aria-labelledby="h-rule">
+  <h2 id="h-rule">이 숫자들을 이렇게 써요</h2>
+  <div class="rules">
+    <div><b>데이터가 최신인가</b>마지막 수집이 하루 넘게 지났거나 가게 수가 30% 넘게 줄면 수집을 멈추고 원인을 먼저 고쳐요.</div>
+    <div><b>정말 쓰이는가</b>하루 방문 수와 첫 방문 후 1·7일째 다시 찾는 비율(재방문율)로 판단해요. 재방문율이 낮으면 첫 화면과 추천 방식을 고쳐요.</div>
+    <div><b>추천이 도움이 되는가</b>여행코스의 '도움돼요/아쉬워요' 비율과 정보 수정 요청 내용으로 코스·식당 추천 기준을 다듬어요.</div>
+  </div>
+</section>
+
+<footer>운영 운명연구소 · <a href="mailto:support.um09@gmail.com">support.um09@gmail.com</a> · <a href="privacy.html">개인정보처리방침</a> · 착한가격업소 데이터: 행정안전부 「착한가격업소 현황」(공공데이터포털, 공공누리 제1유형)</footer>
+</div>
+
+<script>
+const $=s=>document.querySelector(s), fmt=n=>Number(n).toLocaleString('ko-KR');
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const md=d=>{const [,m,dd]=d.split('-');return `${+m}/${+dd}`};
+
+function table(el,head,rows){el.innerHTML=`<table><thead><tr>${head.map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map((c,i)=>i?`<td>${typeof c==='number'?fmt(c):esc(c)}</td>`:`<th scope="row">${esc(c)}</th>`).join('')}</tr>`).join('')}</tbody></table>`}
+
+// 선 그래프: 여러 계열, 하나의 y축, 끝점 직접 라벨, 마우스·터치 십자선 툴팁
+function lineChart(el,labels,series){
+  const W=Math.max(300,el.clientWidth||880),H=W<560?220:280,L=44,R=W<560?54:88,T=14,B=30,iw=W-L-R,ih=H-T-B;
+  const max=Math.max(1,...series.flatMap(s=>s.v.filter(v=>v!=null)));
+  const nice=Math.pow(10,Math.floor(Math.log10(max)));const top=Math.ceil(max/nice)*nice;
+  const x=i=>L+(labels.length<2?iw/2:i*iw/(labels.length-1)), y=v=>T+ih-(v/top)*ih;
+  const ticks=[0,.25,.5,.75,1].map(f=>Math.round(top*f));
+  const step=Math.max(1,Math.ceil(labels.length/(W<560?4:8)));
+  let g=ticks.map(t=>`<line x1="${L}" x2="${W-R}" y1="${y(t)}" y2="${y(t)}" stroke="${css('--grid')}" stroke-width="1"/><text x="${L-8}" y="${y(t)+4}" text-anchor="end" font-size="12" fill="${css('--sub')}">${fmt(t)}</text>`).join('');
+  g+=labels.map((d,i)=>i%step===0||i===labels.length-1?`<text x="${x(i)}" y="${H-8}" text-anchor="middle" font-size="12" fill="${css('--sub')}">${md(d)}</text>`:'').join('');
+  series.forEach(s=>{const pts=s.v.map((v,i)=>v==null?null:[x(i),y(v)]).filter(Boolean);
+    g+=`<polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="${s.c}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const last=pts[pts.length-1];if(last)g+=`<circle cx="${last[0]}" cy="${last[1]}" r="4.5" fill="${s.c}" stroke="${css('--surface')}" stroke-width="2"/><text x="${last[0]+10}" y="${last[1]+4}" font-size="13" font-weight="700" fill="${css('--ink')}">${fmt(s.v[s.v.length-1])}</text>`});
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(series.map(s=>s.n).join('·'))} 날짜별 추이">${g}<line class="xh" y1="${T}" y2="${T+ih}" stroke="${css('--sub')}" stroke-width="1" stroke-dasharray="3 3" opacity="0"/><rect x="${L}" y="${T}" width="${iw}" height="${ih}" fill="transparent"/></svg><div class="tip"></div>`;
+  const svg=el.querySelector('svg'),tip=el.querySelector('.tip'),xh=el.querySelector('.xh');
+  const move=e=>{const r=svg.getBoundingClientRect(),px=((e.touches?e.touches[0].clientX:e.clientX)-r.left)*W/r.width;
+    const i=Math.max(0,Math.min(labels.length-1,Math.round((px-L)/(labels.length<2?1:iw/(labels.length-1)))));
+    xh.setAttribute('x1',x(i));xh.setAttribute('x2',x(i));xh.setAttribute('opacity',1);
+    tip.innerHTML=`<b>${md(labels[i])}</b><br>${series.map(s=>`${s.n} ${s.v[i]==null?'-':fmt(s.v[i])}${s.u||''}`).join('<br>')}`;
+    tip.style.left=(x(i)/W*100)+'%';tip.style.top=(T/H*100)+'%';tip.classList.add('on')};
+  svg.addEventListener('pointermove',move);svg.addEventListener('pointerdown',move);
+  svg.addEventListener('pointerleave',()=>{tip.classList.remove('on');xh.setAttribute('opacity',0)});
+}
+// 가로 막대: 단일 계열, 값 라벨, 막대 끝 4px 둥근 모서리
+function barChart(el,rows,color){
+  const W=Math.max(300,el.clientWidth||880),rowH=26,L=48,R=48,H=rows.length*rowH+8,iw=W-L-R,max=Math.max(1,...rows.map(r=>r[1]));
+  const g=rows.map(([n,v],i)=>{const y=4+i*rowH,w=Math.max(2,v/max*iw);
+    return `<g><title>${esc(n)} 착한가게 ${fmt(v)}곳</title><text x="${L-10}" y="${y+16}" text-anchor="end" font-size="13" fill="${css('--ink2')}">${esc(n)}</text><rect x="${L}" y="${y+4}" width="${w}" height="16" rx="4" fill="${color}"/><text x="${L+w+8}" y="${y+16}" font-size="13" font-weight="700" fill="${css('--ink')}">${fmt(v)}</text></g>`}).join('');
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="시도별 착한가게 수">${g}</svg>`;
+}
+
+(async function(){
+  let hist=[],idx=null;
+  try{hist=await fetch('data/history.json',{cache:'no-cache'}).then(r=>r.json())}catch(e){}
+  try{idx=await fetch('data/index.json',{cache:'no-cache'}).then(r=>r.json())}catch(e){}
+  const last=hist[hist.length-1]||{},prev=hist[hist.length-2];
+  const upd=idx&&idx.generated_at?new Date(idx.generated_at):null;
+  const hours=upd?Math.round((Date.now()-upd)/36e5):null;
+  const diff=(k)=>prev&&last[k]!=null?` · 전날보다 ${last[k]-prev[k]>=0?'+':''}${fmt(last[k]-prev[k])}`:'';
+  $('#tiles').innerHTML=[
+    [fmt(last.stores||0),'소개하는 가게',diff('stores')],
+    [fmt(last.good||0),'착한가게',diff('good')],
+    [fmt(last.price||0),'가격 정보가 있는 가게',''],
+    [fmt(last.areas||0),'서비스 세부 지역',''],
+    [upd?`${upd.getMonth()+1}/${upd.getDate()}`:'-','마지막 수집',hours!=null?(hours<=30?` · ${hours}시간 전 (정상)`:` · ${hours}시간 전 (확인 필요)`):''],
+  ].map(([b,s,m])=>`<div class="tile"><b>${b}</b><span>${s}</span>${m?`<small>${m.replace(/^ · /,'')}</small>`:''}</div>`).join('');
+  if(hist.length){
+    const labels=hist.map(h=>h.d);
+    const draw=()=>{lineChart($('#trend'),labels,[{n:'전체 가게',c:css('--all'),v:hist.map(h=>h.stores),u:'곳'},{n:'착한가게',c:css('--good'),v:hist.map(h=>h.good),u:'곳'}]);barChart($('#sido'),rows,css('--good'))};
+    table($('#trendTable'),['날짜','전체 가게','착한가게','가격 정보','영상 언급'],hist.slice().reverse().map(h=>[h.d,h.stores,h.good,h.price,h.yt]));
+    const names=idx?Object.fromEntries(Object.entries(idx.regions).map(([k,r])=>[k,r.name])):{};
+    const rows=Object.entries(last.good_by_sido||{}).map(([k,v])=>[names[k]||k,v]).sort((a,b)=>b[1]-a[1]);
+    draw();let rt=0;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(draw,150)});table($('#sidoTable'),['시도','착한가게'],rows);
+    $('#sidoSub').textContent=`${last.d} 수집 기준 · 지역마다 소개하는 세부 지역 수가 달라 단순 비교는 어려워요`;
+  }else $('#trend').innerHTML='<div class="empty">아직 기록이 없어요.</div>';
+
+  // 이용 지표: 로그인 서버(Supabase)가 설정된 경우에만
+  const C=window.AUTH_CONFIG||{};
+  if(!(C.supabaseUrl&&C.supabaseAnonKey)){$('#use').innerHTML='<div class="empty">이용 통계 수집을 준비하고 있어요. 준비되면 하루 방문 수, 재방문율, 코스 만족도를 이곳에 공개해요.</div>';return}
+  try{
+    const r=await fetch(C.supabaseUrl.replace(/\/$/,'')+'/rest/v1/rpc/get_stats',{method:'POST',headers:{'apikey':C.supabaseAnonKey,'Authorization':'Bearer '+C.supabaseAnonKey,'Content-Type':'application/json'},body:JSON.stringify({days:30})});
+    const rows=await r.json();if(!Array.isArray(rows))throw 0;
+    const by={};rows.forEach(({day,k,n})=>{(by[day]=by[day]||{})[k]=n});
+    const days=Object.keys(by).sort();
+    if(!days.length){$('#use').innerHTML='<div class="empty">아직 집계된 이용 기록이 없어요.</div>';return}
+    const sum=k=>days.reduce((a,d)=>a+(by[d][k]||0),0);
+    // 재방문율: d일 재방문 수 ÷ (d일 전 신규 방문 수) — 같은 날짜쌍만 합산
+    const ret=(k,lag)=>{let a=0,b=0;days.forEach(d=>{const p=new Date(Date.parse(d)-lag*864e5).toISOString().slice(0,10);if(by[p]&&by[p].new){a+=by[d][k]||0;b+=by[p].new}});return b?Math.round(a/b*100)+'%':'-'};
+    const yes=sum('course_yes'),no=sum('course_no');
+    $('#use').innerHTML=`<div class="tiles">${[
+      [fmt(Math.round(sum('dau')/days.length)),'하루 평균 방문 기기'],[fmt(sum('new')),'새로 찾은 기기 (30일)'],
+      [ret('d1',1),'다음 날 재방문율'],[ret('d7',7),'7일째 재방문율'],
+      [fmt(sum('course_open')),'여행코스 열람'],[yes+no?Math.round(yes/(yes+no)*100)+'%':'-','코스 "도움돼요" 비율'],
+      [fmt(sum('report')+sum('suggest')),'정보 수정 요청·제보']].map(([b,s])=>`<div class="tile"><b>${b}</b><span>${s}</span></div>`).join('')}</div>
+      <div class="legend"><span><i style="background:var(--good)"></i>하루 방문 기기</span></div><div class="chart" id="dauChart"></div>`;
+    lineChart($('#dauChart'),days,[{n:'방문 기기',c:css('--good'),v:days.map(d=>by[d].dau||0),u:'대'}]);
+  }catch(e){$('#use').innerHTML='<div class="empty">이용 통계를 불러오지 못했어요. 잠시 후 다시 확인해 주세요.</div>'}
+})();
+</script>
+</body>
+</html>
