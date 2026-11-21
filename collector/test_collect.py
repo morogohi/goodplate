@@ -92,6 +92,19 @@ def run():
         assert "급감" in str(e)
     assert collect.per_person("한상차림(4인)", 53000) == 13200 and collect.per_person("백반", 8000) == 8000, "1인 가격"
     assert not collect.is_food({"cat": "헬스클럽", "menu": "헬스 1개월"}) and collect.is_food({"cat": "한식", "menu": "백반"}), "음식점만"
+    # 운영자 수정 파일(제보 반영)
+    ov = tmp / "ov.json"
+    ov.write_text(json.dumps({"hide": [{"id": "h1", "why": "폐업"}, {"name": "이름숨김", "area": "jongno-jonggak"}],
+                              "fix": {"f1": {"price": 9000, "good": None, "why": "가격 인상", "hack": 1}},
+                              "add": [{"id": "m-1", "name": "직접추가식당", "area": "jongno-jonggak", "lat": 37.57, "lng": 126.98, "price": 7000},
+                                      {"id": "m-2", "name": "지역없음", "area": "nowhere", "lat": 1, "lng": 1}]}, ensure_ascii=False), encoding="utf-8")
+    collect.OVERRIDES = ov
+    base = [{"id": "h1", "name": "폐업집", "area": "jongno-jonggak"}, {"id": "x2", "name": "이름 숨김", "area": "jongno-jonggak"},
+            {"id": "f1", "name": "고칠집", "area": "jongno-jonggak", "price": 8000, "good": "price"}, {"id": "ok", "name": "그대로", "area": "jongno-jonggak"}]
+    out = {r["id"]: r for r in collect.apply_overrides(base, collect.datetime.now(), {})}
+    assert "h1" not in out and "x2" not in out, "숨김(ID·이름)"
+    assert out["f1"]["price"] == 9000 and "good" not in out["f1"] and "hack" not in out["f1"] and out["f1"].get("checked"), "수정·허용 필드만·확인 표시"
+    assert "m-1" in out and out["m-1"]["src"]["yt"] == 0 and "m-2" not in out and "ok" in out, "추가(지역 검증)"
     print("ALL PASS", s["src"], s["kw"], s["price"], g["name"])
 
 

@@ -2,9 +2,15 @@ name: daily-collect
 on:
   schedule:
     - cron: "0 19 * * *"   # 매일 04:00 KST
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      allow_drop:
+        description: "가게 수 급감 안전장치를 이번만 끄기 (원인을 확인한 경우에만)"
+        type: boolean
+        default: false
 permissions:
   contents: write
+  issues: write
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -20,6 +26,7 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           GOODPRICE_CSV_URL: ${{ secrets.GOODPRICE_CSV_URL }}
+          ALLOW_DROP: ${{ inputs.allow_drop && '1' || '' }}
       - name: commit data
         run: |
           git config user.name "goodplate-bot"
@@ -27,3 +34,15 @@ jobs:
           git add data/; git add collector/geocache.json collector/goodprice.csv 2>/dev/null || true
           git diff --cached --quiet || git commit -m "data: 전국 $(date -u +%F)"
           for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+      - name: 실패하면 운영 경고 이슈
+        if: failure()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          {
+            echo "### 데이터 수집이 실패했어요 ($(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') KST)"
+            echo "- 실행 기록: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "- 기존 데이터는 그대로 유지돼 서비스는 어제 정보로 계속 동작해요."
+            echo "- 자주 있는 원인: API 키 만료·한도 초과(카카오·유튜브), 공공데이터포털 응답 지연, 가게 수 급감 안전장치."
+            echo "- 원인을 고친 뒤 Actions → daily-collect → Run workflow 로 다시 실행하세요. 급감이 정상(지역 조정 등)이면 allow_drop 을 켜고 실행."
+          } > alert.md
+          bash scripts/ops_alert.sh open "운영 경고: 데이터 수집 실패" alert.md

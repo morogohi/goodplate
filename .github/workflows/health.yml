@@ -1,0 +1,34 @@
+# 매일 아침 운영 점검 — 데이터가 최신인지·급감하지 않았는지·사이트에 반영됐는지 확인
+# 이상하면 'ops-alert' 이슈를 열고(메일 알림), 정상으로 돌아오면 자동으로 닫음
+name: health
+on:
+  schedule:
+    - cron: "30 22 * * *"   # 매일 07:30 KST (수집 04:00 이후)
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 점검
+        id: hc
+        run: |
+          set +e
+          python scripts/health_check.py --live https://morogohi.github.io/goodplate/ | tee report.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: 이상 → 경고 이슈
+        if: steps.hc.outputs.code != '0'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          { echo "### 운영 점검에서 이상을 발견했어요 ($(TZ=Asia/Seoul date '+%Y-%m-%d') 07:30 KST)"; echo '```'; cat report.txt; echo '```'; echo "처리 방법: docs/REPORTS.md · Actions → daily-collect 실행 기록 확인"; } > alert.md
+          bash scripts/ops_alert.sh open "운영 경고: 데이터 점검 이상" alert.md
+          exit 1
+      - name: 정상 → 열린 경고 닫기
+        if: steps.hc.outputs.code == '0'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: bash scripts/ops_alert.sh close "$(TZ=Asia/Seoul date '+%Y-%m-%d') 점검 정상 — 자동으로 닫아요."

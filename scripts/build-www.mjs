@@ -7,6 +7,6 @@ mkdirSync(out);
 writeFileSync(`${out}/index.html`, readFileSync('app.html', 'utf8'));
 cpSync('vendor', `${out}/vendor`, { recursive: true });
 cpSync('js', `${out}/js`, { recursive: true });
-for (const f of ['privacy.html', 'support.html', 'impact.html', 'icon.svg', 'icon-192.png', 'icon-512.png', 'manifest.webmanifest']) cpSync(f, `${out}/${f}`);
+for (const f of ['privacy.html', 'support.html', 'impact.html', 'poster.html', 'icon.svg', 'icon-192.png', 'icon-512.png', 'manifest.webmanifest']) cpSync(f, `${out}/${f}`);
 cpSync('data', `${out}/data`, { recursive: true });
 console.log('www/ 준비 완료');

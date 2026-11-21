@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가게 홍보 포스터 — 착한맛자랑</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script src="vendor/qrcode/qrcode.js"></script>
+<style>
+:root{--brand:#1F6F5C;--orange:#E8613C;--cream:#F6F4F0;--ink:#16181D;--ink2:#3A3D45;--sub:#5C5F66;--line:#E4E0D8}
+*{box-sizing:border-box}
+body{margin:0;background:#E9E6E0;color:var(--ink);font-family:'Noto Sans KR',system-ui,sans-serif}
+.bar{position:sticky;top:0;z-index:2;background:#fff;border-bottom:1px solid var(--line);padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center}
+.bar a.home{font-weight:800;color:var(--ink);text-decoration:none;margin-right:auto}
+.bar label{font-size:14px;color:var(--ink2);display:flex;gap:6px;align-items:center}
+.bar select,.bar button{font:inherit;font-size:14px;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:#fff;min-height:44px}
+.bar button.go{background:var(--brand);color:#fff;border-color:var(--brand);font-weight:700}
+.help{max-width:760px;margin:14px auto 0;padding:0 16px;font-size:13px;color:var(--ink2);line-height:1.6}
+.stage{display:flex;justify-content:center;padding:18px 12px 48px}
+.paper{background:#fff;width:148mm;min-height:210mm;padding:14mm 12mm;display:flex;flex-direction:column;align-items:center;text-align:center;box-shadow:0 6px 24px rgba(0,0,0,.12)}
+.paper.a4{width:210mm;min-height:297mm;padding:20mm 18mm}
+.brand{display:flex;align-items:center;gap:8px;font-weight:900;font-size:16px;color:var(--brand)}
+.brand svg{width:28px;height:28px}
+.kicker{margin:9mm 0 3mm;font-size:15px;font-weight:700;color:var(--orange);letter-spacing:.02em}
+.a4 .kicker{font-size:20px}
+h1{margin:0;font-size:34px;font-weight:900;line-height:1.25;word-break:keep-all}
+.a4 h1{font-size:48px}
+.badge{display:inline-block;margin-top:4mm;padding:6px 14px;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;font-size:14px}
+.badge.share{background:#6B4FBB}
+.a4 .badge{font-size:18px;padding:8px 18px}
+.menu{margin-top:4mm;font-size:18px;color:var(--ink2)}
+.menu b{color:var(--ink);font-size:22px}
+.a4 .menu{font-size:22px}.a4 .menu b{font-size:28px}
+.qr{margin-top:8mm;padding:4mm;border:2px solid var(--ink);border-radius:5mm;line-height:0}
+.qr svg{width:52mm;height:52mm}
+.a4 .qr svg{width:80mm;height:80mm}
+.scan{margin-top:4mm;font-size:15px;font-weight:700}
+.a4 .scan{font-size:20px}
+.scan small{display:block;font-weight:400;color:var(--sub);font-size:12px;margin-top:2px}
+.a4 .scan small{font-size:15px}
+.foot{margin-top:auto;padding-top:8mm;font-size:10px;color:var(--sub);line-height:1.5}
+.a4 .foot{font-size:12px}
+.err{max-width:520px;margin:40px auto;background:#fff;border-radius:16px;padding:24px;text-align:center;line-height:1.7}
+@media print{
+  body{background:#fff}.bar,.help{display:none}.stage{padding:0}
+  .paper{box-shadow:none;margin:0}
+}
+</style>
+<style id="pageSize">@media print{@page{size:A5;margin:0}}</style>
+</head>
+<body>
+<div class="bar">
+  <a class="home" href="app.html">← 착한맛자랑</a>
+  <label for="size">크기</label>
+  <select id="size"><option value="a5">A5 (테이블·계산대)</option><option value="a4">A4 (출입문·벽)</option></select>
+  <label for="msg">문구</label>
+  <select id="msg">
+    <option value="0">착한맛자랑에 소개된 가게</option>
+    <option value="1">가격을 지키는 착한 가게예요</option>
+    <option value="2">우리 동네 여행코스 속 한 끼</option>
+  </select>
+  <button class="go" id="print" type="button">인쇄 · PDF 저장</button>
+</div>
+<p class="help">가게 화면으로 연결되는 QR 포스터예요. 손님이 휴대폰 카메라로 찍으면 메뉴·가격, 가까운 여행코스를 볼 수 있어요. 무료이고 별도 신청이 필요 없어요. 정보가 다르면 가게 화면의 <b>정보가 달라요</b>로 알려 주세요.</p>
+<div class="stage"><div id="out"></div></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const won=n=>Number(n).toLocaleString('ko-KR')+'원';
+const BASE='https://morogohi.github.io/goodplate/';
+const GOOD={price:['착한가격업소','price'],share:['나눔가게','share']};
+const MSG=['착한맛자랑에 소개된 가게','가격을 지키는 착한 가게예요','우리 동네 여행코스 속 한 끼'];
+const MARK='<svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="260" fill="#1F6F5C"/><path d="M512 872 C430 768 278 628 278 446 A234 234 0 1 1 746 446 C746 628 594 768 512 872 Z" fill="#fff"/><path d="M346 452 H678 A166 150 0 0 1 346 452 Z" fill="#E8613C"/><path d="M378 452 A134 112 0 0 1 646 452 Z" fill="#F3E3C6"/></svg>';
+let store=null,sk='',regionName='';
+
+function qrSvg(text){const q=qrcode(0,'M');q.addData(text);q.make();return q.createSvgTag({cellSize:4,margin:0,scalable:true})}
+function draw(){
+  const size=$('#size').value,msg=+$('#msg').value,s=store;
+  const url=`${BASE}app.html#store-${sk}-${encodeURIComponent(s.id)}`;
+  const g=GOOD[s.good];
+  document.body.classList.toggle('a4',size==='a4');
+  $('#pageSize').textContent=`@media print{@page{size:${size==='a4'?'A4':'A5'};margin:0}}`;
+  $('#out').innerHTML=`<article class="paper ${size}" aria-label="홍보 포스터 미리보기">
+    <div class="brand">${MARK}착한맛자랑</div>
+    <p class="kicker">${esc(MSG[msg])}</p>
+    <h1>${esc(s.name)}</h1>
+    ${g?`<span class="badge ${g[1]}">${g[0]}</span>`:''}
+    ${s.menu&&s.price?`<p class="menu">${esc(s.menu)} <b>${won(s.price)}</b></p>`:''}
+    <div class="qr" role="img" aria-label="가게 화면으로 가는 QR 코드">${qrSvg(url)}</div>
+    <p class="scan">카메라로 찍으면 가게 정보와 근처 여행코스가 열려요<small>${esc(regionName)} · 앱 설치 없이 바로 열려요</small></p>
+    <p class="foot">${s.good==='price'?'착한가격업소: 행정안전부·지자체 지정 (공공데이터포털 「착한가격업소 현황」)<br>':''}착한맛자랑 — 착한가게를 무료로 소개하는 공익 서비스 · morogohi.github.io/goodplate<br>운영 운명연구소 · support.um09@gmail.com</p>
+  </article>`;
+}
+(async function(){
+  const p=new URLSearchParams(location.search);sk=(p.get('s')||'').replace(/[^a-z]/g,'');const id=p.get('id')||'';
+  try{
+    const [idx,data]=await Promise.all([fetch('data/index.json').then(r=>r.json()),fetch(`data/r/${sk}.json`).then(r=>r.json())]);
+    store=(data.stores||[]).find(x=>x.id===id);regionName=idx.regions[sk]?.name||'';
+  }catch(e){}
+  if(!store){$('#out').innerHTML='<div class="err"><h2>가게를 찾지 못했어요</h2><p>착한맛자랑 앱에서 가게를 연 뒤 <b>사장님이신가요?</b>를 눌러 주세요.<br>목록에 없는 가게라면 앱의 <b>가게 제보하기</b>로 알려 주세요.</p><p><a href="app.html">착한맛자랑 열기</a></p></div>';$('.bar').style.display='none';return}
+  document.title=`${store.name} 홍보 포스터 — 착한맛자랑`;
+  draw();$('#size').onchange=draw;$('#msg').onchange=draw;$('#print').onclick=()=>window.print();
+})();
+</script>
+</body>
+</html>

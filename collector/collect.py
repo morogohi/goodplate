@@ -429,7 +429,52 @@ def main():
 
     # 언급이 하나도 없는 일반 가게는 빼고, 착한가게는 언급이 없어도 남긴다
     keep = select_stores(stores.values(), naver=bool(nid and nsec))
+    keep = apply_overrides(keep, now, prev)
     write_outputs(keep, now)
+
+
+NEW_BASE = "2026-11-18"
+
+
+# 운영자 수정 파일: 이용자 제보를 확인한 뒤 손으로 고친 내용 (docs/REPORTS.md)
+OVERRIDES = Path(__file__).parent / "overrides.json"
+FIX_FIELDS = {"name", "menu", "price", "pp", "good", "lat", "lng", "addr", "cat", "emoji", "place_url"}
+
+
+def apply_overrides(keep, now, prev=None):
+    """hide: 폐업·음식점 아님 등 숨김 / fix: 값 수정 / add: 직접 추가 — 매 수집마다 다시 적용돼 사라지지 않음"""
+    if not OVERRIDES.exists():
+        return keep
+    ov = json.loads(OVERRIDES.read_text(encoding="utf-8"))
+    hide = ov.get("hide", [])
+    def hidden(s):
+        return any((h.get("id") and h["id"] == s["id"]) or
+                   (h.get("name") and norm(h["name"]) == norm(s["name"]) and h.get("area", s["area"]) == s["area"])
+                   for h in hide)
+    out = [s for s in keep if not hidden(s)]
+    fixes = ov.get("fix", {})
+    for s in out:
+        f = fixes.get(s["id"])
+        if f:
+            for k, v in f.items():
+                if k in FIX_FIELDS:
+                    if v is None:
+                        s.pop(k, None)
+                    else:
+                        s[k] = v
+            s["checked"] = f.get("date") or now.date().isoformat()     # 운영자가 확인한 가게 표시
+    have = {s["id"] for s in out}
+    for a in ov.get("add", []):
+        if a.get("id") in have or a.get("area") not in AREAS or not {"id", "name", "lat", "lng"} <= a.keys():
+            continue
+        row = {k: a[k] for k in FIX_FIELDS | {"id", "area"} if k in a}
+        row.setdefault("cat", "음식점"); row.setdefault("emoji", "🍚")
+        row.update({"src": {"yt": 0, "blog": 0, "insta": 0}, "mentions": [], "kw": [], "last": None,
+                    "first_seen": (prev or {}).get(a["id"], {}).get("first_seen", now.date().isoformat()),
+                    "checked": a.get("date") or now.date().isoformat()})
+        out.append(row)
+    print(f"[overrides] 숨김 {len(keep) - len([s for s in keep if not hidden(s)])} · 수정 {sum(1 for s in out if s['id'] in fixes)} · 추가 {len(out) - len([s for s in keep if not hidden(s)])}")
+    return out
 
 
 def _count(sk):
@@ -508,6 +553,7 @@ def write_outputs(keep, now, sample=False):
             ensure_ascii=False, indent=1), encoding="utf-8")
     index = {
         "sample": sample, "generated_at": stamp,
+        "new_base": NEW_BASE,     # 이 날짜 이후 처음 수집된 가게만 '새로 소개된 가게'로 (초기 대량 등록 제외)
         "regions": {sk: {"name": r["name"], "count": counts[sk] if sk in counts else _count(sk), "good": goods.get(sk, 0),
                          "areas": {ak: {"name": a["name"], "lat": a["lat"], "lng": a["lng"]}
                                    for ak, a in r["areas"].items()}}

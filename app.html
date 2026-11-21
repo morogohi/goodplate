@@ -139,6 +139,9 @@ a{color:inherit}
 .map{isolation:isolate;z-index:0}  /* Leaflet 내부 z-index(400~1000)가 시트·내비 위로 올라오지 않게 */
 .map .leaflet-container{width:100%;height:100%;font-family:inherit;background:#EFEBE4}
 .pp{font-size:.86em;color:var(--sub,#6B7280);font-weight:500}
+.sacts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.sacts .mini{display:inline-flex}
+.mini.chk{background:var(--brand-soft);color:var(--brand);font-weight:700}
+.owner{display:block;margin-top:12px;padding:12px 14px;border-radius:14px;background:var(--surface);box-shadow:var(--sh);font-size:13px;color:var(--ink2,#3A3D45);text-decoration:none}.owner b{color:var(--brand)}
 .helpful{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 18px 0;padding:12px 14px;background:var(--surface);border-radius:14px;box-shadow:var(--sh);font-size:14px;font-weight:600}
 .lclu{width:36px;height:36px;border-radius:50%;background:#E8613C;color:#fff;font-weight:800;font-size:14px;display:grid;place-items:center;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25);cursor:pointer}
 .lclu.g{background:#1F6F5C}
@@ -453,6 +456,9 @@ function vHome(){
   const near3=here.filter(s=>s.d<=3000);
   const goodN=near3.filter(s=>s.good).length, newN=near3.filter(s=>s.last<=1).length;
   const hotGood=near3.filter(s=>s.good).sort((a,b)=>b.buzz-a.buzz).slice(0,8);
+  // 새로 소개된 가게: 최근 7일 안에 처음 수집된 곳 (초기 대량 등록일 이전은 제외) — 다시 찾아올 이유
+  const since=(()=>{const d=new Date(Date.now()-7*864e5).toISOString().slice(0,10),b=IDX.new_base||'2026-11-18';return b>d?b:d})();
+  const fresh=here.filter(s=>s.first_seen&&s.first_seen>=since).sort((a,b)=>(b.good?1:0)-(a.good?1:0)||(b.first_seen>a.first_seen?1:-1)||a.d-b.d).slice(0,10);
   const hot=hotGood.length?hotGood:near3.slice().sort((a,b)=>b.buzz-a.buzz||a.d-b.d).slice(0,8);
   const myC=IDX.courses.filter(x=>x.sido===S.sido), other=IDX.courses.filter(x=>x.sido!==S.sido);
   const q=S.q.trim(),searching=!!q||fActive();
@@ -473,6 +479,7 @@ function vHome(){
     ${myC.length?`<section class="sec"><div class="sec-h"><div><h2>이 지역 여행코스</h2><p>코스 중간 식사는 착한가게로 자동 추천</p></div></div><div class="hscroll">${myC.map(x=>courseCard(x)).join('')}</div></section>`:''}
     <section class="sec"><div class="sec-h"><div><h2>${hotGood.length?'지금 주목받는 착한가게':'지금 주목받는 맛집'}</h2><p>3km 안 · 언급 많은 순${hotGood.length?'':' · 착한가게 정보는 준비 중'}</p></div><button class="more" data-tab="map">지도로 ›</button></div>
     ${hot.length?`<div class="hscroll">${hot.map(miniCard).join('')}</div>`:'<div class="empty">아직 이 주변에 등록된 착한가게가 없어요</div>'}</section>
+    ${fresh.length?`<section class="sec" id="freshSec"><div class="sec-h"><div><h2>새로 소개된 가게 ${fresh.length}곳</h2><p>최근 7일 · ${esc(IDX.regions[S.sido].name)} · 매일 새벽 업데이트</p></div></div><div class="hscroll">${fresh.map(s=>miniCard({...s,last:0})).join('')}</div></section>`:''}
     <section class="sec"><div class="sec-h"><div><h2>전국 착한 여행코스</h2><p>지역 맛집과 걷기 좋은 길을 함께</p></div><button class="more" data-tab="course">전체 ›</button></div>
     <div class="hscroll">${other.slice(0,6).map(x=>courseCard(x)).join('')}</div></section>
     ${collectBar()}
@@ -687,7 +694,8 @@ async function storeSheet(id,sk){
   <div class="box"><h4>최근 언급 ${s.mentions.length}건</h4>${s.mentions.map(m=>`<div class="men"><span class="s" style="color:${SRC[m.src].c}">${SRC[m.src].n}</span><span class="t">${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)} ↗</a>`:esc(m.title)}${m.sponsored?' <span class="bd spon">협찬</span>':''}</span><span class="a">${ago(m.ago)}</span></div>`).join('')||'<p class="note">아직 언급이 없어요</p>'}
   <p class="note">${IDX.sample?'가상의 샘플 제목이에요. 실제 수집 데이터에선 누르면 원문으로 이동해요.':'원문은 저장하지 않고 링크로 연결해요.'}</p></div>
   ${s.good==='share'?`<div class="box" style="background:var(--share-soft);box-shadow:none"><h4 style="color:var(--share)">나눔 실천 가게</h4><p class="note" style="margin:0">결식아동 식사 나눔 등에 참여하는 가게예요. 아동 이용 안내는 전문 플랫폼으로 연결합니다.</p></div>`:''}
-  <button class="mini" style="display:inline-flex;margin-top:10px" data-report="${esc(s.id)}" data-rsido="${sk}">정보가 달라요 · 수정 요청</button>
+  <div class="sacts"><button class="mini" data-sshare="${esc(s.id)}" data-ssk="${sk}">🔗 가게 공유</button><button class="mini" data-report="${esc(s.id)}" data-rsido="${sk}">정보가 달라요 · 수정 요청</button>${s.checked?`<span class="mini chk" title="이용자 제보를 운영자가 확인해 고친 정보">✓ 운영자 확인 ${esc(s.checked.slice(5).replace('-','/'))}</span>`:''}</div>
+  <a class="owner" href="${NATIVE?REMOTE:''}poster.html?s=${encodeURIComponent(sk)}&id=${encodeURIComponent(s.id)}" target="_blank" rel="noopener"><b>사장님이신가요?</b> 가게에 붙일 무료 홍보 포스터(QR)를 만들어 보세요 →</a>
   <div class="box"><h4>내 메모</h4><input type="text" id="memo" data-mid="${s.id}" placeholder="예: 다음엔 수제비도 먹어보기" value="${esc(S.memos[s.id]||'')}"></div>
   <div style="display:flex;gap:8px;margin-top:14px"><a class="btn ghost" href="${esc(s.place_url||kmap(s.name))}" target="_blank" rel="noopener">지도에서 보기</a><button class="btn brand" data-gobrag="${s.id}" data-bsido="${sk}">이 가게 뽐내기</button></div>`);
   $('#memo').addEventListener('change',e=>{const v=e.target.value.trim();v?S.memos[s.id]=v:delete S.memos[s.id];persist();toast('메모를 저장했어요')});
@@ -776,6 +784,14 @@ function bindBrag(){
     if(!S.saved[s.id])S.saved[s.id]={list:'been',snap:snap(s)};
     persist();toast('뽐내기 완료 · 응원 배지 +1');const bn=$('#bragN');if(bn)bn.textContent=S.brags.length;
   });
+}
+const storeLink=(sk,id)=>`${REMOTE}app.html#store-${sk}-${encodeURIComponent(id)}`;
+async function shareStore(id,sk){Stat.hit('share');
+  const s=(CACHE[sk]||[]).find(x=>x.id===id);if(!s)return;
+  const url=storeLink(sk,id),text=`${s.name}${s.good?' — '+GOOD[s.good].label:''}${s.price?` · ${s.menu||''} ${won(s.price)}`:''}`;
+  try{if(PL.Share){await PL.Share.share({title:s.name,text,url});return}
+    if(navigator.share){await navigator.share({title:s.name,text,url});return}}catch(e){if(e&&e.name==='AbortError')return}
+  try{await navigator.clipboard.writeText(`${text}\n${url}`);toast('가게 링크를 복사했어요')}catch(e){prompt('이 링크를 복사하세요',url)}
 }
 function shareCourse(id){Stat.hit('share');
   const c=IDX.courses.find(x=>x.id===id),arr=CACHE[c.sido]||[];
@@ -1019,7 +1035,7 @@ async function sendReport(id,sk){
 
 /* ============ 이벤트 ============ */
 document.addEventListener('click',async e=>{
-  const t=e.target.closest('[data-report],[data-rk],[data-repsend],[data-suggest],[data-helpful],[data-statset],[data-login],[data-logout],[data-syncnow],[data-delask],[data-delcancel],[data-delconfirm],[data-closesheet],[data-wide],[data-gps],[data-pur],[data-fopen],[data-fbud],[data-ftaste],[data-fapply],[data-fclear],[data-cpur],[data-tab],[data-good],[data-radius],[data-sort],[data-scope],[data-ltab],[data-reason],[data-pick],[data-area],[data-save],[data-gobrag],[data-course],[data-closepage],[data-swap],[data-savecourse],[data-sharecourse],[data-store]');
+  const t=e.target.closest('[data-sshare],[data-report],[data-rk],[data-repsend],[data-suggest],[data-helpful],[data-statset],[data-login],[data-logout],[data-syncnow],[data-delask],[data-delcancel],[data-delconfirm],[data-closesheet],[data-wide],[data-gps],[data-pur],[data-fopen],[data-fbud],[data-ftaste],[data-fapply],[data-fclear],[data-cpur],[data-tab],[data-good],[data-radius],[data-sort],[data-scope],[data-ltab],[data-reason],[data-pick],[data-area],[data-save],[data-gobrag],[data-course],[data-closepage],[data-swap],[data-savecourse],[data-sharecourse],[data-store]');
   if(!t)return;const d=t.dataset;
   if(d.tab){S.tab=d.tab;closePage();closeSheet();render();scrollTo(0,0)}
   else if('good' in d){S.goodOnly=!S.goodOnly;render()}
@@ -1046,6 +1062,7 @@ document.addEventListener('click',async e=>{
   else if('delask' in d){delStep=1;acctSheet()}
   else if('delcancel' in d){delStep=0;acctSheet()}
   else if('delconfirm' in d){t.disabled=true;const ok=await Auth.deleteAccount();delStep=0;closeSheet();toast(ok?'탈퇴했어요 · 서버의 계정과 리스트를 지웠어요':'탈퇴하지 못했어요. 잠시 후 다시 시도해 주세요')}
+  else if(d.sshare)shareStore(d.sshare,d.ssk);
   else if(d.report)reportSheet(d.report,d.rsido);
   else if('suggest' in d)reportSheet(null,S.sido);
   else if(d.rk){repKind=d.rk;document.querySelectorAll('[data-rk]').forEach(b=>{const on=b===t;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)})}
@@ -1071,6 +1088,10 @@ $('#acctBtn').addEventListener('click',()=>{delStep=0;acctSheet()});
 /* 해시 라우팅: #map · #course · #list · #brag · #course-<코스id> · #near(내 위치) */
 async function route(){
   const h=location.hash.slice(1);
+  if(h.startsWith('store-')){const m=h.slice(6).match(/^([a-z]+)-(.+)$/);
+    if(m&&IDX.regions[m[1]]){S.tab=S.tab||'home';render();await loadSido(m[1]);const id=decodeURIComponent(m[2]);
+      if((CACHE[m[1]]||[]).some(x=>x.id===id)){storeSheet(id,m[1]);history.replaceState(history.state,'',location.pathname+location.search)}else toast('가게 정보를 찾지 못했어요. 목록이 바뀌었을 수 있어요')}
+    else render();return}
   if(h.startsWith('course-')){const c=IDX.courses.find(x=>x.id===h.slice(7));S.tab='course';render();if(c)await openCourse(c.id);return}
   if(['map','course','list','brag','home'].includes(h))S.tab=h;
   render();

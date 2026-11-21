@@ -37,7 +37,7 @@ with sync_playwright() as p:
     # 2) 가짜 Supabase → 익명 접수·집계
     ctx=b.new_context(viewport={'width':390,'height':844}); ctx.add_init_script(MOCK)
     q=ctx.new_page(); q.on('pageerror',lambda e:errs.append('Q '+str(e)))
-    q.goto(BASE+'/app.html'); q.evaluate('localStorage.clear()'); q.reload(); q.wait_for_timeout(4000)
+    q.goto(BASE+'/app.html'); q.wait_for_timeout(3000); q.evaluate('localStorage.clear()'); q.reload(); q.wait_for_timeout(7000)
     bm=q.evaluate('window.__bumps'); ok('첫 방문: new·dau 집계', 'new' in bm and 'dau' in bm, bm)
     st=q.evaluate("localStorage.getItem('cmj_stat')"); ok('기기에 저장되는 건 날짜뿐', set(json.loads(st))<= {'first','last','off'}, st)
     q.reload(); q.wait_for_timeout(3500); ok('같은 날 다시 와도 dau 중복 없음', 'dau' not in q.evaluate('window.__bumps'))
