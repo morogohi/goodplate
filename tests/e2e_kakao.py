@@ -14,12 +14,13 @@ function Map(el,o){this.el=el;this.c=o.center;this.lv=o.level;this.ov=[];this.ls
 Map.prototype.getProjection=function(){const m=this;const k=SC/Math.pow(2,m.lv-1);return{containerPointFromCoords:l=>({x:(l.b-m.c.b)*k,y:(m.c.a-l.a)*k})}};
 Map.prototype.getLevel=function(){return this.lv};Map.prototype.setLevel=function(v){this.lv=v;(this.ls.zoom_changed||[]).forEach(f=>f())};
 Map.prototype.setBounds=function(){this.lv=Math.max(1,this.lv-1);(this.ls.zoom_changed||[]).forEach(f=>f())};
-Map.prototype.addControl=function(){};
+Map.prototype.addControl=function(){};Map.prototype.getCenter=function(){return this.c};Map.prototype.relayout=function(){};Map.prototype.setZoomable=function(){};
+function Polyline(o){this.o=o}Polyline.prototype.setMap=function(){};
 function Circle(o){this.o=o}Circle.prototype.setMap=function(){};Circle.prototype.getBounds=function(){return new LatLngBounds()};
 function CustomOverlay(o){this.o=o;this.w=null}
 CustomOverlay.prototype.setMap=function(m){if(this.w){this.w.remove();this.w=null}if(!m)return;const w=document.createElement('div');w.className='kov';
  if(typeof this.o.content==='string')w.innerHTML=this.o.content;else w.appendChild(this.o.content);m.el.appendChild(w);this.w=w};
-window.kakao={maps:{load:cb=>setTimeout(cb,10),LatLng,LatLngBounds,Map,Circle,CustomOverlay,ZoomControl:function(){},ControlPosition:{RIGHT:1},
+window.kakao={maps:{load:cb=>setTimeout(cb,10),LatLng,LatLngBounds,Map,Circle,CustomOverlay,Polyline,ZoomControl:function(){},ControlPosition:{RIGHT:1,LEFT:2},
  event:{addListener:(m,ev,f)=>{(m.ls[ev]=m.ls[ev]||[]).push(f)}}}};})();
 """
 tile=base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==')
@@ -34,12 +35,17 @@ with sync_playwright() as p:
     ok('핀 수(묶음 포함) = 목록 수', n==pg.locator('.list .store').count(), f'{n} vs {pg.locator(".list .store").count()}')
     ok('내 위치 표시', pg.locator('#kmap .lme').count()==1)
     pg.locator('#kmap .lpin').first.click(); pg.wait_for_timeout(400)
-    ok('핀 누르면 가게 상세', pg.evaluate("document.querySelector('#sheet').classList.contains('open')"))
+    ok('핀 누르면 미리보기 카드', pg.locator('#mapCard').is_visible() and pg.locator('#kmap .lpin.sel').count()==1)
+    pg.click('#mapCard [data-store]'); pg.wait_for_timeout(400)
+    ok('자세히 → 가게 상세', pg.evaluate("document.querySelector('#sheet').classList.contains('open')"))
     pg.keyboard.press('Escape'); pg.wait_for_timeout(200)
     if pg.locator('#kmap .lclu').count():
         lv=pg.evaluate('__kmap.getLevel()'); pg.locator('#kmap .lclu').first.click(); pg.wait_for_timeout(300)
         ok('묶음 누르면 확대 또는 목록', pg.evaluate('__kmap.getLevel()')<lv or pg.evaluate("document.querySelector('#sheet').classList.contains('open')"))
     pg.click('[data-r="3000"]') if pg.locator('[data-r="3000"]').count() else None; pg.wait_for_timeout(800)
+    cid=pg.evaluate('IDX.courses[0].id'); pg.evaluate(f"location.hash='#course-{cid}'"); pg.wait_for_timeout(1500)
+    ok('코스 지도도 카카오로', pg.locator('#cmap[data-fake="kakao"] .cno').count()==pg.evaluate('IDX.courses[0].stops.length'))
+    pg.evaluate("history.back()"); pg.wait_for_timeout(800)
     ok('반경 바꿔도 카카오 지도 유지', pg.evaluate('S.mapEngine')=='kakao' and pg.locator('#kmap').count()==1)
     # 키는 있지만 도메인 미등록(401) → 기본 지도로 대체
     ctx2=b.new_context(viewport={'width':390,'height':844}); ctx2.add_init_script(KEY)
