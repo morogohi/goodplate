@@ -1,0 +1,8 @@
+11-21 05:11:52.905  3265  3265 E Capacitor/Console: File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-21 05:11:52.905  3265  3265 E Capacitor/Console: File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-21 05:11:59.108  3265  3265 I Capacitor/Console: File:  - Line 349 - Msg: [object Object]
+11-21 05:11:59.110  3265  3265 I Capacitor/Console: File:  - Line 349 - Msg: [object Object]
+11-21 05:11:59.111  3265  3265 I Capacitor/Console: File:  - Line 349 - Msg: [object Object]
+11-21 05:11:59.587  3265  3265 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-21 05:11:59.590  3265  3265 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-21 05:11:59.590  3265  3265 I Capacitor/Console: File:  - Line 333 - Msg: undefined
